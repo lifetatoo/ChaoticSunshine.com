@@ -1,0 +1,1 @@
+Fonts obtained from Google Fonts. Families: Fraunces, Jost, Nanum Pen Script. Distributed under their respective SIL Open Font Licenses; see https://fonts.google.com/attribution for the official license files.

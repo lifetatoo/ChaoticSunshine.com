@@ -1,0 +1,61 @@
+{
+  "assets": {},
+  "links": {},
+  "kitNewsletterFormId": "10182939",
+  "kitForms": {
+    "fully-family": "KIT_FORM_ID_PENDING",
+    "before-the-first-mountain": "KIT_FORM_ID_PENDING",
+    "the-daughter-who-stayed": "KIT_FORM_ID_PENDING",
+    "beloved-first": "KIT_FORM_ID_PENDING",
+    "heir-not-hired": "KIT_FORM_ID_PENDING",
+    "he-sings-over-you": "KIT_FORM_ID_PENDING",
+    "the-father-who-runs": "KIT_FORM_ID_PENDING",
+    "the-road-out-of-moab": "KIT_FORM_ID_PENDING",
+    "seconds-please": "KIT_FORM_ID_PENDING",
+    "table-talks-guide": "KIT_FORM_ID_PENDING"
+  },
+  "siteKit": {
+    "publicBaseUrl": "https://chaoticsunshine.com",
+    "startRoute": "/start",
+    "ungatedGuides": [
+      "seconds-please",
+      "advent",
+      "table-talks-guide",
+      "he-sings-over-you",
+      "the-father-who-runs",
+      "the-road-out-of-moab",
+      "fully-family",
+      "before-the-first-mountain",
+      "the-daughter-who-stayed",
+      "beloved-first",
+      "heir-not-hired"
+    ],
+    "guideFiles": {}
+  },
+  "feedback": {
+    "enabled": false,
+    "turnstileSiteKey": "",
+    "endpoint": "/api/feedback"
+  },
+  "guideDeliveryProvider": "direct",
+  "gumroadProducts": {
+    "fully-family": "",
+    "before-the-first-mountain": "",
+    "the-daughter-who-stayed": "",
+    "beloved-first": "",
+    "heir-not-hired": "",
+    "he-sings-over-you": "",
+    "the-father-who-runs": "",
+    "the-road-out-of-moab": "",
+    "seconds-please": "",
+    "table-talks-guide": ""
+  },
+  "analytics": {
+    "enabled": false,
+    "measurementId": "",
+    "allowedHostnames": [
+      "chaoticsunshine.com",
+      "www.chaoticsunshine.com"
+    ]
+  }
+}

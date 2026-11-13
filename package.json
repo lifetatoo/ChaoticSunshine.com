@@ -1,0 +1,8 @@
+{
+  "name": "chaotic-sunshine-website",
+  "private": true,
+  "scripts": {
+    "build": "node source/build-site-kit.cjs",
+    "test": "node qa/check-refresh.cjs"
+  }
+}

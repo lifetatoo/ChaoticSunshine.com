@@ -1,0 +1,102 @@
+[
+  {
+    "id": "stop-auditioning",
+    "label": "I’m tired of auditioning.",
+    "meaning": "Belonging without earning love",
+    "description": "You love God. You’d like to stop treating His love like a performance review.",
+    "guides": [
+      "fully-family",
+      "beloved-first",
+      "heir-not-hired"
+    ],
+    "movement": 1
+  },
+  {
+    "id": "old-labels",
+    "label": "Who put that label in charge?",
+    "meaning": "Identity and the names we carry",
+    "description": "The names you were given, the ones you gave yourself, and who God says you are.",
+    "guides": [
+      "before-the-first-mountain",
+      "fully-family"
+    ],
+    "movement": 2
+  },
+  {
+    "id": "too-many-tabs",
+    "label": "My brain has 47 tabs open.",
+    "meaning": "Thought loops, worry and truth",
+    "description": "For the spirals, the what-ifs, and that thought that won’t take a hint.",
+    "guides": [
+      "he-sings-over-you"
+    ],
+    "movement": 3
+  },
+  {
+    "id": "the-replay",
+    "label": "Can we stop replaying that?",
+    "meaning": "Shame, forgiveness and receiving grace",
+    "description": "For the mistake you keep revisiting, the shame you hide, and grace you’re learning to receive.",
+    "guides": [
+      "the-father-who-runs",
+      "the-daughter-who-stayed"
+    ],
+    "movement": 4
+  },
+  {
+    "id": "something-to-give",
+    "label": "I’ve got something to give. I think.",
+    "meaning": "Gifts, purpose and the courage to contribute",
+    "description": "For the gift you keep downplaying and the good you’re afraid to try.",
+    "guides": [
+      "heir-not-hired",
+      "before-the-first-mountain"
+    ],
+    "movement": 5
+  },
+  {
+    "id": "room-for-me",
+    "label": "Full group chat. Nobody to call.",
+    "meaning": "Friendship, welcome and taking your place",
+    "description": "You want to feel known, receive welcome, and make room for someone else.",
+    "guides": [
+      "table-talks-guide",
+      "fully-family",
+      "seconds-please"
+    ],
+    "movement": 6
+  },
+  {
+    "id": "cranky-yes",
+    "label": "My “yes” is starting to sound cranky.",
+    "meaning": "People pleasing, honest answers and limits",
+    "description": "Kind, truthful answers when pleasing everyone is wearing you out.",
+    "guides": [
+      "the-daughter-who-stayed",
+      "heir-not-hired"
+    ],
+    "movement": 7
+  },
+  {
+    "id": "quiet-growth",
+    "label": "I’m tired. Is anything growing?",
+    "meaning": "Rest, long waits and staying rooted",
+    "description": "For long waits, quiet faithfulness, grief, and a body that needs care.",
+    "guides": [
+      "advent",
+      "the-road-out-of-moab"
+    ],
+    "movement": 8
+  },
+  {
+    "id": "something-steady",
+    "label": "Everything keeps changing. I need something steady.",
+    "meaning": "Courage, uncertainty and a steady foundation",
+    "description": "Faith for the shaky days, the unknown next, and the hope you want to hold.",
+    "guides": [
+      "the-road-out-of-moab",
+      "before-the-first-mountain"
+    ],
+    "movement": 9
+  }
+]

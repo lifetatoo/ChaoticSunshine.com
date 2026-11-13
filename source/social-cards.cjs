@@ -1,0 +1,4 @@
+const manifest=require('./assets/26-share-cards/manifest.json');
+const esc=s=>String(s||'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+exports.get=slug=>manifest[slug]||manifest.index;
+exports.head=(slug,root)=>{const x=exports.get(slug),url=root.replace(/\/$/,'')+'/assets/'+x.file;return `<meta property="og:image" content="${esc(url)}"><meta property="og:image:secure_url" content="${esc(url)}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(x.alt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(x.title)}"><meta name="twitter:description" content="${esc(x.description)}"><meta name="twitter:image" content="${esc(url)}"><meta name="twitter:image:alt" content="${esc(x.alt)}">`;};
