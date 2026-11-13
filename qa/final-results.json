@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-13T14:37:14.568Z",
-  "pages": 138,
-  "references": 13810,
+  "date": "2026-11-13T15:40:33.754Z",
+  "pages": 139,
+  "references": 14260,
   "profiles": [
     "desktop",
     "android",
@@ -574,12 +574,41 @@
       "broken": [],
       "axe": [],
       "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "sunshine-mail-sample",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "sunshine-mail-sample",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "sunshine-mail-sample",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
     }
   ],
   "findings": [],
   "rounds": [
     "refresh-results.json",
-    "final-polish-results.json"
+    "final-polish-results.json",
+    "sunshine-letter-results.json"
   ],
-  "notes": "Latest per-page result consolidates the full review and focused checks after corrections. Browser emulation, not physical-device testing."
+  "notes": "Latest per-page result consolidates the full review and focused checks after corrections. Browser emulation, not physical-device testing.",
+  "additionalChecks": "sunshine-letter-detail-results.json"
 }

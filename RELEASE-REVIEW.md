@@ -4,6 +4,8 @@ November 13, 2026. This is a review candidate, not a completed public launch.
 
 The maintained source now includes the approved reader-centered homepage, a larger transparent PNG wordmark directly on the paper banner, a cohesive teal/blue/cream design, tactile guide covers, the original library and teaching artwork, the full dimensional Sunshine Mail envelope, and the illustrated welcome experience. All 90 devotions and 11 guides remain. The nine reader paths have crawlable collection pages and descriptive sharing cards.
 
+The follow-up refinement replaces the compact plain footer form with a dimensional gold-envelope signup on every page. The complete illustrated Sunday-letter example preserves Amy’s supplied text, appears in the expandable sample, and has a dedicated reading page. `qa/sunshine-letter-detail-results.json` checks the controls and letter in four layouts, including a 320px phone.
+
 Free downloads use direct file links. The 21 distributed PDF editions have been corrected to the monthly Sunshine Mail cadence. Their original page counts and untouched content pages were checked against the original copies. Original source files in Drive have not been overwritten.
 
 Internal strategy and future offerings are outside this repository and the public build. No store, paid program, membership, or submission service has been launched.

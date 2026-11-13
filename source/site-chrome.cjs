@@ -16,9 +16,7 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
   const nav = links.map(([route, label]) =>
     `<a href="${href('/' + route)}"${route === slug ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   const mark = () => image(wordmark, 'Chaotic Sunshine');
-  const signup = slug === 'index' || slug === 'subscribe'
-    ? `<a class="chrome-footer-mail" href="${mailLink}">See what’s in Sunshine Mail <span aria-hidden="true">↗</span></a>`
-    : kit.render(cfg, 'footer');
+  const signup = mail.footer({cfg,image,href});
 
   return `<div class="cs"><a class="skip" href="#cs-main">Skip to content</a>
     <header class="site-masthead">
@@ -48,11 +46,7 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
           <p>Find your page</p>
           ${nav}<a href="${href('/scripture-index')}">Scripture Index</a>
         </nav>
-        <div class="footer-post">
-          <p class="footer-post-title">${envelope} Sunshine Mail</p>
-          <p>One Sunday letter a month, with a little room for surprises.</p>
-          ${signup}
-        </div>
+        ${signup}
       </div>
       <div class="editorial-footer-strip"><div class="wrap footer-strip-line">
         <span>© 2026 Chaotic Sunshine</span>

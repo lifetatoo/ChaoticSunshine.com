@@ -277,3 +277,66 @@
 }
 @media(prefers-reduced-motion:reduce){.cs *,.cs *::before,.cs *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.cs .refresh-controls,.cs .refresh-reflection,.cs .refresh-next,.cs .footer-collage-note,.cs .welcome-folio>summary{display:none!important}}
+
+/* Sunshine Mail: a real letter in a dimensional envelope at every footer. */
+.cs .editorial-footer .editorial-footer-page{grid-template-columns:.85fr .6fr 1.35fr;align-items:start;gap:clamp(20px,3vw,40px)}
+.cs .sunshine-footer-envelope{min-width:0;width:100%;max-width:465px;margin:0 auto;container-type:inline-size}
+.cs .sunshine-footer-poster{position:relative;aspect-ratio:2/3;min-height:500px;filter:drop-shadow(0 11px 13px #24485721)}
+.cs .sunshine-footer-art{position:absolute;inset:0;pointer-events:none}
+.cs #site-footer .sunshine-footer-art img{display:block;width:100%;height:100%;max-width:none;object-fit:fill;padding:0;border-radius:0;background:none}
+.cs .sunshine-footer-letter{position:absolute;top:18%;left:17%;right:17%;color:#153f47;text-align:center}
+.cs #site-footer .sunshine-footer-kicker{margin:0 0 5px;color:#075664;font:700 11px/1.35 Jost,Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase}
+.cs #site-footer .sunshine-footer-letter h2{font:clamp(35px,11cqw,51px)/1.05 'Nanum Pen Script',cursive;color:#743565;margin:0 0 9px}
+.cs #site-footer .sunshine-footer-promise{font:clamp(14px,3.7cqw,17px)/1.4 Jost,Arial,sans-serif;color:#153f47;margin:0 0 15px}
+.cs .sunshine-footer-letter .home-kit-form{margin:0;max-width:none;gap:10px}
+.cs .sunshine-footer-letter .kit-fields{grid-template-columns:minmax(0,1fr)}
+.cs .sunshine-footer-letter .kit-field{gap:0}
+.cs .sunshine-footer-letter label{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+.cs .sunshine-footer-letter input{min-height:48px;border:1.5px solid #9d8970;border-radius:3px;background:#fffcf4;color:#153f47;padding:10px 12px;font:17px/1.35 Jost,Arial,sans-serif;box-shadow:inset 0 2px 3px #7163450d}
+.cs .sunshine-footer-letter input::placeholder{color:#5b6866;opacity:1}
+.cs .sunshine-footer-letter .button{justify-self:stretch;width:100%;min-height:48px;border-radius:3px;background:#75356b;color:#fffbef;box-shadow:2px 3px 0 #d4ab4d;font:700 clamp(14px,3.8cqw,17px)/1.25 Jost,Arial,sans-serif;padding:10px 7px}
+.cs .sunshine-footer-letter .home-kit-form small{font:12px/1.5 Jost,Arial,sans-serif;color:#34554f;margin:0}
+.cs .sunshine-footer-letter .kit-status{background:#fff9e9;color:#743565;font-size:13px;line-height:1.4}
+.cs .sunshine-footer-after{display:flex;flex-wrap:wrap;gap:0 16px;justify-content:center;padding-top:8px}
+.cs .sunshine-footer-after a{display:inline-flex;align-items:center;min-height:44px;color:#075664;font:700 14px/1.4 Jost,Arial,sans-serif;text-underline-offset:4px}
+.cs .editorial-footer .footer-brand,.cs .editorial-footer .footer-index{padding-top:35px}
+
+/* A complete illustrated sample; prose remains live, selectable text. */
+.cs main>.illustrated-letter-stage{background:var(--paper-grain),#e4eeeb;padding-block:26px 52px}
+.cs .illustrated-letter-back,.cs .illustrated-letter-invite{max-width:920px;margin:0 auto 22px;text-align:center}
+.cs .illustrated-sunday-letter{position:relative;max-width:920px;margin:22px auto;padding:17px;background:var(--book-cloth) center/cover,#075664;box-shadow:9px 13px 0 #244e6919,0 20px 35px #244e6910;border:0;border-radius:0}
+.cs .illustrated-sunday-letter::before{content:'';position:absolute;z-index:2;top:-9px;left:12%;width:17%;height:25px;background:repeating-linear-gradient(96deg,#e8bb50cc 0 8px,#fbe5a5cc 8px 12px);transform:rotate(-5deg);pointer-events:none}
+.cs .sunday-letter-paper{position:relative;background:var(--paper-grain),#fff8e9;color:#173f49;clip-path:polygon(0 0,100% 0,99.8% 10%,100% 23%,99.6% 38%,100% 55%,99.7% 70%,100% 84%,99.6% 99.7%,84% 100%,67% 99.6%,51% 100%,35% 99.7%,18% 100%,.3% 99.7%,0 84%,.3% 68%,0 50%,.3% 33%,0 17%)}
+.cs .sunday-letter-heading{display:block;text-align:center;padding:34px 30px 25px;background:none;border:0;box-shadow:none}
+.cs .sunday-letter-heading .sunday-letter-edition{margin:0 0 11px;font:700 11px/1.5 Jost,Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#075664}
+.cs .sunday-letter-edition span{color:#b18427;padding:0 8px}
+.cs .sunday-letter-hello{font:27px/1.2 'Nanum Pen Script',cursive;color:#4b4f76;margin:0 0 12px}
+.cs .sunday-letter-heading :is(h1,h3){font:700 clamp(33px,4.4vw,55px)/1.1 Fraunces,Georgia,serif;letter-spacing:-.025em;color:#245893;margin:0}
+.cs .sunday-letter-heading :is(h1,h3) em{display:inline-block;font:400 .95em/1.25 'Permanent Marker',cursive;color:#076d75;background:linear-gradient(transparent 80%,#f3cd63 80% 94%,transparent 94%);font-style:normal}
+.cs .sunday-letter-illustration{margin:0 20px 28px;position:relative;background:#fff7e5}
+.cs .sunday-letter-illustration img{display:block;width:100%;height:auto;max-width:none}
+.cs .sunday-letter-illustration figcaption{font:25px/1.2 'Nanum Pen Script',cursive;color:#075664;text-align:center;padding:7px 10px 10px;background:var(--paper-grain),#f8e5b6}
+.cs .sunday-letter-prose{max-width:660px;margin:auto;padding:0 24px 18px}
+.cs .sunday-letter-prose p{font:20px/1.7 Jost,Arial,sans-serif;margin:0 0 23px;color:#173f49;text-align:left}
+.cs .sunday-letter-prose .sunday-letter-salutation{font:35px/1.2 'Nanum Pen Script',cursive;color:#75356b;margin-bottom:15px}
+.cs .sunday-letter-prose .sunday-letter-wink{font:700 23px/1.5 Fraunces,Georgia,serif;color:#245893;border-left:4px solid #e4ba4a;padding-left:19px;margin-block:27px}
+.cs .sunday-letter-prose .sunday-letter-tender{background:var(--paper-grain),#e7efea;padding:18px 21px;border-left:3px solid #318884}
+.cs .sunday-letter-prose .sunday-letter-signature{font:28px/1.2 'Nanum Pen Script',cursive;color:#075664;margin:28px 0 12px}
+.cs .sunday-letter-signature strong{display:inline-block;font-size:43px;color:#75356b;margin-top:7px;transform:rotate(-2deg)}
+.cs .sunday-letter-postscript{text-align:center;padding:19px 22px 25px;border-top:1px dashed #b6c3af;color:#075664;background:var(--paper-grain),#f6e6bd}
+.cs .sunday-letter-postscript>span{display:block;color:#986b13;font:35px/1 Georgia,serif}
+.cs .sunday-letter-postscript p{font:22px/1.3 'Nanum Pen Script',cursive;color:#075664;margin:8px 0}
+.cs .sunday-letter-postscript small{font:12px/1.5 Jost,Arial,sans-serif;color:#4a5b60}
+.cs .sunshine-mail-luxury>details.illustrated-letter-peek{max-width:1000px;margin:25px auto 0;background:none;border:0;box-shadow:none}
+.cs .illustrated-letter-peek>summary{display:table;margin:auto;cursor:pointer;min-height:44px;padding:11px 19px;background:#075664;color:#fff8e9;border:0;border-radius:2px;box-shadow:3px 4px 0 #d6b05c;font:700 16px/1.4 Jost,Arial,sans-serif}
+.cs .illustrated-letter-peek>.illustrated-sunday-letter{padding:17px;text-align:left}
+.cs .illustrated-letter-full-link{text-align:center;font-size:15px;margin:20px auto}
+.cs .illustrated-letter-peek{transform:none;padding:0}
+.cs .illustrated-letter-peek article .sunday-letter-prose p{font-size:20px;line-height:1.7;color:#173f49}
+.cs .illustrated-letter-peek .sunday-letter-prose p.sunday-letter-wink{font:700 23px/1.5 Fraunces,Georgia,serif;color:#245893}
+.cs .illustrated-letter-peek .sunday-letter-postscript p{font:22px/1.3 'Nanum Pen Script',cursive;color:#075664}
+@media(max-width:900px){.cs .editorial-footer .editorial-footer-page{grid-template-columns:1fr 1fr}.cs .sunshine-footer-envelope{grid-column:1/-1;width:min(440px,100%)}.cs .editorial-footer .footer-brand,.cs .editorial-footer .footer-index{padding-top:0}}
+@media(max-width:600px){.cs .illustrated-sunday-letter{padding:9px;margin:18px auto}.cs .sunday-letter-heading{padding:27px 18px 20px}.cs .sunday-letter-heading :is(h1,h3){font-size:34px}.cs .sunday-letter-heading .sunday-letter-edition{font-size:10px;letter-spacing:.05em}.cs .sunday-letter-hello{font-size:25px}.cs .sunday-letter-illustration{margin:0 8px 23px}.cs .sunday-letter-illustration figcaption{font-size:23px}.cs .sunday-letter-prose{padding:0 19px 15px}.cs .sunday-letter-prose p{font-size:19px;line-height:1.65;margin-bottom:22px}.cs .sunday-letter-prose .sunday-letter-wink{font-size:21px;line-height:1.45;padding-left:15px}.cs .sunday-letter-prose .sunday-letter-salutation{font-size:33px}.cs .sunday-letter-prose .sunday-letter-signature{font-size:25px}.cs .illustrated-letter-peek>.illustrated-sunday-letter{padding:9px}.cs .illustrated-letter-peek>summary{font-size:15px;text-align:center}}
+@media(max-width:345px){.cs .sunshine-footer-letter{left:15%;right:15%;top:17%}.cs .sunshine-footer-letter .home-kit-form{gap:9px}.cs .sunshine-footer-letter input,.cs .sunshine-footer-letter .button{min-height:46px}.cs .sunshine-footer-letter .button{font-size:14px}.cs #site-footer .sunshine-footer-promise{font-size:14px}}
+@media print{.cs .illustrated-sunday-letter{box-shadow:none;border:0;background:none;padding:0}.cs .sunday-letter-paper{clip-path:none}.cs .sunday-letter-prose p{font-size:12pt}.cs .sunday-letter-illustration{break-inside:avoid}.cs .sunshine-footer-envelope{display:none}}
+@media(max-width:600px){.cs .illustrated-letter-peek article .sunday-letter-prose p{font-size:19px;line-height:1.65}.cs .illustrated-letter-peek .sunday-letter-prose p.sunday-letter-wink{font-size:21px;line-height:1.45}}

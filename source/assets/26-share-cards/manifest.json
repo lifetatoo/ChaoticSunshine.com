@@ -1231,5 +1231,14 @@
     "width": 1200,
     "height": 630,
     "kind": "journal"
+  },
+  "sunshine-mail-sample": {
+    "file": "26-share-cards/sunshine-mail-sample-collage.png",
+    "title": "Your prayer can lose the cover letter.",
+    "description": "A fully illustrated Sunday letter from Amy Grace, with Romans 8:12–17 and one honest place to begin.",
+    "alt": "Your prayer can lose the cover letter. — A fully illustrated Sunday letter from Amy Grace, with Romans 8:12–17 and one honest place to begin. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "letter"
   }
 }
