@@ -281,7 +281,7 @@
 /* Sunshine Mail: a real letter in a dimensional envelope at every footer. */
 .cs .editorial-footer .editorial-footer-page{grid-template-columns:.85fr .6fr 1.35fr;align-items:start;gap:clamp(20px,3vw,40px)}
 .cs .sunshine-footer-envelope{min-width:0;width:100%;max-width:465px;margin:0 auto;container-type:inline-size}
-.cs .sunshine-footer-poster{position:relative;aspect-ratio:2/3;min-height:500px;filter:drop-shadow(0 11px 13px #24485721)}
+.cs .sunshine-footer-poster{position:relative;width:100%;aspect-ratio:2/3;min-height:500px;filter:drop-shadow(0 11px 13px #24485721)}
 .cs .sunshine-footer-art{position:absolute;inset:0;pointer-events:none}
 .cs #site-footer .sunshine-footer-art img{display:block;width:100%;height:100%;max-width:none;object-fit:fill;padding:0;border-radius:0;background:none}
 .cs .sunshine-footer-letter{position:absolute;top:18%;left:17%;right:17%;color:#153f47;text-align:center}
@@ -340,3 +340,85 @@
 @media(max-width:345px){.cs .sunshine-footer-letter{left:15%;right:15%;top:17%}.cs .sunshine-footer-letter .home-kit-form{gap:9px}.cs .sunshine-footer-letter input,.cs .sunshine-footer-letter .button{min-height:46px}.cs .sunshine-footer-letter .button{font-size:14px}.cs #site-footer .sunshine-footer-promise{font-size:14px}}
 @media print{.cs .illustrated-sunday-letter{box-shadow:none;border:0;background:none;padding:0}.cs .sunday-letter-paper{clip-path:none}.cs .sunday-letter-prose p{font-size:12pt}.cs .sunday-letter-illustration{break-inside:avoid}.cs .sunshine-footer-envelope{display:none}}
 @media(max-width:600px){.cs .illustrated-letter-peek article .sunday-letter-prose p{font-size:19px;line-height:1.65}.cs .illustrated-letter-peek .sunday-letter-prose p.sunday-letter-wink{font-size:21px;line-height:1.45}}
+
+/* One studio throughout: cloth, deckled paper, a restrained tape detail, and clear type. */
+.cs{--studio-shadow:4px 6px 14px #1c4e5b18;--studio-space:clamp(32px,4.5vw,64px);--studio-rule:#c5d6ce}
+.cs main>section{padding-block:var(--studio-space)}
+.cs main [data-brand-title]{color:var(--plum);text-wrap:balance}
+.cs main [data-brand-title] em{color:var(--teal)}
+.cs .site-crumbs{border-bottom:1px solid var(--studio-rule)}
+.cs .eyebrow,.cs .reader-label{font-family:Jost,Arial,sans-serif;font-weight:700;letter-spacing:.09em}
+.cs :is(.home-why,.home-taste,.home-feature-guide,.home-meet){max-width:1100px;margin-inline:auto;gap:clamp(28px,5vw,64px)}
+.cs :is(.home-purpose,.home-library-invite,.home-meet,.snack-hero,.library-intro,.pick-intro,.about-hi,.teaching-first-note) h2{color:var(--plum)}
+.cs :is(.home-pocket-note,.refresh-note,.refresh-next,.about-story,.about-reader,.welcome-gifts article){box-shadow:var(--studio-shadow);border-radius:2px}
+.cs .home-pocket-note small{color:var(--ink)}
+.cs .home-library-invite{background:var(--paper-grain),#e7f0ed;border-block:1px solid var(--studio-rule)}
+.cs .home-guide-cover{background:var(--book-cloth) center/cover,var(--teal);box-shadow:5px 7px 0 #d6b15f80}
+.cs .home-feature-guide h2,.cs .home-meet h2{color:var(--plum)}
+.cs .home-handwritten{color:var(--teal)}
+.cs :is(.reader-step,.reader-feature-card,.refresh-topic-grid a,.pick-back){background-image:var(--paper-grain);border-radius:2px;box-shadow:var(--studio-shadow)}
+.cs .button,.cs .reader-begin{border-radius:3px;transition:background-color .15s,box-shadow .15s}
+.cs .button:hover,.cs .reader-begin:hover{background-color:#075664;box-shadow:3px 4px 0 #d5b364}
+.cs .reader-mail-invite{display:inline-flex;align-items:center;min-height:44px;padding-block:7px;font:700 14px/1.45 Jost,Arial,sans-serif;color:var(--plum);max-width:440px}
+.cs .reader-welcome h1{font-size:clamp(37px,3.65vw,54px)}
+.cs .reader-welcome h1 em{display:inline-block;font-size:.79em;line-height:1.32}
+.cs .reader-journal-collage{container-type:inline-size;width:100%}
+.cs .reader-journal-collage figcaption{left:22%;right:auto;top:31%;width:23%;font-size:clamp(16px,6cqw,34px);line-height:1.02;transform:rotate(-7deg);color:var(--plum)}
+.cs main>.reader-route{background:var(--paper-grain),#e4eeea;border-block:1px solid var(--studio-rule)}
+.cs .reader-route-heading h2 em{color:var(--plum)}
+.cs .reader-step{border-top:5px solid var(--teal)}
+.cs .reader-step:nth-child(2){border-color:var(--blue)}
+.cs .reader-step:nth-child(3){border-color:var(--plum)}
+.cs main>.reader-feature-shelf{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;max-width:1280px;margin:auto;padding-inline:28px}
+.cs .reader-shelf-heading{grid-column:1/-1;text-align:center;margin-bottom:8px}
+.cs .reader-shelf-heading .reader-label{margin-inline:auto}
+.cs .reader-shelf-heading h2{font:700 clamp(29px,3.2vw,42px)/1.15 Fraunces,Georgia,serif;color:var(--plum);margin:12px 0 15px}
+.cs .reader-shelf-heading h2 em{font:400 1.1em/1.2 'Nanum Pen Script',cursive;color:var(--teal)}
+.cs .reader-shelf-heading>p:last-child{font:18px/1.55 Jost,Arial,sans-serif;max-width:620px;margin:0 auto}
+.cs .reader-feature-card{display:flex;flex-direction:column;align-items:stretch;gap:22px;padding:25px;border:0;border-top:6px solid var(--teal);background-color:#e6efea;transform:rotate(-.35deg)}
+.cs .reader-feature-card:nth-of-type(2){border:0;border-top:6px solid var(--blue);background-color:#e6edf5;transform:rotate(.35deg)}
+.cs .reader-feature-card:nth-of-type(3){border-top-color:var(--plum);background-color:#f1e8ed;transform:rotate(-.2deg)}
+.cs .reader-feature-card .reader-art-clip{width:145px;max-width:65%;align-self:center}
+.cs .reader-feature-card h3{font:700 27px/1.15 Fraunces,Georgia,serif;color:var(--plum);margin:9px 0 12px}
+.cs .reader-feature-card p{font-size:17px;line-height:1.55}
+.cs .reader-feature-card small{font-size:10px;line-height:1.5;color:#075664}
+.cs .reader-feature-card span{display:inline-block;min-height:44px;padding-top:10px}
+.cs .reader-feature-card:hover{box-shadow:5px 8px 18px #1c4e5b28}
+.cs .reader-teaching-invite .reader-art-clip img{aspect-ratio:1104/1374;max-height:180px}
+.cs .pick-intro{text-align:left;max-width:810px;margin:0 auto 36px}
+.cs .pick-intro h1{font:700 clamp(39px,4.6vw,60px)/1.12 Fraunces,Georgia,serif;color:var(--plum);margin-block:17px}
+.cs .pick-intro .pick-welcome{font:25px/1.35 'Nanum Pen Script',cursive;color:var(--teal)}
+.cs .pick-deck-heading{text-align:center;border-top:1px solid var(--studio-rule);padding-top:30px}
+.cs .pick-deck-heading h2{font:700 32px/1.2 Fraunces,Georgia,serif;color:var(--plum);margin-bottom:10px}
+.cs .pick-deck-heading p{font-size:18px;line-height:1.55}
+.cs .pick-card:nth-child(n) .pick-front>button{background:var(--paper-grain),#fff7e7;color:var(--ink);border-top:9px solid var(--teal);border-radius:2px;box-shadow:var(--studio-shadow)}
+.cs .pick-card:nth-child(3n+2) .pick-front>button{border-color:var(--blue);background-color:#e8eef4}
+.cs .pick-card:nth-child(3n) .pick-front>button{border-color:var(--plum);background-color:#f2e9ed}
+.cs .pick-card:nth-child(n) .pick-number{background:var(--teal);color:#fff9ec;padding:5px 8px;align-self:flex-start;transform:rotate(-1deg)}
+.cs .pick-card:nth-child(3n+2) .pick-number{background:var(--blue)}
+.cs .pick-card:nth-child(3n) .pick-number{background:var(--plum)}
+.cs .journal-stage{background:var(--paper-grain),#e5eeeb!important;border-top:0}
+.cs .journal-heading{padding:20px 0 25px;background:none}
+.cs .journal-book{background:var(--book-cloth) center/cover,var(--teal);border-color:var(--journal-accent);border-radius:4px 10px 10px 4px;box-shadow:5px 7px 0 #d8c29480,0 12px 25px #173f4a1c}
+.cs .journal-art-page{background:var(--paper-grain),#f2e7cc}
+.cs .journal-text-page{background:var(--paper-grain),#fffbf1}
+.cs .journal-art-toggle>summary{min-height:44px;padding:10px 0;color:var(--teal)}
+.cs .journal-return-art{display:inline-flex;align-items:center;min-height:44px;font:700 14px/1.4 Jost,Arial,sans-serif;color:var(--teal);margin-bottom:12px}
+.cs .journal-art-toggle[open]>summary{margin-bottom:12px}
+.cs .journal-page-controls a{background:var(--teal);color:#fffaf0;border-radius:3px;box-shadow:2px 3px 0 #d6b15f80}
+.cs .journal-book:is(.is-turning-next,.is-turning-back,.is-arriving-next,.is-arriving-back){overflow:clip}
+@media(min-width:761px){.cs:not(.refresh-plain) .journal-return-art{display:none}}
+@media(max-width:1000px){.cs main>.reader-feature-shelf{gap:19px}.cs .reader-feature-card{padding:21px}.cs .reader-feature-card h3{font-size:24px}}
+@media(max-width:760px){
+ .cs .reader-welcome h1{font-size:38px}.cs .reader-welcome h1 em{font-size:.8em}
+ .cs .reader-reassurance{max-width:300px}.cs .reader-mail-invite{font-size:14px}
+ .cs main>.reader-feature-shelf{grid-template-columns:minmax(0,1fr);padding-inline:22px;max-width:560px;gap:25px}
+ .cs .reader-feature-card{display:grid;grid-template-columns:95px minmax(0,1fr);gap:20px;padding:22px 17px}
+ .cs .reader-feature-card .reader-art-clip{width:100%;max-width:none;align-self:start;margin-top:14px}
+ .cs .reader-feature-card h3{font-size:25px}.cs .reader-feature-card p{font-size:16px}
+ .cs .reader-feature-card small{font-size:9px}.cs .pick-intro h1{font-size:40px}
+ .cs .journal-heading h1{font-size:clamp(32px,7vw,42px)}.cs .journal-art-page{padding:23px}
+ .cs .journal-art-card{max-width:420px}.cs .journal-contents>summary,.cs .journal-motion{border-radius:3px;border-color:#9bbab8}
+}
+@media(max-width:360px){.cs .reader-welcome h1{font-size:34px}.cs .reader-feature-card{grid-template-columns:72px minmax(0,1fr);gap:14px}.cs .reader-feature-card h3{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.cs .button,.cs .reader-begin{transition:none}}

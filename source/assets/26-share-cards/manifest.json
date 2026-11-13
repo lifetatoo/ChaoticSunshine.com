@@ -999,10 +999,10 @@
     "kind": "teaching"
   },
   "index": {
-    "file": "26-share-cards/index-v2.png",
-    "title": "Faith for a beautifully messy life.",
-    "description": "An illustrated faith journal + a little free digital library.",
-    "alt": "Faith for a beautifully messy life. — Chaotic Sunshine illustrated journal",
+    "file": "26-share-cards/index-collage.png",
+    "title": "Grow deeper in faith. Make room for a little joy.",
+    "description": "Christian devotions, free illustrated Bible guides, and a little sunshine for your beautifully messy life.",
+    "alt": "Grow deeper in faith. Make room for a little joy. — Christian devotions, free illustrated Bible guides, and a little sunshine for your beautifully messy life. | Chaotic Sunshine",
     "width": 1200,
     "height": 630,
     "kind": "journal"
@@ -1026,10 +1026,10 @@
     "kind": "journal"
   },
   "start": {
-    "file": "26-share-cards/start-v2.png",
-    "title": "Find a page for your kind of day.",
-    "description": "Nine ways in. Pick a feeling, turn a card, read a devotion.",
-    "alt": "Find a page for your kind of day. — Chaotic Sunshine illustrated journal",
+    "file": "26-share-cards/start-collage.png",
+    "title": "Find Your Page",
+    "description": "Flip a card. Find a devotion for the day you’re in.",
+    "alt": "Find Your Page — Flip a card. Find a devotion for the day you’re in. | Chaotic Sunshine",
     "width": 1200,
     "height": 630,
     "kind": "journal"

@@ -82,5 +82,6 @@ exports.transform=(slug,body,{href,image,cfg})=>{
  if(slug==='privacy')body=body.replace('A separate public support address still needs to be confirmed before this release is promoted.','Use the unsubscribe link in any letter if you would like to stop receiving it.');
  if(slug==='resource-permissions')body=body.replace('Reply to Sunshine Mail for permission questions while a public support contact is being finalized.','Reply to Sunshine Mail for permission questions.');
  if(slug==='welcome')body=body.replace('This page doesn’t verify subscription status, and you can enjoy everything below while you’re here.','You can enjoy the reading and printable below right away.');
+ body=body.replace(/<h1(?=[ >])/, '<h1 data-brand-title');
  return body;
 };

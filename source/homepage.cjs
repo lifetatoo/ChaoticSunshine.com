@@ -48,7 +48,7 @@ module.exports = function homepage({sec,image,link,href,signup,cfg}) {
   const plan=sec(journey.render({href,link}),'home-next-step');
 
   const letter=sec(sunshineMail.feature({cfg,image}),'sunshine-mail-section');
-  return ['Christian Devotions & Free Bible Guides | Chaotic Sunshine',hero+plan+letter+invitation+why+sample+guide+author];
+  return ['Christian Devotions & Free Bible Guides | Chaotic Sunshine',hero+plan+invitation+why+sample+guide+author+letter];
 };
 
 module.exports.css=newsletter.css+journey.css+`

@@ -6,6 +6,10 @@ The maintained source now includes the approved reader-centered homepage, a larg
 
 The follow-up refinement replaces the compact plain footer form with a dimensional gold-envelope signup on every page. The complete illustrated Sunday-letter example preserves Amy’s supplied text, appears in the expandable sample, and has a dedicated reading page. `qa/sunshine-letter-detail-results.json` checks the controls and letter in four layouts, including a 320px phone.
 
+The front-door revision makes the reader’s benefit explicit, puts a simple numbered plan immediately after the welcome, and exposes devotions, free guides, and original teaching illustrations before the main signup invitation. The former “Start Here” navigation is now “Find Your Page,” with a warmer card-picker introduction. Shared paper, jewel colors, typography, spacing, and tactile details now continue through the content. See `HOMEPAGE-STORYBRAND-REVIEW.md` for the framework mapping and conversion strategy.
+
+The 90 individual devotional teaching cards were present but automatically folded away on narrow screens. They now remain visible by default at every width, with a manual fold and a return-to-art link. Page turns remain. `qa/front-door-interactions.json` verifies all 90 distinct artwork references and four responsive interaction profiles; `qa/front-door-brand-results.json` records 63 rendered page-family cases with no findings in the configured checks. The compact envelope was also constrained to its available width on a 320px screen.
+
 Free downloads use direct file links. The 21 distributed PDF editions have been corrected to the monthly Sunshine Mail cadence. Their original page counts and untouched content pages were checked against the original copies. Original source files in Drive have not been overwritten.
 
 Internal strategy and future offerings are outside this repository and the public build. No store, paid program, membership, or submission service has been launched.

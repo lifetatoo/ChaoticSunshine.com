@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-13T15:40:33.754Z",
+  "date": "2026-11-13T19:06:42.032Z",
   "pages": 139,
-  "references": 14260,
+  "references": 14262,
   "profiles": [
     "desktop",
     "android",
@@ -607,8 +607,12 @@
   "rounds": [
     "refresh-results.json",
     "final-polish-results.json",
-    "sunshine-letter-results.json"
+    "sunshine-letter-results.json",
+    "front-door-brand-results.json"
   ],
   "notes": "Latest per-page result consolidates the full review and focused checks after corrections. Browser emulation, not physical-device testing.",
-  "additionalChecks": "sunshine-letter-detail-results.json"
+  "additionalChecks": [
+    "sunshine-letter-detail-results.json",
+    "front-door-interactions.json"
+  ]
 }

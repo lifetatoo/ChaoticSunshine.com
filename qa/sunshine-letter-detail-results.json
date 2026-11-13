@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13T15:38:33.439Z",
+  "date": "2026-11-13T19:12:34.311Z",
   "checks": [
     {
       "profile": "desktop",
@@ -49,11 +49,11 @@
     {
       "profile": "small-phone",
       "footer": {
-        "frameWidth": 333.328125,
+        "frameWidth": 281.625,
         "frameHeight": 500,
-        "formLeft": 49.984375,
-        "formRight": 283.34375,
-        "formBottom": 332.78125,
+        "formLeft": 42.234375,
+        "formRight": 239.390625,
+        "formBottom": 352.375,
         "fieldHeight": 46,
         "buttonHeight": 46
       },
