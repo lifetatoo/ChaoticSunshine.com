@@ -5,7 +5,7 @@ exports.art = '29-editorial-refresh/sunshine-mail-luxury-invitation.webp';
 
 exports.footer=({cfg,image,href})=>`<aside class="sunshine-footer-envelope" aria-labelledby="footer-envelope-title">
  <div class="sunshine-footer-poster">
-  <div class="sunshine-footer-art">${image('29-editorial-refresh/sunshine-mail-footer-envelope.webp','A dimensional gold envelope with layered cream stationery, teal paper, a gold clip, and a sunshine seal.')}</div>
+  <div class="sunshine-footer-art">${image('29-editorial-refresh/sunshine-mail-footer-envelope.webp','A dimensional gold envelope with layered cream stationery, teal paper, a gold clip, and a sunshine seal.').replace('loading="lazy"','loading="eager"')}</div>
   <div class="sunshine-footer-letter"><p class="sunshine-footer-kicker">Sunshine Mail</p><h2 id="footer-envelope-title">Hello, lovely.</h2><p class="sunshine-footer-promise">One Sunday letter a month.<br>Faith, real life, and a little surprise.</p>${kit.render(cfg,'footer').replace('inputmode="email" required','inputmode="email" placeholder="Your email address" required')}</div>
  </div>
  <div class="sunshine-footer-after"><a class="sunshine-footer-peek" href="${href('/sunshine-mail-sample')}">Open an illustrated letter <span aria-hidden="true">↗</span></a><a class="sunshine-footer-privacy" href="${href('/privacy')}">Privacy</a></div>

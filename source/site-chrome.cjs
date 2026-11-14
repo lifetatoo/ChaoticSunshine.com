@@ -6,8 +6,8 @@ const wordmark = '29-editorial-refresh/chaotic-sunshine-wordmark-transparent.png
 const sun = '<svg class="chrome-glyph" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M8 1v14M1 8h14M3 3l10 10M3 13 13 3"/></svg>';
 const envelope = '<svg class="chrome-glyph" viewBox="0 0 18 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h14v10H2zM2 3l7 6 7-6"/></svg>';
 const links = [
-  ['start', 'Find Your Page'], ['freebies', 'Free Guides'], ['soul-snacks', 'Soul Snacks'],
-  ['teaching-shelf', 'Teaching Shelf'], ['about', 'About']
+  ['start', 'Browse Topics'], ['freebies', 'Free Guides'], ['soul-snacks', 'Soul Snacks'],
+  ['teaching-shelf', 'Teaching Shelf'], ['side-quests', 'Side Quests'], ['about', 'About']
 ];
 
 exports.render = ({ href, image, cfg, slug, mode, main }) => {

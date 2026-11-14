@@ -63,7 +63,7 @@ exports.data = (slug, title, body) => {
   const post = posts.find(entry => entry.slug === slug);
   const guide = guides.find(entry => entry.slug === slug);
   const lesson = teaching.items.find(entry => 'teaching-' + entry.slug === slug);
-  const collection = collections[slug];
+  const collection = slug==='side-quests'?['Creative Side Quests',require('./side-quests.json')]:collections[slug];
   const share = shares[slug];
   const description = share?.description || post?.description || plain(body).slice(0, 165);
   const canonical = canonicalFor(slug);
@@ -94,7 +94,7 @@ exports.data = (slug, title, body) => {
     });
   }
   if (collection) {
-    const items = linkedItems(body, collection[1]);
+    const items = slug==='side-quests'?collection[1].map((q,i)=>({'@type':'ListItem',position:i+1,name:q.title,url:canonical+'#quest-'+q.id})):linkedItems(body, collection[1]);
     if (items.length) {
       const id = canonical + '#collection';
       page.mainEntity = ref(id);

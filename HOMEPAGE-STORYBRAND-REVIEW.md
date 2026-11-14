@@ -73,3 +73,29 @@ Do not count a form submission as a confirmed subscriber or a download click as 
 ## Validation record
 
 See `qa/front-door-brand-results.json` for page-family rendering, accessibility-rule checks, local references, and shared interactions. See `qa/front-door-interactions.json` for the four-width front-door/journal checks and the 90 distinct artwork references. These are browser-emulation checks, not physical-device certification.
+
+## Follow-up: a clear journal workflow and richer illustration
+
+The earlier “Find Your Page” label has now become **Browse Topics**. Soul Snacks has a single primary workflow: choose short, medium, or long; open the journal; read and turn within that selected length. Repeated topic grids, pace lists, teaching promotions, and “where it aches” sections were removed from that entrance. Topic discovery lives on its own illustrated nine-card page. The Teaching Shelf is a separate destination with a cream, high-contrast preview link.
+
+The narrow-screen art-collapse issue was separate from a second problem: the preview process had stopped, producing a connection-refused error on the next navigation. The preview now runs as a hidden background process, with an idempotent restart helper. The source page-turn links and the real rendered navigation were checked in both directions.
+
+All 90 original teaching/Scripture cards remain. Nine new watercolor-and-colored-pencil object scenes are assigned across the readings, avoiding repeated adjacent scenes. Purple, teal, raspberry, cobalt, and emerald bindings rotate. Six optional creative exercise types include sketching, color annotation, paper collage, a postcard prayer, speech bubbles, and verse-word hunts with a reveal control. Coloring links lead to the existing Fully Family guide rather than an unbuilt resource.
+
+The existing Side Quest Society HTML in Amy’s Downloads folder contains 24 real missions. Those missions now have a separate page and optional interludes on 24 journal pages. The larger collection concept is not advertised as completed. Field-note downloads are private text files; no unconnected submission form is shown.
+
+Reading preferences live behind “Reading options”; the button labels state the next action. Print/save PDF, bookmarking, sharing, and private reflection appear after the reading. Reflections are not public comments or messages to Amy.
+
+## Search and evidence audit
+
+The launch keyword map was checked against the current templates. Public introductions and titles use established terms: Christian devotions, short devotionals for women, free illustrated Bible guides, Bible journaling, free Bible study printables, and original teaching illustrations where the resource actually supports them. Creative page headlines remain intact. Historical keyword-volume estimates were not represented as new research or ranking guarantees.
+
+The current build has 139 unique page titles and descriptions across its 139 non-404 pages. Eight duplicate teaching-sheet descriptions were replaced with accurate sheet-specific summaries. The structured-data audit verifies 90 `BlogPosting` entries, 17 collection pages, 20 learning resources, consistent brand/website/author identities, and the real 24-item Side Quest list. The sitemap includes the new page and excludes the welcome and 404 pages. Dates, social profiles, analytics IDs, and endorsements have not been invented.
+
+Consent-aware event hooks distinguish journal opening, page turning, creative-prompt opening, mission opening, reading clicks, file clicks, and form submissions. The project still needs its actual analytics property connected and tested; these are not claims of collected traffic or confirmed subscriptions.
+
+Drawing-and-memory wording is grounded in [Wammes and colleagues’ drawing-effect research](https://uwspace.uwaterloo.ca/items/a8b52734-18f3-4527-8be2-008a105c85f2). The study concerns recall tasks, not a guarantee that every sketch improves Bible learning. A [small art-making study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5004743/) found changes in stress markers after a 45-minute session; it does not establish that a quick doodle treats anxiety. The website offers a creative pause without making a clinical treatment claim.
+
+The corrected method graphic is kept outside the public build. Its Bible text is typeset from [Romans 8:15–16, KJV](https://www.biblegateway.com/passage/?search=Romans%208%3A15-16&version=KJV), the envelope construction was corrected, and the actual approved transparent wordmark was placed without redrawing its strokes.
+
+Current validation: `qa/journal-studio-layouts.json`, `qa/journal-studio-interactions.json`, and `qa/sunshine-letter-detail-results.json`. Earlier reports record earlier versions of the design and should be read as history.

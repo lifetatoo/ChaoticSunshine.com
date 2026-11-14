@@ -36,12 +36,15 @@ function runtime(cfg){
   if(!el.matches('a[href]'))return;
   let url;try{url=new URL(el.href,location.href);}catch(err){return;}
   if(!['http:','https:'].includes(url.protocol))return;
+  if(el.matches('[data-journal-open]'))event('journal_open',{reading_length:new URLSearchParams(url.search).get('pace')||'any'});
+  if(el.matches('[data-journal-turn]'))event('journal_turn',{direction:el.dataset.journalTurn});
   const file=url.pathname.match(/\.(pdf|png|webp|jpe?g|zip)$/i);
   if(file){event('download_click',{file_type:file[1].toLowerCase(),resource_type:url.pathname.includes('/guides/')?'guide':url.pathname.includes('22-teaching-illustrations')?'teaching':'image'});return;}
   if(/\/soul-snack-\d+(?:\.html)?$/.test(url.pathname))event('read_devotion');
   else if(url.origin===location.origin&&/\/(fully-family|before-the-first-mountain|the-daughter-who-stayed|beloved-first|heir-not-hired|he-sings-over-you|the-father-who-runs|the-road-out-of-moab|seconds-please|advent|table-talks-guide)(?:\.html)?$/.test(url.pathname))event('open_guide');
   else if(/(^|\.)gumroad\.com$/.test(url.hostname))event('guide_delivery_click');
  });
+ document.addEventListener('toggle',e=>{if(!allowed||!e.target.open)return;if(e.target.matches('.journal-making'))event('creative_exercise_open');if(e.target.matches('[data-quest-card],.journal-joy-mission details'))event('side_quest_open');},true);
  document.addEventListener('submit',e=>{const form=e.target;if(!e.defaultPrevented&&form.matches('form[data-kit-form]')&&!form.querySelector('[data-kit-hp]')?.value&&/^https:\/\/app\.kit\.com\/forms\/\d+\/subscriptions$/.test(form.action))event(form.dataset.kitForm==='newsletter'?'newsletter_submit':'guide_signup_submit');});
 }
 exports.script=(cfg,mode)=>{const x=config(cfg,mode);return x?`<script data-cs-measurement>(${runtime.toString()})(${JSON.stringify(x).replaceAll('<','\\u003c')});</script>`:'';};

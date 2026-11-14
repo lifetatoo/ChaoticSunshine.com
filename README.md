@@ -21,3 +21,9 @@ Free guide files currently use direct downloads. Gumroad is optional and unconfi
 `qa/check-refresh.cjs` includes the local browser checks used for this review. It uses the provisioned Codex Playwright, Chrome, WebKit, and axe installations. `qa/refresh-results.json` records the actual tested cases. These checks emulate Android and iPhone browsers; they do not constitute testing on physical phones or with a screen-reader user.
 
 The known live-domain and account checks are in `RELEASE-REVIEW.md`. Do not treat the design branch as a declaration that every P0 is resolved. Preview first, then promote the tested build through the normal GitHub/Cloudflare workflow.
+
+Soul Snacks is the journal cover: choose short, medium, or long, then open a matching reading. Page turns retain that length. Topic browsing lives at `/start`, and the original teaching sheets remain on `/teaching-shelf`. `/side-quests` contains 24 missions imported from Amy’s existing Side Quest Society prototype. Optional mission cards are interleaved into 24 journal pages; the broader category and future offering strategy remain outside this repository.
+
+Every devotion keeps its original teaching/Scripture card and adds a painted object scene. Six creative prompt types rotate through the readings, including verse-based word hunts. These remain optional. Reflections are private, not public comments.
+
+For a local preview that runs independently of an interactive chat command, use `qa/start-preview.ps1 -SiteDirectory <absolute path to site-kit>`. It starts a hidden process on localhost port 8813 and avoids starting a second listener. `qa/check-journal-studio.cjs` verifies the current journal flow, individual artwork, mission downloads, and search metadata.

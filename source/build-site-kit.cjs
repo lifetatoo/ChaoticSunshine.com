@@ -255,6 +255,7 @@ function page(slug, title, body, extraHead = '') {
 
   let scripts = require('./google-measurement.cjs').script(cfg,mode) + require('./delight.cjs').script(body) + (body.includes('data-home-chapters')?require('./home-journey.cjs').script():'') + (shell.includes('data-sunshine-mail')?require('./kit-newsletter.cjs').script():'') + require('./feedback.cjs').script() + (body.includes('data-kit-form') ? formScript : '');
   if (body.includes('data-reader-tools') || body.includes('data-saved-readings') || body.includes('data-reading-resume')) scripts += require('./reader-tools.cjs').script({href});
+  if(body.includes('data-journal-entry')||body.includes('data-side-quests')||body.includes('data-reveal-words')) scripts += require('./journal-experience.cjs').script({href});
   if (body.includes('data-start-picker')) scripts += require('./start-deck.cjs').script();
   if (body.includes('data-little-library')) {usedAssets.add('21-library-search/guide-search.js');scripts += require('./free-library.cjs').script({indexUrl:'assets/21-library-search/guide-search.js'});}
   if (body.includes('data-journal-reader')) scripts += require('./journal-reader.cjs').script();

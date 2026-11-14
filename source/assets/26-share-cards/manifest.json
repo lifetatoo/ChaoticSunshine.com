@@ -920,7 +920,7 @@
   "teaching-journey-days-01-50": {
     "file": "26-share-cards/teaching-journey-days-01-50-v2.png",
     "title": "Nine movements, one aim: days 1 to 50",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "An illustrated map of days 1–50 of Beloved, Really: belonging, identity, trusting truth, grace, and humility. Preview and download the free teaching sheet.",
     "alt": "Nine movements, one aim: days 1 to 50 — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -929,7 +929,7 @@
   "teaching-journey-days-51-90": {
     "file": "26-share-cards/teaching-journey-days-51-90-v2.png",
     "title": "Nine movements, one aim: days 51 to 90",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "An illustrated map of days 51–90 of Beloved, Really: welcome, honest limits, abiding, and standing firm. Preview and print the free teaching page.",
     "alt": "Nine movements, one aim: days 51 to 90 — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -938,7 +938,7 @@
   "teaching-a-hard-day-still-counts": {
     "file": "26-share-cards/teaching-a-hard-day-still-counts-v2.png",
     "title": "A hard day still counts: three steps",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "A free illustrated Bible study sheet for tired days: anchor in a verse, notice what it shows about God, and pray one honest sentence. Preview and print.",
     "alt": "A hard day still counts: three steps — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -947,7 +947,7 @@
   "teaching-five-tools": {
     "file": "26-share-cards/teaching-five-tools-v2.png",
     "title": "Five tools, 90 days",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "Five practical tools for the 90-day Beloved, Really journey: self-checks, a lie-and-truth ledger, letters, pauses, and memory cards. Free teaching sheet.",
     "alt": "Five tools, 90 days — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -956,7 +956,7 @@
   "teaching-when-it-still-hurts": {
     "file": "26-share-cards/teaching-when-it-still-hurts-v2.png",
     "title": "When it still hurts",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "An illustrated lament practice using Psalm 13: address God, name the pain, ask, and choose trust. Preview the free teaching sheet and companion reading.",
     "alt": "When it still hurts — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -965,7 +965,7 @@
   "teaching-check-its-id": {
     "file": "26-share-cards/teaching-check-its-id-v2.png",
     "title": "Check its ID",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "A free illustrated thought-checking exercise: notice it, name it, and compare it with Scripture. Preview the teaching page and its companion devotion.",
     "alt": "Check its ID — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -974,7 +974,7 @@
   "teaching-lie-and-truth-ledger": {
     "file": "26-share-cards/teaching-lie-and-truth-ledger-v2.png",
     "title": "The Lie and Truth Ledger",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "A printable Christian journal exercise: put a familiar lie beside a Bible passage and examine it in context. Preview the original illustrated teaching sheet.",
     "alt": "The Lie and Truth Ledger — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -983,7 +983,7 @@
   "teaching-hired-help-or-heir": {
     "file": "26-share-cards/teaching-hired-help-or-heir-v2.png",
     "title": "Hired help or heir?",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "A free illustrated Galatians 4:7 teaching sheet contrasting earning wages with receiving inheritance. Preview the page and explore the companion devotion.",
     "alt": "Hired help or heir? — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -992,7 +992,7 @@
   "teaching-beloved-then-sent": {
     "file": "26-share-cards/teaching-beloved-then-sent-v2.png",
     "title": "Beloved, then sent",
-    "description": "An original illustrated Bible teaching page to see, save and share. Free printable PDF from Beloved, Really.",
+    "description": "An illustrated teaching sheet on Matthew 3:17: beloved before being sent. Explore identity before service, with a free printable and companion devotion.",
     "alt": "Beloved, then sent — original teaching illustration",
     "width": 1200,
     "height": 630,
@@ -1008,10 +1008,10 @@
     "kind": "journal"
   },
   "soul-snacks": {
-    "file": "26-share-cards/soul-snacks-v2.png",
-    "title": "Soul Snacks",
-    "description": "90 devotions. A little truth. A little sass. Room for real life.",
-    "alt": "Soul Snacks — Chaotic Sunshine illustrated journal",
+    "file": "26-share-cards/soul-snacks-collage.png",
+    "title": "Open a little sunshine.",
+    "description": "Choose a short, medium, or longer Christian devotion. Open the illustrated journal.",
+    "alt": "Open a little sunshine. — Choose a short, medium, or longer Christian devotion. Open the illustrated journal. | Chaotic Sunshine",
     "width": 1200,
     "height": 630,
     "kind": "journal"
@@ -1027,9 +1027,9 @@
   },
   "start": {
     "file": "26-share-cards/start-collage.png",
-    "title": "Find Your Page",
-    "description": "Flip a card. Find a devotion for the day you’re in.",
-    "alt": "Find Your Page — Flip a card. Find a devotion for the day you’re in. | Chaotic Sunshine",
+    "title": "Find a devotion for your kind of day.",
+    "description": "Nine illustrated paths into Scripture, with a free reading for the day you’re in.",
+    "alt": "Find a devotion for your kind of day. — Nine illustrated paths into Scripture, with a free reading for the day you’re in. | Chaotic Sunshine",
     "width": 1200,
     "height": 630,
     "kind": "journal"
@@ -1240,5 +1240,14 @@
     "width": 1200,
     "height": 630,
     "kind": "letter"
+  },
+  "side-quests": {
+    "file": "26-share-cards/side-quests-collage.png",
+    "title": "Your afternoon could have a plot.",
+    "description": "24 creative side quests, joy missions, and field notes for ordinary life.",
+    "alt": "Your afternoon could have a plot. — 24 creative side quests, joy missions, and field notes for ordinary life. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
   }
 }

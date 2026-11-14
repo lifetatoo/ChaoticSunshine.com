@@ -5,7 +5,7 @@
  function setPreference(key,value){try{localStorage.setItem(key,String(value));}catch(e){}}
  for(const [attr,cls,key] of [['data-reading-larger','refresh-large','cs-reading-large'],['data-reading-plain','refresh-plain','cs-reading-plain']]){
   const on=preference(key);root.classList.toggle(cls,on);
-  document.querySelectorAll('['+attr+']').forEach(button=>{button.setAttribute('aria-pressed',String(on));button.addEventListener('click',()=>{const active=!root.classList.contains(cls);root.classList.toggle(cls,active);setPreference(key,active);button.setAttribute('aria-pressed',String(active));});});
+  document.querySelectorAll('['+attr+']').forEach(button=>{button.setAttribute('aria-pressed',String(on));button.textContent=attr==='data-reading-larger'?(on?'Use standard text':'Make text bigger'):(on?'Show illustrated journal':'Text only');button.addEventListener('click',()=>{const active=!root.classList.contains(cls);root.classList.toggle(cls,active);setPreference(key,active);button.setAttribute('aria-pressed',String(active));button.textContent=attr==='data-reading-larger'?(active?'Use standard text':'Make text bigger'):(active?'Show illustrated journal':'Text only');});});
  }
  document.querySelectorAll('[data-reading-print]').forEach(button=>button.addEventListener('click',()=>window.print()));
  document.querySelectorAll('.refresh-reflection').forEach(box=>{
