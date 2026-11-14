@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-14T02:30:34.449Z",
+  "pages": 140,
+  "references": 14205,
+  "cases": [
+    {
+      "profile": "desktop",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-02",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-02",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-02",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "findings": []
+}

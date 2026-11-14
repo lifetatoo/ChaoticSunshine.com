@@ -1,0 +1,27 @@
+[
+  {
+    "family": "Fraunces",
+    "weight": "700",
+    "file": "20-fonts/fraunces-700.ttf"
+  },
+  {
+    "family": "Jost",
+    "weight": "400",
+    "file": "20-fonts/jost-400.ttf"
+  },
+  {
+    "family": "Jost",
+    "weight": "700",
+    "file": "20-fonts/jost-700.ttf"
+  },
+  {
+    "family": "Nanum Pen Script",
+    "weight": "400",
+    "file": "20-fonts/nanum-pen-script-400-subset.ttf"
+  },
+  {
+    "family": "Permanent Marker",
+    "weight": "400",
+    "file": "20-fonts/permanent-marker-400.ttf"
+  }
+]

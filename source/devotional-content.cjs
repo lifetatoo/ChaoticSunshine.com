@@ -1,0 +1,13 @@
+const posts=require('./devotions/devotions.json'),verses=require('./devotions/scripture-cards.json'),art=require('./devotions/rotation-90-manifest.json');
+
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+
+const labels={'personal-story':'From Amy Grace’s story','close-reading':'Into the passage','prayer':'An honest prayer','misconception':'A thought worth examining','character-study':'Stay with the story','lament':'Room for lament','embodied-practice':'One small act','book-reflection':'From the journal'};
+
+function reading(x){return x.sections.map(s=>(s.heading?`<h2>${esc(s.heading)}</h2>`:'')+s.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')).join('')+`<aside class="truth-slip"><span class="hand">Carry it with you</span><p>${esc(x.takeaway)}</p></aside>`+(x.writingForm==='prayer'?'':`<div class="journal-prompts"><h2>${['embodied-practice','close-reading','book-reflection'].includes(x.writingForm)?'One response to try':'A question to sit with'}</h2><p>${esc(['embodied-practice','close-reading','book-reflection'].includes(x.writingForm)?x.practice:x.question)}</p></div>`)+(x.day===33?'<p class="source-note">Text note: the earliest manuscripts do not include John 7:53–8:11; many Bible editions mark this passage.</p>':'');}
+
+const policy='Kindness belongs here. Honest questions and disagreement are welcome. Personal attacks, shaming, promotions, spam, and sharing another person’s private information are not. Comments may be removed and conversations closed to protect this space.';
+
+function native(x,cfg={}){const v=verses[x.day-1],a=art.find(a=>a.day===x.day),url=cfg.assets?.[a.file];return `<p><em>Day ${x.day} · ${x.length} · ${labels[x.writingForm]} · About ${x.readingMinutes} minutes</em></p><p>By <a href="/about">Amy Grace</a> · Read: ${esc(x.reading)}</p>`+reading(x)+`<h2>Featured Scripture</h2><blockquote><p>${esc(v.verse)}</p><cite>${esc(v.reference)} · NIV${v.excerpt?' · excerpt':''}</cite></blockquote>`+(url?`<figure><img src="${esc(url)}" alt="${esc(x.takeaway)}" width="1080" height="1350"></figure>`:'')+`<p><a href="/start?read=1&amp;from=${x.slug}">Read another devotion</a></p><p><a href="/${x.topic}">Read more on this theme</a> · <a href="/freebies">Find a free Bible guide</a></p><details><summary>A conversation, if you would like one</summary><p>${esc(x.question)}</p><p>${esc(policy)}</p></details><p><small>${esc(x.adaptationNote)} Source: ${esc(x.sourceTitle)}, PDF pages ${x.sourcePdfPages.join('–')}${x.additionalSourcePdfPages?'; foreword PDF page '+x.additionalSourcePdfPages.join(', '):''}. Expanded web adaptation.</small></p>`;}
+
+module.exports={esc,reading,native,labels,policy,posts,verses,art};

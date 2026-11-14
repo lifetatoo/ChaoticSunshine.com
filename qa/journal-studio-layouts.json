@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-14T01:40:16.240Z",
+  "pages": 140,
+  "references": 14208,
+  "cases": [
+    {
+      "profile": "desktop",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-51",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-56",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-51",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-56",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-51",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-56",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "findings": []
+}

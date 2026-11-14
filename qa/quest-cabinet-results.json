@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-14T02:31:38.190Z",
+  "missions": 24,
+  "uniqueIllustrations": 24,
+  "profiles": [
+    {
+      "name": "desktop",
+      "all24Missions": true,
+      "oneVisible": true,
+      "drawers": true,
+      "randomExcludesCurrent": true,
+      "searchAndFallback": true,
+      "deepLink": true,
+      "backButton": true,
+      "download": true,
+      "cabinetHeight": 769,
+      "artWidth": 310,
+      "pageErrors": []
+    },
+    {
+      "name": "android",
+      "all24Missions": true,
+      "oneVisible": true,
+      "drawers": true,
+      "randomExcludesCurrent": true,
+      "searchAndFallback": true,
+      "deepLink": true,
+      "backButton": true,
+      "download": true,
+      "cabinetHeight": 696,
+      "artWidth": 116,
+      "pageErrors": []
+    },
+    {
+      "name": "iphone",
+      "all24Missions": true,
+      "oneVisible": true,
+      "drawers": true,
+      "randomExcludesCurrent": true,
+      "searchAndFallback": true,
+      "deepLink": true,
+      "backButton": true,
+      "download": true,
+      "cabinetHeight": 696,
+      "artWidth": 109,
+      "pageErrors": []
+    },
+    {
+      "name": "small-phone",
+      "all24Missions": true,
+      "oneVisible": true,
+      "drawers": true,
+      "randomExcludesCurrent": true,
+      "searchAndFallback": true,
+      "deepLink": true,
+      "backButton": true,
+      "download": true,
+      "cabinetHeight": 760,
+      "artWidth": 83,
+      "pageErrors": []
+    }
+  ],
+  "findings": [],
+  "noJavaScript": {
+    "all24Readable": true,
+    "deadControlsHidden": true
+  }
+}
