@@ -3,13 +3,23 @@ const {esc}=require('./devotional-content.cjs');
 const cabinet=require('./side-quest-cabinet.cjs');
 const atlas='30-journal-studio/hand-drawn-lessons-v2.webp';
 const descriptions=['A watercolor inheritance key, teal ribbon, and a purple heart tucked into an envelope.','A hand-painted blank name tag and a small cobalt-handled mirror.','A cobalt tangle of thread unwinding beside a plum pencil.','A sketched teal tape player with a gold ribbon curling out.','A jewel-tone paintbox, brush, and torn watercolor-paper sample.','Two mismatched teacups and two chairs at a tiny café table.','An open peacock-teal gate with a purple ribbon.','A purple teacup and a small green cutting in a cobalt pot.','A hand-painted cobalt sailboat, teal waves, and a golden anchor.'];
-const expressions=[/prayer|beloved|family|inherit|child|father|love/i,/label|name|called|mirror|identity/i,/mind|thought|worry|head|loop|rehears|spiral/i,/replay|past|score|shame|forgiv|remember/i,/gift|serve|work|hands|contribut|purpose/i,/table|seat|friend|welcome|company|room|sit/i,/boundary|yes|no\b|limit|pleas|door/i,/rest|quiet|grow|wait|root|stay|tired/i,/change|storm|fear|stand|steady|hold|anchor|courage/i];
-const artMap=[];
-for(const p of posts){const text=p.title+' '+p.takeaway;let choices=expressions.map((re,i)=>({i,score:(re.test(text)?5:0)+(i===p.movement-1?2:0)})).sort((a,b)=>b.score-a.score);const chosen=choices.find(c=>!artMap.slice(-3).includes(c.i))||choices[0];artMap.push(chosen.i);}
+// Editorial assignments follow the reading's subject. Repetition is preferable to unrelated art.
+// 0 belonging, 1 identity, 2 thought, 3 remembered grace, 4 gifts/service,
+// 5 welcome, 6 boundaries, 7 rest/growth, 8 courage/steadiness.
+const artMap=[
+ 0,1,0,0,0,0,0,0,7,1,
+ 1,1,5,1,4,1,1,1,1,1,
+ 2,2,2,2,2,4,2,2,2,2,
+ 3,3,3,3,5,6,3,5,8,3,
+ 4,4,4,4,4,4,4,4,4,4,
+ 5,5,5,5,4,5,5,0,1,5,
+ 6,6,6,6,6,6,6,6,6,6,
+ 7,7,7,1,7,7,7,7,7,7,
+ 8,8,8,7,1,8,8,8,7,0
+];
+if(artMap.length!==posts.length)throw Error('Every devotional needs an editorial illustration assignment');
 exports.sketch=(i,image,cls='')=>`<span class="creative-sketch ${cls}" data-sketch="${i}">${image(atlas,descriptions[i]).replace('<img ',`<img style="left:-${i%3*100}%;top:-${Math.floor(i/3)*100}%" `)}</span>`;
 exports.lessonArt=(p,image)=>`<figure class="journal-painted-moment">${exports.sketch(artMap[p.day-1],image)}<figcaption>${esc(p.takeaway)}</figcaption></figure>`;
-// Immediate content correction: chosen-before-the-checklist is identity, not a replay device.
-artMap[1]=1;
 exports.artMap=artMap;
 const interludeDays=Array.from({length:22},(_,i)=>3+i*4).concat(45,90).sort((a,b)=>a-b);
 exports.mission=(p,{href,image})=>{const index=interludeDays.indexOf(p.day);if(index<0)return '';const q=quests[index];return `<aside class="journal-joy-mission"><p class="eyebrow">A little joy detour / entirely optional</p><details><summary><span class="mission-thumb">${cabinet.art(q,image)}</span><span><strong>${esc(q.title)}</strong><small>${esc(q.tagline)}<br>${esc(q.time)} · ${esc(q.budget)} · Open your mission ↗</small></span></summary><div class="mission-paper"><p>${esc(q.steps)}</p><p><strong>Make it easier:</strong> ${esc(q.easy)}</p><p class="hand">Bring back one little observation. That’s plenty.</p><a href="${href('/side-quests')}#quest-${esc(q.id)}">Open this Side Quest →</a></div></details></aside>`;};

@@ -44,7 +44,7 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
         </div>
         <nav class="footer-index" aria-label="Footer navigation">
           <p>Find your page</p>
-          ${nav}<a href="${href('/scripture-index')}">Scripture Index</a>
+          ${nav}<a href="${href('/creative-faith')}">Christian Creativity</a><a href="${href('/scripture-index')}">Scripture Index</a>
         </nav>
         ${signup}
       </div>
