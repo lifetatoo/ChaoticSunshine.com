@@ -80,7 +80,7 @@ The earlier “Find Your Page” label has now become **Browse Topics**. Soul Sn
 
 The narrow-screen art-collapse issue was separate from a second problem: the preview process had stopped, producing a connection-refused error on the next navigation. The preview now runs as a hidden background process, with an idempotent restart helper. The source page-turn links and the real rendered navigation were checked in both directions.
 
-All 90 original teaching/Scripture cards remain. Nine new watercolor-and-colored-pencil object scenes are assigned across the readings, avoiding repeated adjacent scenes. Purple, teal, raspberry, cobalt, and emerald bindings rotate. Six optional creative exercise types include sketching, color annotation, paper collage, a postcard prayer, speech bubbles, and verse-word hunts with a reveal control. Coloring links lead to the existing Fully Family guide rather than an unbuilt resource.
+All 90 original teaching/Scripture cards remain. Nine new watercolor-and-colored-pencil object scenes are assigned across the readings. The remaining semantic review must prioritize the meaning of each passage over a forced rotation. Day 2 now uses the name-tag/mirror scene rather than a cassette. Purple, teal, raspberry, cobalt, and emerald bindings rotate. Six optional creative exercise types include sketching, color annotation, paper collage, a postcard prayer, speech bubbles, and verse-word hunts with a reveal control. Coloring links lead to the existing Fully Family guide rather than an unbuilt resource.
 
 The existing Side Quest Society HTML in Amy’s Downloads folder contains 24 real missions. Those missions now have a separate page and optional interludes on 24 journal pages. The larger collection concept is not advertised as completed. Field-note downloads are private text files; no unconnected submission form is shown.
 
@@ -99,3 +99,9 @@ Drawing-and-memory wording is grounded in [Wammes and colleagues’ drawing-effe
 The corrected method graphic is kept outside the public build. Its Bible text is typeset from [Romans 8:15–16, KJV](https://www.biblegateway.com/passage/?search=Romans%208%3A15-16&version=KJV), the envelope construction was corrected, and the actual approved transparent wordmark was placed without redrawing its strokes.
 
 Current validation: `qa/journal-studio-layouts.json`, `qa/journal-studio-interactions.json`, and `qa/sunshine-letter-detail-results.json`. Earlier reports record earlier versions of the design and should be read as history.
+
+## Side Quest cabinet refinement
+
+The long mission grid has been replaced with one illustrated mission at a time. Twenty-four distinct new hand-drawn scenes map directly to the 24 activities, including journal interludes. A one-third illustration and two-thirds description composition on desktop becomes a compact illustrated heading and full-width task on phones. Themed drawers, previous/next, and a surprise button provide exploration without scrolling through every mission. Easier versions, friend ideas, and field notes are collapsed until requested. Search retains a suggestion on no match; exact mission hashes still work.
+
+Current cabinet evidence: `qa/quest-cabinet-results.json`, `qa/cabinet-layout-results.json`, and `qa/cabinet-final-layout-results.json`. Four browser profiles include 320px and reduced motion. This is browser emulation, not physical-device testing.

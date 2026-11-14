@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path');
+const {chromium}=require('C:/Users/amyal/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const out=path.join(__dirname,'screenshots/print-proofs');fs.mkdirSync(out,{recursive:true});
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});const page=await browser.newPage();for(const day of [1,2,3,56])for(const format of ['Letter','A4']){const slug='soul-snack-'+String(day).padStart(2,'0');await page.goto('http://127.0.0.1:8813/'+slug,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.pdf({path:path.join(out,slug+'-'+format+'.pdf'),format,preferCSSPageSize:false,printBackground:false,displayHeaderFooter:false});}await browser.close();console.log('Printed short, medium, and long readings at US Letter and A4 sizes.');})().catch(e=>{console.error(e);process.exit(1)});

@@ -44,7 +44,7 @@ function runtime(cfg){
   else if(url.origin===location.origin&&/\/(fully-family|before-the-first-mountain|the-daughter-who-stayed|beloved-first|heir-not-hired|he-sings-over-you|the-father-who-runs|the-road-out-of-moab|seconds-please|advent|table-talks-guide)(?:\.html)?$/.test(url.pathname))event('open_guide');
   else if(/(^|\.)gumroad\.com$/.test(url.hostname))event('guide_delivery_click');
  });
- document.addEventListener('toggle',e=>{if(!allowed||!e.target.open)return;if(e.target.matches('.journal-making'))event('creative_exercise_open');if(e.target.matches('[data-quest-card],.journal-joy-mission details'))event('side_quest_open');},true);
+ document.addEventListener('toggle',e=>{if(!allowed||!e.target.open)return;if(e.target.matches('.journal-making'))event('creative_exercise_open');if(e.target.matches('[data-quest-card] .quest-pocket,.journal-joy-mission details'))event('side_quest_open');},true);
  document.addEventListener('submit',e=>{const form=e.target;if(!e.defaultPrevented&&form.matches('form[data-kit-form]')&&!form.querySelector('[data-kit-hp]')?.value&&/^https:\/\/app\.kit\.com\/forms\/\d+\/subscriptions$/.test(form.action))event(form.dataset.kitForm==='newsletter'?'newsletter_submit':'guide_signup_submit');});
 }
 exports.script=(cfg,mode)=>{const x=config(cfg,mode);return x?`<script data-cs-measurement>(${runtime.toString()})(${JSON.stringify(x).replaceAll('<','\\u003c')});</script>`:'';};

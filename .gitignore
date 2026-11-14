@@ -483,3 +483,6 @@ source/**
 !source/teaching-share-pages.cjs
 !source/teaching-shelf.cjs
 !source/web-image-manifest.json
+
+!source/side-quest-cabinet.cjs
+!source/assets/31-side-quest-art/*.webp

@@ -22,7 +22,7 @@ Internal strategy and future offerings are outside this repository and the publi
 
 - `qa/refresh-results.json` records the full browser review and its findings.
 - `qa/final-polish-results.json` records the focused checks after final corrections.
-- `qa/final-results.json` consolidates the latest result for each reviewed page and browser.
+- `qa/final-results.json` consolidates an earlier review; the newer journal and cabinet reports below cover the current revisions.
 - `qa/pdf-cadence-results.json` lists the corrected PDF editions and affected pages.
 - The automated checks cover local references, valid schema JSON, 90 reading routes, library door states, Advent search, useful empty results, reading controls, private reflections, real PDF download behavior, the welcome reveal, and the actual Kit form destination.
 - Desktop Chrome, Android Chrome emulation, and iPhone WebKit emulation were used. These are not physical-phone or screen-reader-user tests.
@@ -44,3 +44,13 @@ Cloudflare Pages build command: `npm run build`. Output directory: `source/site-
 Preview the GitHub branch first. After the live checks above pass, promote the reviewed commit through the usual GitHub/Cloudflare flow. Retain the preceding successful Cloudflare deployment for rollback. Roll back if primary navigation fails, a guide delivers the wrong file, the form rejects valid input, or the public pages unexpectedly become non-indexable.
 
 No production deployment or Kit-account change was made by this design pass.
+
+## Latest cabinet, print, and visual-fit status
+
+The Side Quest page now reveals one mission at a time in a teal curiosity cabinet. Twenty-four new illustrations replace repeated lesson motifs, with matching art on journal mission interludes. Drawer filters, next/previous, surprise selection, direct links, search fallback, and private field-note downloads work across the four emulated layouts. No-JavaScript reading remains available.
+
+`qa/quest-cabinet-results.json` records all 24 mission turns in each browser profile; `qa/cabinet-layout-results.json` records 12 rendered revised-page cases, and `qa/cabinet-final-layout-results.json` checks the final cabinet spacing in three browsers. All recorded findings are empty. The whole-build reference scan covers 140 HTML files and 14,205 references.
+
+The journal print layout includes its featured Scripture and naturally paginated reflection. `qa/journal-print-results.json` records eight Letter/A4 proofs with zero missing source paragraphs and zero text outside the safe area. These representative proofs are one page each; the stylesheet permits longer content to flow onto another page.
+
+**Production readiness remains open.** Day 2 now uses identity artwork; the other devotional assignments still require an explicit content-to-illustration audit. The cabinet and new artwork also need Amy’s visual review. The live-domain, Kit, measurement, contact, and search checks above still apply. No new production deployment was made.

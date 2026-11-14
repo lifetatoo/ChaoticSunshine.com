@@ -27,3 +27,7 @@ Soul Snacks is the journal cover: choose short, medium, or long, then open a mat
 Every devotion keeps its original teaching/Scripture card and adds a painted object scene. Six creative prompt types rotate through the readings, including verse-based word hunts. These remain optional. Reflections are private, not public comments.
 
 For a local preview that runs independently of an interactive chat command, use `qa/start-preview.ps1 -SiteDirectory <absolute path to site-kit>`. It starts a hidden process on localhost port 8813 and avoids starting a second listener. `qa/check-journal-studio.cjs` verifies the current journal flow, individual artwork, mission downloads, and search metadata.
+
+The Side Quest curiosity cabinet shows one of the 24 missions at a time, with five themed drawers, previous/next, surprise selection, searchable text, and direct mission links. Its 24 dedicated illustrations are stored in four optimized atlas files in `source/assets/31-side-quest-art/`. `source/side-quest-cabinet.cjs` keeps each mission paired with its exact illustration on the cabinet and journal interludes. With JavaScript disabled, all missions remain readable. Run `qa/check-quest-cabinet.cjs` against the local preview for the focused regression checks.
+
+Journal printing uses a separate paper layout with the actual featured Scripture, full reflection, and prompts. Representative US Letter and A4 proofs are recorded in `qa/journal-print-results.json`. The remaining 90-reading illustration-meaning review is still open; day 2 was corrected to identity artwork.
