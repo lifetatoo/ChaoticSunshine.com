@@ -486,3 +486,6 @@ source/**
 
 !source/side-quest-cabinet.cjs
 !source/assets/31-side-quest-art/*.webp
+
+!source/creative-faith.cjs
+.openai/

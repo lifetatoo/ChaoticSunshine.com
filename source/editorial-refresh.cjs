@@ -22,6 +22,7 @@ const section=(content,cls='')=>`<section class="${cls}"><div class="wrap">${con
 const topicLinks=href=>`<div class="refresh-topic-grid">${topics.map(t=>`<a href="${href('/for-'+t.id)}"><strong>${esc(t.label)}</strong><small>${esc(t.meaning)}</small></a>`).join('')}</div>`;
 exports.pages=({sec,href,image,cfg})=>{
  const result={};
+ result['creative-faith']=[require('./creative-faith.cjs').title,require('./creative-faith.cjs').render({sec,href})];
  result['sunshine-mail-sample']=['Your prayer can lose the cover letter | Sunshine Mail',sec(`<p class="illustrated-letter-back"><a href="${href('/subscribe')}">← Back to Sunshine Mail</a></p>${require('./illustrated-letter.cjs').render({image,heading:'h1'})}<p class="illustrated-letter-invite"><a class="button" href="${href('/subscribe')}#sunday-letter">Send me the monthly letter →</a></p>`,'illustrated-letter-stage')];
  for(const t of topics){
   const list=posts.filter(p=>p.readerTopic===t.id);
@@ -41,6 +42,7 @@ exports.transform=(slug,body,{href,image,cfg})=>{
   body=body.replace(/<section class="home-welcome">[\s\S]*?<\/section>/,'').replace(/<section class="home-next-step">[\s\S]*?<\/section>/,'').replace(/<section class="home-discovery">[\s\S]*?<\/section>/,'');
   const front=fs.readFileSync(path.join(__dirname,'refresh-home.html'),'utf8').replace(/<a class="reader-begin"[^>]*>[\s\S]*?<\/a>/,`<a class="reader-begin" href="${href('/soul-snacks')}">Read a devotion →</a>`);
   body=front+section(tools.resume())+body;
+  body+=section(`<div class="refresh-note"><p class="eyebrow">Christian creativity &amp; creative faith</p><h2>A little Scripture. A little sketching. A place to begin.</h2><p>Explore Bible journaling, illustrated devotions, and small creative practices rooted in Scripture. A Bible, a scrap of paper, and your real questions are plenty to start with.</p><a class="button" href="${href('/creative-faith')}">Explore creative faith →</a></div>`);
   const seasonal=section(`<div class="refresh-note"><p class="eyebrow">A little help for this season</p><h2>Gratitude, with room for the tired people.</h2><p>Bring <a href="${href('/seconds-please')}">Seconds, Please — a Thanksgiving table reader</a> to the gathering. Keep <a href="${href('/advent')}">O Come, All Ye Tired — an Advent guide</a> beside your Bible as December approaches. No perfect table or peaceful house required.</p></div>`);
   // Seasonal copy expires automatically, so November never becomes a permanent homepage.
   if(new Date().getMonth()>=9)body+=seasonal;

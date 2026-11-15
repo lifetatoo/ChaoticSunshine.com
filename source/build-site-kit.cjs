@@ -243,7 +243,7 @@ function head(slug, title, body) {
 
   const share=require('./social-cards.cjs');usedAssets.add(share.get(slug).file);
 
-  return seo.head(d) + `<meta property="og:site_name" content="Chaotic Sunshine">` + share.head(slug,ROOT);
+  return seo.head(d) + `<meta property="og:site_name" content="Chaotic Sunshine">` + share.head(slug,ROOT,d);
 
 }
 
@@ -386,6 +386,12 @@ fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nDisallo
 fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${slugs.filter(s=>s!=='welcome').map(s => `  <url><loc>${ROOT}${route(s)}</loc></url>`).join('\n')}\n</urlset>\n`);
 
 
+
+// Preview builds stay out of search; the production build is unaffected.
+if (process.env.CS_STAGING === '1') {
+  fs.appendFileSync(path.join(out, '_headers'), '\n/*\n  X-Robots-Tag: noindex, nofollow\n');
+  fs.writeFileSync(path.join(out, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
+}
 
 const pending = [...Object.entries(['gumroad','direct'].includes(cfg.guideDeliveryProvider)?{}:kitForms).filter(([, v]) => !/^\d+$/.test(String(v))).map(([k]) => k), ...(/^\d+$/.test(String(cfg.kitNewsletterFormId)) ? [] : ['newsletter (kitNewsletterFormId)'])];
 

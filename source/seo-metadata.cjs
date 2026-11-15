@@ -65,7 +65,7 @@ exports.data = (slug, title, body) => {
   const lesson = teaching.items.find(entry => 'teaching-' + entry.slug === slug);
   const collection = slug==='side-quests'?['Creative Side Quests',require('./side-quests.json')]:collections[slug];
   const share = shares[slug];
-  const description = share?.description || post?.description || plain(body).slice(0, 165);
+  const description = slug==='creative-faith' ? require('./creative-faith.cjs').description : share?.description || post?.description || plain(body).slice(0, 165);
   const canonical = canonicalFor(slug);
   const image = share && { '@type': 'ImageObject', url: root + '/assets/' + share.file, width: 1200, height: 630 };
   const organization = {
