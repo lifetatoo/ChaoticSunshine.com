@@ -31,3 +31,10 @@ As of 2026-11-15. Owner approval remains required. This is the pilot branch, not
 | Cloudflare rollback | BLOCKED | Previous deployment ID, rollback exercise and approval |
 
 Do not merge or promote the draft PR without closing the P0 gates. P1/P2 entries from the 100-point audit remain a prioritized backlog, not verified defects or automatically completed actions.
+
+## Verified November 15 rendered/domain observations
+
+- Last browser CI: https://github.com/lifetatoo/ChaoticSunshine.com/actions/runs/43729226215 — 33 Chrome cases, 0 automated findings; 12 viewport screenshots. These are generated pilot screenshots, not public deployment screenshots.
+- **Artwork blocker**: the actual desktop Sunshine Mail artwork still visibly contains the retired words "SUNSHINE MAIL CLUB" on the artwork, despite the corrected alt text and surrounding prose. Replace the source WebP artwork and inspect the desktop/phone results, then rerun CI.
+- **Production routing blocker**: the external public-domain check in the same workflow returned `HTTP/2 522` for apex `https://chaoticsunshine.com/` and `HTTP/2 200` plus `x-robots-tag: noindex, nofollow` for `https://www.chaoticsunshine.com/`. This confirms that production indexing/routing is not ready at the moment checked; the pilot build itself was not deployed.
+- Cloudflare access and live Kit confirmation remain unverified. Do not confuse the successful CI run with approved launch readiness.
