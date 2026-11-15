@@ -6,7 +6,7 @@ exports.art = '29-editorial-refresh/sunshine-mail-luxury-invitation.webp';
 exports.footer=({cfg,image,href})=>`<aside class="sunshine-footer-envelope" aria-labelledby="footer-envelope-title">
  <div class="sunshine-footer-poster">
   <div class="sunshine-footer-art">${image('29-editorial-refresh/sunshine-mail-footer-envelope.webp','A dimensional gold envelope with layered cream stationery, teal paper, a gold clip, and a sunshine seal.').replace('loading="lazy"','loading="eager"')}</div>
-  <div class="sunshine-footer-letter"><p class="sunshine-footer-kicker">Sunshine Mail</p><h2 id="footer-envelope-title">Hello, lovely.</h2><p class="sunshine-footer-promise">One Sunday letter a month.<br>Faith, real life, and a little surprise.</p>${kit.render(cfg,'footer').replace('inputmode="email" required','inputmode="email" placeholder="Your email address" required')}</div>
+  <div class="sunshine-footer-letter"><p class="sunshine-footer-kicker">Sunshine Mail</p><h2 id="footer-envelope-title">Hello, lovely.</h2><p class="sunshine-footer-promise">One free digital letter a month, by email.<br>Faith, real life, and a little surprise.</p>${kit.render(cfg,'footer').replace('inputmode="email" required','inputmode="email" placeholder="Your email address" required')}</div>
  </div>
  <div class="sunshine-footer-after"><a class="sunshine-footer-peek" href="${href('/sunshine-mail-sample')}">Open an illustrated letter <span aria-hidden="true">↗</span></a><a class="sunshine-footer-privacy" href="${href('/privacy')}">Privacy</a></div>
 </aside>`;
@@ -16,11 +16,11 @@ exports.feature = ({ cfg, image, heading = 'h2', placement = 'home' }) => `
     <div class="sunshine-mail-letter sunshine-mail-intro">
       <p class="eyebrow">Sunshine Mail from Amy Grace</p>
       <${heading}>Good mail for messy days.</${heading}>
-      <p>One Sunday a month, I’ll send you a Bible passage, an honest story or question, and something small to carry into your day. Now and then a sketch sneaks into the envelope.</p>
+      <p>One Sunday a month, I’ll email you a free digital letter with a Bible passage, an honest story or question, and something small to carry into your day. Now and then a sketch sneaks into the envelope.</p>
       <p class="sunshine-mail-aside">Personal mail. Finally, something that isn’t a password reset.</p>
     </div>
     <div class="sunshine-mail-invitation">
-      <figure class="sunshine-mail-art"><picture><source media="(max-width:600px)" srcset="assets/29-editorial-refresh/sunshine-welcome-envelope.webp">${image(exports.art, 'Hello, Lovely! Sunshine Mail Club. A dimensional gold envelope with cream paper, a sunshine seal, raspberry lining, and a teal background. A monthly surprise letter for your beautifully messy life.')}</picture><figcaption class="sunshine-mobile-envelope-label"><strong>Hello, lovely.</strong><span>Your monthly little<br>ray of sunshine.</span></figcaption></figure>
+      <figure class="sunshine-mail-art"><picture><source media="(max-width:600px)" srcset="assets/29-editorial-refresh/sunshine-welcome-envelope.webp">${image(exports.art, 'Hello, Lovely! Sunshine Mail. A dimensional gold envelope with cream paper, a sunshine seal, raspberry lining, and a teal background. A monthly surprise letter for your beautifully messy life.')}</picture><figcaption class="sunshine-mobile-envelope-label"><strong>Hello, lovely.</strong><span>Your monthly little<br>ray of sunshine.</span></figcaption></figure>
       ${kit.render(cfg, placement)}
     </div>
     <p class="sunshine-mail-signoff">One letter a month. Free. Unsubscribe anytime. <a href="privacy.html">Privacy</a><span>From my messy, hopeful life to yours. Love, Amy</span></p>

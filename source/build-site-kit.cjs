@@ -36,6 +36,7 @@ const fonts = require('./font-manifest.json');
 
 const seo = require('./seo-metadata.cjs');
 const chrome = require('./site-chrome.cjs');
+const brandTokens = require('./brand-tokens.cjs');
 const sunshineMail = require('./sunshine-mail.cjs');
 const refresh = require('./editorial-refresh.cjs');
 
@@ -247,7 +248,7 @@ function head(slug, title, body) {
 
 }
 
-const ASSET_VERSION=require('crypto').createHash('sha256').update(css+chrome.css+fs.readFileSync(path.join(base,'brand-polish.css'),'utf8')+fs.readFileSync(path.join(assets,'29-editorial-refresh/reader-delight.js'),'utf8')).digest('hex').slice(0,12);
+const ASSET_VERSION=require('crypto').createHash('sha256').update(css+chrome.css+brandTokens.css+fs.readFileSync(path.join(base,'brand-polish.css'),'utf8')+fs.readFileSync(path.join(assets,'29-editorial-refresh/reader-delight.js'),'utf8')).digest('hex').slice(0,12);
 function page(slug, title, body, extraHead = '') {
 
   const main = seo.breadcrumbs(slug,title,href) + body + (cfg.feedback?.enabled ? require('./feedback.cjs').render({cfg,page:slug}) : '');
@@ -304,7 +305,7 @@ prefix = '';
 
 fs.mkdirSync(path.join(out, 'assets/css'), { recursive: true });
 
-css += chrome.css + fs.readFileSync(path.join(base,'brand-polish.css'),'utf8');
+css += chrome.css + fs.readFileSync(path.join(base,'brand-polish.css'),'utf8') + brandTokens.css;
 fs.writeFileSync(path.join(out, 'assets/css/site.css'), css);
 
 // Copy only assets the finished pages and stylesheet actually reference.

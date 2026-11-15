@@ -54,3 +54,11 @@ The Side Quest page now reveals one mission at a time in a teal curiosity cabine
 The journal print layout includes its featured Scripture and naturally paginated reflection. `qa/journal-print-results.json` records eight Letter/A4 proofs with zero missing source paragraphs and zero text outside the safe area. These representative proofs are one page each; the stylesheet permits longer content to flow onto another page.
 
 **Production readiness remains open.** Day 2 now uses identity artwork; the other devotional assignments still require an explicit content-to-illustration audit. The cabinet and new artwork also need Amy’s visual review. The live-domain, Kit, measurement, contact, and search checks above still apply. No new production deployment was made.
+
+## November 15, 2026 — controlled quality pass (review branch only)
+
+This change introduces the shared semantic jewel-tone token registry, routes existing base and final CSS variables through it, explicitly describes Sunshine Mail as a free *digital email* letter, and removes the retired “Mail Club” from its HTML alt text. It adds portable build-level source/asset regression checks and a 90-reading illustration review queue. No Cloudflare or Kit settings are changed.
+
+**Do not declare production ready on the basis of these source changes.** Before promotion, the following are still required: a versioned Cloudflare preview of this exact SHA; owner visual approval on phone and desktop; human meaning/Scripture review of all 90 illustrations; real subscribed-recipient confirmation, welcome and unsubscribe test through Kit; live verification of all 21 PDF URLs; domain redirects, apex/www status, robots and canonical checks; an owner-provided GA4/Search Console setup; confirmed public support contact; and rollback drills. The PR intentionally remains draft.
+
+The basic static checker is `node qa/check-launch-static.cjs` after `npm run build`. Its successful result covers only the source and local generated files, not external services, product decisions or real-device usability.
