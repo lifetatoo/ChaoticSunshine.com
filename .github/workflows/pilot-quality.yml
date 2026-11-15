@@ -25,6 +25,14 @@ jobs:
         run: npm install --no-save --no-package-lock playwright@1.56.1 axe-core@4.10.3
       - name: Verify actual page layout and accessibility
         run: node qa/check-browser-ci.cjs
+      - name: Observe public domain status without changing production
+        if: always()
+        shell: bash
+        run: |
+          for host in https://chaoticsunshine.com/ https://www.chaoticsunshine.com/; do
+            echo "DOMAIN_CHECK $host"
+            curl --connect-timeout 6 --max-time 12 -sSI -L "$host" | grep -Ei '^(HTTP/|location:|x-robots-tag:|server:|cache-control:)' | tail -15 || true
+          done
       - name: Save rendered visual review screenshots
         if: always()
         uses: actions/upload-artifact@v4

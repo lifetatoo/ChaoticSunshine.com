@@ -71,3 +71,8 @@ The shared navigation has been moved outside the header's height-limited paper b
 ### Cross-browser rendered review pass (added November 15)
 
 `qa/check-browser-ci.cjs` runs actual Chrome at desktop 1440px and phone 390px/320px widths against the generated site, checking loaded page status, document overflow, broken images, persistent navigation after scroll, JavaScript exceptions, and WCAG 2/2.1 A/AA automated accessibility findings. Screenshot artifacts include the homepage, journal, free library, Side Quests, and Sunshine Mail; the CI run also embeds compact screenshot previews in its job log. These checks do not substitute for in-person mobile tests, real account integrations, manual alt-text / semantics review, or deployment QA.
+
+
+### November 15 evidence register
+
+See qa/LAUNCH-STATUS.md for objective QA evidence and remaining launch-blocking owner/account/device checks. The CI workflow now observes public domain headers as informational only and retains screenshots. Neither CI nor static source verification authorizes production promotion.

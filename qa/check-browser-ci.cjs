@@ -65,7 +65,7 @@ const server=http.createServer((req,res)=>{
  }
  await browser.close();
  // Dump two compact browser screenshots into the job log for visual examination.
- for(const name of ['index-desktop.jpg','subscribe-mobile.jpg']){
+ for(const name of ['subscribe-desktop.jpg','side-quests-mobile.jpg','freebies-desktop.jpg','soul-snack-02-mobile.jpg']){
    const file=path.join(screenshots,name);
    if(fs.existsSync(file)){
      const data=fs.readFileSync(file).toString('base64');
