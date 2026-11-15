@@ -21,3 +21,15 @@ jobs:
         run: npm run build
       - name: Validate navigation, metadata, assets, newsletters and guide outputs
         run: npm run test:static
+      - name: Install headless browser test libraries
+        run: npm install --no-save --no-package-lock playwright@1.56.1 axe-core@4.10.3
+      - name: Verify actual page layout and accessibility
+        run: node qa/check-browser-ci.cjs
+      - name: Save rendered visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaotic-sunshine-visual-qa
+          path: qa/screenshots-ci
+          if-no-files-found: warn
+          retention-days: 7

@@ -66,3 +66,8 @@ The basic static checker is `node qa/check-launch-static.cjs` after `npm run bui
 ### Subsequent QA and navigation follow-up
 
 The shared navigation has been moved outside the header's height-limited paper banner so it can remain a sticky horizontal bar while the reader scrolls. Narrow phones can horizontally scroll all destinations; links are never replaced by an opaque drawer. The portable CI check is `npm run test:static`; a separate GitHub Actions workflow builds the exact committed candidate before running that check. CI passing does not establish the hosted domain, email-provider path, user consent configuration, actual mobile ergonomics, or theological and art-direction approval.
+
+
+### Cross-browser rendered review pass (added November 15)
+
+`qa/check-browser-ci.cjs` runs actual Chrome at desktop 1440px and phone 390px/320px widths against the generated site, checking loaded page status, document overflow, broken images, persistent navigation after scroll, JavaScript exceptions, and WCAG 2/2.1 A/AA automated accessibility findings. Screenshot artifacts include the homepage, journal, free library, Side Quests, and Sunshine Mail; the CI run also embeds compact screenshot previews in its job log. These checks do not substitute for in-person mobile tests, real account integrations, manual alt-text / semantics review, or deployment QA.
