@@ -76,3 +76,8 @@ The shared navigation has been moved outside the header's height-limited paper b
 ### November 15 evidence register
 
 See qa/LAUNCH-STATUS.md for objective QA evidence and remaining launch-blocking owner/account/device checks. The CI workflow now observes public domain headers as informational only and retains screenshots. Neither CI nor static source verification authorizes production promotion.
+
+
+### November 15 latest domain/artwork evidence
+
+The CI screenshot exposed the old **SUNSHINE MAIL CLUB** label embedded in the desktop hero image, despite updated alt text and HTML. The CI domain probe reported apex HTTP 522 and www HTTP 200 with an X-Robots-Tag noindex/nofollow. **Neither issue is closed.** See qa/LAUNCH-STATUS.md.
