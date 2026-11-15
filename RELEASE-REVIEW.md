@@ -62,3 +62,7 @@ This change introduces the shared semantic jewel-tone token registry, routes exi
 **Do not declare production ready on the basis of these source changes.** Before promotion, the following are still required: a versioned Cloudflare preview of this exact SHA; owner visual approval on phone and desktop; human meaning/Scripture review of all 90 illustrations; real subscribed-recipient confirmation, welcome and unsubscribe test through Kit; live verification of all 21 PDF URLs; domain redirects, apex/www status, robots and canonical checks; an owner-provided GA4/Search Console setup; confirmed public support contact; and rollback drills. The PR intentionally remains draft.
 
 The basic static checker is `node qa/check-launch-static.cjs` after `npm run build`. Its successful result covers only the source and local generated files, not external services, product decisions or real-device usability.
+
+### Subsequent QA and navigation follow-up
+
+The shared navigation has been moved outside the header's height-limited paper banner so it can remain a sticky horizontal bar while the reader scrolls. Narrow phones can horizontally scroll all destinations; links are never replaced by an opaque drawer. The portable CI check is `npm run test:static`; a separate GitHub Actions workflow builds the exact committed candidate before running that check. CI passing does not establish the hosted domain, email-provider path, user consent configuration, actual mobile ergonomics, or theological and art-direction approval.

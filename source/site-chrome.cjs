@@ -28,11 +28,11 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
       <div class="wrap masthead-paper">
         <a class="brand-home" href="${home}" aria-label="Chaotic Sunshine home">${mark()}</a>
         <p class="masthead-note">An illustrated faith journal <span>&amp; a little free digital library</span></p>
-        <nav class="masthead-nav" aria-label="Main navigation">${nav}
-          <a class="masthead-mail" href="${mailLink}">${envelope} Get the monthly letter</a>
-        </nav>
       </div>
     </header>
+    <nav class="masthead-nav" aria-label="Main navigation">${nav}
+      <a class="masthead-mail" href="${mailLink}">${envelope} Get the monthly letter</a>
+    </nav>
     <main id="cs-main">${main}</main>
     <footer id="site-footer" class="editorial-footer">
       <div class="footer-collage-note"><p>Bring the day you have.</p><strong>Take a little hope home.</strong><span>A little chaos. A lot of grace.</span></div>

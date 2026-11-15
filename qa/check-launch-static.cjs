@@ -31,6 +31,9 @@ for(const file of pages){
  check(!html.includes('kit-form.invalid'),file+': unresolved kit-form marker');
 }
 const front=read('index.html'), sub=read('subscribe.html');
+check(/<\/header>\s*<nav class="masthead-nav" aria-label="Main navigation">/.test(front),'Header menu must be an independent sticky bar below the banner');
+check(css.includes('position:sticky;top:0') && css.includes('overflow-x:auto'),'Responsive persistent navigation styling missing');
+
 for(const [file,html] of [['index',front],['subscribe',sub]]){
  check(html.includes('10182939/subscriptions'),file+': missing configured newsletter action');
  check(html.includes('free digital letter')||html.includes('free monthly digital letter'),file+': no explanation that Sunshine Mail is digital');

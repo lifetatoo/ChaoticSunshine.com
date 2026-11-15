@@ -4,13 +4,13 @@ An illustrated faith journal and a little free digital library by Amy Grace.
 
 The maintained website source is in `source/`. The public build preserves 90 devotions, 11 guides with 21 PDF editions, the original teaching illustrations, interactive library doors, saved readings, and the nine reader paths. The November 13 refresh integrates the approved jewel-tone editorial collage and dimensional Sunshine Mail envelope.
 
-Build with Node.js 22 or newer:
+Build with Node.js 22 or newer (do not deploy until the separate real-world release checks pass):
 
 ```
 npm run build
 ```
 
-For Cloudflare Pages, use `npm run build` as the build command and `source/site-kit` as the output directory. Only that generated directory is the public website. Keep the source, QA results, original manuscript extracts, working catalog exports, and setup notes outside the deployment directory.
+Run `npm run test:static` on a generated build for portable source, navigation, asset, metadata, form-configuration, and PDF-presence checks. This is also required by `.github/workflows/pilot-quality.yml`. The full Playwright audit remains `npm test` in the locally provisioned browser environment; neither script sends a live Kit subscription or replaces physical-device or human visual inspection. The menu is now a narrow, persistent, horizontally scrollable bar immediately below the illustrated masthead, not a drawer.\n\nFor Cloudflare Pages, use `npm run build` as the build command and `source/site-kit` as the output directory. Only that generated directory is the public website. Keep the source, QA results, original manuscript extracts, working catalog exports, and setup notes outside the deployment directory.
 
 The build has no npm runtime dependencies. Artwork, fonts, search data, share cards, and downloadable PDFs are local files. The current source catalog contains the file paths and fingerprints for the actual distributed editions.
 

@@ -41,6 +41,46 @@ exports.css=`.cs{
 .cs main :is(.reading,.devotion-reading,.journal-text-page){
   overflow-wrap:break-word;
 }
+
+/* One persistent menu below the art banner; scrolls horizontally at narrow widths.
+   Never hide the destinations behind a drawer. The nav lives directly inside .cs so
+   position:sticky is not constrained by the height of the masthead itself. */
+.cs > .masthead-nav{
+  position:sticky;top:0;z-index:90;
+  display:flex;align-items:center;justify-content:center;flex-wrap:nowrap;
+  gap:clamp(12px,1.5vw,24px);
+  width:100%;max-width:none;margin:0;
+  padding:5px 18px;
+  color:var(--cs-ink);background:var(--cs-paper);
+  border-top:1px solid #E6D4A5;border-bottom:2px solid var(--cs-gold);
+  box-shadow:0 3px 12px #173C4619;
+  overflow-x:auto;overscroll-behavior-x:contain;
+  scrollbar-width:thin;scrollbar-color:var(--cs-gold) transparent;
+}
+.cs > .masthead-nav a{
+  display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+  min-height:44px;padding:6px 2px;
+  color:var(--cs-ink);
+  font:700 clamp(13px,1vw,15px)/1.25 var(--cs-font-reading);
+  text-decoration:none;white-space:nowrap;
+}
+.cs > .masthead-nav a:is(:hover,[aria-current="page"]){
+  color:var(--cs-burgundy);text-decoration:underline;
+  text-underline-offset:5px;text-decoration-thickness:2px;
+}
+.cs > .masthead-nav .masthead-mail{
+  padding:7px 13px;background:var(--cs-gold);color:var(--cs-reading-ink);
+  transform:none;box-shadow:2px 2px 0 #7A1F4B26;
+}
+.cs #sunday-letter,.cs #journal,.cs .site-crumbs {scroll-margin-top:82px;}
+@media(max-width:920px){
+ .cs > .masthead-nav{justify-content:flex-start;gap:16px;padding-inline:16px;}
+}
+@media(max-width:600px){
+ .cs > .masthead-nav{gap:14px;padding:3px 12px;}
+ .cs > .masthead-nav a{min-height:44px;font-size:13px;}
+ .cs > .masthead-nav .masthead-mail{padding:6px 10px;}
+}
 @media(prefers-reduced-motion:reduce){
   .cs :is(.sunshine-mail-invitation,.sunshine-mail-art,.reader-journal-collage){
     animation:none!important;

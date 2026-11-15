@@ -38,7 +38,7 @@ function card(g){return `<article class="card">${image(guideArt(g),g[1])}<h3>${g
 function page(slug,title,body){
   const chrome=require('./site-chrome.cjs');
   const main=seo.breadcrumbs(slug,title,href)+body+require('./feedback.cjs').render({cfg,page:slug});
-  return `<style>${css}${require('./palette-balance.cjs').texture(mode)}${chrome.css}</style>`+chrome.render({href,image,cfg,slug,mode,main});
+  return `<style>${css}${require('./palette-balance.cjs').texture(mode)}${chrome.css}${require('./brand-tokens.cjs').css}</style>`+chrome.render({href,image,cfg,slug,mode,main});
 }
 
 function originalBodies(){let p={};

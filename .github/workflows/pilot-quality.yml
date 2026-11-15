@@ -1,0 +1,23 @@
+name: Pilot source and download QA
+on:
+  pull_request:
+  push:
+    branches:
+      - design/illustrated-launch-review-2026-11-13
+  workflow_dispatch:
+jobs:
+  source-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out pilot
+        uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate Cloudflare static site
+        run: npm run build
+      - name: Validate navigation, metadata, assets, newsletters and guide outputs
+        run: npm run test:static

@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node source/build-site-kit.cjs",
-    "test": "node qa/check-refresh.cjs"
+    "test": "node qa/check-refresh.cjs",
+    "test:static": "node qa/check-launch-static.cjs"
   }
 }
