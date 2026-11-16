@@ -45,6 +45,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chaotic-sunshine-visual-qa
-          path: |\n            qa/screenshots-ci\n            qa/user-journey-results.json
+          path: |
+            qa/screenshots-ci
+            qa/user-journey-results.json
           if-no-files-found: warn
           retention-days: 7
