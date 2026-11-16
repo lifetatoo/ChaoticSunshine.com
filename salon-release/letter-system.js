@@ -10,12 +10,12 @@ bind=function(route){bindBeforePostal(route);if(route!=='welcome')return;
  const folio=document.querySelector('.postal-folio'),toggle=document.querySelector('#postal-toggle'),reader=document.querySelector('#letter-reader'),status=document.querySelector('#postal-status'),dialog=document.querySelector('#sunshine-letter-dialog');let timer;
  const reduce=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
  function setOpen(open){clearTimeout(timer);folio.classList.toggle('postal-open',open);toggle.setAttribute('aria-expanded',String(open));toggle.innerHTML=open?'Tuck your letter away <span aria-hidden="true">↙</span>':'Open your letter <span aria-hidden="true">↗</span>';reader.inert=!open;status.textContent=open?'Your letter is open. Settle in.':currentLetter.title+' · waiting inside';
- if(open){timer=setTimeout(()=>{document.querySelector('#letter-reader-title').focus({preventScroll:true});reader.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'start'});},reduce()?0:720);}else{toggle.focus({preventScroll:true});toggle.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'center'});}}
+ if(open){const focusAtOpen=document.activeElement;timer=setTimeout(()=>{if(!folio.isConnected||!folio.classList.contains('postal-open')||dialog.open||document.activeElement!==focusAtOpen)return;document.querySelector('#letter-reader-title').focus({preventScroll:true});reader.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'start'});},reduce()?0:720);}else{toggle.focus({preventScroll:true});toggle.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'center'});}}
  toggle.onclick=()=>setOpen(toggle.getAttribute('aria-expanded')!=='true');document.querySelector('#letter-return').onclick=()=>setOpen(false);
  const art=document.querySelector('#letter-art-view'),text=document.querySelector('#letter-text-view'),artTab=document.querySelector('#letter-art-tab'),textTab=document.querySelector('#letter-text-tab'),transcript=document.querySelector('.letter-transcript');
  function setText(on){art.hidden=on;text.hidden=!on;transcript.hidden=on;artTab.setAttribute('aria-pressed',String(!on));textTab.setAttribute('aria-pressed',String(on));}
- artTab.onclick=()=>setText(false);textTab.onclick=()=>setText(true);
- document.querySelector('#letter-expand').onclick=()=>{dialog.showModal();document.querySelector('#letter-dialog-close').focus();};
+ artTab.onclick=()=>{clearTimeout(timer);setText(false);};textTab.onclick=()=>{clearTimeout(timer);setText(true);};if(matchMedia('(max-width:620px)').matches)setText(true);
+ document.querySelector('#letter-expand').onclick=()=>{clearTimeout(timer);dialog.showModal();document.querySelector('#letter-dialog-close').focus();};
  document.querySelector('#letter-dialog-close').onclick=()=>dialog.close();dialog.addEventListener('close',()=>document.querySelector('#letter-expand').focus({preventScroll:true}));
  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
  document.querySelector('#letter-print').onclick=()=>window.print();

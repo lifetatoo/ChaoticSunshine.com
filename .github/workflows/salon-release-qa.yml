@@ -1,0 +1,34 @@
+name: Salon release checks
+on:
+  pull_request:
+  push:
+    branches: [salon-release-2026-11-15]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        profile: [production, staging]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Build and check production export
+        if: matrix.profile == 'production'
+        run: |
+          npm run build
+          npm test
+      - name: Build and check private staging export
+        if: matrix.profile == 'staging'
+        env:
+          CS_STAGING: '1'
+        run: |
+          npm run build:staging
+          npm test
