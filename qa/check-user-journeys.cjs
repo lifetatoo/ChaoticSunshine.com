@@ -41,7 +41,7 @@ async function main(){
    await page.locator('#phone-pages-close').click();
    assert.equal(await page.locator('#phone-pages').evaluate(e=>e.open),false);
   } else assert.ok(await page.locator('.permanent-menu a').count()>=8);
-  await page.locator('a[href="freebies.html"]').first().click();
+  await page.locator(profile.width<=620?'.phone-tab-bar a[href="freebies.html"]':'.permanent-menu a[href="freebies.html"]').click();
   assert.ok(page.url().endsWith('/freebies.html'));
  });
  add('U02','Devotional reader and next-page navigation',async(page)=>{
@@ -196,6 +196,7 @@ async function main(){
   contexts.push(context);
   for(const sc of scenarios){
    const page=await context.newPage(),errs=[];
+   page.setDefaultTimeout(9000);
    page.on('pageerror',e=>errs.push(e.message));
    try{
     await sc.fn(page,p);
