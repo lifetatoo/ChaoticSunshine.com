@@ -2,8 +2,11 @@
   "name": "chaotic-sunshine-website",
   "private": true,
   "scripts": {
-    "build": "node source/build-site-kit.cjs",
-    "test": "node qa/check-refresh.cjs",
-    "test:static": "node qa/check-launch-static.cjs"
+    "build": "node salon-release/build.cjs",
+    "test": "node qa/check-launch.cjs",
+    "test:legacy-browser": "node qa/check-refresh.cjs",
+    "build:staging": "node qa/build-staging.cjs",
+    "test:static": "node qa/check-launch-static.cjs",
+    "test:ci": "npm test && npm run test:static"
   }
 }

@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - design/illustrated-launch-review-2026-11-13
+      - integration/chaotic-sunshine-2026-11-16
   workflow_dispatch:
 jobs:
   source-build:
@@ -20,11 +21,15 @@ jobs:
       - name: Generate Cloudflare static site
         run: npm run build
       - name: Validate navigation, metadata, assets, newsletters and guide outputs
-        run: npm run test:static
+        run: npm run test:ci
       - name: Install headless browser test libraries
         run: npm install --no-save --no-package-lock playwright@1.56.1 axe-core@4.10.3
       - name: Verify actual page layout and accessibility
         run: node qa/check-browser-ci.cjs
+      - name: Verify review build indexing isolation
+        run: |
+          npm run build:staging
+          CS_STAGING=1 npm test
       - name: Observe public domain status without changing production
         if: always()
         shell: bash

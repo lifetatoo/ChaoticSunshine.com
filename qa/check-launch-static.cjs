@@ -31,12 +31,14 @@ for(const file of pages){
  check(!html.includes('kit-form.invalid'),file+': unresolved kit-form marker');
 }
 const front=read('index.html'), sub=read('subscribe.html');
-check(/<\/header>\s*<nav class="masthead-nav" aria-label="Main navigation">/.test(front),'Header menu must be an independent sticky bar below the banner');
-check(css.includes('position:sticky;top:0') && css.includes('overflow-x:auto'),'Responsive persistent navigation styling missing');
+check(front.includes('class="permanent-menu"'),'Missing the salon persistent desktop menu');
+check(fs.existsSync(path.join(site,'mobile-navigation.css')) && fs.existsSync(path.join(site,'site-navigation.js')),'Missing phone navigation assets');
+const phoneCSS=read('mobile-navigation.css');
+check(phoneCSS.includes('.phone-tab-bar') && phoneCSS.includes('position:fixed'),'Phone bottom navigation is not defined');
 
 for(const [file,html] of [['index',front],['subscribe',sub]]){
- check(html.includes('10182939/subscriptions'),file+': missing configured newsletter action');
- check(html.includes('free digital letter')||html.includes('free monthly digital letter'),file+': no explanation that Sunshine Mail is digital');
+check(html.includes('10182939/subscriptions') || read('app.js').includes('10182939/subscriptions'),file+': missing configured newsletter action');
+check(/Sunshine Mail/i.test(html),'Missing named Sunshine Mail invitation');
 }
 const guides=fs.readdirSync(path.join(site,'guides')).filter(n=>n.endsWith('.pdf'));
 check(guides.length>=21,'Expected 21 PDFs, found '+guides.length);

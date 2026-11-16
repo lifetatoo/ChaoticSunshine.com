@@ -41,19 +41,28 @@ const server=http.createServer((req,res)=>{
    await page.evaluate(()=>document.fonts.ready);
    await page.addScriptTag({content:axe});
    const state=await page.evaluate(async()=>{
-    const nav=document.querySelector('.cs > nav.masthead-nav');
+    const onPhone=innerWidth<=620;
+    const nav=document.querySelector(onPhone?'.phone-tab-bar':'.permanent-menu');
+    const navVisible=!!nav && getComputedStyle(nav).display!=='none';
     const a=(await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}})).violations;
-    return {overflow:document.documentElement.scrollWidth>innerWidth+2,brokenImages:[...document.images].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')),nav:!!nav,navLinks:nav?.querySelectorAll('a').length||0,violations:a.map(v=>({id:v.id,impact:v.impact,targets:v.nodes.slice(0,6).map(n=>n.target)}))};
+    return {overflow:document.documentElement.scrollWidth>innerWidth+2,brokenImages:[...document.images].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')),nav:navVisible,navLinks:nav?.querySelectorAll('a').length||0,violations:a.map(v=>({id:v.id,impact:v.impact,targets:v.nodes.slice(0,6).map(n=>n.target)}))};
    });
    const caseResult={slug,profile:profile.key,status:response?.status(),...state,jsErrors:[...errors]};
    report.pages.push(caseResult);
-   if(caseResult.status!==200||caseResult.overflow||caseResult.brokenImages.length||!caseResult.nav||caseResult.navLinks<7||caseResult.jsErrors.length||caseResult.violations.length)report.findings.push(caseResult);
-   if(slug==='index'){
+   if(caseResult.status!==200||caseResult.overflow||caseResult.brokenImages.length||!caseResult.nav||caseResult.navLinks<(profile.width<=620?4:8)||caseResult.jsErrors.length||caseResult.violations.length)report.findings.push(caseResult);
+   if(slug==='index' && profile.key==='desktop'){
     await page.evaluate(()=>window.scrollTo(0,1000));
     await page.waitForTimeout(150);
-    const stickyY=await page.locator('.cs > nav.masthead-nav').evaluate(el=>el.getBoundingClientRect().top);
+    const stickyY=await page.locator('.permanent-menu').evaluate(el=>el.getBoundingClientRect().top);
     if(Math.abs(stickyY)>3)report.findings.push({slug,profile:profile.key,error:'Navigation is not sticky after scrolling',stickyY});
     await page.evaluate(()=>window.scrollTo(0,0));
+   }
+   if(slug==='index' && profile.width<=620){
+    const dock=await page.locator('.phone-tab-bar').evaluate(el=>({position:getComputedStyle(el).position,bottom:Math.round(innerHeight-el.getBoundingClientRect().bottom)}));
+    if(dock.position!=='fixed'||Math.abs(dock.bottom)>3)report.findings.push({slug,profile:profile.key,error:'Bottom navigation not fixed to screen',dock});
+    await page.locator('#phone-more').click();
+    if(!(await page.locator('#phone-pages').evaluate(el=>el.open)))report.findings.push({slug,profile:profile.key,error:'More menu did not open'});
+    await page.locator('#phone-pages-close').click();
    }
    if((profile.key!=='tiny'&&['index','subscribe','freebies','side-quests','soul-snacks','soul-snack-02'].includes(slug))){
     const file=slug+'-'+profile.key+'.jpg';

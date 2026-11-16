@@ -31,8 +31,8 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
       </div>
     </header>
     <nav class="masthead-nav" aria-label="Main navigation">${nav}
-      <a class="masthead-mail" href="${mailLink}">${envelope} Get the monthly letter</a>
-    </nav>
+          <a class="masthead-mail" href="${mailLink}">${envelope} Get the monthly letter</a>
+        </nav>
     <main id="cs-main">${main}</main>
     <footer id="site-footer" class="editorial-footer">
       <div class="footer-collage-note"><p>Bring the day you have.</p><strong>Take a little hope home.</strong><span>A little chaos. A lot of grace.</span></div>
@@ -44,7 +44,7 @@ exports.render = ({ href, image, cfg, slug, mode, main }) => {
         </div>
         <nav class="footer-index" aria-label="Footer navigation">
           <p>Find your page</p>
-          ${nav}<a href="${href('/scripture-index')}">Scripture Index</a>
+          ${nav}<a href="${href('/creative-faith')}">Christian Creativity</a><a href="${href('/scripture-index')}">Scripture Index</a>
         </nav>
         ${signup}
       </div>

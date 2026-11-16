@@ -31,3 +31,11 @@ For a local preview that runs independently of an interactive chat command, use 
 The Side Quest curiosity cabinet shows one of the 24 missions at a time, with five themed drawers, previous/next, surprise selection, searchable text, and direct mission links. Its 24 dedicated illustrations are stored in four optimized atlas files in `source/assets/31-side-quest-art/`. `source/side-quest-cabinet.cjs` keeps each mission paired with its exact illustration on the cabinet and journal interludes. With JavaScript disabled, all missions remain readable. Run `qa/check-quest-cabinet.cjs` against the local preview for the focused regression checks.
 
 Journal printing uses a separate paper layout with the actual featured Scripture, full reflection, and prompts. Representative US Letter and A4 proofs are recorded in `qa/journal-print-results.json`. The remaining 90-reading illustration-meaning review is still open; day 2 was corrected to identity artwork.
+
+## Unified release candidate (November 16, 2026)
+
+The `integration/chaotic-sunshine-2026-11-16` branch integrates the 145-page salon presentation and phone bottom navigation with the latest shared brand tokens, content audits, illustration-review queue, metadata fixes and portable QA. The original two branches remain unchanged.
+
+The maintained source library stays in `source/`; `salon-release/` is the presentation and interactive experience. The authoritative production command is `npm run build` (runs `salon-release/build.cjs`), and the **only** Cloudflare Pages output directory is `source/site-kit`. Do not deploy the repository root, `salon-release/prerendered` or the underlying content build alone. Run `npm run test:ci` after a production build; the GitHub Actions workflow also tests responsive rendering and accessibility. `npm run build:staging` creates a deliberately non-indexable review output.
+
+This is a **release candidate**, not an authorization to deploy to `main`: complete hosted preview, real Kit confirmation/delivery, public DNS/SEO verification, iPhone and editorial review, support, analytics and rollback acceptance before production promotion.
