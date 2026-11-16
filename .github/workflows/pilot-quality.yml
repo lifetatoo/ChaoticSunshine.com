@@ -26,6 +26,8 @@ jobs:
         run: npm install --no-save --no-package-lock playwright@1.56.1 axe-core@4.10.3
       - name: Verify actual page layout and accessibility
         run: node qa/check-browser-ci.cjs
+      - name: Exercise end-to-end user journeys without sending live Kit emails
+        run: node qa/check-user-journeys.cjs
       - name: Verify review build indexing isolation
         run: |
           npm run build:staging
@@ -43,6 +45,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chaotic-sunshine-visual-qa
-          path: qa/screenshots-ci
+          path: |\n            qa/screenshots-ci\n            qa/user-journey-results.json
           if-no-files-found: warn
           retention-days: 7
