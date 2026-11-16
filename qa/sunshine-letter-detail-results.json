@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-14T01:54:03.434Z",
+  "checks": [
+    {
+      "profile": "desktop",
+      "footer": {
+        "frameWidth": 456.703125,
+        "frameHeight": 685.046875,
+        "formLeft": 77.625,
+        "formRight": 379.078125,
+        "formBottom": 401.15625,
+        "fieldHeight": 48,
+        "buttonHeight": 48
+      },
+      "letterTextPreserved": true,
+      "inlineReadingFont": 20,
+      "axeViolations": 0
+    },
+    {
+      "profile": "android",
+      "footer": {
+        "frameWidth": 362.5625,
+        "frameHeight": 543.84375,
+        "formLeft": 61.625,
+        "formRight": 300.9375,
+        "formBottom": 356.78125,
+        "fieldHeight": 48,
+        "buttonHeight": 48
+      },
+      "letterTextPreserved": true,
+      "inlineReadingFont": 19,
+      "axeViolations": 0
+    },
+    {
+      "profile": "iphone",
+      "footer": {
+        "frameWidth": 343.21875,
+        "frameHeight": 514.828125,
+        "formLeft": 58.34375,
+        "formRight": 284.875,
+        "formBottom": 349.3125,
+        "fieldHeight": 48,
+        "buttonHeight": 48
+      },
+      "letterTextPreserved": true,
+      "inlineReadingFont": 19,
+      "axeViolations": 0
+    },
+    {
+      "profile": "small-phone",
+      "footer": {
+        "frameWidth": 281.625,
+        "frameHeight": 500,
+        "formLeft": 42.234375,
+        "formRight": 239.390625,
+        "formBottom": 352.375,
+        "fieldHeight": 46,
+        "buttonHeight": 46
+      },
+      "letterTextPreserved": true,
+      "inlineReadingFont": 19,
+      "axeViolations": 0
+    }
+  ]
+}
