@@ -45,7 +45,7 @@ check(guides.length>=21,'Expected 21 PDFs, found '+guides.length);
 const resources=require('../source/guide-resources.json');
 for(const [slug,r] of Object.entries(resources)){
   const html=read(slug+'.html');
-  const label=r.downloads.length>1?'Print white-paper PDF':'Open PDF to print';
+  const label=r.printWhite===true&&r.downloads.length>1?'Print white-paper PDF':r.downloads.length>1?'Print-friendly PDF':'Open illustrated PDF to print';
   check(html.includes('cs-guide-print-panel'),slug+': no print/download panel');
   check(html.includes(label),slug+': wrong or missing print label');
   check(html.includes('guides/'+slug+'.pdf'),slug+': illustrated download missing');
