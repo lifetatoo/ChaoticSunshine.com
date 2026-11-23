@@ -377,6 +377,19 @@ for (const [slug, r] of Object.entries(resources)) {
 
   }
 
+  // A guide may additionally offer a worksheet-only printing edition. Never
+  // show a print-sheets action unless the source file is present and copied.
+  if (r.printSheets?.file) {
+    const filename = r.printSheets.file;
+    if (!/^[A-Za-z0-9_.-]+\.pdf$/.test(filename)) throw Error('Unsafe printSheets filename: ' + slug);
+    const src = path.join(base, 'covered-guides', filename);
+    if (!fs.existsSync(src)) throw Error('Missing worksheet print PDF for ' + slug + ': ' + filename);
+    const rel = 'guides/' + slug + '-sheets.pdf';
+    fs.mkdirSync(path.dirname(path.join(out, rel)), {recursive:true});
+    fs.copyFileSync(src, path.join(out,rel));
+    guideMap.push({slug,title:guideTitle(slug),gated:!ungated.has(slug),kind:'sheets',path:'/'+rel,url:ROOT+'/'+rel,source:path.relative(base,src).split(path.sep).join('/'),pages:r.printSheets.pages,present:true});
+  }
+
 }
 
 fs.mkdirSync(path.join(base, 'priority-checks'), { recursive: true });
