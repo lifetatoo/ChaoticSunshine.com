@@ -32,3 +32,109 @@ body:before{opacity:.055;z-index:0}body{font-size:18px}main,header,footer,.revie
 
 @media(max-width:700px){.permanent-menu a{min-height:44px}}
 @media(max-width:360px){.mail-scene h1{font-size:42px}.mail-scene h1 .marker{font-size:.78em}}
+
+
+/* Teaching Shelf: tactile, legible LEATHER book spines, not flat colored buttons.
+   Uses existing velvet artwork as a low-contrast grain; live text/buttons stay accessible. */
+.teaching-room .book-stack{filter:drop-shadow(0 12px 15px #19373122)}
+.teaching-room .book-spine{
+  --hide:#65345f;
+  --shine:#a56b91;
+  background:
+    radial-gradient(ellipse 95% 175% at 6% 5%,#ffffff30,transparent 52%),
+    radial-gradient(ellipse 78% 170% at 87% 107%,#050b1480,transparent 74%),
+    repeating-linear-gradient(90deg,transparent 0 3px,#ffffff08 4px 5px,transparent 6px 14px),
+    linear-gradient(172deg,var(--shine) -140%,var(--hide) 40%,#111629 160%);
+  border:1px solid #30253a;
+  border-left:14px solid #2f2732;
+  border-right:10px solid #e6d3b0;
+  border-radius:3px 8px 7px 3px;
+  box-shadow:
+    inset 1px 0 0 #f8d7897a,
+    inset 5px 0 0 #0f1a213b,
+    inset -2px 0 0 #fff3cb85,
+    inset 0 3px 0 #fff6d71a,
+    inset 0 -3px 0 #080b174d,
+    2px 3px 0 #24312e,
+    4px 7px 8px #1e393b55;
+  min-height:70px;
+  padding:18px 21px 17px 38px;
+  color:#fff8e8;
+  letter-spacing:.01em;
+  text-shadow:0 1px 1px #16121fbb;
+  overflow:hidden;
+  isolation:isolate;
+  transition:transform .25s ease,box-shadow .25s ease,filter .25s ease;
+}
+.teaching-room .book-spine.spine-0{--hide:#663363;--shine:#ad5797}
+.teaching-room .book-spine.spine-1{--hide:#056a70;--shine:#24a39f}
+.teaching-room .book-spine.spine-2{--hide:#274784;--shine:#6380bd}
+.teaching-room .book-spine.spine-3{--hide:#732b47;--shine:#bd5c73}
+.teaching-room .book-spine:before{
+  content:"";
+  position:absolute;
+  left:30px;
+  right:15px;
+  top:8px;
+  bottom:8px;
+  border-top:1px solid #e9c987bb;
+  border-bottom:1px solid #e9c987bb;
+  box-shadow:0 -3px 0 -2px #e9c98799,0 3px 0 -2px #e9c98799;
+  pointer-events:none;
+  z-index:0;
+}
+.teaching-room .book-spine:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url(assets/velvet.webp) center/cover;
+  opacity:.46;
+  mix-blend-mode:soft-light;
+  pointer-events:none;
+  z-index:0;
+}
+.teaching-room .book-spine>*{position:relative;z-index:1}
+.teaching-room .book-spine .spine-rule{
+  left:18px;
+  width:6px;
+  top:9px;
+  bottom:9px;
+  border-left:2px solid #f3d995;
+  border-right:2px solid #e8be72;
+  background:#2b26355c;
+  box-shadow:0 0 0 1px #0d182455,3px 0 0 #e4c78155;
+}
+.teaching-room .book-spine small{
+  flex-shrink:0;
+  font:700 13px/1 Jost,sans-serif;
+  background:#211a245e;
+  border:1px solid #d9b76b;
+  border-radius:2px;
+  color:#fff0c7;
+  padding:7px 8px;
+  text-shadow:none;
+}
+.teaching-room .book-spine:hover{
+  transform:translateX(9px) rotate(0deg);
+  filter:brightness(1.08);
+  box-shadow:inset 1px 0 0 #f8d7897a,inset 5px 0 0 #0f1a213b,inset -2px 0 0 #fff3cb85,6px 9px 12px #1e393b55;
+}
+.teaching-room .book-spine[aria-pressed="true"]{
+  outline:3px solid #f3c75f;
+  outline-offset:2px;
+  filter:saturate(1.12) brightness(1.07);
+}
+.teaching-room .book-spine:focus-visible{
+  outline:4px solid #f4d66c;
+  outline-offset:4px;
+  z-index:3;
+}
+@media(max-width:620px){
+  .teaching-room .book-stack{padding-inline:8px}
+  .teaching-room .book-spine{min-height:68px;padding:15px 12px 15px 33px;font-size:17px;overflow-wrap:anywhere}
+  .teaching-room .book-spine:before{left:26px;right:9px}
+  .teaching-room .book-spine .spine-rule{left:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  .teaching-room .book-spine{transition:none!important}
+}
