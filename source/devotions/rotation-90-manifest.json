@@ -1,0 +1,902 @@
+[
+  {
+    "day": 1,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 1,
+    "title": "Your Prayer Does Not Need a Cover Letter",
+    "file": "15-rotation-90/day-01-scripture.png",
+    "verseReference": "ROMANS 8:15",
+    "translation": "NIV"
+  },
+  {
+    "day": 2,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 1,
+    "title": "The Scoreboard Is Closed",
+    "file": "15-rotation-90/day-02-backstory.png",
+    "verseReference": "EPHESIANS 1:4",
+    "translation": "NIV"
+  },
+  {
+    "day": 3,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 1,
+    "title": "He Is Already on the Road",
+    "file": "15-rotation-90/day-03-truth.png",
+    "verseReference": "LUKE 15:20",
+    "translation": "NIV"
+  },
+  {
+    "day": 4,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 1,
+    "title": "Please Stop Invoicing Your Father",
+    "file": "15-rotation-90/day-04-scene.png",
+    "verseReference": "LUKE 15:31",
+    "translation": "NIV"
+  },
+  {
+    "day": 5,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 1,
+    "title": "Beloved, Then Busy",
+    "file": "15-rotation-90/day-05-shift.png",
+    "verseReference": "MATTHEW 3:17",
+    "translation": "NIV"
+  },
+  {
+    "day": 6,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 1,
+    "title": "You Can Clock Out of Earning It",
+    "file": "15-rotation-90/day-06-practice.png",
+    "verseReference": "GALATIANS 4:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 7,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 1,
+    "title": "God Has a Song, and You Are in It",
+    "file": "15-rotation-90/day-07-prayer.png",
+    "verseReference": "ZEPHANIAH 3:17",
+    "translation": "NIV"
+  },
+  {
+    "day": 8,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 1,
+    "title": "Your Worst Tuesday Is Not a Loophole",
+    "file": "15-rotation-90/day-08-question.png",
+    "verseReference": "ROMANS 8:39",
+    "translation": "NIV"
+  },
+  {
+    "day": 9,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 1,
+    "title": "Roots Do Not Post Progress Pictures",
+    "file": "15-rotation-90/day-09-margin.png",
+    "verseReference": "EPHESIANS 3:17-18",
+    "translation": "NIV"
+  },
+  {
+    "day": 10,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 1,
+    "title": "Look Again, Beloved",
+    "file": "15-rotation-90/day-10-diagram.png",
+    "verseReference": "1 JOHN 3:1",
+    "translation": "NIV"
+  },
+  {
+    "day": 11,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 1,
+    "title": "The Name Tag Is Not in Charge",
+    "file": "15-rotation-90/day-11-welcome.png",
+    "verseReference": "ISAIAH 43:1",
+    "translation": "NIV"
+  },
+  {
+    "day": 12,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 1,
+    "title": "New Creation, Same Missing Keys",
+    "file": "15-rotation-90/day-12-receipt.png",
+    "verseReference": "2 CORINTHIANS 5:17",
+    "translation": "NIV"
+  },
+  {
+    "day": 13,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 1,
+    "title": "Royalty at the Snack Table",
+    "file": "15-rotation-90/day-13-folder.png",
+    "verseReference": "1 PETER 2:9",
+    "translation": "NIV"
+  },
+  {
+    "day": 14,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 1,
+    "title": "The Mirror Is a Terrible Theologian",
+    "file": "15-rotation-90/day-14-checkpoint.png",
+    "verseReference": "PSALM 139:14",
+    "translation": "NIV"
+  },
+  {
+    "day": 15,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 1,
+    "title": "Your Purpose Is Not Hiding in a Quiz",
+    "file": "15-rotation-90/day-15-botanical.png",
+    "verseReference": "EPHESIANS 2:10",
+    "translation": "NIV"
+  },
+  {
+    "day": 16,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 2,
+    "title": "Unseen by the Group Chat, Seen by God",
+    "file": "15-rotation-90/day-16-scripture.png",
+    "verseReference": "GENESIS 16:13",
+    "translation": "NIV"
+  },
+  {
+    "day": 17,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 2,
+    "title": "You Do Not Have to Fold Yourself Away",
+    "file": "15-rotation-90/day-17-backstory.png",
+    "verseReference": "LUKE 13:12",
+    "translation": "NIV"
+  },
+  {
+    "day": 18,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 2,
+    "title": "Healed and Hiding Was Not the Whole Story",
+    "file": "15-rotation-90/day-18-truth.png",
+    "verseReference": "MARK 5:34",
+    "translation": "NIV"
+  },
+  {
+    "day": 19,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 2,
+    "title": "Your Personal PR Department Can Take Lunch",
+    "file": "15-rotation-90/day-19-scene.png",
+    "verseReference": "COLOSSIANS 3:3",
+    "translation": "NIV"
+  },
+  {
+    "day": 20,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 2,
+    "title": "The Old Nickname Is Not Prophecy",
+    "file": "15-rotation-90/day-20-shift.png",
+    "verseReference": "REVELATION 2:17",
+    "translation": "NIV"
+  },
+  {
+    "day": 21,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 2,
+    "title": "Forty Open Tabs, One Renewing God",
+    "file": "15-rotation-90/day-21-practice.png",
+    "verseReference": "ROMANS 12:2A",
+    "translation": "NIV"
+  },
+  {
+    "day": 22,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 2,
+    "title": "That Thought Needs to Show ID",
+    "file": "15-rotation-90/day-22-prayer.png",
+    "verseReference": "2 CORINTHIANS 10:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 23,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 2,
+    "title": "Your Soul's Podcast Needs a Guest Host",
+    "file": "15-rotation-90/day-23-question.png",
+    "verseReference": "PSALM 42:11",
+    "translation": "NIV"
+  },
+  {
+    "day": 24,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 2,
+    "title": "Your Imagination Is Not the Lab Report",
+    "file": "15-rotation-90/day-24-margin.png",
+    "verseReference": "PHILIPPIANS 4:8",
+    "translation": "NIV"
+  },
+  {
+    "day": 25,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 2,
+    "title": "Truth Needs More Than a Decorative Mug",
+    "file": "15-rotation-90/day-25-diagram.png",
+    "verseReference": "JOHN 8:32",
+    "translation": "NIV"
+  },
+  {
+    "day": 26,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 2,
+    "title": "The Saved-Posts Folder Cannot Obey for You",
+    "file": "15-rotation-90/day-26-welcome.png",
+    "verseReference": "JAMES 1:22",
+    "translation": "NIV"
+  },
+  {
+    "day": 27,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 2,
+    "title": "Mixed-Up Faith May Come In",
+    "file": "15-rotation-90/day-27-receipt.png",
+    "verseReference": "MARK 9:24",
+    "translation": "NIV"
+  },
+  {
+    "day": 28,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 2,
+    "title": "God Can Handle the Junk Drawer",
+    "file": "15-rotation-90/day-28-folder.png",
+    "verseReference": "PSALM 139:23-24",
+    "translation": "NIV"
+  },
+  {
+    "day": 29,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 2,
+    "title": "Please Taste the Peach",
+    "file": "15-rotation-90/day-29-checkpoint.png",
+    "verseReference": "PSALM 34:8",
+    "translation": "NIV"
+  },
+  {
+    "day": 30,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 2,
+    "title": "Let the Word Unpack Its Suitcase",
+    "file": "15-rotation-90/day-30-botanical.png",
+    "verseReference": "COLOSSIANS 3:16A",
+    "translation": "NIV"
+  },
+  {
+    "day": 31,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 3,
+    "title": "Grace Does Not Want a Repayment Plan",
+    "file": "15-rotation-90/day-31-scripture.png",
+    "verseReference": "EPHESIANS 2:8A",
+    "translation": "NIV"
+  },
+  {
+    "day": 32,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 3,
+    "title": "The Court Is Adjourned, Ma'am",
+    "file": "15-rotation-90/day-32-backstory.png",
+    "verseReference": "ROMANS 8:1",
+    "translation": "NIV"
+  },
+  {
+    "day": 33,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 3,
+    "title": "You Can Put the Stones Down, Too",
+    "file": "15-rotation-90/day-33-truth.png",
+    "verseReference": "JOHN 8:11",
+    "translation": "NIV"
+  },
+  {
+    "day": 34,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 3,
+    "title": "Jesus Has Read the Unedited Version",
+    "file": "15-rotation-90/day-34-scene.png",
+    "verseReference": "JOHN 4:29",
+    "translation": "NIV"
+  },
+  {
+    "day": 35,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 3,
+    "title": "Martha, Please Eat While It's Warm",
+    "file": "15-rotation-90/day-35-shift.png",
+    "verseReference": "LUKE 10:41",
+    "translation": "NIV"
+  },
+  {
+    "day": 36,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 3,
+    "title": "Every Stick in the Yard Is Not Your Assignment",
+    "file": "15-rotation-90/day-36-practice.png",
+    "verseReference": "MATTHEW 11:28",
+    "translation": "NIV"
+  },
+  {
+    "day": 37,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 3,
+    "title": "Stop Visiting the Forgiven Text Message",
+    "file": "15-rotation-90/day-37-prayer.png",
+    "verseReference": "PSALM 103:12",
+    "translation": "NIV"
+  },
+  {
+    "day": 38,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 3,
+    "title": "Jesus Made Breakfast After the Failure",
+    "file": "15-rotation-90/day-38-question.png",
+    "verseReference": "JOHN 21:17B",
+    "translation": "NIV"
+  },
+  {
+    "day": 39,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 3,
+    "title": "The Thorn Did Not Miss the Prayer List",
+    "file": "15-rotation-90/day-39-margin.png",
+    "verseReference": "2 CORINTHIANS 12:9",
+    "translation": "NIV"
+  },
+  {
+    "day": 40,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 3,
+    "title": "She Was a Person Before She Was a Reputation",
+    "file": "15-rotation-90/day-40-diagram.png",
+    "verseReference": "LUKE 7:50",
+    "translation": "NIV"
+  },
+  {
+    "day": 41,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 3,
+    "title": "Your Excuses Have Excellent Attendance",
+    "file": "15-rotation-90/day-41-welcome.png",
+    "verseReference": "EXODUS 4:12",
+    "translation": "NIV"
+  },
+  {
+    "day": 42,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 3,
+    "title": "The Winepress Is Getting a Little Crowded",
+    "file": "15-rotation-90/day-42-receipt.png",
+    "verseReference": "JUDGES 6:12",
+    "translation": "NIV"
+  },
+  {
+    "day": 43,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 3,
+    "title": "Too Quiet, Too Old, Too Something",
+    "file": "15-rotation-90/day-43-folder.png",
+    "verseReference": "JEREMIAH 1:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 44,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 3,
+    "title": "Say the Useful Thing Before Someone Louder Does",
+    "file": "15-rotation-90/day-44-checkpoint.png",
+    "verseReference": "JUDGES 5:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 45,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 3,
+    "title": "Mary Asked a Question Before Her Yes",
+    "file": "15-rotation-90/day-45-botanical.png",
+    "verseReference": "LUKE 1:38",
+    "translation": "NIV"
+  },
+  {
+    "day": 46,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 4,
+    "title": "The Towel Does Not Need a Humblebrag",
+    "file": "15-rotation-90/day-46-scripture.png",
+    "verseReference": "PHILIPPIANS 2:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 47,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 4,
+    "title": "False Modesty Is Still Bad Math",
+    "file": "15-rotation-90/day-47-backstory.png",
+    "verseReference": "ROMANS 12:3",
+    "translation": "NIV"
+  },
+  {
+    "day": 48,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 4,
+    "title": "The Buried Gift Would Like Some Air",
+    "file": "15-rotation-90/day-48-truth.png",
+    "verseReference": "MATTHEW 25:25",
+    "translation": "NIV"
+  },
+  {
+    "day": 49,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 4,
+    "title": "Grace Can Handle Your Whole Résumé",
+    "file": "15-rotation-90/day-49-scene.png",
+    "verseReference": "1 CORINTHIANS 15:10",
+    "translation": "NIV"
+  },
+  {
+    "day": 50,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 4,
+    "title": "The Shower Has Heard Enough Rehearsals",
+    "file": "15-rotation-90/day-50-shift.png",
+    "verseReference": "2 TIMOTHY 1:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 51,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 4,
+    "title": "Your Seat Does Not Require an Apology",
+    "file": "15-rotation-90/day-51-practice.png",
+    "verseReference": "2 SAMUEL 9:13",
+    "translation": "NIV"
+  },
+  {
+    "day": 52,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 4,
+    "title": "Set the Table, You Live Here",
+    "file": "15-rotation-90/day-52-prayer.png",
+    "verseReference": "PSALM 23:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 53,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 4,
+    "title": "You May Ask Without Seventeen Softeners",
+    "file": "15-rotation-90/day-53-question.png",
+    "verseReference": "HEBREWS 4:16",
+    "translation": "NIV"
+  },
+  {
+    "day": 54,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 4,
+    "title": "Your Love Does Not Need a Dimmer Switch",
+    "file": "15-rotation-90/day-54-margin.png",
+    "verseReference": "JOHN 12:3",
+    "translation": "NIV"
+  },
+  {
+    "day": 55,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 4,
+    "title": "You Know the Bylaws. Say Something.",
+    "file": "15-rotation-90/day-55-diagram.png",
+    "verseReference": "ESTHER 4:14",
+    "translation": "NIV"
+  },
+  {
+    "day": 56,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 4,
+    "title": "Lydia Did Not Wait for Matching Chairs",
+    "file": "15-rotation-90/day-56-welcome.png",
+    "verseReference": "ACTS 16:14",
+    "translation": "NIV"
+  },
+  {
+    "day": 57,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 4,
+    "title": "When the Host Offers a Seat, Take It",
+    "file": "15-rotation-90/day-57-receipt.png",
+    "verseReference": "LUKE 14:10",
+    "translation": "NIV"
+  },
+  {
+    "day": 58,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 4,
+    "title": "You Are Allowed Past the Formal Greeting",
+    "file": "15-rotation-90/day-58-folder.png",
+    "verseReference": "JOHN 15:15",
+    "translation": "NIV"
+  },
+  {
+    "day": 59,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 4,
+    "title": "Your Name Is a Full Entry",
+    "file": "15-rotation-90/day-59-checkpoint.png",
+    "verseReference": "1 CORINTHIANS 12:18",
+    "translation": "NIV"
+  },
+  {
+    "day": 60,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 4,
+    "title": "The Final Feast Has Your Kind of Welcome",
+    "file": "15-rotation-90/day-60-botanical.png",
+    "verseReference": "REVELATION 19:9",
+    "translation": "NIV"
+  },
+  {
+    "day": 61,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 5,
+    "title": "The Automatic Yes Has Acquired a Grudge",
+    "file": "15-rotation-90/day-61-scripture.png",
+    "verseReference": "PROVERBS 29:25",
+    "translation": "NIV"
+  },
+  {
+    "day": 62,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 5,
+    "title": "Your No Does Not Need an Appendix",
+    "file": "15-rotation-90/day-62-backstory.png",
+    "verseReference": "MATTHEW 5:37",
+    "translation": "NIV"
+  },
+  {
+    "day": 63,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 5,
+    "title": "Even Jesus Was Not Available for Every Meeting",
+    "file": "15-rotation-90/day-63-truth.png",
+    "verseReference": "LUKE 5:16",
+    "translation": "NIV"
+  },
+  {
+    "day": 64,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 5,
+    "title": "Endless Cleanup Is Not a Spiritual Gift",
+    "file": "15-rotation-90/day-64-scene.png",
+    "verseReference": "1 SAMUEL 25:33",
+    "translation": "NIV"
+  },
+  {
+    "day": 65,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 5,
+    "title": "The Room's Agreement Does Not Make It Right",
+    "file": "15-rotation-90/day-65-shift.png",
+    "verseReference": "EXODUS 1:17",
+    "translation": "NIV"
+  },
+  {
+    "day": 66,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 5,
+    "title": "Your Friend Means Well. You May Still Decline.",
+    "file": "15-rotation-90/day-66-practice.png",
+    "verseReference": "MATTHEW 16:23",
+    "translation": "NIV"
+  },
+  {
+    "day": 67,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 5,
+    "title": "It's Fine Is Slamming the Cabinets",
+    "file": "15-rotation-90/day-67-prayer.png",
+    "verseReference": "EPHESIANS 4:15",
+    "translation": "NIV"
+  },
+  {
+    "day": 68,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 5,
+    "title": "A Ringing Phone Is Not Always a Summons",
+    "file": "15-rotation-90/day-68-question.png",
+    "verseReference": "NEHEMIAH 6:3",
+    "translation": "NIV"
+  },
+  {
+    "day": 69,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 5,
+    "title": "The Read Receipt Is Not a Prophet",
+    "file": "15-rotation-90/day-69-margin.png",
+    "verseReference": "PSALM 56:3",
+    "translation": "NIV"
+  },
+  {
+    "day": 70,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 5,
+    "title": "Your Yes Can Be Very Ordinary",
+    "file": "15-rotation-90/day-70-diagram.png",
+    "verseReference": "JOHN 2:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 71,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 5,
+    "title": "The Branch Is Not in Charge of Squeezing Out Grapes",
+    "file": "15-rotation-90/day-71-welcome.png",
+    "verseReference": "JOHN 15:5",
+    "translation": "NIV"
+  },
+  {
+    "day": 72,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 5,
+    "title": "Faithfulness Rarely Comes With a Plaque",
+    "file": "15-rotation-90/day-72-receipt.png",
+    "verseReference": "LUKE 2:37",
+    "translation": "NIV"
+  },
+  {
+    "day": 73,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 5,
+    "title": "Loyal Love Did Not Get a Relocation Package",
+    "file": "15-rotation-90/day-73-folder.png",
+    "verseReference": "RUTH 1:16",
+    "translation": "NIV"
+  },
+  {
+    "day": 74,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 5,
+    "title": "Your Loss Does Not Have to Become Your Name",
+    "file": "15-rotation-90/day-74-checkpoint.png",
+    "verseReference": "RUTH 4:14",
+    "translation": "NIV"
+  },
+  {
+    "day": 75,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 5,
+    "title": "Run Your Race, Not Her Highlight Reel",
+    "file": "15-rotation-90/day-75-botanical.png",
+    "verseReference": "HEBREWS 12:2",
+    "translation": "NIV"
+  },
+  {
+    "day": 76,
+    "name": "Scripture spotlight",
+    "kind": "scripture",
+    "appearance": 6,
+    "title": "Your Longing Does Not Need Better Manners",
+    "file": "15-rotation-90/day-76-scripture.png",
+    "verseReference": "1 SAMUEL 1:15",
+    "translation": "NIV"
+  },
+  {
+    "day": 77,
+    "name": "Bible backstory",
+    "kind": "backstory",
+    "appearance": 6,
+    "title": "The Seed Does Not Need a Standing Ovation",
+    "file": "15-rotation-90/day-77-backstory.png",
+    "verseReference": "GALATIANS 6:9",
+    "translation": "NIV"
+  },
+  {
+    "day": 78,
+    "name": "Question and truth",
+    "kind": "truth",
+    "appearance": 6,
+    "title": "Eat Something Before the Spiritual Autopsy",
+    "file": "15-rotation-90/day-78-truth.png",
+    "verseReference": "1 KINGS 19:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 79,
+    "name": "Everyday scene",
+    "kind": "scene",
+    "appearance": 6,
+    "title": "Contentment May Keep Its Hopes",
+    "file": "15-rotation-90/day-79-scene.png",
+    "verseReference": "PHILIPPIANS 4:13",
+    "translation": "NIV"
+  },
+  {
+    "day": 80,
+    "name": "Before / after",
+    "kind": "shift",
+    "appearance": 6,
+    "title": "The Half-Knitted Scarf Is Not Your Spiritual Biography",
+    "file": "15-rotation-90/day-80-shift.png",
+    "verseReference": "2 TIMOTHY 4:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 81,
+    "name": "Tiny practice",
+    "kind": "practice",
+    "appearance": 6,
+    "title": "Nobody Applauds the Concrete",
+    "file": "15-rotation-90/day-81-practice.png",
+    "verseReference": "MATTHEW 7:25",
+    "translation": "NIV"
+  },
+  {
+    "day": 82,
+    "name": "Honest prayer",
+    "kind": "prayer",
+    "appearance": 6,
+    "title": "God Can Sit Beside the Spreadsheet",
+    "file": "15-rotation-90/day-82-prayer.png",
+    "verseReference": "PSALM 16:8",
+    "translation": "NIV"
+  },
+  {
+    "day": 83,
+    "name": "Brave question",
+    "kind": "question",
+    "appearance": 6,
+    "title": "Refresh Is Not a Foundation",
+    "file": "15-rotation-90/day-83-question.png",
+    "verseReference": "PSALM 62:6",
+    "translation": "NIV"
+  },
+  {
+    "day": 84,
+    "name": "Bright margin note",
+    "kind": "margin",
+    "appearance": 6,
+    "title": "Unclench. Yes, Your Jaw Too.",
+    "file": "15-rotation-90/day-84-margin.png",
+    "verseReference": "PSALM 46:1",
+    "translation": "NIV"
+  },
+  {
+    "day": 85,
+    "name": "Teaching diagram",
+    "kind": "diagram",
+    "appearance": 6,
+    "title": "Mary Was More Than a Woman Crying in a Garden",
+    "file": "15-rotation-90/day-85-diagram.png",
+    "verseReference": "JOHN 20:16",
+    "translation": "NIV"
+  },
+  {
+    "day": 86,
+    "name": "Welcome letter",
+    "kind": "welcome",
+    "appearance": 6,
+    "title": "The Mountains May Move. Love Has Deeper Footing.",
+    "file": "15-rotation-90/day-86-welcome.png",
+    "verseReference": "ISAIAH 54:10",
+    "translation": "NIV"
+  },
+  {
+    "day": 87,
+    "name": "Reflection receipt",
+    "kind": "receipt",
+    "appearance": 6,
+    "title": "You May Enjoy the Good Week",
+    "file": "15-rotation-90/day-87-receipt.png",
+    "verseReference": "JOHN 16:33",
+    "translation": "NIV"
+  },
+  {
+    "day": 88,
+    "name": "Faith file",
+    "kind": "folder",
+    "appearance": 6,
+    "title": "Put on the Armor Before Answering the Cousin",
+    "file": "15-rotation-90/day-88-folder.png",
+    "verseReference": "EPHESIANS 6:13",
+    "translation": "NIV"
+  },
+  {
+    "day": 89,
+    "name": "Thought-ID checkpoint",
+    "kind": "checkpoint",
+    "appearance": 6,
+    "title": "The Tree Is Growing Without a Before-and-After Post",
+    "file": "15-rotation-90/day-89-checkpoint.png",
+    "verseReference": "JEREMIAH 17:7",
+    "translation": "NIV"
+  },
+  {
+    "day": 90,
+    "name": "Botanical teaching plate",
+    "kind": "botanical",
+    "appearance": 6,
+    "title": "Beloved, Really. And Still No Audition.",
+    "file": "15-rotation-90/day-90-botanical.png",
+    "verseReference": "HEBREWS 12:28",
+    "translation": "NIV"
+  }
+]

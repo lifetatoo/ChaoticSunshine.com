@@ -1,0 +1,145 @@
+{
+  "source": "11-devotions/original-teaching-grid.png",
+  "sourceSha256": "b9e33087bc49ecb9998da95a43f683376dd2673353802281750868d2f8530943",
+  "sourceWidth": 1104,
+  "sourceHeight": 1374,
+  "collection": "22-teaching-illustrations/Beloved-Really-Nine-Teaching-Illustrations.pdf",
+  "items": [
+    {
+      "number": 1,
+      "slug": "journey-days-01-50",
+      "title": "Nine movements, one aim: days 1 to 50",
+      "pdf": "22-teaching-illustrations/journey-days-01-50.pdf",
+      "pages": 1,
+      "sha256": "b5995094e0d496ffa87ba0bbbaf461889ef842b4e12d9a9697d17690f873571e",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        6,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "journey-days-51-90",
+      "title": "Nine movements, one aim: days 51 to 90",
+      "pdf": "22-teaching-illustrations/journey-days-51-90.pdf",
+      "pages": 1,
+      "sha256": "8837bdc1a3c2e89bcd06a53dfc8410fd083579a36b0d37e516fd9161c34e87ce",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        6,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "a-hard-day-still-counts",
+      "title": "A hard day still counts: three steps",
+      "pdf": "22-teaching-illustrations/a-hard-day-still-counts.pdf",
+      "pages": 1,
+      "sha256": "a161488217edbfe50e789cdd4f90046d9fdc056472530039ff556e14a02273ac",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        6,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "five-tools",
+      "title": "Five tools, 90 days",
+      "pdf": "22-teaching-illustrations/five-tools.pdf",
+      "pages": 1,
+      "sha256": "4867db9503aef9e4a11a50ea6ab30a0a90eb90ecb6dd22d88b6baccf954c4e81",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        462,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "when-it-still-hurts",
+      "title": "When it still hurts",
+      "pdf": "22-teaching-illustrations/when-it-still-hurts.pdf",
+      "pages": 1,
+      "sha256": "5a9c62e1cbe3a8cb4eecf72bb897d25712ba69e0d5b47858e50b019bf7407499",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        462,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "check-its-id",
+      "title": "Check its ID",
+      "pdf": "22-teaching-illustrations/check-its-id.pdf",
+      "pages": 1,
+      "sha256": "14c0da6709cf0f1c0d759c60756bafd8857afd10931b9d6a124cfad29e737e40",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        462,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "lie-and-truth-ledger",
+      "title": "The Lie and Truth Ledger",
+      "pdf": "22-teaching-illustrations/lie-and-truth-ledger.pdf",
+      "pages": 1,
+      "sha256": "08e87e09ffbe625b8db0e9acb359e967e600dc0ddb6c75c6a09336929ef2a71c",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        918,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "hired-help-or-heir",
+      "title": "Hired help or heir?",
+      "pdf": "22-teaching-illustrations/hired-help-or-heir.pdf",
+      "pages": 1,
+      "sha256": "bbe1a59a493d7f33ec1ff2ac8944494ed98c034f6de42bc526e1d7e6182e9bca",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        918,
+        360,
+        450
+      ]
+    },
+    {
+      "number": 9,
+      "slug": "beloved-then-sent",
+      "title": "Beloved, then sent",
+      "pdf": "22-teaching-illustrations/beloved-then-sent.pdf",
+      "pages": 1,
+      "sha256": "d1bd6346c236fe1e819b87eafee91061eab5b5c270c85a18df399cefbfd1672d",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        918,
+        360,
+        450
+      ]
+    }
+  ],
+  "note": "Only the original contact sheet was located in Teaching Graphics. These are new PDF exports of that artwork, not recovered high-resolution originals."
+}

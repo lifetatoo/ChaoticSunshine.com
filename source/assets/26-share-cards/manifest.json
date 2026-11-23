@@ -1,0 +1,1253 @@
+{
+  "404": {
+    "file": "26-share-cards/404-v2.png",
+    "title": "A page to meet you where you are.",
+    "description": "Read a devotion or open the little free digital library.",
+    "alt": "A page to meet you where you are. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "soul-snack-01": {
+    "file": "26-share-cards/soul-snack-01-v2.png",
+    "title": "Your Prayer Does Not Need a Cover Letter",
+    "description": "Romans 8:12-17: Fully family. Formal greeting optional. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Prayer Does Not Need a Cover Letter — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-02": {
+    "file": "26-share-cards/soul-snack-02-v2.png",
+    "title": "The Scoreboard Is Closed",
+    "description": "Ephesians 1:3-8: Chosen before the checklist. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Scoreboard Is Closed — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-03": {
+    "file": "26-share-cards/soul-snack-03-v2.png",
+    "title": "He Is Already on the Road",
+    "description": "Luke 15:11-24: Come home with your real story. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "He Is Already on the Road — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-04": {
+    "file": "26-share-cards/soul-snack-04-v2.png",
+    "title": "Please Stop Invoicing Your Father",
+    "description": "Luke 15:25-32: You can set the invoices down. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Please Stop Invoicing Your Father — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-05": {
+    "file": "26-share-cards/soul-snack-05-v2.png",
+    "title": "Beloved, Then Busy",
+    "description": "Matthew 3:13-17: Beloved first. To-do list second. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Beloved, Then Busy — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-06": {
+    "file": "26-share-cards/soul-snack-06-v2.png",
+    "title": "You Can Clock Out of Earning It",
+    "description": "Galatians 4:1-7 and 2 Corinthians 6:18: Heir of grace. Off the earning shift. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "You Can Clock Out of Earning It — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-07": {
+    "file": "26-share-cards/soul-snack-07-v2.png",
+    "title": "God Has a Song, and You Are in It",
+    "description": "Zephaniah 3:14-17: Make room for His delight. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "God Has a Song, and You Are in It — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-08": {
+    "file": "26-share-cards/soul-snack-08-v2.png",
+    "title": "Your Worst Tuesday Is Not a Loophole",
+    "description": "Romans 8:31-39: His love holds through the hard parts. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Worst Tuesday Is Not a Loophole — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-09": {
+    "file": "26-share-cards/soul-snack-09-v2.png",
+    "title": "Roots Do Not Post Progress Pictures",
+    "description": "Ephesians 3:14-21: Underground still counts. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Roots Do Not Post Progress Pictures — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-10": {
+    "file": "26-share-cards/soul-snack-10-v2.png",
+    "title": "Look Again, Beloved",
+    "description": "1 John 3:1-3 and 1 John 4:16-19: You are His child, even with a receipt bookmark. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Look Again, Beloved — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-11": {
+    "file": "26-share-cards/soul-snack-11-v2.png",
+    "title": "The Name Tag Is Not in Charge",
+    "description": "Isaiah 43:1-7: My history gets a place, not the whole name tag. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Name Tag Is Not in Charge — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-12": {
+    "file": "26-share-cards/soul-snack-12-v2.png",
+    "title": "New Creation, Same Missing Keys",
+    "description": "2 Corinthians 5:14-21: New in Christ. Still learning the key hook. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "New Creation, Same Missing Keys — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-13": {
+    "file": "26-share-cards/soul-snack-13-v2.png",
+    "title": "Royalty at the Snack Table",
+    "description": "1 Peter 2:4-10: Chosen and useful. Grapes welcome. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Royalty at the Snack Table — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-14": {
+    "file": "26-share-cards/soul-snack-14-v2.png",
+    "title": "The Mirror Is a Terrible Theologian",
+    "description": "Psalm 139:1-18: The mirror does not get the final review. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Mirror Is a Terrible Theologian — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-15": {
+    "file": "26-share-cards/soul-snack-15-v2.png",
+    "title": "Your Purpose Is Not Hiding in a Quiz",
+    "description": "Ephesians 2:8-10: Made on purpose. Available for ordinary love. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Purpose Is Not Hiding in a Quiz — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-16": {
+    "file": "26-share-cards/soul-snack-16-v2.png",
+    "title": "Unseen by the Group Chat, Seen by God",
+    "description": "Genesis 16:1-13: El Roi knows where I am. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Unseen by the Group Chat, Seen by God — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-17": {
+    "file": "26-share-cards/soul-snack-17-v2.png",
+    "title": "You Do Not Have to Fold Yourself Away",
+    "description": "Luke 13:10-17: Daughter is a name with room in it. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "You Do Not Have to Fold Yourself Away — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-18": {
+    "file": "26-share-cards/soul-snack-18-v2.png",
+    "title": "Healed and Hiding Was Not the Whole Story",
+    "description": "Mark 5:25-34: Known, named, and given room for peace. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Healed and Hiding Was Not the Whole Story — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-19": {
+    "file": "26-share-cards/soul-snack-19-v2.png",
+    "title": "Your Personal PR Department Can Take Lunch",
+    "description": "Colossians 3:1-4: Hidden with Christ. PR office closed for lunch. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Personal PR Department Can Take Lunch — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-20": {
+    "file": "26-share-cards/soul-snack-20-v2.png",
+    "title": "The Old Nickname Is Not Prophecy",
+    "description": "Revelation 2:17 and Isaiah 62:1-5: Old nicknames do not write my future. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Old Nickname Is Not Prophecy — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-21": {
+    "file": "26-share-cards/soul-snack-21-v2.png",
+    "title": "Forty Open Tabs, One Renewing God",
+    "description": "Romans 12:1-2: Renewal can start with one open tab. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Forty Open Tabs, One Renewing God — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-22": {
+    "file": "26-share-cards/soul-snack-22-v2.png",
+    "title": "That Thought Needs to Show ID",
+    "description": "2 Corinthians 10:3-5: Familiar is not the same as true. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "That Thought Needs to Show ID — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-23": {
+    "file": "26-share-cards/soul-snack-23-v2.png",
+    "title": "Your Soul's Podcast Needs a Guest Host",
+    "description": "Psalm 42: Hope can speak without silencing tears. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Soul's Podcast Needs a Guest Host — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-24": {
+    "file": "26-share-cards/soul-snack-24-v2.png",
+    "title": "Your Imagination Is Not the Lab Report",
+    "description": "Philippians 4:4-9: A vivid thought still needs facts. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Imagination Is Not the Lab Report — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-25": {
+    "file": "26-share-cards/soul-snack-25-v2.png",
+    "title": "Truth Needs More Than a Decorative Mug",
+    "description": "John 8:31-36: Let truth move off the mug. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Truth Needs More Than a Decorative Mug — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-26": {
+    "file": "26-share-cards/soul-snack-26-v2.png",
+    "title": "The Saved-Posts Folder Cannot Obey for You",
+    "description": "James 1:19-25: One lived truth beats another saved post. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Saved-Posts Folder Cannot Obey for You — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-27": {
+    "file": "26-share-cards/soul-snack-27-v2.png",
+    "title": "Mixed-Up Faith May Come In",
+    "description": "Mark 9:14-29: Honest faith does not need a costume. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Mixed-Up Faith May Come In — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-28": {
+    "file": "26-share-cards/soul-snack-28-v2.png",
+    "title": "God Can Handle the Junk Drawer",
+    "description": "Psalm 139:23-24 and Jeremiah 17:9-10: The drawer can open one inch at a time. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "God Can Handle the Junk Drawer — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-29": {
+    "file": "26-share-cards/soul-snack-29-v2.png",
+    "title": "Please Taste the Peach",
+    "description": "Psalm 34:1-10: Notice the goodness you can actually name. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Please Taste the Peach — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-30": {
+    "file": "26-share-cards/soul-snack-30-v2.png",
+    "title": "Let the Word Unpack Its Suitcase",
+    "description": "Colossians 3:12-17: Thirty days. Keep making room. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Let the Word Unpack Its Suitcase — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-31": {
+    "file": "26-share-cards/soul-snack-31-v2.png",
+    "title": "Grace Does Not Want a Repayment Plan",
+    "description": "Ephesians 2:1-9: Grace arrives as a gift. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Grace Does Not Want a Repayment Plan — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-32": {
+    "file": "26-share-cards/soul-snack-32-v2.png",
+    "title": "The Court Is Adjourned, Ma'am",
+    "description": "Romans 8:1-4 and 8:31-34: No condemnation in Christ. Court adjourned. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Court Is Adjourned, Ma'am — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-33": {
+    "file": "26-share-cards/soul-snack-33-v2.png",
+    "title": "You Can Put the Stones Down, Too",
+    "description": "John 8:1-11: Mercy changes what we do with the stones. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "You Can Put the Stones Down, Too — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-34": {
+    "file": "26-share-cards/soul-snack-34-v2.png",
+    "title": "Jesus Has Read the Unedited Version",
+    "description": "John 4:4-30 and 4:39-42: Fully known can be the beginning. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Jesus Has Read the Unedited Version — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-35": {
+    "file": "26-share-cards/soul-snack-35-v2.png",
+    "title": "Martha, Please Eat While It's Warm",
+    "description": "Luke 10:38-42 and John 11:17-27: Your place at His feet is real. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Martha, Please Eat While It's Warm — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-36": {
+    "file": "26-share-cards/soul-snack-36-v2.png",
+    "title": "Every Stick in the Yard Is Not Your Assignment",
+    "description": "Matthew 11:25-30: The whole yard is not my assignment. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Every Stick in the Yard Is Not Your Assignment — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-37": {
+    "file": "26-share-cards/soul-snack-37-v2.png",
+    "title": "Stop Visiting the Forgiven Text Message",
+    "description": "Psalm 103:1-14: Learn the lesson. Leave the replay. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Stop Visiting the Forgiven Text Message — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-38": {
+    "file": "26-share-cards/soul-snack-38-v2.png",
+    "title": "Jesus Made Breakfast After the Failure",
+    "description": "John 18:15-27 and John 21:1-19: There is life beyond the charcoal fire. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Jesus Made Breakfast After the Failure — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-39": {
+    "file": "26-share-cards/soul-snack-39-v2.png",
+    "title": "The Thorn Did Not Miss the Prayer List",
+    "description": "2 Corinthians 12:7-10: Still asking. Still held. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Thorn Did Not Miss the Prayer List — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-40": {
+    "file": "26-share-cards/soul-snack-40-v2.png",
+    "title": "She Was a Person Before She Was a Reputation",
+    "description": "Luke 7:36-50: See the woman, not just the summary. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "She Was a Person Before She Was a Reputation — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-41": {
+    "file": "26-share-cards/soul-snack-41-v2.png",
+    "title": "Your Excuses Have Excellent Attendance",
+    "description": "Exodus 3:7-12 and 4:10-13: His presence belongs in the discussion. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Excuses Have Excellent Attendance — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-42": {
+    "file": "26-share-cards/soul-snack-42-v2.png",
+    "title": "The Winepress Is Getting a Little Crowded",
+    "description": "Judges 6:11-16: A small step can leave the winepress. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Winepress Is Getting a Little Crowded — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-43": {
+    "file": "26-share-cards/soul-snack-43-v2.png",
+    "title": "Too Quiet, Too Old, Too Something",
+    "description": "Jeremiah 1:4-10: The committee may need better questions. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Too Quiet, Too Old, Too Something — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-44": {
+    "file": "26-share-cards/soul-snack-44-v2.png",
+    "title": "Say the Useful Thing Before Someone Louder Does",
+    "description": "Judges 4:1-10 and 5:1-9: Useful does not have to be loud. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Say the Useful Thing Before Someone Louder Does — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-45": {
+    "file": "26-share-cards/soul-snack-45-v2.png",
+    "title": "Mary Asked a Question Before Her Yes",
+    "description": "Luke 1:26-38 and 1:46-55: Questions and trust can share a sentence. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Mary Asked a Question Before Her Yes — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-46": {
+    "file": "26-share-cards/soul-snack-46-v2.png",
+    "title": "The Towel Does Not Need a Humblebrag",
+    "description": "Philippians 2:1-11 and John 13:1-5: Loved enough to pick up the towel. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Towel Does Not Need a Humblebrag — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-47": {
+    "file": "26-share-cards/soul-snack-47-v2.png",
+    "title": "False Modesty Is Still Bad Math",
+    "description": "Romans 12:3-8: An honest strength needs no asterisk. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "False Modesty Is Still Bad Math — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-48": {
+    "file": "26-share-cards/soul-snack-48-v2.png",
+    "title": "The Buried Gift Would Like Some Air",
+    "description": "Matthew 25:14-30: A little air for the buried gift. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Buried Gift Would Like Some Air — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-49": {
+    "file": "26-share-cards/soul-snack-49-v2.png",
+    "title": "Grace Can Handle Your Whole Résumé",
+    "description": "1 Corinthians 15:1-10: Grace gets the credit. Life keeps growing. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Grace Can Handle Your Whole Résumé — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-50": {
+    "file": "26-share-cards/soul-snack-50-v2.png",
+    "title": "The Shower Has Heard Enough Rehearsals",
+    "description": "2 Timothy 1:3-9: Let one rehearsal become a wise step. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Shower Has Heard Enough Rehearsals — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-51": {
+    "file": "26-share-cards/soul-snack-51-v2.png",
+    "title": "Your Seat Does Not Require an Apology",
+    "description": "2 Samuel 9:1-13: A place at the table is a place to sit. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Seat Does Not Require an Apology — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-52": {
+    "file": "26-share-cards/soul-snack-52-v2.png",
+    "title": "Set the Table, You Live Here",
+    "description": "Psalm 23: You live here. Set yourself a place. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Set the Table, You Live Here — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-53": {
+    "file": "26-share-cards/soul-snack-53-v2.png",
+    "title": "You May Ask Without Seventeen Softeners",
+    "description": "Hebrews 4:14-16 and 10:19-22: Ask plainly. Receive grace. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "You May Ask Without Seventeen Softeners — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-54": {
+    "file": "26-share-cards/soul-snack-54-v2.png",
+    "title": "Your Love Does Not Need a Dimmer Switch",
+    "description": "John 12:1-8: Sincere love may take up space. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Love Does Not Need a Dimmer Switch — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-55": {
+    "file": "26-share-cards/soul-snack-55-v2.png",
+    "title": "You Know the Bylaws. Say Something.",
+    "description": "Esther 4:1-17: A prepared voice can serve somebody. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "You Know the Bylaws. Say Something. — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-56": {
+    "file": "26-share-cards/soul-snack-56-v2.png",
+    "title": "Lydia Did Not Wait for Matching Chairs",
+    "description": "Acts 16:11-15 and 16:40: An open heart can work with ordinary chairs. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Lydia Did Not Wait for Matching Chairs — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-57": {
+    "file": "26-share-cards/soul-snack-57-v2.png",
+    "title": "When the Host Offers a Seat, Take It",
+    "description": "Luke 14:7-14: Humility can say thank you and sit down. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "When the Host Offers a Seat, Take It — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-58": {
+    "file": "26-share-cards/soul-snack-58-v2.png",
+    "title": "You Are Allowed Past the Formal Greeting",
+    "description": "John 15:9-17: Honest conversation belongs here. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "You Are Allowed Past the Formal Greeting — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-59": {
+    "file": "26-share-cards/soul-snack-59-v2.png",
+    "title": "Your Name Is a Full Entry",
+    "description": "1 Corinthians 12:12-27: One name. A whole person. A real place. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Name Is a Full Entry — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-60": {
+    "file": "26-share-cards/soul-snack-60-v2.png",
+    "title": "The Final Feast Has Your Kind of Welcome",
+    "description": "Revelation 19:6-9 and Isaiah 25:6-9: Until the feast, make room for one another. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Final Feast Has Your Kind of Welcome — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-61": {
+    "file": "26-share-cards/soul-snack-61-v2.png",
+    "title": "The Automatic Yes Has Acquired a Grudge",
+    "description": "Proverbs 29:25 and Galatians 1:6-10: A pause can loosen the snare. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Automatic Yes Has Acquired a Grudge — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-62": {
+    "file": "26-share-cards/soul-snack-62-v2.png",
+    "title": "Your No Does Not Need an Appendix",
+    "description": "Matthew 5:33-37: A dependable word needs fewer footnotes. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your No Does Not Need an Appendix — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-63": {
+    "file": "26-share-cards/soul-snack-63-v2.png",
+    "title": "Even Jesus Was Not Available for Every Meeting",
+    "description": "Mark 1:32-39 and Luke 5:15-16: Availability is not the whole of love. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Even Jesus Was Not Available for Every Meeting — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-64": {
+    "file": "26-share-cards/soul-snack-64-v2.png",
+    "title": "Endless Cleanup Is Not a Spiritual Gift",
+    "description": "1 Samuel 25:14-35 and 25:39-42: Wisdom can interrupt the cleanup cycle. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Endless Cleanup Is Not a Spiritual Gift — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-65": {
+    "file": "26-share-cards/soul-snack-65-v2.png",
+    "title": "The Room's Agreement Does Not Make It Right",
+    "description": "Exodus 1:8-21: A crowded room can still need a no. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Room's Agreement Does Not Make It Right — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-66": {
+    "file": "26-share-cards/soul-snack-66-v2.png",
+    "title": "Your Friend Means Well. You May Still Decline.",
+    "description": "Matthew 16:13-23: Love can remain when the answer is no. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Friend Means Well. You May Still Decline. — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-67": {
+    "file": "26-share-cards/soul-snack-67-v2.png",
+    "title": "It's Fine Is Slamming the Cabinets",
+    "description": "Ephesians 4:14-16 and 4:25-32: Let the words be clearer than the cabinets. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "It's Fine Is Slamming the Cabinets — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-68": {
+    "file": "26-share-cards/soul-snack-68-v2.png",
+    "title": "A Ringing Phone Is Not Always a Summons",
+    "description": "Nehemiah 6:1-9: Recent is not always urgent. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "A Ringing Phone Is Not Always a Summons — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-69": {
+    "file": "26-share-cards/soul-snack-69-v2.png",
+    "title": "The Read Receipt Is Not a Prophet",
+    "description": "Psalm 56: A read receipt has limited information. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Read Receipt Is Not a Prophet — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-70": {
+    "file": "26-share-cards/soul-snack-70-v2.png",
+    "title": "Your Yes Can Be Very Ordinary",
+    "description": "John 2:1-11: A faithful yes can carry a water jar. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Yes Can Be Very Ordinary — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-71": {
+    "file": "26-share-cards/soul-snack-71-v2.png",
+    "title": "The Branch Is Not in Charge of Squeezing Out Grapes",
+    "description": "John 15:1-8: Stay close. Let the Vine supply the life. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Branch Is Not in Charge of Squeezing Out Grapes — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-72": {
+    "file": "26-share-cards/soul-snack-72-v2.png",
+    "title": "Faithfulness Rarely Comes With a Plaque",
+    "description": "Luke 2:22-38: Quiet faithfulness belongs in the story. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Faithfulness Rarely Comes With a Plaque — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-73": {
+    "file": "26-share-cards/soul-snack-73-v2.png",
+    "title": "Loyal Love Did Not Get a Relocation Package",
+    "description": "Ruth 1:1-18: Loyal love can take the next step. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Loyal Love Did Not Get a Relocation Package — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-74": {
+    "file": "26-share-cards/soul-snack-74-v2.png",
+    "title": "Your Loss Does Not Have to Become Your Name",
+    "description": "Ruth 1:19-22 and 4:13-17: The hurting chapter is not my whole name. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Loss Does Not Have to Become Your Name — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-75": {
+    "file": "26-share-cards/soul-snack-75-v2.png",
+    "title": "Run Your Race, Not Her Highlight Reel",
+    "description": "Hebrews 12:1-3: Eyes on Jesus. Room for your real pace. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Run Your Race, Not Her Highlight Reel — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-76": {
+    "file": "26-share-cards/soul-snack-76-v2.png",
+    "title": "Your Longing Does Not Need Better Manners",
+    "description": "1 Samuel 1:1-18: The unpolished prayer may be the truest one. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Your Longing Does Not Need Better Manners — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-77": {
+    "file": "26-share-cards/soul-snack-77-v2.png",
+    "title": "The Seed Does Not Need a Standing Ovation",
+    "description": "Galatians 6:7-10: Unapplauded goodness still matters. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Seed Does Not Need a Standing Ovation — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-78": {
+    "file": "26-share-cards/soul-snack-78-v2.png",
+    "title": "Eat Something Before the Spiritual Autopsy",
+    "description": "1 Kings 19:1-9: You are a person with a body. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Eat Something Before the Spiritual Autopsy — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-79": {
+    "file": "26-share-cards/soul-snack-79-v2.png",
+    "title": "Contentment May Keep Its Hopes",
+    "description": "Philippians 4:10-13: Hope and gratitude can share the table. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Contentment May Keep Its Hopes — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-80": {
+    "file": "26-share-cards/soul-snack-80-v2.png",
+    "title": "The Half-Knitted Scarf Is Not Your Spiritual Biography",
+    "description": "2 Timothy 4:6-8 and 4:16-18: An interrupted stretch still belongs to the journey. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Half-Knitted Scarf Is Not Your Spiritual Biography — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-81": {
+    "file": "26-share-cards/soul-snack-81-v2.png",
+    "title": "Nobody Applauds the Concrete",
+    "description": "Matthew 7:24-27: Foundation work counts without applause. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Nobody Applauds the Concrete — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-82": {
+    "file": "26-share-cards/soul-snack-82-v2.png",
+    "title": "God Can Sit Beside the Spreadsheet",
+    "description": "Psalm 16: Plan wisely. Let God be more than the plan. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "God Can Sit Beside the Spreadsheet — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-83": {
+    "file": "26-share-cards/soul-snack-83-v2.png",
+    "title": "Refresh Is Not a Foundation",
+    "description": "Psalm 62: My soul needs more than refresh. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Refresh Is Not a Foundation — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-84": {
+    "file": "26-share-cards/soul-snack-84-v2.png",
+    "title": "Unclench. Yes, Your Jaw Too.",
+    "description": "Psalm 46: Stillness can begin with one honest breath. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "Unclench. Yes, Your Jaw Too. — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-85": {
+    "file": "26-share-cards/soul-snack-85-v2.png",
+    "title": "Mary Was More Than a Woman Crying in a Garden",
+    "description": "John 20:1-18: Short, true testimony has something to give. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Mary Was More Than a Woman Crying in a Garden — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-86": {
+    "file": "26-share-cards/soul-snack-86-v2.png",
+    "title": "The Mountains May Move. Love Has Deeper Footing.",
+    "description": "Isaiah 54:1-10: Compassion has room for the altered life. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Mountains May Move. Love Has Deeper Footing. — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-87": {
+    "file": "26-share-cards/soul-snack-87-v2.png",
+    "title": "You May Enjoy the Good Week",
+    "description": "John 16:25-33: Today's good thing may be received today. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "You May Enjoy the Good Week — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-88": {
+    "file": "26-share-cards/soul-snack-88-v2.png",
+    "title": "Put on the Armor Before Answering the Cousin",
+    "description": "Ephesians 6:10-18: Peace is part of the armor. A medium Christian devotion by Amy Grace with a practical response.",
+    "alt": "Put on the Armor Before Answering the Cousin — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-89": {
+    "file": "26-share-cards/soul-snack-89-v2.png",
+    "title": "The Tree Is Growing Without a Before-and-After Post",
+    "description": "Jeremiah 17:5-10: Roots can grow without a progress post. A long Christian devotion by Amy Grace with a practical response.",
+    "alt": "The Tree Is Growing Without a Before-and-After Post — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "soul-snack-90": {
+    "file": "26-share-cards/soul-snack-90-v2.png",
+    "title": "Beloved, Really. And Still No Audition.",
+    "description": "Hebrews 12:25-29: Beloved at the beginning. Beloved as you go. A short Christian devotion by Amy Grace with a practical response.",
+    "alt": "Beloved, Really. And Still No Audition. — devotion and Scripture illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "devotion"
+  },
+  "seconds-please": {
+    "file": "26-share-cards/seconds-please-v2.png",
+    "title": "Seconds, Please",
+    "description": "Somebody’s bringing up politics. Beat them to it with a toast. Read-aloud grace, poems and questions so dinner goes deeper than the pie.",
+    "alt": "Seconds, Please — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "advent": {
+    "file": "26-share-cards/advent-v2.png",
+    "title": "O Come, All Ye Tired",
+    "description": "For the woman running Christmas on fumes. Five-minute readings, real snacks and permission to skip a day.",
+    "alt": "O Come, All Ye Tired — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "table-talks-guide": {
+    "file": "26-share-cards/table-talks-guide-v2.png",
+    "title": "The Table Talks Guide",
+    "description": "Tired of friendships stuck on “how was your week?” Here are the questions that get past it.",
+    "alt": "The Table Talks Guide — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "he-sings-over-you": {
+    "file": "26-share-cards/he-sings-over-you-v2.png",
+    "title": "He Sings Over You",
+    "description": "If you picture God with His arms crossed, this one’s for you.",
+    "alt": "He Sings Over You — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "the-father-who-runs": {
+    "file": "26-share-cards/the-father-who-runs-v2.png",
+    "title": "The Father Who Runs",
+    "description": "Still rehearsing your apology speech? He’s already halfway down the road.",
+    "alt": "The Father Who Runs — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "the-road-out-of-moab": {
+    "file": "26-share-cards/the-road-out-of-moab-v2.png",
+    "title": "The Road Out of Moab",
+    "description": "For cycle breakers. Ruth walked into Jesus’ family tree. Your turn.",
+    "alt": "The Road Out of Moab — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "fully-family": {
+    "file": "26-share-cards/fully-family-v2.png",
+    "title": "Fully Family",
+    "description": "“Father” sticks in your throat? The papers are signed. You’re family.",
+    "alt": "Fully Family — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "before-the-first-mountain": {
+    "file": "26-share-cards/before-the-first-mountain-v2.png",
+    "title": "Before the First Mountain",
+    "description": "By 7 a.m. you’re keeping score. God settled it before time began.",
+    "alt": "Before the First Mountain — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "the-daughter-who-stayed": {
+    "file": "26-share-cards/the-daughter-who-stayed-v2.png",
+    "title": "The Daughter Who Stayed",
+    "description": "You never left. Everything He has is already yours. Stop invoicing.",
+    "alt": "The Daughter Who Stayed — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "beloved-first": {
+    "file": "26-share-cards/beloved-first-v2.png",
+    "title": "Beloved First",
+    "description": "Beloved first. To-do list second.",
+    "alt": "Beloved First — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "heir-not-hired": {
+    "file": "26-share-cards/heir-not-hired-v2.png",
+    "title": "Heir, Not Hired",
+    "description": "You live on an inheritance. You can stop clocking in.",
+    "alt": "Heir, Not Hired — illustrated Bible guide cover",
+    "width": 1200,
+    "height": 630,
+    "kind": "guide"
+  },
+  "teaching-journey-days-01-50": {
+    "file": "26-share-cards/teaching-journey-days-01-50-v2.png",
+    "title": "Nine movements, one aim: days 1 to 50",
+    "description": "An illustrated map of days 1–50 of Beloved, Really: belonging, identity, trusting truth, grace, and humility. Preview and download the free teaching sheet.",
+    "alt": "Nine movements, one aim: days 1 to 50 — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-journey-days-51-90": {
+    "file": "26-share-cards/teaching-journey-days-51-90-v2.png",
+    "title": "Nine movements, one aim: days 51 to 90",
+    "description": "An illustrated map of days 51–90 of Beloved, Really: welcome, honest limits, abiding, and standing firm. Preview and print the free teaching page.",
+    "alt": "Nine movements, one aim: days 51 to 90 — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-a-hard-day-still-counts": {
+    "file": "26-share-cards/teaching-a-hard-day-still-counts-v2.png",
+    "title": "A hard day still counts: three steps",
+    "description": "A free illustrated Bible study sheet for tired days: anchor in a verse, notice what it shows about God, and pray one honest sentence. Preview and print.",
+    "alt": "A hard day still counts: three steps — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-five-tools": {
+    "file": "26-share-cards/teaching-five-tools-v2.png",
+    "title": "Five tools, 90 days",
+    "description": "Five practical tools for the 90-day Beloved, Really journey: self-checks, a lie-and-truth ledger, letters, pauses, and memory cards. Free teaching sheet.",
+    "alt": "Five tools, 90 days — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-when-it-still-hurts": {
+    "file": "26-share-cards/teaching-when-it-still-hurts-v2.png",
+    "title": "When it still hurts",
+    "description": "An illustrated lament practice using Psalm 13: address God, name the pain, ask, and choose trust. Preview the free teaching sheet and companion reading.",
+    "alt": "When it still hurts — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-check-its-id": {
+    "file": "26-share-cards/teaching-check-its-id-v2.png",
+    "title": "Check its ID",
+    "description": "A free illustrated thought-checking exercise: notice it, name it, and compare it with Scripture. Preview the teaching page and its companion devotion.",
+    "alt": "Check its ID — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-lie-and-truth-ledger": {
+    "file": "26-share-cards/teaching-lie-and-truth-ledger-v2.png",
+    "title": "The Lie and Truth Ledger",
+    "description": "A printable Christian journal exercise: put a familiar lie beside a Bible passage and examine it in context. Preview the original illustrated teaching sheet.",
+    "alt": "The Lie and Truth Ledger — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-hired-help-or-heir": {
+    "file": "26-share-cards/teaching-hired-help-or-heir-v2.png",
+    "title": "Hired help or heir?",
+    "description": "A free illustrated Galatians 4:7 teaching sheet contrasting earning wages with receiving inheritance. Preview the page and explore the companion devotion.",
+    "alt": "Hired help or heir? — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "teaching-beloved-then-sent": {
+    "file": "26-share-cards/teaching-beloved-then-sent-v2.png",
+    "title": "Beloved, then sent",
+    "description": "An illustrated teaching sheet on Matthew 3:17: beloved before being sent. Explore identity before service, with a free printable and companion devotion.",
+    "alt": "Beloved, then sent — original teaching illustration",
+    "width": 1200,
+    "height": 630,
+    "kind": "teaching"
+  },
+  "index": {
+    "file": "26-share-cards/index-collage.png",
+    "title": "Grow deeper in faith. Make room for a little joy.",
+    "description": "Christian devotions, free illustrated Bible guides, and a little sunshine for your beautifully messy life.",
+    "alt": "Grow deeper in faith. Make room for a little joy. — Christian devotions, free illustrated Bible guides, and a little sunshine for your beautifully messy life. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "soul-snacks": {
+    "file": "26-share-cards/soul-snacks-collage.png",
+    "title": "Open a little sunshine.",
+    "description": "Choose a short, medium, or longer Christian devotion. Open the illustrated journal.",
+    "alt": "Open a little sunshine. — Choose a short, medium, or longer Christian devotion. Open the illustrated journal. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "freebies": {
+    "file": "26-share-cards/freebies-v2.png",
+    "title": "The little free digital library",
+    "description": "Illustrated Bible guides, honest questions, and something useful to take home.",
+    "alt": "The little free digital library — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "start": {
+    "file": "26-share-cards/start-collage.png",
+    "title": "Find a devotion for your kind of day.",
+    "description": "Nine illustrated paths into Scripture, with a free reading for the day you’re in.",
+    "alt": "Find a devotion for your kind of day. — Nine illustrated paths into Scripture, with a free reading for the day you’re in. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "teaching-shelf": {
+    "file": "26-share-cards/teaching-shelf-v2.png",
+    "title": "Bible teaching you can see, save and share.",
+    "description": "Nine original teaching illustrations + free printable PDFs.",
+    "alt": "Bible teaching you can see, save and share. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "about": {
+    "file": "26-share-cards/about-v2.png",
+    "title": "Meet Amy Grace.",
+    "description": "Honest stories, everyday faith, and a welcoming committee of two doodles.",
+    "alt": "Meet Amy Grace. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "subscribe": {
+    "file": "26-share-cards/subscribe-v2.png",
+    "title": "A little letter. A little sunshine.",
+    "description": "One Sunday a month. A passage, a story or question, and something small to carry.",
+    "alt": "A little letter. A little sunshine. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "identity-belonging": {
+    "file": "26-share-cards/identity-belonging-v2.png",
+    "title": "Identity and belonging in Christ",
+    "description": "For the days you’re tired of earning love.",
+    "alt": "Identity and belonging in Christ — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "prayer-trust": {
+    "file": "26-share-cards/prayer-trust-v2.png",
+    "title": "Prayer and trust on hard days",
+    "description": "Bring the question you keep editing out of your prayers.",
+    "alt": "Prayer and trust on hard days — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "rest-rootedness": {
+    "file": "26-share-cards/rest-rootedness-v2.png",
+    "title": "Rest and staying rooted",
+    "description": "For tired bodies, long waits, and one more ordinary day.",
+    "alt": "Rest and staying rooted — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "praying-as-family": {
+    "file": "26-share-cards/praying-as-family-v2.png",
+    "title": "How do I pray when I feel unworthy?",
+    "description": "A closer look at Romans 8:12–17 and prayer that begins with belonging.",
+    "alt": "How do I pray when I feel unworthy? — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "taking-thoughts-captive": {
+    "file": "26-share-cards/taking-thoughts-captive-v2.png",
+    "title": "What does taking thoughts captive mean?",
+    "description": "Read 2 Corinthians 10:3–5 in context, then try a modest practice.",
+    "alt": "What does taking thoughts captive mean? — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "when-you-are-exhausted": {
+    "file": "26-share-cards/when-you-are-exhausted-v2.png",
+    "title": "What can Elijah teach us when we’re exhausted?",
+    "description": "Read 1 Kings 19:1–9 with room for practical care and an unfinished story.",
+    "alt": "What can Elijah teach us when we’re exhausted? — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "scripture-index": {
+    "file": "26-share-cards/scripture-index-v2.png",
+    "title": "Open your Bible. Find a reading.",
+    "description": "Find a devotion by passage, title, or a question you’re carrying.",
+    "alt": "Open your Bible. Find a reading. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "community-guidelines": {
+    "file": "26-share-cards/community-guidelines-v2.png",
+    "title": "A conversation with room for care.",
+    "description": "Kindness, honest questions, and room to listen.",
+    "alt": "A conversation with room for care. — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "for-stop-auditioning": {
+    "file": "26-share-cards/for-stop-auditioning-collage.png",
+    "title": "I’m tired of auditioning.",
+    "description": "Belonging without earning love",
+    "alt": "I’m tired of auditioning. — Belonging without earning love | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-old-labels": {
+    "file": "26-share-cards/for-old-labels-collage.png",
+    "title": "Who put that label in charge?",
+    "description": "Identity and the names we carry",
+    "alt": "Who put that label in charge? — Identity and the names we carry | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-too-many-tabs": {
+    "file": "26-share-cards/for-too-many-tabs-collage.png",
+    "title": "My brain has 47 tabs open.",
+    "description": "Thought loops, worry and truth",
+    "alt": "My brain has 47 tabs open. — Thought loops, worry and truth | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-the-replay": {
+    "file": "26-share-cards/for-the-replay-collage.png",
+    "title": "Can we stop replaying that?",
+    "description": "Shame, forgiveness and receiving grace",
+    "alt": "Can we stop replaying that? — Shame, forgiveness and receiving grace | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-something-to-give": {
+    "file": "26-share-cards/for-something-to-give-collage.png",
+    "title": "I’ve got something to give. I think.",
+    "description": "Gifts, purpose and the courage to contribute",
+    "alt": "I’ve got something to give. I think. — Gifts, purpose and the courage to contribute | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-room-for-me": {
+    "file": "26-share-cards/for-room-for-me-collage.png",
+    "title": "Full group chat. Nobody to call.",
+    "description": "Friendship, welcome and taking your place",
+    "alt": "Full group chat. Nobody to call. — Friendship, welcome and taking your place | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-cranky-yes": {
+    "file": "26-share-cards/for-cranky-yes-collage.png",
+    "title": "My “yes” is starting to sound cranky.",
+    "description": "People pleasing, honest answers and limits",
+    "alt": "My “yes” is starting to sound cranky. — People pleasing, honest answers and limits | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-quiet-growth": {
+    "file": "26-share-cards/for-quiet-growth-collage.png",
+    "title": "I’m tired. Is anything growing?",
+    "description": "Rest, long waits and staying rooted",
+    "alt": "I’m tired. Is anything growing? — Rest, long waits and staying rooted | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "for-something-steady": {
+    "file": "26-share-cards/for-something-steady-collage.png",
+    "title": "Everything keeps changing. I need something steady.",
+    "description": "Courage, uncertainty and a steady foundation",
+    "alt": "Everything keeps changing. I need something steady. — Courage, uncertainty and a steady foundation | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  },
+  "welcome": {
+    "file": "26-share-cards/welcome-collage.png",
+    "title": "Hello, lovely.",
+    "description": "Your first little Sunshine Mail surprise.",
+    "alt": "Hello, lovely. — Your first little Sunshine Mail surprise. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "welcome"
+  },
+  "pray-when-you-feel-unworthy": {
+    "file": "26-share-cards/praying-as-family-v2.png",
+    "title": "How do I pray when I feel unworthy?",
+    "description": "A closer look at Romans 8:12–17 and prayer that begins with belonging.",
+    "alt": "How do I pray when I feel unworthy? — Chaotic Sunshine illustrated journal",
+    "width": 1200,
+    "height": 630,
+    "kind": "journal"
+  },
+  "sunshine-mail-sample": {
+    "file": "26-share-cards/sunshine-mail-sample-collage.png",
+    "title": "Your prayer can lose the cover letter.",
+    "description": "A fully illustrated Sunday letter from Amy Grace, with Romans 8:12–17 and one honest place to begin.",
+    "alt": "Your prayer can lose the cover letter. — A fully illustrated Sunday letter from Amy Grace, with Romans 8:12–17 and one honest place to begin. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "letter"
+  },
+  "side-quests": {
+    "file": "26-share-cards/side-quests-collage.png",
+    "title": "Your afternoon could have a plot.",
+    "description": "24 creative side quests, joy missions, and field notes for ordinary life.",
+    "alt": "Your afternoon could have a plot. — 24 creative side quests, joy missions, and field notes for ordinary life. | Chaotic Sunshine",
+    "width": 1200,
+    "height": 630,
+    "kind": "collection"
+  }
+}

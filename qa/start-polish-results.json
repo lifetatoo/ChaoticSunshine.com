@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-13T14:29:39.902Z",
+  "pages": 138,
+  "references": 13808,
+  "cases": [
+    {
+      "profile": "desktop",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "findings": [
+    {
+      "profile": "desktop",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "button[aria-controls=\"pick-back-quiet-growth\"] > .pick-turn"
+            ]
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
