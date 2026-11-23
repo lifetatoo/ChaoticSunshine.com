@@ -47,3 +47,6 @@ Do not merge or promote the draft PR without closing the P0 gates. P1/P2 entries
 - A future optional `printSheets.file` source mapping supports a third **Print worksheet pages** action, but sheets appear only after a file is actually copied to `/guides/`. No broken or placeholder sheet links are created.
 - Full PDF assets for five **new** Teaching Studio guides have not been added to this repository, so these new products are not yet linked or shown as published. Their separate white-paper print editions exist in the local release deliverables and must be uploaded with the illustrated PDFs before pilot deployment.
 - The draft PR remains unmerged. Do not promote to production without staging and manual phone/tablet print testing. Browser automation checks only PDF availability, not success of the device OS print dialog.
+
+
+**Print-label correction, Nov 23:** Existing legacy "print-friendly" editions are not all documented as pure-white background. The panel labels these accurately as **Print-friendly PDF** rather than claiming white pages. Only future guides with confirmed white output should set `printWhite:true` in their resource metadata and receive the **Print white-paper PDF** label. The new five Teaching Studio white-paper editions have been generated separately but are not hosted in this draft repository yet.
