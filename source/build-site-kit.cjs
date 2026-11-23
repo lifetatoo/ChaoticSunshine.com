@@ -153,6 +153,8 @@ function directDownloads(slug) { // direct, free PDF delivery
   const name = esc(guideTitle(slug));
   const colorUrl = prefix + guideFile(slug, 'color');
   const printAvailable = r.downloads.length > 1;
+  const verifiedWhite = printAvailable && r.printWhite === true;
+  const printLabel = verifiedWhite ? 'Print white-paper PDF' : printAvailable ? 'Print-friendly PDF' : 'Open illustrated PDF to print';
   const printUrl = prefix + guideFile(slug, printAvailable ? 'print' : 'color');
   const noteId = 'cs-print-' + slug;
   // The print link opens a real PDF in the browser's viewer rather than attempting
@@ -160,14 +162,16 @@ function directDownloads(slug) { // direct, free PDF delivery
   const sheetAction = r.printSheets?.file
     ? `<a class="cs-guide-sheets-button" href="${prefix}guides/${slug}-sheets.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open just the printable worksheets for ${name}">Print worksheet pages ↗</a>`
     : '';
-  const how = printAvailable
-    ? 'White-paper print edition with color accents. Opens the PDF viewer: print all pages or select a range.'
-    : 'Opens the original illustrated PDF. Choose Print or a page range from the PDF viewer; a separate white-paper edition is not available yet.';
+  const how = verifiedWhite
+    ? 'White paper with full-color accents. Open the PDF viewer and print all pages or choose a range.'
+    : printAvailable
+    ? 'Opens the existing ink-light printable edition. White-paper treatment is not yet verified for this older guide. Choose your page range in the PDF viewer.'
+    : 'Opens the original illustrated PDF; a separate ink-light edition is not available yet. Choose Print or a page range in the PDF viewer.';
   return `<div class="cs-guide-print-panel" role="group" aria-label="PDF download and printing options for ${name}">
     <p class="cs-guide-print-eyebrow">KEEP IT BEAUTIFUL. PRINT IT PRACTICAL.</p>
     <div class="cs-guide-print-actions">
       <a class="button cs-guide-download-button" href="${colorUrl}" download="chaotic-sunshine-${slug}.pdf" aria-label="Download the illustrated color PDF for ${name}">Download illustrated PDF <span aria-hidden="true">↓</span></a>
-      <a class="cs-guide-print-button" href="${printUrl}" target="_blank" rel="noopener noreferrer" aria-describedby="${noteId}" aria-label="Open ${printAvailable ? 'white-paper print-friendly' : 'illustrated'} PDF to print for ${name}"><span aria-hidden="true">↗</span> ${printAvailable ? 'Print white-paper PDF' : 'Open PDF to print'}</a>
+      <a class="cs-guide-print-button" href="${printUrl}" target="_blank" rel="noopener noreferrer" aria-describedby="${noteId}" aria-label="Open ${verifiedWhite ? 'white-paper print-friendly' : printAvailable ? 'ink-light' : 'illustrated'} PDF to print for ${name}"><span aria-hidden="true">↗</span> ${printLabel}</a>
       ${sheetAction}
     </div>
     <p class="cs-guide-print-note" id="${noteId}">${how} On a phone, use Share → Print. <strong>${r.downloads[0].pages} pages</strong>, US Letter.</p>
