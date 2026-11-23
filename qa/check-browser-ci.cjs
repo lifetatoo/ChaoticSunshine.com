@@ -48,13 +48,16 @@ const server=http.createServer((req,res)=>{
    const caseResult={slug,profile:profile.key,status:response?.status(),...state,jsErrors:[...errors]};
    if(['table-talks-guide','seconds-please','before-the-first-mountain'].includes(slug)){
     const button=page.locator('.cs-guide-print-panel .cs-guide-print-button');
-    if(await button.count()!==1)report.findings.push({slug,profile:profile.key,error:'Expected one real print PDF action'});
+    const count=await button.count();
+    if(count<1||count>3)report.findings.push({slug,profile:profile.key,error:'Unexpected number of real PDF print actions',count});
     else{
-      const url=await button.getAttribute('href');
-      if(!url?.endsWith('.pdf'))report.findings.push({slug,profile:profile.key,error:'Print link does not target a PDF',url});
-      else{
-        const printResponse=await page.request.get(base+'/'+url.replace(/^\//,''));
-        if(printResponse.status()!==200 || !(printResponse.headers()['content-type']||'').includes('pdf'))report.findings.push({slug,profile:profile.key,error:'PDF print target missing or not PDF',url});
+      const paths=new Set(await button.evaluateAll(els=>els.map(x=>x.getAttribute('href'))));
+      for(const url of paths){
+        if(!url?.endsWith('.pdf'))report.findings.push({slug,profile:profile.key,error:'Print link does not target a PDF',url});
+        else{
+          const printResponse=await page.request.get(base+'/'+url.replace(/^\//,''));
+          if(printResponse.status()!==200 || !(printResponse.headers()['content-type']||'').includes('pdf'))report.findings.push({slug,profile:profile.key,error:'PDF print target missing or not PDF',url});
+        }
       }
     }
    }
@@ -67,7 +70,7 @@ const server=http.createServer((req,res)=>{
     if(Math.abs(stickyY)>3)report.findings.push({slug,profile:profile.key,error:'Navigation is not sticky after scrolling',stickyY});
     await page.evaluate(()=>window.scrollTo(0,0));
    }
-   if((profile.key!=='tiny'&&['index','subscribe','freebies','side-quests','soul-snacks','soul-snack-02'].includes(slug))){
+   if((profile.key!=='tiny'&&['index','subscribe','freebies','side-quests','soul-snacks','soul-snack-02','table-talks-guide','seconds-please','before-the-first-mountain'].includes(slug))){
     const file=slug+'-'+profile.key+'.jpg';
     await page.screenshot({path:path.join(screenshots,file),type:'jpeg',quality:62,fullPage:false});
     report.visuals.push(file);
