@@ -30,7 +30,7 @@ const server=http.createServer((req,res)=>{
  browser=await chromium.launch({executablePath,headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
  const axe=fs.readFileSync(require.resolve('axe-core/axe.min.js'),'utf8');
  const profiles=[{key:'desktop',width:1440,height:900},{key:'mobile',width:390,height:844},{key:'tiny',width:320,height:700}];
- const slugs=['index','start','freebies','soul-snacks','teaching-shelf','side-quests','subscribe','about','welcome','soul-snack-02','table-talks-guide'];
+ const slugs=['index','start','freebies','soul-snacks','teaching-shelf','side-quests','subscribe','about','welcome','soul-snack-02','table-talks-guide','seconds-please','before-the-first-mountain'];
  for(const profile of profiles){
   const ctx=await browser.newContext({viewport:{width:profile.width,height:profile.height},deviceScaleFactor:1,reducedMotion:'reduce'});
   const page=await ctx.newPage(),errors=[];
@@ -46,6 +46,18 @@ const server=http.createServer((req,res)=>{
     return {overflow:document.documentElement.scrollWidth>innerWidth+2,brokenImages:[...document.images].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.getAttribute('src')),nav:!!nav,navLinks:nav?.querySelectorAll('a').length||0,violations:a.map(v=>({id:v.id,impact:v.impact,targets:v.nodes.slice(0,6).map(n=>n.target)}))};
    });
    const caseResult={slug,profile:profile.key,status:response?.status(),...state,jsErrors:[...errors]};
+   if(['table-talks-guide','seconds-please','before-the-first-mountain'].includes(slug)){
+    const button=page.locator('.cs-guide-print-panel .cs-guide-print-button');
+    if(await button.count()!==1)report.findings.push({slug,profile:profile.key,error:'Expected one real print PDF action'});
+    else{
+      const url=await button.getAttribute('href');
+      if(!url?.endsWith('.pdf'))report.findings.push({slug,profile:profile.key,error:'Print link does not target a PDF',url});
+      else{
+        const printResponse=await page.request.get(base+'/'+url.replace(/^\//,''));
+        if(printResponse.status()!==200 || !(printResponse.headers()['content-type']||'').includes('pdf'))report.findings.push({slug,profile:profile.key,error:'PDF print target missing or not PDF',url});
+      }
+    }
+   }
    report.pages.push(caseResult);
    if(caseResult.status!==200||caseResult.overflow||caseResult.brokenImages.length||!caseResult.nav||caseResult.navLinks<7||caseResult.jsErrors.length||caseResult.violations.length)report.findings.push(caseResult);
    if(slug==='index'){

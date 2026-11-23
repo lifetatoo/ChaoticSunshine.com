@@ -147,12 +147,31 @@ function signup(key, label) {
 
 const guideFile = (slug, kind) => `guides/${slug}${kind === 'print' ? '-print' : ''}.pdf`;
 
-function directDownloads(slug) { // ungated (Advent)
-
+function directDownloads(slug) { // direct, free PDF delivery
   const r = resources[slug];
-
-  return `<div class="actions">${r.downloads.map((d, i) => `<a class="${i === 0 ? 'button' : 'text-link'}" href="${prefix}${guideFile(slug, i === 0 ? 'color' : 'print')}" download>${esc(d.label)} ↓</a>`).join('')}</div><small>Free PDF · ${r.downloads[0].pages} pages</small>`;
-
+  if (!r?.downloads?.length) return '<p class="availability">This guide is being prepared for download.</p>';
+  const name = esc(guideTitle(slug));
+  const colorUrl = prefix + guideFile(slug, 'color');
+  const printAvailable = r.downloads.length > 1;
+  const printUrl = prefix + guideFile(slug, printAvailable ? 'print' : 'color');
+  const noteId = 'cs-print-' + slug;
+  // The print link opens a real PDF in the browser's viewer rather than attempting
+  // unreliable iframe/window.print calls (particularly on mobile Safari).
+  const sheetAction = r.printSheets?.file
+    ? `<a class="cs-guide-sheets-button" href="${prefix}guides/${slug}-sheets.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open just the printable worksheets for ${name}">Print worksheet pages ↗</a>`
+    : '';
+  const how = printAvailable
+    ? 'White-paper print edition with color accents. Opens the PDF viewer: print all pages or select a range.'
+    : 'Opens the original illustrated PDF. Choose Print or a page range from the PDF viewer; a separate white-paper edition is not available yet.';
+  return `<div class="cs-guide-print-panel" role="group" aria-label="PDF download and printing options for ${name}">
+    <p class="cs-guide-print-eyebrow">KEEP IT BEAUTIFUL. PRINT IT PRACTICAL.</p>
+    <div class="cs-guide-print-actions">
+      <a class="button cs-guide-download-button" href="${colorUrl}" download="chaotic-sunshine-${slug}.pdf" aria-label="Download the illustrated color PDF for ${name}">Download illustrated PDF <span aria-hidden="true">↓</span></a>
+      <a class="cs-guide-print-button" href="${printUrl}" target="_blank" rel="noopener noreferrer" aria-describedby="${noteId}" aria-label="Open ${printAvailable ? 'white-paper print-friendly' : 'illustrated'} PDF to print for ${name}"><span aria-hidden="true">↗</span> ${printAvailable ? 'Print white-paper PDF' : 'Open PDF to print'}</a>
+      ${sheetAction}
+    </div>
+    <p class="cs-guide-print-note" id="${noteId}">${how} On a phone, use Share → Print. <strong>${r.downloads[0].pages} pages</strong>, US Letter.</p>
+  </div>`;
 }
 
 

@@ -40,6 +40,20 @@ for(const [file,html] of [['index',front],['subscribe',sub]]){
 }
 const guides=fs.readdirSync(path.join(site,'guides')).filter(n=>n.endsWith('.pdf'));
 check(guides.length>=21,'Expected 21 PDFs, found '+guides.length);
+// Every older Free Library guide must have a functional download and open-to-print link.
+// The one without a dedicated ink-friendly edition is labeled honestly.
+const resources=require('../source/guide-resources.json');
+for(const [slug,r] of Object.entries(resources)){
+  const html=read(slug+'.html');
+  const label=r.downloads.length>1?'Print white-paper PDF':'Open PDF to print';
+  check(html.includes('cs-guide-print-panel'),slug+': no print/download panel');
+  check(html.includes(label),slug+': wrong or missing print label');
+  check(html.includes('guides/'+slug+'.pdf'),slug+': illustrated download missing');
+  check(html.includes('guides/'+slug+(r.downloads.length>1?'-print':'')+'.pdf'),slug+': print PDF path missing');
+  check(!r.downloads.length||fs.existsSync(path.join(site,'guides',slug+'.pdf')),slug+': PDF not copied');
+  if(r.downloads.length>1)check(fs.existsSync(path.join(site,'guides',slug+'-print.pdf')),slug+': print PDF not copied');
+}
+
 const report={asOf:new Date().toISOString(),source:'generated pilot build',pages:pages.length,guides:guides.length,checkedAssetLinks:checkedAssets,findings:failures};
 console.log(JSON.stringify(report,null,2));
 if(failures.length)process.exitCode=1;

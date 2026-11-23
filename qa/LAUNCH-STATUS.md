@@ -38,3 +38,12 @@ Do not merge or promote the draft PR without closing the P0 gates. P1/P2 entries
 - **Artwork blocker**: the actual desktop Sunshine Mail artwork still visibly contains the retired words "SUNSHINE MAIL CLUB" on the artwork, despite the corrected alt text and surrounding prose. Replace the source WebP artwork and inspect the desktop/phone results, then rerun CI.
 - **Production routing blocker**: the external public-domain check in the same workflow returned `HTTP/2 522` for apex `https://chaoticsunshine.com/` and `HTTP/2 200` plus `x-robots-tag: noindex, nofollow` for `https://www.chaoticsunshine.com/`. This confirms that production indexing/routing is not ready at the moment checked; the pilot build itself was not deployed.
 - Cloudflare access and live Kit confirmation remain unverified. Do not confuse the successful CI run with approved launch readiness.
+
+
+## November 23 print UX quality pass (pilot branch only)
+
+- Added a single consistent print/download panel on all 11 current Free Library guide detail pages.
+- For guides that already include a separate printable PDF, the link says **Print white-paper PDF** and opens the actual PDF in a new tab. Where there is no separate print PDF, it explicitly says **Open PDF to print** rather than falsely labeling the illustrated file ink-friendly. Mobile instructions direct readers to Share → Print.
+- A future optional `printSheets.file` source mapping supports a third **Print worksheet pages** action, but sheets appear only after a file is actually copied to `/guides/`. No broken or placeholder sheet links are created.
+- Full PDF assets for five **new** Teaching Studio guides have not been added to this repository, so these new products are not yet linked or shown as published. Their separate white-paper print editions exist in the local release deliverables and must be uploaded with the illustrated PDFs before pilot deployment.
+- The draft PR remains unmerged. Do not promote to production without staging and manual phone/tablet print testing. Browser automation checks only PDF availability, not success of the device OS print dialog.
