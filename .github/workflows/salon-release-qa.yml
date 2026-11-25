@@ -17,10 +17,10 @@ jobs:
       matrix:
         profile: [production, staging]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '24'
       - name: Print exact source commit
@@ -29,6 +29,7 @@ jobs:
         shell: bash
         run: |
           if [ "${{ matrix.profile }}" = "staging" ]; then
+            export CS_STAGING=1
             npm run build:staging
           else
             npm run build
