@@ -29,8 +29,8 @@ const server=http.createServer((req,res)=>{
  if(!executablePath)throw Error('No Chrome executable available on the CI runner');
  browser=await chromium.launch({executablePath,headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
  const axe=fs.readFileSync(require.resolve('axe-core/axe.min.js'),'utf8');
- const profiles=[{key:'desktop',width:1440,height:900},{key:'mobile',width:390,height:844},{key:'tiny',width:320,height:700}];
- const slugs=['index','start','freebies','soul-snacks','teaching-shelf','side-quests','subscribe','about','welcome','soul-snack-02','table-talks-guide'];
+ const profiles=[{key:'desktop',width:1440,height:900},{key:'tablet-large',width:1024,height:850},{key:'tablet',width:768,height:900},{key:'mobile',width:390,height:844},{key:'tiny',width:320,height:700}];
+ const slugs=['index','start','freebies','soul-snacks','teaching-shelf','side-quests','daily-cabinet','make','try','share','subscribe','about','site-map','welcome','soul-snack-02','table-talks-guide'];
  for(const profile of profiles){
   const ctx=await browser.newContext({viewport:{width:profile.width,height:profile.height},deviceScaleFactor:1,reducedMotion:'reduce'});
   const page=await ctx.newPage(),errors=[];
@@ -64,7 +64,7 @@ const server=http.createServer((req,res)=>{
     if(!(await page.locator('#phone-pages').evaluate(el=>el.open)))report.findings.push({slug,profile:profile.key,error:'More menu did not open'});
     await page.locator('#phone-pages-close').click();
    }
-   if((profile.key!=='tiny'&&['index','subscribe','freebies','side-quests','soul-snacks','soul-snack-02'].includes(slug))){
+   if((['desktop','tablet','mobile'].includes(profile.key)&&['index','subscribe','freebies','side-quests','daily-cabinet','make','share','soul-snacks','soul-snack-02'].includes(slug))){
     const file=slug+'-'+profile.key+'.jpg';
     await page.screenshot({path:path.join(screenshots,file),type:'jpeg',quality:62,fullPage:false});
     report.visuals.push(file);
