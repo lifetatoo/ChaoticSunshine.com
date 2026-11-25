@@ -51,6 +51,17 @@ for(const file of files){const slug=file.replace(/\.html$/,''),original=original
 }
 for(const f of ['studio.css','salon.css','site-navigation.js','letter-system.css','library-system.css','mobile-navigation.css','side-quest-books.css','side-quest-cards.css','site-visual-fixes.css','daily-cabinet-v2.css','v4-mail-polish.css'])fs.copyFileSync(path.join(__dirname,f),path.join(out,f));
 for(const f of fs.readdirSync(path.join(__dirname,'assets')))fs.copyFileSync(path.join(__dirname,'assets',f),path.join(out,'assets',f));
+ // Preserve and publish existing original social-share cards; never generate substitutes in a release.
+ const socialManifest=require('../source/assets/26-share-cards/manifest.json');
+ let socialCopied=0;const missingSocial=[];
+ for(const [key,entry] of Object.entries(socialManifest)){
+   if(!entry.file)continue;
+   const from=path.join(source,'assets',entry.file),to=path.join(out,'assets',entry.file);
+   if(!fs.existsSync(from)){missingSocial.push(key);continue;}
+   fs.mkdirSync(path.dirname(to),{recursive:true});fs.copyFileSync(from,to);socialCopied++;
+ }
+ fs.writeFileSync(path.join(out,'social-share-assets.json'),JSON.stringify({copied:socialCopied,missing:missingSocial},null,2));
+
 const urls=files.filter(f=>!['welcome.html','404.html'].includes(f)).map(f=>'https://chaoticsunshine.com/'+(f==='index.html'?'':f.replace(/\.html$/,'')));
 fs.writeFileSync(path.join(out,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(u=>'<url><loc>'+u+'</loc></url>').join('\n')+'\n</urlset>');
 fs.writeFileSync(path.join(out,'robots.txt'),'User-agent: *\n'+(review?'Disallow: /\n':'Allow: /\nSitemap: https://chaoticsunshine.com/sitemap.xml\n'));
