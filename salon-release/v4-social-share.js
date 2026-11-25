@@ -42,5 +42,7 @@ function csV4ShareTools(){
  }
  main.append(section);
 }
-const csV4ShareBindBefore=bind;
-bind=function(route){csV4ShareBindBefore(route);csV4ShareTools();};
+// Run on the first page and any client-side route changes, including legacy guide pages.
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',csV4ShareTools,{once:true});
+else csV4ShareTools();
+window.addEventListener('hashchange',()=>{queueMicrotask(csV4ShareTools);});
