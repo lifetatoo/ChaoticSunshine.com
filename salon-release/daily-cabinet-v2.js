@@ -90,28 +90,51 @@ bind=function(route){
      +'<small>'+safe(selected.credit)+'</small></div></div></article>'
      +'<div class="card-actions"><button type="button" class="small" id="turn-card">'+(side==='back'?'Turn to the front ↶':'Turn the card over ↻')+'</button>'
      +'<button type="button" class="small secondary" id="keep-card">Keep this card ↓</button>'
-     +'<button type="button" class="small secondary" id="another-card">Another little discovery ✦</button></div>';
+     +'<button type="button" class="small secondary" id="another-card">Draw another from this drawer ✦</button></div>';
    stage.querySelector('#turn-card').onclick=function(){side=side==='front'?'back':'front';renderCard();status.textContent=side==='back'?'You turned the card to its question.':'Showing the illustrated front.';};
    stage.querySelector('#keep-card').onclick=function(){download(cardText(),'chaotic-sunshine-'+selected.id+'.txt');};
    stage.querySelector('#another-card').onclick=function(){drawCard(false);};
  }
  function dayKey(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+ // Each drawer keeps its own full, shuffled, non-repeating queue. A click on
+ // a drawer is always a request for a fresh card, not just tab activation.
+ // The daily card is deterministic only for the initial page load.
+ const decks={today:[],verse:[],studio:[]};
+ const drawn={today:0,verse:0,studio:0};
+ let lastTitle='';
+ function renewDeck(key){
+   const choices=key==='verse'?CS_CABINET_VERSE:key==='studio'?CS_CABINET_STUDIO:CS_CABINET_ALL;
+   const items=choices.slice();
+   for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}
+   // Prevent the same teaching from being displayed twice consecutively,
+   // even when it lives in both the Scripture and Studio collections.
+   const first=items.findIndex(c=>c.title!==lastTitle&&c.id!==lastId);
+   if(first>0)[items[0],items[first]]=[items[first],items[0]];
+   decks[key]=items;
+   drawn[key]=0;
+ }
  function drawCard(todaysPick){
    const choices=pool();let next;
    if(todaysPick&&drawer==='today'){
      let h=0;for(const ch of dayKey())h=(h*31+ch.charCodeAt(0))>>>0;
      next=choices[h%choices.length];
+     // This daily selection also consumes its place in the non-repeating deck.
+     renewDeck('today');decks.today=decks.today.filter(c=>c.id!==next.id);
+     drawn.today=1;
    }else{
-     let available=choices.filter(function(c){return !seen[drawer].has(c.id)&&c.id!==lastId;});
-     if(!available.length){seen[drawer].clear();available=choices.filter(function(c){return c.id!==lastId;});}
-     if(!available.length)available=choices;
-     next=available[Math.floor(Math.random()*available.length)];
+     if(!decks[drawer].length)renewDeck(drawer);
+     let idx=decks[drawer].findIndex(c=>c.id!==lastId&&c.title!==lastTitle);
+     if(idx<0)idx=decks[drawer].findIndex(c=>c.id!==lastId);
+     if(idx<0)idx=0;
+     next=decks[drawer].splice(idx,1)[0];
+     drawn[drawer]++;
    }
-   selected=next;seen[drawer].add(next.id);lastId=next.id;side='front';
+   selected=next;seen[drawer].add(next.id);lastId=next.id;lastTitle=next.title;side='front';
    stage.classList.remove('is-drawing');void stage.offsetWidth;
    if(!matchMedia('(prefers-reduced-motion:reduce)').matches)stage.classList.add('is-drawing');
    renderCard();
-   status.textContent=CS_CABINET_GROUP_NAMES[drawer]+': '+selected.title+'. '+(choices.length-seen[drawer].size)+' unseen cards remain before reshuffling.';
+   const shown=drawn[drawer],total=choices.length,remaining=decks[drawer].length;
+   status.textContent=CS_CABINET_GROUP_NAMES[drawer]+': card '+shown+' of '+total+' · '+remaining+' still to discover in this round. '+selected.title+'.';
  }
  function pickDrawer(key){
    drawers.forEach(function(el){el.setAttribute('aria-pressed',String(el.dataset.drawer===key));});
