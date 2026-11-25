@@ -94,11 +94,14 @@ const socialCode='const CS_V4_PUBLIC_SHARE_SLUGS='+JSON.stringify(csPublicSlugs)
  +fs.readFileSync(path.join(__dirname,'v4-social-share.js'),'utf8');
 const app=fs.readFileSync(path.join(__dirname,'app.js'),'utf8');
 if(!app.includes('\nrender();\n'))throw Error('Missing final render hook');
-fs.writeFileSync(path.join(out,'app.js'),app.replace('\nrender();\n','\n'+libraryCode+'\n'+letterCode+'\n'+questCardCode+'\n'+cabinetCode+'\n'+fs.readFileSync(path.join(__dirname,'v4-mail-polish.js'),'utf8')+'\n'+socialCode+'\nrender();\n'));
+fs.writeFileSync(path.join(out,'app.js'),app.replace('\nrender();\n','\n'+libraryCode+'\n'+letterCode+'\n'+questCardCode+'\n'+cabinetCode+'\n'+fs.readFileSync(path.join(__dirname,'v4-mail-polish.js'),'utf8')+'\nrender();\n'));
 
 const phoneCode=fs.readFileSync(path.join(__dirname,'mobile-navigation.js'),'utf8');
 fs.appendFileSync(path.join(out,'app.js'),'\n'+phoneCode);fs.appendFileSync(path.join(out,'site-navigation.js'),'\n'+phoneCode);
 
 require("./release-finish.cjs")(out,review);
 require("./build-unified-search.cjs")(out);
+// Every generated HTML route (including legacy guide and teaching detail pages) shares the same public-only controls.
+fs.writeFileSync(path.join(out,'v4-public-sharing-runtime.js'),socialCode);
+
 
