@@ -6,22 +6,22 @@ const CS_CABINET_PALETTES=[
  ['#ab612a','#6e3a33','#ffe1a8','☼']
 ];
 const CS_CABINET_VERSE=CS_CABINET_DEVOTIONS.map(function(d){return {
- id:'passage-'+d.id,kind:'Scripture invitation',title:d.title,
- message:'Read '+d.reading+' and consider: '+d.takeaway,
- reference:d.reading,prompt:d.question,credit:'Chaotic Sunshine · original reflection',
- url:d.id+'.html'
+ id:'passage-'+d.id,kind:'Scripture discovery',title:d.sourceTitle,
+ message:'Read '+d.reading+'. Notice the people, actions or contrasts in the passage before considering its application.',
+ reference:d.reading,prompt:'Close the passage. In your own words, what does it reveal about '+d.sourceTitle.toLowerCase()+'? Reopen it and check your answer.',credit:'Chaotic Sunshine · Scripture study invitation',
+ artAsset:d.passageArtAsset,artAlt:d.passageArtAlt,url:d.id+'.html'
 };}).concat(CS_CABINET_EXTRA_PASSAGES.map(function(d){return {
  id:d.id,kind:'Scripture invitation',title:d.title,message:d.message,
  reference:d.reference,prompt:d.prompt,credit:d.credit,
- url:'https://www.biblegateway.com/passage/?search='+encodeURIComponent(d.reference)
+ artAsset:d.artAsset,artAlt:d.artAlt,url:'https://www.biblegateway.com/passage/?search='+encodeURIComponent(d.reference)
 };}));
 const CS_CABINET_STUDIO=CS_CABINET_DEVOTIONS.map(function(d){return {
  id:'studio-'+d.id,kind:'Studio encouragement',title:d.title,message:d.takeaway,
- reference:d.reading,prompt:d.question,credit:'Chaotic Sunshine · original Soul Snacks reflection',
- url:d.id+'.html'
+ reference:d.reading,prompt:d.practice,credit:'Chaotic Sunshine · original Soul Snacks practice',
+ artAsset:d.studioArtAsset,artAlt:d.studioArtAlt,url:d.id+'.html'
 };}).concat(CS_CABINET_ORIGINAL_SPARKS.map(function(d){return {
  id:d.id,kind:'Studio encouragement',title:d.title,message:d.message,
- reference:'',prompt:d.prompt,credit:d.credit,url:''
+ reference:'',prompt:d.prompt,credit:d.credit,artAsset:d.artAsset,artAlt:d.artAlt,url:''
 };}));
 const CS_CABINET_ALL=CS_CABINET_VERSE.concat(CS_CABINET_STUDIO);
 const CS_CABINET_GROUP_NAMES={today:'Today’s Surprise',verse:'Scripture Sparks',studio:'Studio Encouragement'};
@@ -63,6 +63,7 @@ bind=function(route){
  const seen={today:new Set(),verse:new Set(),studio:new Set()};
  const pool=function(){return drawer==='verse'?CS_CABINET_VERSE:drawer==='studio'?CS_CABINET_STUDIO:CS_CABINET_ALL;};
  function cardIllustration(card, palette){
+   if(card.artAsset && /^assets\/[a-zA-Z0-9_./-]+\.(webp|png|jpg|svg)$/.test(card.artAsset) && !card.artAsset.includes('..')) return '<div class="cabinet-illustration"><img src="'+safe(card.artAsset)+'" alt="'+safe(card.artAlt||'')+'" style="max-width:100%;max-height:100%;object-fit:contain"></div>';
    // Distinct hand-drawn editorial vignettes, chosen consistently by card ID.
    // Shapes are intentionally varied: not religious icon stamps or stock imagery.
    let hash=0;for(const ch of card.id)hash=(hash*31+ch.charCodeAt(0))>>>0;
