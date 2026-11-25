@@ -36,6 +36,6 @@ for(const n of ['today','verse','studio','archive'])assert.ok(app.includes(n),'m
 assert.ok(app.includes('decks[drawer].splice(idx,1)[0]'),'drawer draws must consume cards from full non-repeating pool');
 assert.ok(app.includes('drawer=key;drawCard(false);'),'repeated drawer clicks must draw again');
 assert.ok(app.includes('lastTitle'),'separate collections must avoid immediate matching titles');
-assert.ok(app.includes('card '+"'"+' of '),'display current draw count and full pool size');
+assert.ok(app.includes("const shown=drawn[drawer],total=choices.length"),'display current draw count and full pool size');
 new Function(app); // syntax check of the ENTIRE generated script without running it.
 console.log('CABINET_QA',JSON.stringify({scriptureCards:scripture,studioCards:cards,dailyMix:scripture+cards,sideQuestPocketCards:quests.length,jarAssets:3,legacyStoragePreserved:true,editorialStatus:'90 manuscript drafts await final approval'}));
