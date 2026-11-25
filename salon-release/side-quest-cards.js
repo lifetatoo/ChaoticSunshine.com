@@ -43,8 +43,9 @@ bind=function(route){
  function renderCard(){
   const color=palettes[(CS_QUEST_FIELD_CARDS.indexOf(current)+CS_QUEST_FIELD_CARDS.filter(x=>x.category===current.category).indexOf(current))%palettes.length];
   const id='quest-card-'+safe(current.id);
+  const illustration=current.artAsset && /^assets\/[a-zA-Z0-9_./-]+\.(webp|png|jpg|svg)$/.test(current.artAsset) && !current.artAsset.includes('..') ? '<img class="quest-card-art" src="'+safe(current.artAsset)+'" alt="'+safe(current.artAlt||'')+'" style="max-width:100%;max-height:110px;object-fit:contain">' : '<span class="quest-card-sigil" aria-hidden="true">'+color[3]+'</span>';
   stage.innerHTML='<div class="quest-pocket-card'+(side==='back'?' is-flipped':'')+'" style="--qcard-front:'+color[0]+';--qcard-back:'+color[1]+';--qcard-gilt:'+color[2]+'" id="'+id+'">'
-   +'<div class="quest-card-face quest-card-front" aria-hidden="'+String(side==='back')+'"><span class="quest-card-sigil" aria-hidden="true">'+color[3]+'</span><span class="quest-card-label">SIDE QUEST SOCIETY · '+safe(current.category).toUpperCase()+'</span><h3>'+safe(current.title)+'</h3><p>'+safe(current.action)+'</p><span class="quest-card-foot">A SMALL ADVENTURE, MADE REAL · '+safe(current.id.split('-').slice(-1)[0])+'</span></div>'
+   +'<div class="quest-card-face quest-card-front" aria-hidden="'+String(side==='back')+'">'+illustration+'<span class="quest-card-label">SIDE QUEST SOCIETY · '+safe(current.category).toUpperCase()+'</span><h3>'+safe(current.title)+'</h3><p>'+safe(current.action)+'</p><span class="quest-card-foot">A SMALL ADVENTURE, MADE REAL · '+safe(current.id.split('-').slice(-1)[0])+'</span></div>'
    +'<div class="quest-card-face quest-card-back" aria-hidden="'+String(side==='front')+'"><span class="quest-card-sigil" aria-hidden="true">✦</span><span class="quest-card-label">THE QUESTION TO CARRY</span><h3>Notice what happened.</h3><p>'+safe(current.reflection)+'</p><span class="quest-card-foot">'+safe(current.credit)+'</span></div></div>';
   flipButton.disabled=false;keepButton.disabled=false;
   flipButton.textContent=side==='front'?'Turn card over ↻':'Return to the front ↶';
