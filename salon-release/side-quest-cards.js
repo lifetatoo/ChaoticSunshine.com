@@ -15,7 +15,7 @@ pages.quests=()=>{
  +'<div class="quest-card-reveal-wrap"><p class="quest-card-kicker" id="quest-card-kicker">Choose a leather book above</p><div class="quest-card-stage" id="quest-card-stage" aria-live="off"></div>'
  +'<div class="quest-card-controls"><button type="button" id="quest-draw-card">Pull another invitation ✦</button><button type="button" class="secondary" id="quest-flip-card" disabled>Turn card over ↻</button><button type="button" class="small secondary" id="quest-keep-card" disabled>Keep this card ↓</button></div>'
  +'<p id="quest-card-status" role="status" class="deck-status">Pick a book to open a little possibility.</p></div></div></section>';
- return source.replace('<div class="quest-share">',deck+'<div class="quest-share">');
+ return source.replace('<div class="quest-bottom">',deck+'<div class="quest-bottom">');
 };
 const questDeckBindBefore=bind;
 bind=function(route){
