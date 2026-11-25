@@ -1,0 +1,112 @@
+/* Side Quest pocket cards: illustrated double-sided collectible cards with live editable copy. */
+.quest-scene .quest-share{grid-row:6}
+.quest-scene .quest-card-deck{
+ grid-column:1/-1;grid-row:5;
+ display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);
+ gap:clamp(22px,4vw,55px);
+ align-items:center;position:relative;
+ margin:clamp(40px,6vw,84px) 0 15px;padding:clamp(25px,4vw,52px);
+ background:linear-gradient(124deg,#f9f1e0,#eae5d9 55%,#ebd5dd);
+ border:1px solid #e8d4a7;border-top:8px solid #d0a756;
+ box-shadow:10px 13px 0 #16262c66;
+ color:#214b48;
+}
+.quest-scene .quest-card-deck:before{
+ content:"";position:absolute;inset:9px;pointer-events:none;
+ border:1px dashed #aa7b5759;
+}
+.quest-deck-intro{position:relative;z-index:1;max-width:430px}
+.quest-deck-intro .eyebrow{color:#9a3e72}
+.quest-deck-intro h2{font:700 clamp(33px,3.9vw,59px)/1.11 Fraunces,Georgia,serif;color:#5f326c;margin:18px 0 20px}
+.quest-deck-intro h2 em{font:1em/1.1 Hand,cursive;color:#0a776d;display:block;margin-top:9px}
+.quest-deck-intro p{font-size:clamp(16px,1.4vw,19px);line-height:1.55;margin:0 0 20px}
+.quest-deck-intro .deck-privacy{font:700 13px/1.55 Jost,sans-serif;color:#556a5e;max-width:340px;border-left:3px solid #d1a758;padding-left:13px}
+.quest-pull-station{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,.32fr) minmax(0,1fr);gap:clamp(12px,2vw,25px);align-items:center}
+.quest-pocket-stack{height:clamp(210px,26vw,322px);position:relative;transform:rotate(-7deg);display:grid;place-items:center;filter:drop-shadow(7px 8px 6px #22414129)}
+.quest-pocket-stack i{
+ display:block;position:absolute;width:min(90%,170px);aspect-ratio:2 / 3;
+ border:5px double #eac279;border-radius:13px;background:linear-gradient(144deg,#257d84,#174c61);
+ box-shadow:4px 4px 0 #593064;transform:rotate(-13deg)
+}
+.quest-pocket-stack i:nth-child(2){background:linear-gradient(145deg,#a32f6d,#642a65);transform:rotate(8deg);margin-top:-20px}
+.quest-pocket-stack i:nth-child(3){background:linear-gradient(145deg,#244a9d,#103f6b);transform:rotate(20deg);margin-top:-28px}
+.quest-pocket-stack span{position:absolute;top:53%;width:90%;font:700 10px/1.3 Jost,sans-serif;text-align:center;letter-spacing:.08em;color:#fff5d7;text-shadow:0 1px #122645;transform:rotate(17deg)}
+.quest-card-reveal-wrap{min-width:0}
+.quest-card-kicker{font:700 11px/1.45 Jost,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#704475;text-align:center;margin:0 0 9px}
+.quest-card-stage{perspective:950px;max-width:530px;margin:auto}
+.quest-pocket-card{
+ position:relative;width:100%;aspect-ratio:1.16;
+ transform-style:preserve-3d;
+ transition:transform .75s cubic-bezier(.21,.65,.25,1);
+ filter:drop-shadow(5px 9px 4px #31545940);
+}
+.quest-pocket-card.is-flipped{transform:rotateY(180deg)}
+.quest-card-face{
+ position:absolute;inset:0;overflow:hidden;display:flex;flex-direction:column;
+ justify-content:center;align-items:center;text-align:center;
+ padding:clamp(20px,3vw,40px);border-radius:12px;
+ border:6px double var(--qcard-gilt,#f3d185);
+ backface-visibility:hidden;
+ background:linear-gradient(145deg,#ffffff18,transparent 32%,#00000033),var(--qcard-front,#0e685b);
+ box-shadow:inset 0 0 0 9px #f6dfa71c,inset 0 0 0 11px #ffe5a45e;
+ color:#fff7df;
+}
+.quest-card-face:before{
+ content:"";position:absolute;inset:0;opacity:.15;pointer-events:none;
+ background-image:url(assets/velvet.webp);background-size:400px;
+ mix-blend-mode:soft-light;
+}
+.quest-card-face:after{
+ content:"✧  ✦  ✧";position:absolute;bottom:21px;right:22px;
+ font:24px/1 Georgia,serif;letter-spacing:.3em;color:var(--qcard-gilt,#f4d589);opacity:.8;
+}
+.quest-card-face>*{position:relative;z-index:1;max-width:100%}
+.quest-card-back{transform:rotateY(180deg);background:linear-gradient(145deg,#ffffff15,transparent 33%,#0000002f),var(--qcard-back,#132c62)}
+.quest-card-sigil{font:36px/1 Georgia,serif;color:var(--qcard-gilt,#f4d589);margin-bottom:15px}
+.quest-card-label{font:700 10px/1.4 Jost,sans-serif;letter-spacing:.17em;color:#ffe4a9;text-transform:uppercase;margin-bottom:12px}
+.quest-card-face h3{font:700 clamp(20px,2.3vw,33px)/1.12 Fraunces,Georgia,serif;color:#fff9e9;margin:0 0 12px}
+.quest-card-face p{font:500 clamp(13px,1.2vw,17px)/1.43 Jost,sans-serif;margin:0;overflow-wrap:anywhere}
+.quest-card-foot{font:700 9px/1.35 Jost,sans-serif;color:#f9e2ae;letter-spacing:.09em;text-transform:uppercase;margin-top:18px}
+.quest-card-controls{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:18px auto 0}
+.quest-card-controls button{
+ font:700 13px/1.3 Jost,sans-serif;min-height:44px;padding:10px 13px;box-shadow:3px 4px 0 #75607d30
+}
+.quest-card-controls button:disabled{opacity:.57;cursor:not-allowed}
+.quest-card-controls button:focus-visible{outline:3px solid #9b2169;outline-offset:3px}
+.deck-status{min-height:2.5em;font:13px/1.5 Jost,sans-serif;color:#455b58;text-align:center;margin:13px 0 0}
+@keyframes pocket-card-draw{
+ 0%{opacity:.1;transform:translateY(43px) rotate(-7deg) scale(.89)}
+ 60%{opacity:1;transform:translateY(-8px) rotate(2deg) scale(1.02)}
+ 100%{opacity:1;transform:translateY(0) rotate(0) scale(1)}
+}
+.quest-card-stage.is-drawing{animation:pocket-card-draw .56s cubic-bezier(.18,.7,.3,1) both}
+@media(max-width:1050px){
+ .quest-scene .quest-card-deck{grid-template-columns:1fr;grid-row:auto}
+ .quest-deck-intro{max-width:800px}
+}
+@media(max-width:620px){
+ .quest-scene .quest-card-deck{padding:28px 16px;gap:14px;margin-top:35px}
+ .quest-pull-station{display:flex;flex-direction:column;gap:12px}
+ .quest-pocket-stack{height:110px;width:125px;align-self:center;margin-bottom:3px}
+ .quest-pocket-stack i{width:82px;aspect-ratio:3/2}
+ .quest-pocket-stack span{font-size:7px}
+ .quest-card-reveal-wrap{width:100%}
+ .quest-pocket-card{aspect-ratio:1.05}
+ .quest-card-face{padding:16px 18px}
+ .quest-card-sigil{font-size:24px;margin-bottom:7px}
+ .quest-card-face h3{font-size:clamp(20px,5vw,27px);margin-bottom:8px}
+ .quest-card-face p{font-size:clamp(12px,3.2vw,15px);line-height:1.38}
+ .quest-card-label{font-size:9px;margin-bottom:8px}
+ .quest-card-foot{font-size:8px;margin-top:9px}
+ .quest-card-face:after{bottom:11px;right:10px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){
+ .quest-pocket-card{transition:none}
+ .quest-card-stage.is-drawing{animation:none}
+}
+@media print{
+ .quest-pocket-stack,.quest-card-controls,.deck-status{display:none}
+ .quest-pocket-card{filter:none;transform:none!important;transition:none}
+ .quest-card-face{position:relative;min-height:300px}
+ .quest-card-back{display:none}
+}
