@@ -676,3 +676,62 @@ body{background:#f5eddf!important;color:#244b49}
 @media(prefers-reduced-motion:reduce){
  .studio-table *, .practice-room *, .share-room *{scroll-behavior:auto}
 }
+
+/* CLEAR JEWEL-TONE COLOR PASS — no dirty gray wash over the experience.
+   Applied to live staging components, not a design-board rendering. */
+:root{
+ --cs-clear-paper:#fffaf0;
+ --cs-clear-cream:#fff4e0;
+ --cs-clear-teal:#066b71;
+ --cs-clear-sapphire:#244a98;
+ --cs-clear-plum:#672f7e;
+ --cs-clear-berry:#94346f;
+ --cs-clear-gold:#f5c851;
+}
+.studio-table,.practice-room,.share-room{
+ background:
+ radial-gradient(ellipse at 3% 12%,#d5f1e9,transparent 54%),
+ radial-gradient(ellipse at 96% 84%,#f4d9ec,transparent 55%),
+ #fff8ee!important;
+}
+.studio-table:before,.practice-room:before,.share-room:before{
+ background:none!important;opacity:0!important;
+}
+.studio-table .materials,.practice-room .split>div:first-child,
+.share-room .split>div:first-child{
+ background:linear-gradient(133deg,#fffaf0 8%,#eee2fa 100%)!important;
+}
+.studio-table .make-paper,.practice-room .share-paper,.share-room .share-paper{
+ background:
+ repeating-linear-gradient(180deg,transparent 0 33px,#d5dfe4a8 33px 34px),
+ #fffaf0!important;
+}
+.sunshine-signup-page{
+ background-image:
+ radial-gradient(ellipse at 5% 15%,#06767b,transparent 67%),
+ radial-gradient(ellipse at 92% 65%,#80317d,transparent 63%),
+ linear-gradient(118deg,#064b59 0%,#095d68 38%,#482761 78%,#672d75 100%)!important;
+ background-color:#095d68!important;
+}
+.sunshine-signup-page:before{
+ background:none!important;opacity:0!important;
+}
+.sunshine-signup-page .mail-signup-box{
+ background:#fff5e4!important;
+}
+.sunshine-signup-page .letter-form{
+ background:#fff8e9!important;color:#214a47!important;
+}
+.sunshine-signup-page .mail-benefits-panel{
+ background:#fff7e8!important;
+}
+.catalog-room,.gratitude-room{
+ background-color:#fff7e8;
+}
+.catalog-room .cabinet-card-front,.catalog-room .cabinet-card-back{
+ filter:none!important;
+}
+@media(prefers-contrast:more){
+ .studio-table,.practice-room,.share-room{background:#fffaf0!important}
+ .sunshine-signup-page{background:#064f59!important}
+}
