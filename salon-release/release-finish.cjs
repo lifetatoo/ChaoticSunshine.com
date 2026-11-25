@@ -41,7 +41,7 @@ module.exports=function(out,review){
  +'<label for="cs-unified-search">What are you looking for?</label>'
  +'<input type="search" id="cs-unified-search" placeholder="Try Romans 8:15, grief, hope or beginning again…" autocomplete="off" aria-describedby="cs-search-status cs-search-coverage">'
  +'<p id="cs-search-coverage" class="cs-search-coverage"></p><p id="cs-search-status" role="status"></p>'
- +'<div id="cs-search-results" aria-label="Matching studio resources"></div></section>';
+ +'<div id="cs-search-results" role="region" aria-label="Matching studio resources"></div></section>';
  map=map.replace('<div class="directory-grid">',searchBlock+'<div class="directory-grid">')
    .replace('</head>','<link rel="stylesheet" href="/unified-search.css"></head>')
    .replace('</body>','<script defer src="/unified-search.js"></script></body>');
