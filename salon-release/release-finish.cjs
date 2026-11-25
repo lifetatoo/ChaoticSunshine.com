@@ -8,6 +8,7 @@ module.exports=function(out,review){
  const guides=require('../source/content-library/products.json').map(x=>x.slug+'.html');
  const teachings=require('../source/teaching-illustrations.json').items.map(x=>'teaching-'+x.slug+'.html');
  const readings=Array.from({length:90},(_,i)=>'soul-snack-'+String(i+1).padStart(2,'0')+'.html');
+ const shareCards=require('../source/assets/26-share-cards/manifest.json');
  const flow=['soul-snack-01.html','make.html','try.html','share.html'];
  const rooms=['index.html','soul-snacks.html','freebies.html','teaching-shelf.html','daily-cabinet.html','make.html','side-quests.html','subscribe.html','about.html'];
  const routes={};
@@ -31,6 +32,20 @@ module.exports=function(out,review){
  recovery('something-went-wobbly.html','Something went a little wobbly.','A LITTLE HELP','The page could not finish what you asked. Try once more, or head back to a familiar room. If you were joining Sunshine Mail, check your inbox before submitting again.');
  const list=rooms.concat(['creative-faith.html','scripture-index.html','try.html','share.html','welcome.html','privacy.html','resource-permissions.html','community-guidelines.html',...pages.filter(f=>f.startsWith('for-')||['prayer-trust.html','sunshine-mail-sample.html','taking-thoughts-captive.html'].includes(f))]);
  let map=template.replace(/<title>[\s\S]*?<\/title>/,'<title>Find Your Way Around the Studio | Chaotic Sunshine</title>').replace(/<main\b[^>]*>[\s\S]*?<\/main>/,`<main id="main" tabindex="-1"><section class="section"><div class="wrap"><span class="eyebrow">THE STUDIO DIRECTORY</span><h1>Every good door, right here.</h1><p>No secret handshake. Choose a room, find a reading, or return to your creative moment.</p><div class="directory-grid">${list.map(f=>`<a href="/${f}">${esc(meta[f]?.title||f)}</a>`).join('')}</div><h2>All 90 devotions</h2><ol class="directory-readings">${readings.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ol><h2>The free library</h2><ul>${guides.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ul><h2>The teaching shelf</h2><ul>${teachings.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ul></div></section></main>`);
+
+ // The directory is the existing, stable discovery page; add search without changing navigation routes.
+ const searchBlock='<section class="cs-unified-search" id="smart-search" aria-labelledby="cs-search-heading">'
+ +'<span class="eyebrow">FIND YOUR WAY THROUGH THE STUDIO</span>'
+ +'<h2 id="cs-search-heading">A question, a Bible verse, a real-life struggle. Start here.</h2>'
+ +'<p>Search the original Soul Snacks, free guide text, Scripture invitations, teaching materials and creative adventures. Open the actual resource to read in context.</p>'
+ +'<label for="cs-unified-search">What are you looking for?</label>'
+ +'<input type="search" id="cs-unified-search" placeholder="Try Romans 8:15, grief, hope or beginning again…" autocomplete="off" aria-describedby="cs-search-status cs-search-coverage">'
+ +'<p id="cs-search-coverage" class="cs-search-coverage"></p><p id="cs-search-status" role="status"></p>'
+ +'<div id="cs-search-results" role="region" aria-label="Matching studio resources"></div></section>';
+ map=map.replace('<div class="directory-grid">',searchBlock+'<div class="directory-grid">')
+   .replace('</head>','<link rel="stylesheet" href="/unified-search.css"></head>')
+   .replace('</body>','<script defer src="/unified-search.js"></script></body>');
+
  map=map.replace(/<meta name="robots"[^>]*>/g,'');fs.writeFileSync(path.join(out,'site-map.html'),map);routes['site-map.html']={parent:'index.html',label:'Studio home',previous:null,next:null};
  const all=Object.keys(routes),utility=['404.html','welcome.html','offline.html','something-went-wobbly.html'];
  const discovery=`<section class="section discovery-note"><div class="wrap"><span class="eyebrow">CHRISTIAN CREATIVITY · SCRIPTURE FOR REAL LIFE</span><h2>Deep roots. Wild curiosity.</h2><p>Explore Christian devotions, Bible journaling, free Bible study guides, and small adventures in faith. Read a passage in context, make an honest response, try it in your day, and share when you want to.</p><a href="/creative-faith.html">A practical introduction to Christian creativity →</a> · <a href="/scripture-index.html">Find a passage in the Scripture index</a></div></section>`;
@@ -41,8 +56,16 @@ module.exports=function(out,review){
   if(f==='soul-snacks.html')s=s.replace('</main>',finder+'</main>');
   if(f==='index.html')s=s.replace('</main>',discovery+'</main>');
   if(!utility.includes(f)){const canonical='https://chaoticsunshine.com/'+(f==='index.html'?'':f.replace(/\.html$/,''));const title=s.match(/<title>([\s\S]*?)<\/title>/)?.[1],description=s.match(/<meta name="description" content="([^"]*)"/)?.[1];let count=0;s=s.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(_,raw)=>{const g=JSON.parse(raw),graph=g['@graph']||[];for(const page of graph){if(['WebPage','CollectionPage','AboutPage'].includes(page['@type'])){page.name=title;page.description=description;page.url=canonical;}}count++;return '<script type="application/ld+json">'+JSON.stringify(g).replaceAll('<','\\u003c')+'</script>';});if(!count)s=s.replace('</head>','<script type="application/ld+json">'+JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage',name:title,description,url:canonical,inLanguage:'en-US'},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://chaoticsunshine.com/'},{'@type':'ListItem',position:2,name:title,item:canonical}]}]})+'</script></head>');}
-  s=s.replace('</footer>','<p class="studio-help"><a href="/something-went-wobbly.html">Something not working? A little help →</a></p></footer>');
-  s=s.replace('</head>','<link rel="stylesheet" href="/release-navigation.css"></head>').replace('</main>','</main>'+nav(f)).replace('</body>','<script defer src="/release-navigation.js"></script></body>');
+  // Original per-resource share cards: URLs are absolute and only emitted if the actual file ships.
+  const key=f.replace(/\.html$/,'');
+  const social=shareCards[key];
+  if(social&&social.file&&fs.existsSync(path.join(out,'assets',social.file))){
+    const socialUrl='https://chaoticsunshine.com/assets/'+social.file;
+    s=s.replace(/<meta property="og:image"[^>]*>/g,'').replace(/<meta name="twitter:image"[^>]*>/g,'');
+    s=s.replace('</head>','<meta property="og:image" content="'+esc(socialUrl)+'"><meta name="twitter:image" content="'+esc(socialUrl)+'"><meta property="og:image:width" content="'+(Number(social.width)||1200)+'"><meta property="og:image:height" content="'+(Number(social.height)||630)+'"></head>');
+  }
+  s=s.replace('</footer>','<p class="studio-help"><a href="/site-map#smart-search">Search the studio by topic or verse</a> · <a href="/something-went-wobbly.html">Something not working? A little help →</a></p></footer>');
+  s=s.replace('</head>','<link rel="stylesheet" href="/release-navigation.css"></head>').replace('</main>','</main>'+nav(f)).replace('</body>','<script defer src="/release-navigation.js"></script><script defer src="/v4-public-sharing-runtime.js"></script></body>');
   fs.writeFileSync(path.join(out,f),s);
  }
  const appFile=path.join(out,'app.js');fs.writeFileSync(appFile,"const CS_SERVER_JOURNEY=document.querySelector('.journey-navigation')?.outerHTML||'';\n"+read('app.js')+"\nif(CS_SERVER_JOURNEY&&!document.querySelector('.journey-navigation'))document.querySelector('main').insertAdjacentHTML('afterend',CS_SERVER_JOURNEY);\n");

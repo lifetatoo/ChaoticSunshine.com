@@ -1,0 +1,21 @@
+/* V4 search: one clear, editorial reading and discovery experience, no new image assets. */
+.cs-unified-search{scroll-margin-top:90px;margin:28px 0 45px;padding:clamp(21px,4vw,50px);background:#fcf7e9;color:#274f49;border:2px solid #dbb869;border-top:8px solid #8b3776;box-shadow:8px 10px 0 #19444b2c}
+.cs-unified-search .eyebrow{color:#92316d;font-size:12px}
+.cs-unified-search h2{font:700 clamp(27px,3.5vw,48px)/1.12 Fraunces,Georgia,serif;color:#603a76;margin:10px 0}
+.cs-unified-search p{max-width:800px;line-height:1.5;color:#3a625b}
+.cs-unified-search label{font:700 17px/1.3 Jost,sans-serif;display:block;color:#294c48;margin:23px 0 8px}
+.cs-unified-search input[type=search]{display:block;max-width:850px;width:100%;min-height:55px;border:2px solid #a58073;border-radius:3px;background:#fffefa;color:#244b45;font:20px/1.3 Jost,sans-serif;padding:13px 17px}
+.cs-unified-search input:focus-visible{outline:4px solid #ad347d;outline-offset:4px}
+.cs-search-coverage{font-size:13px!important;color:#4c6762!important}
+#cs-search-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:17px}
+.cs-search-result{background:#fffdf7;border:1px solid #e1cfaf;border-top:5px solid #ac4e7d;padding:20px;box-shadow:3px 5px 0 #2e5a5e19;min-width:0}
+.cs-search-result:nth-child(3n+2){border-top-color:#007f72}
+.cs-search-result:nth-child(3n){border-top-color:#d4a450}
+.cs-search-type{display:block;color:#7a3b78;font:700 11px/1.4 Jost,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+.cs-search-result-link{font:700 clamp(19px,1.7vw,26px)/1.18 Fraunces,Georgia,serif;color:#204f65;text-decoration:underline;text-underline-offset:4px}
+.cs-search-result-link:focus-visible{outline:3px solid #b22c6e;outline-offset:4px}
+.cs-search-result p{font:15px/1.48 Jost,sans-serif;color:#37544e;margin:10px 0;overflow-wrap:anywhere}
+.cs-search-result small{display:block;color:#59675c;font:12px/1.4 Jost,sans-serif;margin:7px 0}
+#cs-search-status{min-height:1.5em;font-weight:700;color:#355e57}
+@media(max-width:700px){#cs-search-results{grid-template-columns:1fr}.cs-unified-search{padding:23px 17px}.cs-unified-search input[type=search]{font-size:17px}}
+@media print{.cs-unified-search{display:none}}

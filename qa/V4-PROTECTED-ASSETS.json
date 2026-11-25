@@ -1,0 +1,348 @@
+{
+  "schema": 1,
+  "baselineCommit": "4521e16a929f5ae34111d29d88479f9ea5c046b6",
+  "source": "Master Playbook V4, November 25 2026. SHA values are Git blob IDs, not SHA-256.",
+  "policy": "Protected. Exact-content only unless explicit approval and verified replacement record.",
+  "items": [
+    {
+      "path": "salon-release/assets/before-the-first-mountain-cover-v3.webp",
+      "gitBlobSha": "8af13ee5557c500fb912609a23878b69c3a76db7",
+      "size": 60596,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "salon-release/assets/beloved-first-cover-v4.webp",
+      "gitBlobSha": "497089af90465f56f4f84e68a3255f6854150075",
+      "size": 84924,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "salon-release/assets/fully-family-cover-v4.webp",
+      "gitBlobSha": "5336b845de24d917399f332655b1a5b3eaf753d5",
+      "size": 77382,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "salon-release/assets/heir-not-hired-cover-v4.webp",
+      "gitBlobSha": "b14ce270caf7adc84827563103763dd4ccede541",
+      "size": 76242,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "salon-release/assets/sunshine-envelope-shell-v1.webp",
+      "gitBlobSha": "b97bb7b500e56a0916dfd26bed6fb387939e5e83",
+      "size": 432970,
+      "classification": "mail-art"
+    },
+    {
+      "path": "salon-release/assets/sunshine-mail-footer-envelope.webp",
+      "gitBlobSha": "5a80e7dc75ae60a15f93d883523854d19a6ceb3e",
+      "size": 432132,
+      "classification": "mail-art"
+    },
+    {
+      "path": "salon-release/assets/sunshine-welcome-envelope.webp",
+      "gitBlobSha": "67f0ca94e5aec51ccdf498f6f1e7400f9c5755dc",
+      "size": 622684,
+      "classification": "mail-art"
+    },
+    {
+      "path": "salon-release/assets/sunshine-welcome-letter.webp",
+      "gitBlobSha": "ed0d24152054d75f8d55df6c34aba8cc9580b81f",
+      "size": 449868,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "salon-release/assets/welcome-letter-v2.webp",
+      "gitBlobSha": "422c48017ce439659ebe269e906720bdaaca197e",
+      "size": 494062,
+      "classification": "mail-art"
+    },
+    {
+      "path": "salon-release/assets/welcome-letter-v3.webp",
+      "gitBlobSha": "9dee4f0bda2d8dd3a5a1786b861116d8aa65ac16",
+      "size": 699914,
+      "classification": "mail-art"
+    },
+    {
+      "path": "salon-release/assets/wordmark.webp",
+      "gitBlobSha": "fa7d1965908096d117c3f3b3b4af61a6d296b7a5",
+      "size": 214392,
+      "classification": "logo"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/he-sings-over-you-product-1200.png",
+      "gitBlobSha": "aeae27877ac20e99104102951b7cfba8fc14264b",
+      "size": 281864,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/o-come-all-ye-tired-product-1200.png",
+      "gitBlobSha": "382fe69984ed3bc1e10e35b1b70223133a94f1ed",
+      "size": 436003,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/seconds-please-product-1200.png",
+      "gitBlobSha": "e4df70d900f82e8f5cdd1e703722995c5f7db12e",
+      "size": 649601,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/table-talks-guide-product-1200.png",
+      "gitBlobSha": "d22a0aa7f32ccb1a56adc4355b45bd3005370e21",
+      "size": 260960,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/the-father-who-runs-product-1200.png",
+      "gitBlobSha": "c82da8c90b061b1f4a6427a5f1ef33aaf5d7a57d",
+      "size": 280365,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/01-guide-product-cards/the-road-out-of-moab-product-1200.png",
+      "gitBlobSha": "e35de4f6d9cc88a4ba1cbe9304c14e5d081acc2d",
+      "size": 282307,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/09-new-covers/before-the-first-mountain-cover-v3.png",
+      "gitBlobSha": "b9fe4d22c20ea8b5a88bf7ccb5ccda7a1082ec0f",
+      "size": 1284036,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/09-new-covers/beloved-first-cover-v4.png",
+      "gitBlobSha": "9f20673e2658c1684edd78b5aac35c911e9361fc",
+      "size": 1370728,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/09-new-covers/fully-family-cover-v4.png",
+      "gitBlobSha": "d84fea886c3e16c291ac56ccfbc1f091ac5f3734",
+      "size": 1347557,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/09-new-covers/heir-not-hired-cover-v4.png",
+      "gitBlobSha": "11a1e263755d09dd908220b1b6d5383404cd07ac",
+      "size": 1366543,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/09-new-covers/the-daughter-who-stayed-cover-v4.png",
+      "gitBlobSha": "a9da7a1f7a5c172ac4f97902dbb7895ec3f28b24",
+      "size": 1441619,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--he-sings-over-you-product-1200.webp",
+      "gitBlobSha": "0ff95fed2bc86ef00c5e9af5d8746eb7202ed64b",
+      "size": 57606,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--o-come-all-ye-tired-product-1200.webp",
+      "gitBlobSha": "b9ae18bb750c2372638bba09b7e66f4ed579f48d",
+      "size": 53424,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--seconds-please-product-1200.webp",
+      "gitBlobSha": "8b2c8153fee592c18605db7138ea154ef85fa01d",
+      "size": 67016,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--table-talks-guide-product-1200.webp",
+      "gitBlobSha": "8bd6d7ea68c9b6001ed419844811697c30331783",
+      "size": 51558,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--the-father-who-runs-product-1200.webp",
+      "gitBlobSha": "8bae151d0e4e86edfe3be04bb2cede787dabf307",
+      "size": 54488,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/01-guide-product-cards--the-road-out-of-moab-product-1200.webp",
+      "gitBlobSha": "05c728e8899d481685f2e378d9258496e8a9d686",
+      "size": 54160,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/09-new-covers--before-the-first-mountain-cover-v3.webp",
+      "gitBlobSha": "87a1897e996b1dadc609c3eb1b1ec55de952e637",
+      "size": 50164,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/09-new-covers--beloved-first-cover-v4.webp",
+      "gitBlobSha": "0f54ad2265a3fcbbeb8f2932d14b4704540f5a0a",
+      "size": 69158,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/09-new-covers--fully-family-cover-v4.webp",
+      "gitBlobSha": "0dd68d582c8adfcaec6146875b864c5c7db7ead2",
+      "size": 62806,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/09-new-covers--heir-not-hired-cover-v4.webp",
+      "gitBlobSha": "a1b71b083496897674e62e74edfa89457b496784",
+      "size": 62582,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/19-web-optimized/09-new-covers--the-daughter-who-stayed-cover-v4.webp",
+      "gitBlobSha": "ff61d4d4b916195fede63977b137d1902259e4fc",
+      "size": 80204,
+      "classification": "approved-cover-or-product-art"
+    },
+    {
+      "path": "source/assets/29-editorial-refresh/chaotic-sunshine-wordmark-transparent.png",
+      "gitBlobSha": "c74643ab0b64dc9070d114d63d60b22a98da2b4e",
+      "size": 867203,
+      "classification": "logo"
+    },
+    {
+      "path": "source/covered-guides/Before-the-First-Mountain-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "84f5409de926534dcc33f19e263d2fd23f4d6f29",
+      "size": 1889459,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Before-the-First-Mountain-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "798ab9a41afba7cf8f94ee13aa95e6b436c18051",
+      "size": 2166870,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Beloved-First-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "54d9d7ae9e887afa743ef80d33954bbe0e4a5055",
+      "size": 2119746,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Beloved-First-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "d09c367bbcf58fcd4027464bdd9d6b4c08ea103a",
+      "size": 2399581,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Fully-Family-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "6c12cb50a9218d9ba15502a4e3b689757f5c0f74",
+      "size": 2114642,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Fully-Family-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "a0a957909de1ac1bb5831f4b942f6d12cc2b4c71",
+      "size": 2402029,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/He-Sings-Over-You-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+      "gitBlobSha": "5eaf601f2c4200cb0a9d304d1ebc5275e2e994d1",
+      "size": 1599185,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/He-Sings-Over-You-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+      "gitBlobSha": "a9538daca290cd2c65cf3821cf2fd1c7002c1138",
+      "size": 1939161,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Heir-Not-Hired-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "b06b4da03b98b26ed353bb8e23180c8a48e5dfa3",
+      "size": 2106271,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Heir-Not-Hired-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "b21478e83bf30a9d3862d0097b0fa23ba4418327",
+      "size": 2389714,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/O-Come-All-Ye-Tired_Full-Guide-v1-monthly-2026-11-13.pdf",
+      "gitBlobSha": "02d7b7e8a4374a4045698ef04e88ffc33e4cac58",
+      "size": 12790212,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/O-Come-All-Ye-Tired_Full-Guide-v1_PrintFriendly-monthly-2026-11-13.pdf",
+      "gitBlobSha": "36ef61d82a0026b98a645de0dc4ca5c3724a6611",
+      "size": 12687691,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Seconds-Please-INK-LIGHT-v9-monthly-2026-11-13.pdf",
+      "gitBlobSha": "92adebb45e867bfd1a22a710afa7356f6014714c",
+      "size": 2713247,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Seconds-Please-v9-monthly-2026-11-13.pdf",
+      "gitBlobSha": "11659696367ab04bfa2319887932eeb4dc06952a",
+      "size": 3700955,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/Table-Talks-Guide-monthly-2026-11-13.pdf",
+      "gitBlobSha": "459dca80e2caa14cb42ba91d425caa31b99be5a9",
+      "size": 3369340,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Daughter-Who-Stayed-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "bc2ac91c7f3e41120a3a89bea296e0c213552f8f",
+      "size": 2343747,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Daughter-Who-Stayed-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+      "gitBlobSha": "8e3a12b0d64d3bd85377b516b9396f43a56c01d7",
+      "size": 2632279,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Father-Who-Runs-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+      "gitBlobSha": "23600dd3525914aef1b3c87a46b145bff2d1c2a1",
+      "size": 1512305,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Father-Who-Runs-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+      "gitBlobSha": "5de9bf5cece35dc438f55cb4873e61fe209b5813",
+      "size": 1931238,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Road-Out-of-Moab-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+      "gitBlobSha": "bc4404825e7de0c2dba7dea7c5427e8a3513472f",
+      "size": 1498017,
+      "classification": "guide-pdf"
+    },
+    {
+      "path": "source/covered-guides/The-Road-Out-of-Moab-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+      "gitBlobSha": "9a321bf8a2035fe107f2ecb897acdbf8931c4048",
+      "size": 1884321,
+      "classification": "guide-pdf"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Table Talks original full cover",
+      "state": "source product artwork located; exact original full cover must be verified before any substitute"
+    },
+    {
+      "item": "approved Sunshine Mail complete composition",
+      "state": "reference in V4; verify exact final approved files and layout"
+    }
+  ]
+}

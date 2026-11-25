@@ -1,16 +1,22 @@
-name: Salon release checks
+name: V4 protected-artifact release gates
 on:
   pull_request:
   push:
-    branches: [salon-release-2026-11-15]
+    branches:
+      - salon-release-2026-11-15
+      - release/v4-preserve-integrate-review-2026-11-25
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: v4-review-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   build-and-check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     strategy:
+      fail-fast: false
       matrix:
         profile: [production, staging]
     steps:
@@ -20,15 +26,42 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
-      - name: Build and check production export
-        if: matrix.profile == 'production'
+      - name: Print exact source commit
+        run: echo "V4_RELEASE_SHA=${GITHUB_SHA}"
+      - name: Build and verify export
+        shell: bash
         run: |
-          npm run build
+          if [ "${{ matrix.profile }}" = "staging" ]; then
+            export CS_STAGING=1
+            npm run build:staging
+          else
+            npm run build
+          fi
           npm test
-      - name: Build and check private staging export
+      - name: Install headless browser QA libraries
         if: matrix.profile == 'staging'
-        env:
-          CS_STAGING: '1'
-        run: |
-          npm run build:staging
-          npm test
+        run: npm install --no-save --no-package-lock playwright@1.56.1 axe-core@4.10.3
+      - name: Audit actual 16 page families at five responsive widths and WCAG
+        if: matrix.profile == 'staging'
+        run: node qa/check-browser-ci.cjs
+      - name: Test real user interactions with mocked Kit, never live signup
+        if: matrix.profile == 'staging'
+        run: node qa/check-user-journeys.cjs
+      - name: Archive SHA-tied private review build for manual inspection
+        if: always() && matrix.profile == 'staging'
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaotic-sunshine-v4-review-site-${{ github.sha }}
+          path: source/site-kit/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Preserve visual screenshots and acceptance evidence
+        if: always() && matrix.profile == 'staging'
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaotic-sunshine-v4-screenshots-${{ github.sha }}
+          path: |
+            qa/screenshots-ci/
+            qa/user-journey-results.json
+          if-no-files-found: warn
+          retention-days: 14
