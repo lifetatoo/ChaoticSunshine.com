@@ -22,7 +22,7 @@ const mailFunction=fs.readFileSync(path.join(__dirname,'app.js'),'utf8').match(/
 const mailMarkup=require('vm').runInNewContext('`'+mailFunction+'`',{art:(f,alt)=>'<img src="assets/'+escape(f)+'" alt="'+escape(alt)+'">',go:(r,t,c)=>'<a href="welcome.html" class="'+c+'">'+t+'</a>'});
 const postalData=JSON.parse(fs.readFileSync(path.join(__dirname,'letters.json'),'utf8'));
 const postalMarkup=require('vm').runInNewContext(fs.readFileSync(path.join(__dirname,'letter-system.js'),'utf8')+';pages.welcome();',{SUNSHINE_LETTERS:postalData,location:{search:''},URLSearchParams,pages:{},safe:escape,bind:()=>{}});
-const styles='<link rel="stylesheet" href="studio.css"><link rel="stylesheet" href="salon.css"><link rel="stylesheet" href="letter-system.css"><link rel="stylesheet" href="library-system.css"><link rel="stylesheet" href="mobile-navigation.css"><link rel="stylesheet" href="side-quest-books.css"><link rel="stylesheet" href="side-quest-cards.css"><link rel="stylesheet" href="site-visual-fixes.css"><link rel="stylesheet" href="daily-cabinet-v2.css"><link rel="stylesheet" href="v4-mail-polish.css">';
+const styles='<link rel="stylesheet" href="studio.css"><link rel="stylesheet" href="salon.css"><link rel="stylesheet" href="letter-system.css"><link rel="stylesheet" href="library-system.css"><link rel="stylesheet" href="mobile-navigation.css"><link rel="stylesheet" href="side-quest-books.css"><link rel="stylesheet" href="side-quest-cards.css"><link rel="stylesheet" href="site-visual-fixes.css"><link rel="stylesheet" href="daily-cabinet-v2.css"><link rel="stylesheet" href="v4-mail-polish.css"><link rel="stylesheet" href="v4-social-share.css">';
 const noscript='<noscript><style>.permanent-menu{display:block!important;position:static!important}.library-doors{display:none!important}.closed .library-inside>*{visibility:visible!important}.closed .library-inside{max-height:none!important;overflow:visible!important}button:not([type=submit]){display:none!important}</style></noscript>';
 for(const file of files){const slug=file.replace(/\.html$/,''),original=originals.get(file)||'';
  let oldHead=original?original.match(/<head>([\s\S]*?)<\/head>/)[1]:extraHead(slug);
@@ -49,7 +49,7 @@ for(const file of files){const slug=file.replace(/\.html$/,''),original=original
  const robots=review?'<meta name="robots" content="noindex,nofollow">':(['welcome','404'].includes(slug)?'<meta name="robots" content="noindex,follow">':'');
  fs.writeFileSync(path.join(out,file),'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'+oldHead+robots+styles+noscript+'</head>'+body+'</html>');
 }
-for(const f of ['studio.css','salon.css','site-navigation.js','letter-system.css','library-system.css','mobile-navigation.css','side-quest-books.css','side-quest-cards.css','site-visual-fixes.css','daily-cabinet-v2.css','v4-mail-polish.css'])fs.copyFileSync(path.join(__dirname,f),path.join(out,f));
+for(const f of ['studio.css','salon.css','site-navigation.js','letter-system.css','library-system.css','mobile-navigation.css','side-quest-books.css','side-quest-cards.css','site-visual-fixes.css','daily-cabinet-v2.css','v4-mail-polish.css','v4-social-share.css'])fs.copyFileSync(path.join(__dirname,f),path.join(out,f));
 for(const f of fs.readdirSync(path.join(__dirname,'assets')))fs.copyFileSync(path.join(__dirname,'assets',f),path.join(out,'assets',f));
  // Preserve and publish existing original social-share cards; never generate substitutes in a release.
  const socialManifest=require('../source/assets/26-share-cards/manifest.json');
@@ -83,9 +83,18 @@ const cabinetCode='const CS_CABINET_DEVOTIONS='+JSON.stringify(cabinetDevotions)
   +'const CS_CABINET_EXTRA_PASSAGES='+JSON.stringify(cabinetPassages)+';\n'
   +'const CS_CABINET_ORIGINAL_SPARKS='+JSON.stringify(cabinetSparks)+';\n'
   +fs.readFileSync(path.join(__dirname,'daily-cabinet-v2.js'),'utf8');
+const csPublicSlugs=[...new Set([
+ ...require('../source/content-library/products.json').map(p=>p.slug),
+ ...require('../source/devotions/devotions.json').map(p=>p.slug),
+ ...require('../source/teaching-illustrations.json').items.map(p=>'teaching-'+p.slug),
+ 'side-quests','freebies','teaching-shelf','soul-snacks'
+])];
+const socialCode='const CS_V4_PUBLIC_SHARE_SLUGS='+JSON.stringify(csPublicSlugs)+';\n'
+ +'const CS_V4_SOCIAL_CARDS='+JSON.stringify(socialManifest)+';\n'
+ +fs.readFileSync(path.join(__dirname,'v4-social-share.js'),'utf8');
 const app=fs.readFileSync(path.join(__dirname,'app.js'),'utf8');
 if(!app.includes('\nrender();\n'))throw Error('Missing final render hook');
-fs.writeFileSync(path.join(out,'app.js'),app.replace('\nrender();\n','\n'+libraryCode+'\n'+letterCode+'\n'+questCardCode+'\n'+cabinetCode+'\n'+fs.readFileSync(path.join(__dirname,'v4-mail-polish.js'),'utf8')+'\nrender();\n'));
+fs.writeFileSync(path.join(out,'app.js'),app.replace('\nrender();\n','\n'+libraryCode+'\n'+letterCode+'\n'+questCardCode+'\n'+cabinetCode+'\n'+fs.readFileSync(path.join(__dirname,'v4-mail-polish.js'),'utf8')+'\n'+socialCode+'\nrender();\n'));
 
 const phoneCode=fs.readFileSync(path.join(__dirname,'mobile-navigation.js'),'utf8');
 fs.appendFileSync(path.join(out,'app.js'),'\n'+phoneCode);fs.appendFileSync(path.join(out,'site-navigation.js'),'\n'+phoneCode);
