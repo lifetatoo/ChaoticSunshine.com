@@ -1,0 +1,578 @@
+[
+  {
+    "id": "discovery-01",
+    "category": "discovery",
+    "title": "The Blue Door",
+    "action": "Walk a familiar block and find a door, window or sign you have never properly looked at.",
+    "reflection": "What changed when you stopped moving on autopilot?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-02",
+    "category": "discovery",
+    "title": "Five-Minute Museum",
+    "action": "Choose an ordinary object at home. Sketch it and write a three-sentence exhibit label.",
+    "reflection": "What history could this object tell?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-03",
+    "category": "discovery",
+    "title": "Sound Collector",
+    "action": "Step outside safely and listen for five sounds without naming them immediately.",
+    "reflection": "Which sound arrived only after you got quiet?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-04",
+    "category": "discovery",
+    "title": "Tiny Cartographer",
+    "action": "Draw a small map of a place you love from memory. Mark your favorite corner.",
+    "reflection": "What did your memory choose to keep?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-05",
+    "category": "discovery",
+    "title": "The Color Chase",
+    "action": "Choose cobalt or emerald. Find three surprising appearances of that color today.",
+    "reflection": "Which one was easiest to miss?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-06",
+    "category": "discovery",
+    "title": "A Better Question",
+    "action": "At a conversation today, ask someone what has made them curious lately.",
+    "reflection": "What did you learn instead of assuming?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-07",
+    "category": "discovery",
+    "title": "Window Seat Research",
+    "action": "Sit beside a window for ten minutes. Notice changes in light or movement.",
+    "reflection": "What was the smallest detail worth writing down?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-08",
+    "category": "discovery",
+    "title": "New Shelf, New Story",
+    "action": "Browse a library or bookstore section you never visit. Read one back cover.",
+    "reflection": "What possibility did an unfamiliar shelf open?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-09",
+    "category": "discovery",
+    "title": "Ordinary Architecture",
+    "action": "Look up at an accessible building and find three repeating shapes.",
+    "reflection": "What choices did its maker care about?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-10",
+    "category": "discovery",
+    "title": "A Found Alphabet",
+    "action": "Photograph or sketch letters found in signs, shadows or shapes around you.",
+    "reflection": "Which letter took the most imagination?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-11",
+    "category": "discovery",
+    "title": "Texture Detective",
+    "action": "Safely notice five different textures nearby, using sight rather than touching strangers’ belongings.",
+    "reflection": "Which texture would you like to draw?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-12",
+    "category": "discovery",
+    "title": "Wrong-Route Wonder",
+    "action": "Take a safe alternate route on a routine trip and notice one unfamiliar detail.",
+    "reflection": "Was the detour worth the extra attention?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-13",
+    "category": "discovery",
+    "title": "A Little Weather Report",
+    "action": "Describe today's sky in five unexpected words. Do not use 'nice' or 'bad.'",
+    "reflection": "Which words made you see it differently?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-14",
+    "category": "discovery",
+    "title": "The Object Interview",
+    "action": "Pick a keepsake. Ask who made it, how it arrived, and why you kept it.",
+    "reflection": "What do you know for certain, and what is still a mystery?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-15",
+    "category": "discovery",
+    "title": "Micro-Gallery",
+    "action": "Arrange three small objects into a display on a table and give it a title.",
+    "reflection": "What story do they tell together?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-16",
+    "category": "discovery",
+    "title": "The Ten-Minute Tourist",
+    "action": "Visit a free public place near you as though you were seeing it for the first time.",
+    "reflection": "What would you recommend to a friend?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-17",
+    "category": "discovery",
+    "title": "Make a Field Guide",
+    "action": "Draw or describe a bird, plant, cloud or neighborhood detail you can observe safely.",
+    "reflection": "What question would you research afterward?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-18",
+    "category": "discovery",
+    "title": "Pattern Hunter",
+    "action": "Look for circles, grids or stripes in your surroundings. Record one example of each.",
+    "reflection": "Where was the most unexpected pattern?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-19",
+    "category": "discovery",
+    "title": "Another Perspective",
+    "action": "Take a photograph from a low angle, then from eye level, without putting yourself in danger.",
+    "reflection": "What changes when your viewpoint moves?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-20",
+    "category": "discovery",
+    "title": "The Word Cabinet",
+    "action": "Collect three striking words you encountered in a book or conversation today.",
+    "reflection": "Which one deserves a place in your notebook?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-21",
+    "category": "discovery",
+    "title": "Curiosity at the Table",
+    "action": "Ask a friend to teach you something small they know how to do.",
+    "reflection": "What felt surprisingly difficult at first?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-22",
+    "category": "discovery",
+    "title": "An Unfamiliar Flavor",
+    "action": "Try a new fruit, herb or tea you can safely consume and describe its flavor.",
+    "reflection": "What does it remind you of?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-23",
+    "category": "discovery",
+    "title": "Make Your Own Postcard",
+    "action": "Sketch a local scene on a small rectangle of paper, even if you never send it.",
+    "reflection": "Which feature tells the place’s story?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "discovery-24",
+    "category": "discovery",
+    "title": "Smallest Adventure",
+    "action": "Set a ten-minute timer and follow one harmless question through a book, gallery or conversation.",
+    "reflection": "What did you discover before time ran out?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-01",
+    "category": "kindness",
+    "title": "Specific, Not Generic",
+    "action": "Tell someone one precise thing they did that made your day easier.",
+    "reflection": "What changed when your gratitude had details?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-02",
+    "category": "kindness",
+    "title": "A Quiet Thank-You",
+    "action": "Write a short note for someone whose work is often invisible.",
+    "reflection": "How can you show appreciation without asking for anything back?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-03",
+    "category": "kindness",
+    "title": "The Welcome Seat",
+    "action": "At an appropriate group gathering, make room for someone who seems unsure where to sit.",
+    "reflection": "What does welcome look like in practice?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-04",
+    "category": "kindness",
+    "title": "Small Cheer Section",
+    "action": "Send encouragement before a friend’s ordinary, unglamorous responsibility.",
+    "reflection": "How can you honor effort instead of only outcomes?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-05",
+    "category": "kindness",
+    "title": "A Helpful Introduction",
+    "action": "With permission, introduce two people who have a genuine interest in common.",
+    "reflection": "What connection might brighten both lives?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-06",
+    "category": "kindness",
+    "title": "Leave It Better",
+    "action": "Tidy a small shared space where you have permission and can do so safely.",
+    "reflection": "What does care look like when nobody notices?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-07",
+    "category": "kindness",
+    "title": "Remember the Date",
+    "action": "Ask a friend about an upcoming event they care about. Put a reminder to follow up.",
+    "reflection": "How might being remembered feel?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-08",
+    "category": "kindness",
+    "title": "Good News Delivery",
+    "action": "Share an encouraging piece of news with someone who would enjoy it, without forwarding private details.",
+    "reflection": "What deserved a little celebration?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-09",
+    "category": "kindness",
+    "title": "Kindness Without Content",
+    "action": "Do a helpful thing and resist documenting or posting it.",
+    "reflection": "How does it feel when the moment belongs only to the people there?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-10",
+    "category": "kindness",
+    "title": "The Generous Review",
+    "action": "Leave an accurate, thoughtful review for a small business you genuinely appreciate.",
+    "reflection": "Which specific detail made the experience good?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-11",
+    "category": "kindness",
+    "title": "A Thoughtful Question",
+    "action": "Ask someone how a project they mentioned earlier is going, and listen to the answer.",
+    "reflection": "What changes when you remember the unfinished parts of someone’s story?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-12",
+    "category": "kindness",
+    "title": "Kind Words, No Advice",
+    "action": "When a friend describes a hard day, acknowledge it before proposing solutions.",
+    "reflection": "What did listening make possible?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-13",
+    "category": "kindness",
+    "title": "Unexpected Mail",
+    "action": "Write a real postcard or letter with one warm memory and no request.",
+    "reflection": "What memory still makes you smile?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-14",
+    "category": "kindness",
+    "title": "The Favorite Order",
+    "action": "If appropriate, remember a loved one’s favorite tea or snack and surprise them with it.",
+    "reflection": "What did noticing their preference communicate?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-15",
+    "category": "kindness",
+    "title": "Celebrate the Ordinary",
+    "action": "Congratulate someone on doing a difficult routine thing consistently.",
+    "reflection": "Why does quiet faithfulness deserve to be seen?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-16",
+    "category": "kindness",
+    "title": "A Shared Pause",
+    "action": "Invite someone to sit for ten calm minutes without a packed agenda.",
+    "reflection": "What can companionship be without productivity?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-17",
+    "category": "kindness",
+    "title": "Ask, Don’t Assume",
+    "action": "Before offering help, ask what would actually be useful.",
+    "reflection": "What did their answer teach you about care?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-18",
+    "category": "kindness",
+    "title": "A Gentle Follow-Up",
+    "action": "Send a short message to someone you haven’t heard from, with no pressure to reply.",
+    "reflection": "What would make the note feel easy to receive?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-19",
+    "category": "kindness",
+    "title": "The Public Compliment",
+    "action": "Thank a staff member politely for excellent service without interrupting their work.",
+    "reflection": "What made your gratitude genuine?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-20",
+    "category": "kindness",
+    "title": "Give Away the Spotlight",
+    "action": "Ask someone else to tell the story of an accomplishment you admire.",
+    "reflection": "What did you notice when you listened without competing?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-21",
+    "category": "kindness",
+    "title": "An Extra Chair",
+    "action": "Make an appropriate, concrete invitation for one more person to join a low-pressure activity.",
+    "reflection": "What helped the invitation feel welcoming?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-22",
+    "category": "kindness",
+    "title": "A Little Mercy",
+    "action": "Give someone the benefit of the doubt in a minor, uncertain situation.",
+    "reflection": "Where can kindness and good boundaries exist together?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-23",
+    "category": "kindness",
+    "title": "Borrowed Courage",
+    "action": "Tell a friend what strength you see in them before they face something challenging.",
+    "reflection": "What specific evidence backs up your encouragement?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "kindness-24",
+    "category": "kindness",
+    "title": "The Ripple Record",
+    "action": "At day’s end, write down one kindness you received and one you offered.",
+    "reflection": "Which ripple could you continue tomorrow?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-01",
+    "category": "brave",
+    "title": "Take the First Seat",
+    "action": "Attend an accessible event you genuinely want to experience, even if you go alone.",
+    "reflection": "What did you discover about your own company?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-02",
+    "category": "brave",
+    "title": "Ask the Real Question",
+    "action": "At a suitable public workshop, ask the question you almost kept to yourself.",
+    "reflection": "What did curiosity make easier than perfection?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-03",
+    "category": "brave",
+    "title": "The Beginner Badge",
+    "action": "Try a creative skill for fifteen minutes while allowing your first attempt to be rough.",
+    "reflection": "What did you learn by being new?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-04",
+    "category": "brave",
+    "title": "One Polite No",
+    "action": "Decline one unnecessary obligation respectfully, without a long justification.",
+    "reflection": "What space did your honest answer protect?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-05",
+    "category": "brave",
+    "title": "Bring the Draft",
+    "action": "Share an imperfect first idea with one trusted person and ask for specific feedback.",
+    "reflection": "What was better than waiting for perfect?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-06",
+    "category": "brave",
+    "title": "Choose a Different Chair",
+    "action": "In a familiar safe setting, sit somewhere new and notice how the room feels.",
+    "reflection": "What tiny change altered your perspective?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-07",
+    "category": "brave",
+    "title": "Speak the Appreciation",
+    "action": "Say aloud a sincere compliment you would normally leave in your head.",
+    "reflection": "What made speaking it worthwhile?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-08",
+    "category": "brave",
+    "title": "A Better Beginning",
+    "action": "Start the small task you have delayed for fear of doing it badly. Work for eight minutes.",
+    "reflection": "What mattered more: starting or finishing?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-09",
+    "category": "brave",
+    "title": "Try the Microphone",
+    "action": "If a gathering invites participation, offer one thoughtful comment or question.",
+    "reflection": "What did you learn about speaking while nervous?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-10",
+    "category": "brave",
+    "title": "Name the Need",
+    "action": "Tell a trusted person one specific kind of help that would be useful right now.",
+    "reflection": "What was difficult about asking clearly?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-11",
+    "category": "brave",
+    "title": "Open the Door",
+    "action": "Walk into a public class, gallery or club meeting you’ve been curious about.",
+    "reflection": "How did the imagined version compare with reality?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-12",
+    "category": "brave",
+    "title": "Wear the Color",
+    "action": "Choose an outfit detail that feels expressive and appropriate for your day.",
+    "reflection": "What part of you got a little more room?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-13",
+    "category": "brave",
+    "title": "Take the Scenic Risk",
+    "action": "Choose a new but reasonable experience within your time, ability and budget.",
+    "reflection": "What could make the risk thoughtful, not reckless?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-14",
+    "category": "brave",
+    "title": "Make the Invitation",
+    "action": "Ask someone to join an activity you would enjoy, accepting any answer graciously.",
+    "reflection": "What changed when you asked directly?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-15",
+    "category": "brave",
+    "title": "Say 'I Don’t Know'",
+    "action": "In a conversation, admit one uncertainty and ask an honest follow-up.",
+    "reflection": "How did curiosity affect the pressure to appear certain?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-16",
+    "category": "brave",
+    "title": "The Repair Attempt",
+    "action": "Where appropriate, start a small conversation to clarify a misunderstanding without blaming.",
+    "reflection": "What is one part you can own?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-17",
+    "category": "brave",
+    "title": "A Personal Best",
+    "action": "Choose a modest challenge that matters to you, not one designed for applause.",
+    "reflection": "What would progress look like privately?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-18",
+    "category": "brave",
+    "title": "The Art in Public",
+    "action": "Take your sketchbook or notebook to a comfortable public place and create for a few minutes.",
+    "reflection": "Did anyone’s opinion matter as much as you predicted?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-19",
+    "category": "brave",
+    "title": "Try the Solo Treat",
+    "action": "Visit a favorite café, bookstore or tea room alone and enjoy your choice fully.",
+    "reflection": "What would you tell a friend who hesitated to do the same?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-20",
+    "category": "brave",
+    "title": "Learn the Hard Part",
+    "action": "Practice the trickiest step of a skill without hiding behind easy steps.",
+    "reflection": "What useful mistake did you make?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-21",
+    "category": "brave",
+    "title": "Raise Your Hand",
+    "action": "Volunteer for a small responsibility with a clear boundary and realistic effort.",
+    "reflection": "What did taking initiative teach you?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-22",
+    "category": "brave",
+    "title": "Name the Good Idea",
+    "action": "Offer a constructive suggestion in a setting where input is welcome.",
+    "reflection": "What happened after you gave the idea a chance?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-23",
+    "category": "brave",
+    "title": "Begin Again Kindly",
+    "action": "Return to a creative practice after an interrupted week without trying to 'catch up.'",
+    "reflection": "What can starting fresh look like?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  },
+  {
+    "id": "brave-24",
+    "category": "brave",
+    "title": "A Little Audacity",
+    "action": "Write down one hope you’ve been minimizing, and choose a tiny grounded first action.",
+    "reflection": "What would courage look like at a humane scale?",
+    "credit": "Chaotic Sunshine · original studio prompt"
+  }
+]

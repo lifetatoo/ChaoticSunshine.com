@@ -1,0 +1,234 @@
+/* Chaotic Sunshine | unified masthead and wayfinding polish
+   One full-bleed paper banner; live wordmark is never stretched or cropped. */
+html,body{max-width:100%;overflow-x:clip}
+.layered-masthead{
+  box-sizing:border-box;
+  display:flex;
+  width:100%;
+  max-width:none;
+  min-height:clamp(185px,19vw,288px);
+  margin:0;
+  padding:clamp(5px,.8vw,14px) 0 clamp(11px,1.6vw,20px);
+  background-color:#086b74;
+  background-image:linear-gradient(90deg,#0a515522,transparent 21%,transparent 79%,#1d27542c),url(assets/jewel-paper-collage.webp);
+  background-position:center,center;
+  background-size:cover,cover;
+  background-repeat:no-repeat;
+  border-bottom:0;
+  justify-content:center;
+  align-items:center;
+}
+.layered-masthead .masthead-topline{
+  width:min(1300px,100%);
+  margin-inline:auto;
+  padding:0 clamp(15px,3vw,40px);
+  justify-content:space-between;
+  gap:12px;
+}
+.layered-masthead .masthead-topline span{
+  background:#fff8e6d6;
+  color:#22524e;
+  font-size:clamp(9px,.9vw,12px);
+  line-height:1.35;
+  padding:4px 9px;
+}
+.layered-masthead .brand{
+  display:block;
+  flex:none;
+  width:min(1400px,96vw);
+  max-width:none;
+  margin:clamp(4px,1vw,11px) auto 0;
+  padding:0;
+  background:none;
+  text-align:center;
+  transform:none;
+  clip-path:none;
+}
+.layered-masthead .brand img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:clamp(145px,16vw,224px);
+  max-height:none!important;
+  margin:auto;
+  object-fit:contain;
+  object-position:center;
+}
+.permanent-menu{
+  display:block;
+  width:100%;
+  max-width:none;
+  position:sticky;
+  top:0;
+  z-index:65;
+  background:#fffaeb;
+  border-top:2px solid #d0a855;
+  border-bottom:3px solid #166a64;
+  box-shadow:0 5px 17px #162d3630;
+}
+.permanent-menu nav{
+  display:grid;
+  width:min(1440px,100%);
+  grid-template-columns:repeat(8,minmax(0,1fr));
+  align-items:stretch;
+  gap:0;
+  margin:0 auto;
+  padding:0 10px;
+  background:none;
+}
+.permanent-menu nav a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  min-height:52px;
+  margin:0;
+  padding:11px 7px;
+  font-size:clamp(13px,1vw,16px);
+  line-height:1.2;
+  color:#244f4a;
+  font-weight:700;
+  text-decoration:none;
+  white-space:normal;
+  border-radius:0;
+}
+.permanent-menu nav a[aria-current="page"]{
+  color:#652968;
+  background:#ece8d7;
+  box-shadow:inset 0 -4px 0 #a33174;
+}
+.permanent-menu nav a:focus-visible{outline:3px solid #a92975;outline-offset:-4px}
+.method-trail{
+  background:linear-gradient(95deg,#fff9e9,#f6f0dc 52%,#fff5e7);
+  color:#25564e;
+  border:1px solid #e4d5b9;
+  border-bottom:3px solid #d3aa4c;
+  box-shadow:0 4px 0 #2e474118;
+  padding:16px 12px;
+  border-radius:2px;
+  margin-bottom:18px;
+}
+.method-trail a{color:#265e55;text-decoration:none}
+.method-trail a[aria-current="page"],.method-trail a[aria-current="step"]{
+  color:#812760;
+  text-decoration:none;
+  border-bottom:3px solid #edba43;
+}
+.method-trail small{color:#44665e}
+@media(max-width:1050px) and (min-width:621px){
+  .layered-masthead{min-height:175px}
+  .layered-masthead .brand{width:98vw}
+  .layered-masthead .brand img{height:clamp(118px,17vw,169px)}
+  .permanent-menu nav{grid-template-columns:repeat(4,minmax(0,1fr));padding-inline:8px}
+  .permanent-menu nav a{font-size:14px;min-height:43px;padding:8px}
+}
+@media(max-width:620px){
+  .layered-masthead{
+    min-height:158px;
+    padding:6px 0 9px;
+    background-position:center,center;
+    background-size:cover,cover;
+  }
+  .layered-masthead .brand{width:100%;max-width:none;margin:4px auto 0}
+  .layered-masthead .brand img{height:clamp(120px,30vw,160px);max-height:none!important}
+  .layered-masthead .masthead-topline{padding:0 8px;gap:5px}
+  .layered-masthead .masthead-topline span{font-size:8px;padding:3px 5px;letter-spacing:.03em}
+  /* The fixed five-tab phone navigation is the visible primary nav at this size. */
+  .permanent-menu{display:none!important}
+  .method-trail{padding:12px 7px;margin-bottom:18px;display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+  .method-trail small{width:100%;text-align:center}
+  .phone-tab-bar{box-shadow:0 -4px 16px #152e3940}
+}
+@media(prefers-reduced-motion:reduce){
+  .layered-masthead,.permanent-menu{scroll-behavior:auto}
+}
+/* Editorial palette guardrails: no site-wide emerald wash, no generic devotional motifs. */
+body{background:#f5eddf!important;color:#244b49}
+.layered-masthead{flex-direction:column!important;align-items:stretch!important;justify-content:center!important}
+.layered-masthead .brand{align-self:center}
+.layered-masthead .masthead-topline{flex:0 0 auto;box-sizing:border-box}
+/* Each content room owns its color story; the body remains warm neutral paper. */
+.quest-scene{
+ background:
+   radial-gradient(ellipse 80% 80% at 4% 9%,#aa37735e,transparent 73%),
+   radial-gradient(ellipse 70% 72% at 95% 15%,#147e9e50,transparent 77%),
+   radial-gradient(ellipse 100% 90% at 50% 105%,#313e9bb0,transparent 68%),
+   #28294f;
+ border-bottom-color:#e3b65f
+}
+.cabinet-upgrade{
+ background:
+   radial-gradient(ellipse 63% 80% at 0 0,#d3dcea,transparent 73%),
+   radial-gradient(ellipse 70% 80% at 100% 80%,#ddbbd5a8,transparent 74%),
+   #f5eddf;
+}
+/* Restrict color effects to decorative surfaces; maintain warm reading-paper contrast. */
+.cabinet-upgrade .gratitude-paper,.quest-scene .quest-card-deck,.journal-book,.make-paper,.share-paper{color:#284d49}
+
+/* Nov 25 editorial polish: invitation alignment, richly worked book objects,
+   tactile catalog, and a visible sample letter. Staging branch only. */
+.masthead-topline{display:flex;align-items:center;justify-content:space-between}
+.masthead-topline span{display:inline-flex;min-height:28px;align-items:center;justify-content:center;text-align:center}
+.legacy-content .site-crumbs{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.legacy-content .site-crumbs>a,.legacy-content .site-crumbs>button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;line-height:1.3}
+.legacy-content .site-crumbs>a:last-child{margin-left:auto}
+.last-invitation .wrap{display:flex;flex-direction:column;align-items:center;text-align:center}
+.last-invitation .hand,.last-invitation h2{margin-inline:auto}
+.desk-books .little-stack{height:265px;gap:3px;filter:drop-shadow(4px 12px 9px #172c3840)}
+.desk-books .little-stack span{
+  box-sizing:border-box;isolation:isolate;overflow:hidden;
+  min-height:48px;display:flex;align-items:center;justify-content:center;
+  padding:12px 17px 12px 29px;border-left:13px ridge #c3954d;
+  border-right:5px solid #d4b77c;border-top:2px solid #d6a95d;
+  border-bottom:2px solid #32243a;
+  border-radius:9px 3px 4px 9px;letter-spacing:.012em;
+  font-family:Georgia,serif;font-size:clamp(14px,1.5vw,19px);
+  font-weight:700;text-shadow:0 2px 1px #120b225e;
+  background-image:repeating-linear-gradient(0deg,transparent 0 3px,#fff2 3px 4px,transparent 4px 9px),
+    linear-gradient(90deg,#130f2e80 0,#ffffff19 12%,transparent 30%,#0003 92%,#e3c78460 97%);
+  box-shadow:inset 0 2px 1px #e7c57b66,inset 0 -3px 3px #160c2488,
+             4px 7px 2px #32252b50;
+}
+.desk-books .little-stack span::before,.desk-books .little-stack span::after{
+  content:"✦";position:absolute;z-index:1;top:50%;transform:translateY(-50%);
+  color:#efc579;font:13px Georgia,serif;text-shadow:0 1px 1px #211522;
+}
+.desk-books .little-stack span::before{left:16px}.desk-books .little-stack span::after{right:10px}
+.desk-books .little-stack span:nth-child(1){background-color:#613367}
+.desk-books .little-stack span:nth-child(2){background-color:#096a68}
+.desk-books .little-stack span:nth-child(3){background-color:#913851}
+.desk-books .little-stack span:nth-child(4){background-color:#284a92}
+.desk-drawers .little-cabinet{
+  border:10px ridge #9c774a;border-radius:7px;
+  background:repeating-linear-gradient(90deg,#132f31 0 2px,#295552 3px 6px,#315c55 8px 11px);
+  box-shadow:inset 0 0 0 5px #193e3b,inset 0 0 21px #051b1e88,5px 9px 0 #3e383252,9px 14px 12px #262c3550;
+}
+.desk-drawers .little-cabinet>span{
+ background:repeating-linear-gradient(0deg,transparent 0 4px,#f0c87916 4px 5px),
+ linear-gradient(105deg,#1b4546,#39776e 48%,#1c4d50);
+ border:2px solid #b39762;
+ box-shadow:inset 0 2px 3px #e9cb7a32,inset 0 -5px 9px #091a2450;
+}
+.desk-drawers .little-cabinet i{background:#e8dbb3;border:3px double #ad8649;box-shadow:1px 2px 0 #162c3280}
+.catalog-object{background-image:repeating-linear-gradient(90deg,#d5c28e0c 0 1px,transparent 1px 6px),linear-gradient(100deg,#436f5a,#1f4b40 7% 93%,#16392f)}
+.catalog-drawer{background-image:repeating-linear-gradient(0deg,transparent 0 3px,#cfb78515 3px 4px),linear-gradient(105deg,#ffffff23,transparent 32%,#020b1748)}
+/* The exact envelope image remains intact: the artwork is a separate paper
+   physically visible above it, not a replacement for the original shell. */
+.sunshine-signup-page .mail-envelope{position:relative;isolation:isolate;padding-top:48px;overflow:visible}
+.sunshine-signup-page .mail-envelope::before{
+ content:"";position:absolute;z-index:0;left:25%;top:4px;width:50%;height:72%;
+ background:#fffaf0 url(assets/welcome-letter-v3.webp) center 12% / cover no-repeat;
+ border:5px solid #fffaf0;box-shadow:0 4px 10px #3b255b48;
+ transform:rotate(-3deg);pointer-events:none;
+}
+.sunshine-signup-page .mail-envelope img{position:relative;z-index:1;display:block;max-width:100%;height:auto}
+.sunshine-signup-page .mail-envelope a{display:block;position:relative;z-index:1}
+.sunshine-signup-page .mail-envelope a:focus-visible{outline:3px solid #92356f;outline-offset:8px}
+@media(max-width:620px){
+ .masthead-topline{gap:6px}
+ .masthead-topline span{min-width:0;flex:1;overflow-wrap:break-word}
+ .legacy-content .site-crumbs{justify-content:center}
+ .legacy-content .site-crumbs>a:last-child{margin-left:0}
+ .desk-books .little-stack span{font-size:16px}
+ .sunshine-signup-page .mail-envelope{padding-top:33px}
+}
