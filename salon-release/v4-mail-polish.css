@@ -1,0 +1,138 @@
+/* V4 approved Sunshine Mail art. The original envelope/letter image bytes are immutable. */
+.sunshine-signup-page{
+  position:relative;
+  isolation:isolate;
+  padding:clamp(32px,5vw,75px) 0 clamp(56px,6vw,92px);
+  color:#fdf7e8;
+  background:
+    radial-gradient(ellipse 68% 75% at 7% 0,#7c267d88,transparent 78%),
+    radial-gradient(ellipse 65% 70% at 96% 4%,#1c55a688,transparent 75%),
+    linear-gradient(142deg,#251641,#523074 53%,#16365b);
+}
+.sunshine-signup-page:before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;
+  background:url(assets/velvet.webp) center/520px auto repeat;
+  mix-blend-mode:soft-light;
+}
+.sunshine-signup-page>.wrap.split{
+ position:relative;z-index:1;
+ display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+ gap:clamp(26px,4vw,60px);
+ width:min(1260px,calc(100% - 36px));align-items:start;
+}
+.sunshine-signup-page>.wrap.split>div:first-child{padding-top:clamp(12px,4vw,74px)}
+.sunshine-signup-page .eyebrow{color:#ffe29c}
+.sunshine-signup-page h1{
+ color:#fffaf1;
+ font-size:clamp(53px,7vw,98px);
+ line-height:1.02;letter-spacing:-.035em;
+ text-shadow:3px 4px 0 #2d164f88;margin:15px 0 24px;
+}
+.sunshine-signup-page .mail-promise{
+ display:inline-block;font:clamp(25px,3vw,39px)/1.18 Hand,cursive;
+ color:#ffe089;transform:rotate(-3deg);
+ background:#8e246a33;padding:9px 15px;
+ border-bottom:3px solid #f1be57;
+}
+.sunshine-signup-page>.wrap.split>div:first-child>p:not(.mail-promise){
+ font-size:clamp(17px,1.45vw,21px);line-height:1.58;
+ max-width:590px;color:#fff5e6;
+}
+.sunshine-signup-page .v4-mail-art-stage{
+ min-width:0;position:relative;display:flex;flex-direction:column;align-items:center;
+ background:
+    radial-gradient(ellipse at 50% 28%,#ffe5a03d,transparent 60%),
+    linear-gradient(160deg,#1f2345a6,#57296577 60%,#042d477d);
+ border:1px solid #e9c4808c;border-radius:9px;
+ box-shadow:inset 0 0 0 8px #eaca6812,15px 18px 0 #150d2a77;
+ padding:15px clamp(12px,2vw,28px) 24px;
+}
+.sunshine-signup-page .v4-mail-object-label{
+ font:700 12px/1.45 Jost,sans-serif;text-transform:uppercase;
+ letter-spacing:.16em;color:#ffdf91;display:block;
+ text-align:center;padding:15px 0 4px;
+}
+.sunshine-signup-page .mail-envelope{
+ position:relative;display:block;
+ width:min(100%,720px);margin:0 auto 0;
+ background:none!important;border:0!important;
+ padding:0!important;box-shadow:none!important;transform:none!important;
+}
+.sunshine-signup-page .mail-envelope img{
+ display:block;width:100%;height:auto;max-height:none;
+ object-fit:contain;object-position:center;
+ filter:drop-shadow(5px 12px 9px #0a112e7e);
+}
+.sunshine-signup-page .letter-form{
+ position:relative;z-index:2;width:min(94%,610px);margin:-5px auto 14px;
+ padding:clamp(20px,3vw,40px)!important;
+ background:
+  repeating-linear-gradient(0deg,transparent 0 37px,#d5b08d2f 38px 39px),
+  linear-gradient(135deg,#fffaf0,#f1e7d9)!important;
+ color:#254b49!important;
+ border:2px solid #e7c388;border-top:7px solid #e1bb68;
+ box-shadow:9px 11px 0 #121c3b70;
+ transform:rotate(.35deg);
+}
+.sunshine-signup-page .letter-form h2{color:#663b72;font-size:clamp(29px,3vw,40px);line-height:1.1}
+.sunshine-signup-page .letter-form .eyebrow{color:#8a4270}
+.sunshine-signup-page .letter-form label{color:#284c46}
+.sunshine-signup-page .letter-form input{background:#fffdf8;border:1px solid #b7a58e;min-height:48px;color:#243e3d}
+.sunshine-signup-page .letter-form button[type=submit]{background:#ffd354;color:#4d2767;font-weight:800;min-height:52px}
+.sunshine-signup-page .letter-form .signup-reassurance{color:#355450}
+.sunshine-signup-page .letter-form small{color:#3b5c55}
+.sunshine-signup-page .v4-mail-sample{
+ width:min(94%,610px);margin:8px auto 10px;
+ border:1px solid #f2d6a8;border-radius:3px;
+ background:#fff9ec;color:#284d49;
+ box-shadow:4px 6px 0 #21163970;
+}
+.sunshine-signup-page .v4-mail-sample summary{
+ list-style:disclosure-closed;display:list-item;
+ cursor:pointer;min-height:50px;
+ padding:17px 22px;
+ font:700 17px/1.3 Fraunces,Georgia,serif;
+ color:#64366f;
+ text-align:center;
+}
+.sunshine-signup-page .v4-mail-sample summary:focus-visible{outline:4px solid #c25278;outline-offset:2px}
+.sunshine-signup-page .v4-mail-sample[open] summary{border-bottom:2px solid #d8aa65}
+.sunshine-signup-page .v4-mail-preview{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:17px;padding:22px;align-items:center}
+.sunshine-signup-page .v4-mail-preview figure{min-width:0;margin:0;transform:rotate(-2deg);box-shadow:5px 8px 10px #382d3050}
+.sunshine-signup-page .v4-mail-preview img{width:100%;height:auto;display:block;object-fit:contain}
+.sunshine-signup-page .v4-mail-preview figcaption{font:11px/1.4 Jost,sans-serif;color:#4b5f5c;text-align:center;padding:7px}
+.sunshine-signup-page .v4-mail-sample-text h3{font:700 23px/1.2 Fraunces,Georgia,serif;color:#682d6b}
+.sunshine-signup-page .v4-mail-sample-text p{font:15px/1.55 Jost,sans-serif;color:#2a514a}
+.sunshine-signup-page .v4-mail-sample-text a{color:#245e73;font:700 15px/1.4 Jost,sans-serif;text-decoration:underline}
+.sunshine-signup-page .mail-benefits-panel{
+ grid-column:1 / -1;
+ max-width:100%;
+ display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);
+ gap:16px 44px;
+ background:#faf4e7;color:#26524e;
+ border-top:7px solid #d3a749;
+ box-shadow:9px 11px 0 #19112c5c;
+ margin:30px 0 0;padding:clamp(28px,4vw,50px);
+}
+.sunshine-signup-page .mail-benefits-heading{color:#643576;font-size:clamp(29px,3vw,43px);grid-row:span 2}
+.sunshine-signup-page .mail-benefits li{color:#24514d;font-size:17px}
+.sunshine-signup-page .mail-benefits-panel>p{color:#34514e;grid-column:2}
+.sunshine-signup-page .mail-benefits-panel .text-link{grid-column:1/-1;color:#62366e;justify-self:center;font-size:17px}
+@media(max-width:860px){
+ .sunshine-signup-page>.wrap.split{grid-template-columns:1fr}
+ .sunshine-signup-page>.wrap.split>div:first-child{padding-top:0;text-align:center}
+ .sunshine-signup-page>.wrap.split>div:first-child>p{margin-inline:auto}
+ .sunshine-signup-page .mail-benefits-panel{grid-template-columns:1fr}
+ .sunshine-signup-page .mail-benefits-heading{grid-row:auto}
+ .sunshine-signup-page .mail-benefits-panel>p{grid-column:1}
+}
+@media(max-width:480px){
+ .sunshine-signup-page>.wrap.split{width:calc(100% - 22px);gap:15px}
+ .sunshine-signup-page h1{font-size:clamp(47px,13vw,67px)}
+ .sunshine-signup-page .v4-mail-art-stage{padding:9px 5px 22px}
+ .sunshine-signup-page .letter-form{margin:0 auto 14px;padding:20px!important}
+ .sunshine-signup-page .v4-mail-preview{display:block;padding:17px}
+ .sunshine-signup-page .v4-mail-preview figure{width:min(210px,75%);margin:0 auto 18px}
+ .sunshine-signup-page .v4-mail-object-label{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){.sunshine-signup-page .v4-mail-art-stage{scroll-behavior:auto}}

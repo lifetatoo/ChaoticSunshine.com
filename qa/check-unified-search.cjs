@@ -1,0 +1,21 @@
+// Unified V4 discovery: honest provenance, 11 original guide URLs, all 90 devotions and pocket cards.
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../source/site-kit');
+const d=JSON.parse(fs.readFileSync(path.join(root,'unified-search-index.json'),'utf8'));
+const html=fs.readFileSync(path.join(root,'site-map.html'),'utf8');
+assert.equal(d.coverage.devotions,90,'90 complete Soul Snacks required');
+assert.equal(d.coverage.guides,11,'all 11 original free guides required');
+assert.equal(d.coverage.missions,24,'24 original missions required');
+assert.equal(d.coverage.pocketCards,72,'72 curated pocket invitations required');
+assert.ok(d.coverage.pdfIndexedPages>0,'guide source-page results required');
+assert.ok(d.records.length>200,'search index lacks full site');
+assert.equal(new Set(d.records.map(x=>x.id)).size,d.records.length,'duplicate result IDs');
+assert.ok(d.records.some(x=>x.id==='soul-snack-01'&&x.reference.includes('Romans 8')),'scripture source lost');
+assert.ok(d.records.filter(x=>x.type==='Guide page').every(x=>x.page>0),'page number missing');
+assert.ok(html.includes('id="cs-unified-search"'),'accessible search not on site directory');
+assert.ok(html.includes('unified-search.js')&&html.includes('unified-search.css'),'search code not shipped');
+assert.ok(fs.existsSync(path.join(root,'unified-search.js')),'search JS missing');
+assert.ok(fs.existsSync(path.join(root,'unified-search.css')),'search CSS missing');
+const allSource={siteMap:html.includes('cs-search-coverage'),files:11,fullPdfCount:d.coverage.pdfFilesFullyExtracted,partialPdfCount:d.coverage.pdfFilesExcerptFallback,indexedPages:d.coverage.pdfIndexedPages,records:d.records.length};
+console.log('V4_UNIFIED_SEARCH_QA',JSON.stringify(allSource));

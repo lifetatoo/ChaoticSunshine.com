@@ -1,0 +1,210 @@
+/* SIDE QUEST SOCIETY — real, individually replaceable leather books.
+   The books are CSS backgrounds; their words remain accessible live HTML buttons. */
+.quest-scene{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse 78% 100% at 8% 3%,#2f9c9a61,transparent 73%),
+    radial-gradient(ellipse 85% 80% at 97% 80%,#87338c66,transparent 75%),
+    #103f47;
+  border-bottom:8px solid #d6ab60;
+}
+.quest-scene:before{
+  content:"";
+  position:absolute;inset:0;
+  background:url(assets/velvet.webp) center / 560px auto repeat;
+  mix-blend-mode:soft-light;opacity:.15;pointer-events:none;z-index:-1;
+}
+.quest-scene>.wrap{width:min(1250px,calc(100% - 36px));display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);column-gap:clamp(22px,4vw,66px);align-items:start}
+.quest-scene .method-trail,.quest-scene .quest-heading{grid-column:1 / -1}
+.quest-scene .quest-heading{margin:20px 0 33px;align-items:center}
+.quest-scene .quest-heading h1{font-size:clamp(43px,5.8vw,77px);line-height:1.05;max-width:700px;color:#fff6df;text-shadow:0 3px 0 #072d364c}
+.quest-scene .quest-heading h1 .marker{color:#f4d16b}
+.quest-scene .quest-heading>p{
+  background:#fff6e7;color:#244c47;border:1px solid #dec49c;border-left:5px solid #d2a658;
+  box-shadow:7px 8px 0 #072a305c;max-width:350px;
+  padding:22px 25px;font-size:17px;transform:rotate(1deg)
+}
+.quest-scene .cabinet-drawers{
+  grid-column:1;grid-row:3;
+  display:grid;grid-template-columns:1fr;gap:0;align-content:start;
+  width:100%;max-width:620px;margin:0;min-width:0;
+  padding:24px 12px 25px;
+  background:linear-gradient(110deg,#f9f0df,#ece2ca);
+  border:1px solid #e3d2ad;border-radius:2px;
+  box-shadow:9px 12px 0 #061b245c;
+  position:relative;
+}
+.quest-scene .cabinet-drawers:before{
+  content:"PULL A BOOK  ·  PICK YOUR NEXT LITTLE ADVENTURE";
+  display:block;position:relative;grid-column:1;
+  font:700 10px/1.5 Jost,Arial,sans-serif;letter-spacing:.17em;text-align:center;
+  margin:1px 2px 16px;color:#79516b
+}
+.quest-scene .cabinet-drawers:after{
+  content:"Nothing to catch up on. Curiosity looks good on you.";
+  display:block;grid-column:1;
+  font:23px/1.1 Hand,Georgia,serif;
+  color:#67426a;text-align:center;margin-top:16px;transform:rotate(-1.5deg)
+}
+.quest-scene .cabinet-drawers button,
+.quest-scene .cabinet-drawers button:nth-child(n){
+  --tilt:0deg;
+  display:flex;align-items:center;justify-content:center;position:relative;
+  width:100%;min-height:104px;height:auto;padding:21px 78px 21px 62px;
+  margin:0;
+  background-color:transparent!important;
+  background-repeat:no-repeat!important;
+  background-size:100% 100%!important;
+  background-position:center!important;
+  border:0!important;border-radius:0!important;
+  box-shadow:none!important;
+  color:#fff6dc!important;
+  font:800 clamp(16px,1.5vw,21px)/1.14 Fraunces,Georgia,serif;
+  text-align:center;letter-spacing:.005em;
+  text-shadow:0 2px 3px #170e28c4;
+  transform:rotate(var(--tilt));
+  filter:drop-shadow(2px 4px 3px #251c2366);
+  transition:transform .2s ease,filter .2s ease;
+  z-index:1;
+}
+.quest-scene .cabinet-drawers button:nth-child(1){
+  --tilt:-1deg;background-image:url(assets/side-quest-book-all.svg)!important;
+}
+.quest-scene .cabinet-drawers button:nth-child(2){
+  --tilt:.7deg;background-image:url(assets/side-quest-book-discovery.svg)!important;
+  width:96%;margin-left:3%
+}
+.quest-scene .cabinet-drawers button:nth-child(3){
+  --tilt:-.6deg;background-image:url(assets/side-quest-book-kindness.svg)!important;
+  width:99%;margin-left:0
+}
+.quest-scene .cabinet-drawers button:nth-child(4){
+  --tilt:.95deg;background-image:url(assets/side-quest-book-brave.svg)!important;
+  width:96%;margin-left:3%
+}
+.quest-scene .cabinet-drawers button:after{display:none!important}
+.quest-scene .cabinet-drawers button:hover{
+  transform:translateX(10px) rotate(0deg)!important;
+  filter:drop-shadow(5px 7px 4px #251c2377) brightness(1.08)
+}
+.quest-scene .cabinet-drawers button:focus-visible{
+  outline:4px solid #ffe58e!important;
+  outline-offset:-8px!important;
+  z-index:3;
+}
+.quest-scene .cabinet-drawers button[aria-pressed=true]{
+  transform:translateX(7px) rotate(0deg);
+  filter:drop-shadow(4px 6px 3px #251c2377) saturate(1.13) brightness(1.10);
+}
+.quest-scene .cabinet-drawers button[aria-pressed=true]:before{
+  content:"✦";position:absolute;left:48px;top:50%;
+  transform:translateY(-50%);font:23px/1 Georgia,serif;color:#fce29d;
+  text-shadow:0 0 6px #ffd78e9f
+}
+.quest-scene .mission{
+  grid-column:2;grid-row:3;align-self:start;
+  display:grid;grid-template-columns:minmax(135px,.72fr) minmax(0,1.28fr);
+  gap:clamp(15px,1.8vw,30px);
+  padding:clamp(20px,2.5vw,37px);
+  background:
+    repeating-linear-gradient(0deg,transparent 0 29px,#d8c4aa29 29px 30px),
+    #fffaf0;
+  color:#254b48;
+  border:1px solid #ceb98c;border-top:9px solid #a63976;
+  box-shadow:8px 8px 0 #213b4480,13px 14px 14px #0c1a2070;
+  transform:rotate(.2deg);
+  position:relative;
+  scroll-margin-top:85px;
+}
+.quest-scene .mission:before{
+  content:"FIELD NOTE  /  SIDE QUEST SOCIETY";
+  grid-column:1 / -1;
+  font:700 10px/1.4 Jost,Arial,sans-serif;letter-spacing:.14em;
+  color:#8a4268;border-bottom:1px solid #d5bf9a;padding-bottom:12px;margin-bottom:2px
+}
+.quest-scene .mission-art{
+  border:8px solid #fff;border-bottom-width:20px;
+  box-shadow:1px 3px 1px #b3a58c,5px 7px 13px #4a3c473d;
+  transform:rotate(-2deg);
+  background:#e4d7be;margin:5px 0 18px;min-width:0;
+}
+.quest-scene .mission h2{
+  font-size:clamp(27px,2.8vw,42px);line-height:1.15;margin:4px 0 10px;
+  color:#663b71;
+}
+.quest-scene .mission .hand{color:#14716c;font-size:clamp(21px,2.2vw,29px)}
+.quest-scene .mission p{font-size:clamp(15px,1.3vw,18px);line-height:1.56}
+.quest-scene .mission summary{color:#733b72;min-height:44px}
+.quest-scene .mission details[open]{background:#fff3dc;padding:12px 14px;margin-inline:-14px}
+.quest-scene .quest-bottom{
+  grid-column:2;grid-row:4;
+  display:flex;justify-content:center;flex-wrap:wrap;gap:10px;
+  padding:8px 0 0;margin:22px 0 5px
+}
+.quest-scene .quest-bottom button{
+  min-height:45px;padding:11px 16px;font:700 14px/1.25 Jost,Arial,sans-serif
+}
+.quest-scene #quest-surprise{background:#f8ce62;color:#3c2853;box-shadow:4px 5px 0 #6f385e}
+.quest-scene #quest-position{align-self:center;background:#fff5e1;color:#4d5761;padding:9px 11px;border-radius:2px}
+.quest-scene .quest-share{
+  grid-column:1/-1;grid-row:5;
+  width:min(850px,100%);margin:55px auto 25px;
+  padding:30px 40px;
+  background:linear-gradient(100deg,#fff9ea,#f1e9de);
+  border-top:5px solid #e1b95d;
+  box-shadow:7px 9px 0 #6d30666b;
+  color:#244e48
+}
+.quest-scene>.wrap>.hand{grid-column:1/-1}
+.quest-scene .quest-share .hand{font-size:35px}
+.mission-index{background:#f5eddf;color:#31524e}
+.mission-index details[open]{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:13px;align-items:stretch
+}
+.mission-index details>summary{grid-column:1/-1;font-size:21px;color:#74396e;padding:16px 3px}
+.mission-index article{
+  border:1px solid #d6c4aa;border-top:4px solid #a17bb1;
+  padding:19px 21px;background:#fffaf0;
+  box-shadow:3px 5px 0 #6b53752b;margin:0;
+}
+.mission-index article:nth-of-type(3n+2){border-top-color:#1a8681}
+.mission-index article:nth-of-type(3n){border-top-color:#d6a851}
+.mission-index h2{font-size:clamp(20px,2vw,27px);color:#60396c;margin:0 0 6px}
+.mission-index article p{color:#2d4c49;font-size:15px;line-height:1.55;margin:0}
+@media(max-width:1050px){
+ .quest-scene>.wrap{grid-template-columns:1fr}
+ .quest-scene .cabinet-drawers{grid-column:1;grid-row:auto;max-width:780px;margin:0 auto 25px}
+ .quest-scene .mission{grid-column:1;grid-row:auto;max-width:900px;margin:0 auto}
+ .quest-scene .quest-bottom{grid-column:1;grid-row:auto}
+ .quest-scene .quest-share{grid-column:1;grid-row:auto}
+ .quest-scene>.wrap>.hand{grid-column:1}
+ .quest-scene .quest-heading{display:block}
+ .quest-scene .quest-heading>p{max-width:580px;margin-top:25px}
+}
+@media(max-width:620px){
+ .quest-scene>.wrap{width:calc(100% - 22px)}
+ .quest-scene .quest-heading h1{font-size:clamp(38px,10vw,56px)}
+ .quest-scene .quest-heading>p{font-size:15px;padding:16px 18px}
+ .quest-scene .cabinet-drawers{padding:18px 6px 20px}
+ .quest-scene .cabinet-drawers button,.quest-scene .cabinet-drawers button:nth-child(n){
+  min-height:84px;padding:16px 55px 16px 40px;font-size:clamp(15px,4.4vw,19px)
+ }
+ .quest-scene .cabinet-drawers button[aria-pressed=true]:before{left:29px;font-size:18px}
+ .quest-scene .mission{display:block;padding:20px}
+ .quest-scene .mission:before{display:block;margin-bottom:18px}
+ .quest-scene .mission-art{max-width:360px;margin:5px auto 25px}
+ .quest-scene .quest-bottom button{flex:1 1 auto}
+ .quest-scene .quest-share{padding:25px 20px;margin:35px auto 20px}
+ .mission-index details[open]{display:block}
+ .mission-index article{margin:0 0 13px}
+}
+@media(prefers-reduced-motion:reduce){
+ .quest-scene .cabinet-drawers button{transition:none!important}
+}
+@media print{
+ .quest-scene .cabinet-drawers,.quest-scene .quest-bottom,.quest-scene .quest-share{display:none!important}
+ .quest-scene .mission{box-shadow:none;border:1px solid #bfae9d}
+}

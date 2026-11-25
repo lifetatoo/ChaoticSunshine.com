@@ -2,8 +2,8 @@
   "name": "chaotic-sunshine-website",
   "private": true,
   "scripts": {
-    "build": "node source/build-site-kit.cjs",
-    "test": "node qa/check-launch.cjs",
+    "build": "node salon-release/build.cjs",
+    "test": "node qa/check-v4-protected-assets.cjs && node qa/check-launch.cjs && node qa/check-wayfinding.cjs && node qa/check-side-quest-books.cjs && node qa/check-cabinet-v2.cjs && node qa/check-unified-search.cjs",
     "test:legacy-browser": "node qa/check-refresh.cjs",
     "build:staging": "node qa/build-staging.cjs"
   }
