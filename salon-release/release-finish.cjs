@@ -8,6 +8,7 @@ module.exports=function(out,review){
  const guides=require('../source/content-library/products.json').map(x=>x.slug+'.html');
  const teachings=require('../source/teaching-illustrations.json').items.map(x=>'teaching-'+x.slug+'.html');
  const readings=Array.from({length:90},(_,i)=>'soul-snack-'+String(i+1).padStart(2,'0')+'.html');
+ const shareCards=require('../source/assets/26-share-cards/manifest.json');
  const flow=['soul-snack-01.html','make.html','try.html','share.html'];
  const rooms=['index.html','soul-snacks.html','freebies.html','teaching-shelf.html','daily-cabinet.html','make.html','side-quests.html','subscribe.html','about.html'];
  const routes={};
@@ -41,6 +42,14 @@ module.exports=function(out,review){
   if(f==='soul-snacks.html')s=s.replace('</main>',finder+'</main>');
   if(f==='index.html')s=s.replace('</main>',discovery+'</main>');
   if(!utility.includes(f)){const canonical='https://chaoticsunshine.com/'+(f==='index.html'?'':f.replace(/\.html$/,''));const title=s.match(/<title>([\s\S]*?)<\/title>/)?.[1],description=s.match(/<meta name="description" content="([^"]*)"/)?.[1];let count=0;s=s.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(_,raw)=>{const g=JSON.parse(raw),graph=g['@graph']||[];for(const page of graph){if(['WebPage','CollectionPage','AboutPage'].includes(page['@type'])){page.name=title;page.description=description;page.url=canonical;}}count++;return '<script type="application/ld+json">'+JSON.stringify(g).replaceAll('<','\\u003c')+'</script>';});if(!count)s=s.replace('</head>','<script type="application/ld+json">'+JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage',name:title,description,url:canonical,inLanguage:'en-US'},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://chaoticsunshine.com/'},{'@type':'ListItem',position:2,name:title,item:canonical}]}]})+'</script></head>');}
+  // Original per-resource share cards: URLs are absolute and only emitted if the actual file ships.
+  const key=f.replace(/\.html$/,'');
+  const social=shareCards[key];
+  if(social&&social.file&&fs.existsSync(path.join(out,'assets',social.file))){
+    const socialUrl='https://chaoticsunshine.com/assets/'+social.file;
+    s=s.replace(/<meta property="og:image"[^>]*>/g,'').replace(/<meta name="twitter:image"[^>]*>/g,'');
+    s=s.replace('</head>','<meta property="og:image" content="'+esc(socialUrl)+'"><meta name="twitter:image" content="'+esc(socialUrl)+'"><meta property="og:image:width" content="'+(Number(social.width)||1200)+'"><meta property="og:image:height" content="'+(Number(social.height)||630)+'"></head>');
+  }
   s=s.replace('</footer>','<p class="studio-help"><a href="/something-went-wobbly.html">Something not working? A little help →</a></p></footer>');
   s=s.replace('</head>','<link rel="stylesheet" href="/release-navigation.css"></head>').replace('</main>','</main>'+nav(f)).replace('</body>','<script defer src="/release-navigation.js"></script></body>');
   fs.writeFileSync(path.join(out,f),s);
