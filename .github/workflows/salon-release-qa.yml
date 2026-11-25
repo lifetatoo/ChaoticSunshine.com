@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: v4-review-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   build-and-check:
     runs-on: ubuntu-latest
