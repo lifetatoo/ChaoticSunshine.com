@@ -65,7 +65,7 @@ module.exports=function(out,review){
     s=s.replace('</head>','<meta property="og:image" content="'+esc(socialUrl)+'"><meta name="twitter:image" content="'+esc(socialUrl)+'"><meta property="og:image:width" content="'+(Number(social.width)||1200)+'"><meta property="og:image:height" content="'+(Number(social.height)||630)+'"></head>');
   }
   s=s.replace('</footer>','<p class="studio-help"><a href="/site-map#smart-search">Search the studio by topic or verse</a> · <a href="/something-went-wobbly.html">Something not working? A little help →</a></p></footer>');
-  s=s.replace('</head>','<link rel="stylesheet" href="/release-navigation.css"></head>').replace('</main>','</main>'+nav(f)).replace('</body>','<script defer src="/release-navigation.js"></script></body>');
+  s=s.replace('</head>','<link rel="stylesheet" href="/release-navigation.css"></head>').replace('</main>','</main>'+nav(f)).replace('</body>','<script defer src="/release-navigation.js"></script><script defer src="/v4-public-sharing-runtime.js"></script></body>');
   fs.writeFileSync(path.join(out,f),s);
  }
  const appFile=path.join(out,'app.js');fs.writeFileSync(appFile,"const CS_SERVER_JOURNEY=document.querySelector('.journey-navigation')?.outerHTML||'';\n"+read('app.js')+"\nif(CS_SERVER_JOURNEY&&!document.querySelector('.journey-navigation'))document.querySelector('main').insertAdjacentHTML('afterend',CS_SERVER_JOURNEY);\n");
