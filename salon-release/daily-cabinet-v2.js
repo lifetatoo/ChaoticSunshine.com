@@ -62,6 +62,21 @@ bind=function(route){
  var drawer='today',selected=null,side='front',lastId='';
  const seen={today:new Set(),verse:new Set(),studio:new Set()};
  const pool=function(){return drawer==='verse'?CS_CABINET_VERSE:drawer==='studio'?CS_CABINET_STUDIO:CS_CABINET_ALL;};
+ function cardIllustration(card, palette){
+   // Distinct hand-drawn editorial vignettes, chosen consistently by card ID.
+   // Shapes are intentionally varied: not religious icon stamps or stock imagery.
+   let hash=0;for(const ch of card.id)hash=(hash*31+ch.charCodeAt(0))>>>0;
+   const scenes=[
+    '<circle cx="132" cy="72" r="29" fill="#f4bc46"/><path d="M132 19v19m0 69v21M80 72H61m141 0h-19M96 36 82 22m100 100-13-13m0-73 13-13M95 110l-14 13" stroke="#f9d990" stroke-width="5" stroke-linecap="round"/><path d="M24 158q43-53 85-7 47-73 124 4" fill="none" stroke="#f7dfb0" stroke-width="8" stroke-linecap="round"/><path d="M35 178q80-23 189 0" fill="none" stroke="#e3ad75" stroke-width="3"/>',
+    '<path d="M44 174V46q42-15 85 10v122q-45-19-85-4Zm85 4V56q42-25 86-10v128q-38-15-86 4Z" fill="#f8e0b0" stroke="#4e336f" stroke-width="5" stroke-linejoin="round"/><path d="M59 75q23-6 50 2m-50 15q24-7 48 3m43-17q25-11 48-12m-48 30q25-10 48-9" stroke="#8b4b77" stroke-width="3" stroke-linecap="round"/><path d="M177 50v-22l13 5 12-9v36" fill="#d65284"/>',
+    '<path d="M77 125h101v31q-2 18-50 18-51 0-51-18Z" fill="#f8e0ad" stroke="#672d75" stroke-width="5"/><path d="M179 132q47-11 33 19-10 16-33 7" fill="none" stroke="#f4c16b" stroke-width="8"/><path d="M82 181h108" stroke="#fff2ca" stroke-width="7" stroke-linecap="round"/><path d="M111 106q-18-18 0-35m30 35q-18-18 0-35m26 35q-18-18 0-35" fill="none" stroke="#fff1c8" stroke-width="4" stroke-linecap="round"/>',
+    '<path d="M132 178V44m0 84Q82 104 71 63q51-5 61 40m1 18q52-18 65-65-55 4-65 47" fill="none" stroke="#f5ce84" stroke-width="7" stroke-linecap="round"/><path d="M132 153q-48-5-60-31m59 17q42-6 56-31" fill="none" stroke="#f0a6c8" stroke-width="5"/><circle cx="131" cy="38" r="11" fill="#f8da99"/>',
+    '<path d="m131 21 22 49 54 6-39 38 10 56-47-26-47 26 10-56-39-38 54-6Z" fill="#f6c24f" stroke="#ffefd2" stroke-width="5" stroke-linejoin="round"/><path d="m131 47 13 31 31 3-23 22 6 32-27-14-27 14 6-32-23-22 31-3Z" fill="#8e3672"/><path d="m39 146 19-8m142 0 18 10" stroke="#f7deb1" stroke-width="5"/>',
+    '<path d="M51 167V67l81-45 78 45v100Z" fill="#f3ca85" stroke="#fff0ca" stroke-width="6" stroke-linejoin="round"/><path d="M109 165V95h47v70" fill="#244e76" stroke="#ffebbb" stroke-width="4"/><circle cx="144" cy="132" r="4" fill="#f7cd73"/><path d="M27 169h207m-160-91 58-34 56 34" stroke="#f9dea6" stroke-width="5" fill="none" stroke-linecap="round"/>',
+    '<path d="M55 152q-12-65 51-64l20 18q46-61 90-6 27 42-22 73-38 17-75 3-47 8-64-24Z" fill="#ecadbc" stroke="#fff1c6" stroke-width="5"/><path d="M80 111q18-6 29 18m42-29q26-9 42 17m-65 19q13 6 26 0" fill="none" stroke="#7a3077" stroke-width="4" stroke-linecap="round"/><path d="M113 83q-4-20 13-34m5 36q18-26 43-28" stroke="#f7d889" stroke-width="5" stroke-linecap="round"/>'
+   ];
+   return '<div class="cabinet-illustration" aria-hidden="true"><svg viewBox="0 0 260 205" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M25 24q55-19 115-3 52-15 94 8l-6 151q-79 14-199-1Z" fill="#fff7e6" opacity=".12"/><path d="M29 31q18-17 42-11m127 163q17-1 29-14" stroke="#f4c372" stroke-width="3" stroke-linecap="round" fill="none"/>'+scenes[hash%scenes.length]+'<path d="M23 187q55-7 108 0 59 7 107-2" stroke="#fff0c7" stroke-width="2" opacity=".8" fill="none"/></svg></div>';
+ }
  function paletteFor(key){let h=0;for(const c of key)h=(h*33+c.charCodeAt(0))>>>0;return CS_CABINET_PALETTES[h%CS_CABINET_PALETTES.length];}
  function cardText(){return selected.title+'\n\n'+selected.message+'\n\n'+(selected.reference?'Scripture reference: '+selected.reference+'\n':'')+selected.credit+'\n\nA question to carry: '+selected.prompt+'\n'+(selected.url?'Read more: '+new URL(selected.url,location.href).href:'');}
  function renderCard(){
@@ -69,7 +84,7 @@ bind=function(route){
    const style='--cs-ink:'+p[0]+';--cs-deep:'+p[1]+';--cs-foil:'+p[2];
    stage.innerHTML='<article class="daily-card cabinet-art-card'+(side==='back'?' is-flipped':'')+'" style="'+style+'">'
      +'<div class="cabinet-art-faces">'
-     +'<div class="cabinet-card-front" aria-hidden="'+String(side==='back')+'"><span class="cabinet-card-motif" aria-hidden="true">'+p[3]+'</span><span class="eyebrow">'+safe(selected.kind)+'</span><h2>'+safe(selected.title)+'</h2><p class="cabinet-card-message">'+safe(selected.message)+'</p><small class="cabinet-card-credit">'+safe(selected.credit)+(selected.reference?' · '+safe(selected.reference):'')+'</small></div>'
+     +'<div class="cabinet-card-front" aria-hidden="'+String(side==='back')+'">'+cardIllustration(selected,p)+'<span class="eyebrow">'+safe(selected.kind)+'</span><h2>'+safe(selected.title)+'</h2><p class="cabinet-card-message">'+safe(selected.message)+'</p><small class="cabinet-card-credit">'+safe(selected.credit)+(selected.reference?' · '+safe(selected.reference):'')+'</small></div>'
      +'<div class="cabinet-card-back" aria-hidden="'+String(side!=='back')+'"><span class="cabinet-card-motif" aria-hidden="true">✧</span><span class="eyebrow">THE OTHER SIDE</span><h2>A question to carry</h2><p class="cabinet-card-question">'+safe(selected.prompt)+'</p>'
      +(selected.url?'<a class="cabinet-card-source" href="'+safe(selected.url)+'">Read more about this passage ↗</a>':'')
      +'<small>'+safe(selected.credit)+'</small></div></div></article>'
@@ -104,7 +119,7 @@ bind=function(route){
      document.querySelector('.gratitude-room').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});
      document.getElementById('gratitude-entry').focus({preventScroll:true});return;
    }
-   drawer=key;drawCard(key==='today');
+   drawer=key;drawCard(false);
  }
  drawers.forEach(function(b){b.onclick=function(){pickDrawer(b.dataset.drawer);};});
  drawCard(true);
