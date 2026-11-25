@@ -70,7 +70,7 @@ bind=function(route){
    stage.innerHTML='<article class="daily-card cabinet-art-card'+(side==='back'?' is-flipped':'')+'" style="'+style+'">'
      +'<div class="cabinet-art-faces">'
      +'<div class="cabinet-card-front" aria-hidden="'+String(side==='back')+'"><span class="cabinet-card-motif" aria-hidden="true">'+p[3]+'</span><span class="eyebrow">'+safe(selected.kind)+'</span><h2>'+safe(selected.title)+'</h2><p class="cabinet-card-message">'+safe(selected.message)+'</p><small class="cabinet-card-credit">'+safe(selected.credit)+(selected.reference?' · '+safe(selected.reference):'')+'</small></div>'
-     +'<div class="cabinet-card-back" aria-hidden="'+String(side!=='back')+'"><span class="cabinet-card-motif" aria-hidden="true">✧</span><span class="eyebrow">THE OTHER SIDE</span><h2>A question to carry</h2><p class="cabinet-card-question">'+safe(selected.prompt)+'</p>'
+     +'<div class="cabinet-card-back" aria-hidden="'+String(side!=='back')+'" '+(side==='back'?'':'inert')+'><span class="cabinet-card-motif" aria-hidden="true">✧</span><span class="eyebrow">THE OTHER SIDE</span><h2>A question to carry</h2><p class="cabinet-card-question">'+safe(selected.prompt)+'</p>'
      +(selected.url?'<a class="cabinet-card-source" href="'+safe(selected.url)+'">Read more about this passage ↗</a>':'')
      +'<small>'+safe(selected.credit)+'</small></div></div></article>'
      +'<div class="card-actions"><button type="button" class="small" id="turn-card">'+(side==='back'?'Turn to the front ↶':'Turn the card over ↻')+'</button>'
