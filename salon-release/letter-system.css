@@ -15,3 +15,11 @@
 @media print{body:has(.sunshine-post)>.layered-masthead,body:has(.sunshine-post)>.permanent-menu,body:has(.sunshine-post)>footer,body:has(.sunshine-post)>.skip,.sunshine-post .welcome-head,.postal-stage,.postal-invitation,.letter-tools,.postal-subscription-note,.sunshine-post .welcome-next,.letter-reader-bottom,.postal-modal,.letter-reader-head>.quiet{display:none!important}.postal-reader{display:block;opacity:1;grid-template-rows:1fr}.postal-reader-inner{overflow:visible}.sunshine-post,.sunshine-post .letter-desk{background:white!important;border:0!important;box-shadow:none!important;padding:0!important}.letter-art-view{padding:0!important}.letter-transcript{display:none}.letter-reader-head{padding:0 0 12px}.letter-text-view{max-width:none}}
 
 .sunshine-post .letter-reader-head .eyebrow{color:#72531b}.postal-nojs{max-width:700px;margin:30px auto;padding:25px;background:#fffefa;color:#243d3b;line-height:1.8;font-size:19px}
+
+/* A recognizable letter is visible before opening; on tap it rises cleanly
+   from behind the unchanged envelope front, then reveals the reading view. */
+.sunshine-post .postal-insert{top:11%;height:77%;transform:translateY(4%) rotate(1deg)}
+.sunshine-post .postal-open .postal-insert{transform:translateY(-35%) rotate(-1deg)}
+@media(prefers-reduced-motion:reduce){
+ .sunshine-post .postal-insert,.sunshine-post .postal-open .postal-insert{transition:none}
+}
