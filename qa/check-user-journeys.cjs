@@ -90,35 +90,44 @@ async function main(){
   assert.equal(response.status(),200);
   assert.equal((await response.body()).subarray(0,4).toString(),'%PDF');
  });
- add('U06','Daily card flip, drawers and new card',async(page)=>{
+
+ add('U06','All Daily Cabinet drawers, distinct drawn cards and accessible front/back',async(page)=>{
   await open(page,'daily-cabinet.html');
-  assert.ok(await page.locator('#turn-card').count());
-  const before=await page.locator('#card-stage blockquote').innerText();
-  await page.locator('#turn-card').click();
-  assert.ok((await page.locator('#card-stage').innerText()).includes('context'));
+  assert.equal(await page.locator('[data-drawer]').count(),4);
+  assert.ok(await page.locator('.cabinet-art-card').count(),'no daily cabinet card rendered');
+  const first=await page.locator('.cabinet-card-front h2').innerText();
   await page.locator('#another-card').click();
-  const after=await page.locator('#card-stage blockquote').innerText();
-  assert.notEqual(after,before);
+  assert.notEqual(await page.locator('.cabinet-card-front h2').innerText(),first,'random draw repeated same card');
+  await page.locator('#turn-card').click();
+  assert.ok(await page.locator('.cabinet-art-card.is-flipped').count(),'card did not flip');
+  await page.locator('[data-drawer="verse"]').click();
+  assert.equal(await page.locator('[data-drawer="verse"]').getAttribute('aria-pressed'),'true');
+  assert.ok((await page.locator('.cabinet-card-front .eyebrow').innerText()).includes('Scripture'),'verse drawer wrong collection');
   await page.locator('[data-drawer="studio"]').click();
   assert.equal(await page.locator('[data-drawer="studio"]').getAttribute('aria-pressed'),'true');
-  assert.ok((await page.locator('#card-stage').innerText()).includes('Original'));
+  assert.ok((await page.locator('.cabinet-card-front .eyebrow').innerText()).includes('Studio'),'studio drawer wrong collection');
+  await page.locator('[data-drawer="archive"]').click();
+  assert.ok(await page.locator('#gratitude-entry').isVisible(),'private jar not opened from its drawer');
  });
- add('U07','Gratitude jar saves, retrieves, exports and clears safely',async(page)=>{
+ add('U07','Private jar add, persist, retrieve, export, flip and two-step clear',async(page)=>{
   await open(page,'daily-cabinet.html');
   await page.locator('#gratitude-entry').fill('One small good thing from our QA test.');
   await page.locator('#add-gratitude').click();
-  assert.ok((await page.locator('#jar-status').innerText()).includes('1 little good thing'));
+  assert.ok((await page.locator('#jar-status').innerText()).includes('1 private little good thing'));
   await page.reload({waitUntil:'networkidle'});
-  assert.ok((await page.locator('#jar-status').innerText()).includes('1 little good thing'));
+  assert.ok((await page.locator('#jar-status').innerText()).includes('1 private little good thing'));
   await page.locator('#pull-gratitude').click();
   assert.ok((await page.locator('#jar-note').innerText()).includes('One small good thing'));
+  assert.ok(await page.locator('#cs-jar-card-reveal').isVisible());
+  await page.locator('#turn-jar-note').click();
+  assert.ok(await page.locator('.cs-jar-note-card.is-flipped').count(),'personal card did not flip');
   const promise=page.waitForEvent('download');
   await page.locator('#export-gratitude').click();
   assert.ok((await promise).suggestedFilename().endsWith('.txt'));
   await page.locator('#clear-gratitude').click();
-  assert.ok((await page.locator('#jar-status').innerText()).includes('Confirm')||(await page.locator('#clear-gratitude').innerText()).includes('Confirm'));
+  assert.ok((await page.locator('#clear-gratitude').innerText()).includes('Confirm'));
   await page.locator('#clear-gratitude').click();
-  assert.ok((await page.locator('#jar-status').innerText()).includes('0 little good things'));
+  assert.ok((await page.locator('#jar-status').innerText()).includes('0 private little good things'));
  });
  add('U08','Side Quest filters, next and previous',async(page)=>{
   await open(page,'side-quests.html');
@@ -131,6 +140,25 @@ async function main(){
   await page.locator('[data-quest-group="kindness"]').click();
   assert.equal(await page.locator('[data-quest-group="kindness"]').getAttribute('aria-pressed'),'true');
   assert.ok((await page.locator('#mission').innerText()).length>100);
+ });
+
+ add('U08b','Side Quest category decks have distinct no-repeat front/back cards',async(page)=>{
+  await open(page,'side-quests.html');
+  assert.equal(await page.locator('[data-quest-group]').count(),4);
+  for(const group of ['discovery','kindness','brave']){
+   await page.locator('[data-quest-group="'+group+'"]').click();
+   const seen=new Set();
+   for(let i=0;i<4;i++){
+    const title=(await page.locator('.quest-card-front h3').innerText()).trim();
+    assert.ok(title,'missing pocket-card title');
+    assert.ok(!seen.has(title),'category repeated before 24 cards exhausted: '+group);
+    seen.add(title);
+    await page.locator('#quest-draw-card').click();
+   }
+   await page.locator('#quest-flip-card').click();
+   assert.ok(await page.locator('.quest-pocket-card.is-flipped').count(),'pocket card back not available');
+   await page.locator('#quest-flip-card').click();
+  }
  });
  add('U09','Creative studio preserves private writing and download',async(page)=>{
   await open(page,'make.html');
