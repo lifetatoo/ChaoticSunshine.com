@@ -1,0 +1,6169 @@
+{
+  "asOf": "2026-11-25",
+  "branch": "staging",
+  "scope": "Source manifests; live publication and PDF visual review unverified. Existing protected artwork is not authorized for replacement.",
+  "routes": [
+    {
+      "id": "404",
+      "title": "Page not found | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-48",
+      "title": "The Buried Gift Would Like Some Air | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-26",
+      "title": "The Saved-Posts Folder Cannot Obey for You | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-63",
+      "title": "Even Jesus Was Not Available for Every Meeting | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-stop-auditioning",
+      "title": "Belonging without earning love | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "for-something-steady",
+      "title": "Courage, uncertainty and a steady foundation | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-89",
+      "title": "The Tree Is Growing Without a Before-and-After Post | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-54",
+      "title": "Your Love Does Not Need a Dimmer Switch | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-36",
+      "title": "Every Stick in the Yard Is Not Your Assignment | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-71",
+      "title": "The Branch Is Not in Charge of Squeezing Out Grapes | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-64",
+      "title": "Endless Cleanup Is Not a Spiritual Gift | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "sunshine-mail-sample",
+      "title": "Your prayer can lose the cover letter | Sunshine Mail",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-77",
+      "title": "The Seed Does Not Need a Standing Ovation | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-59",
+      "title": "Your Name Is a Full Entry | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "advent",
+      "title": "O Come, All Ye Tired | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-when-it-still-hurts",
+      "title": "When it still hurts | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-19",
+      "title": "Your Personal PR Department Can Take Lunch | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "start",
+      "title": "Browse Christian Devotions by Topic | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-17",
+      "title": "You Do Not Have to Fold Yourself Away | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-42",
+      "title": "The Winepress Is Getting a Little Crowded | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-34",
+      "title": "Jesus Has Read the Unedited Version | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-79",
+      "title": "Contentment May Keep Its Hopes | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-room-for-me",
+      "title": "Friendship, welcome and taking your place | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-beloved-then-sent",
+      "title": "Beloved, then sent | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-72",
+      "title": "Faithfulness Rarely Comes With a Plaque | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-03",
+      "title": "He Is Already on the Road | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-73",
+      "title": "Loyal Love Did Not Get a Relocation Package | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "he-sings-over-you",
+      "title": "He Sings Over You | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-52",
+      "title": "Set the Table, You Live Here | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-29",
+      "title": "Please Taste the Peach | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-85",
+      "title": "Mary Was More Than a Woman Crying in a Garden | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "rest-rootedness",
+      "title": "Rest and staying rooted | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-02",
+      "title": "The Scoreboard Is Closed | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-84",
+      "title": "Unclench. Yes, Your Jaw Too. | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-25",
+      "title": "Truth Needs More Than a Decorative Mug | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-journey-days-01-50",
+      "title": "Nine movements, one aim: days 1 to 50 | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-62",
+      "title": "Your No Does Not Need an Appendix | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-journey-days-51-90",
+      "title": "Nine movements, one aim: days 51 to 90 | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "before-the-first-mountain",
+      "title": "Before the First Mountain | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-80",
+      "title": "The Half-Knitted Scarf Is Not Your Spiritual Biography | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-78",
+      "title": "Eat Something Before the Spiritual Autopsy | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "fully-family",
+      "title": "Fully Family | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-hired-help-or-heir",
+      "title": "Hired help or heir? | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-57",
+      "title": "When the Host Offers a Seat, Take It | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-76",
+      "title": "Your Longing Does Not Need Better Manners | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-43",
+      "title": "Too Quiet, Too Old, Too Something | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "resource-permissions",
+      "title": "Using the printables | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snacks",
+      "title": "Free Short Devotionals for Women | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-09",
+      "title": "Roots Do Not Post Progress Pictures | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-81",
+      "title": "Nobody Applauds the Concrete | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-55",
+      "title": "You Know the Bylaws. Say Something. | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-16",
+      "title": "Unseen by the Group Chat, Seen by God | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-14",
+      "title": "The Mirror Is a Terrible Theologian | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-06",
+      "title": "You Can Clock Out of Earning It | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-47",
+      "title": "False Modesty Is Still Bad Math | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-75",
+      "title": "Run Your Race, Not Her Highlight Reel | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "community-guidelines",
+      "title": "Conversation Guidelines | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "the-daughter-who-stayed",
+      "title": "The Daughter Who Stayed | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-22",
+      "title": "That Thought Needs to Show ID | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-39",
+      "title": "The Thorn Did Not Miss the Prayer List | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "taking-thoughts-captive",
+      "title": "What does taking thoughts captive mean? | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-10",
+      "title": "Look Again, Beloved | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-44",
+      "title": "Say the Useful Thing Before Someone Louder Does | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-lie-and-truth-ledger",
+      "title": "The Lie and Truth Ledger | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-01",
+      "title": "Your Prayer Does Not Need a Cover Letter | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "index",
+      "title": "Christian Creativity & Creative Faith | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-50",
+      "title": "The Shower Has Heard Enough Rehearsals | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "seconds-please",
+      "title": "Seconds, Please | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-13",
+      "title": "Royalty at the Snack Table | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "the-road-out-of-moab",
+      "title": "The Road Out of Moab | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "pray-when-you-feel-unworthy",
+      "title": "How do I pray when I feel unworthy? | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-04",
+      "title": "Please Stop Invoicing Your Father | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-65",
+      "title": "The Room's Agreement Does Not Make It Right | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "creative-faith",
+      "title": "Christian Creativity & Bible Journaling | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-88",
+      "title": "Put on the Armor Before Answering the Cousin | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-old-labels",
+      "title": "Identity and the names we carry | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-11",
+      "title": "The Name Tag Is Not in Charge | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-86",
+      "title": "The Mountains May Move. Love Has Deeper Footing. | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-quiet-growth",
+      "title": "Rest, long waits and staying rooted | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-56",
+      "title": "Lydia Did Not Wait for Matching Chairs | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-27",
+      "title": "Mixed-Up Faith May Come In | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-68",
+      "title": "A Ringing Phone Is Not Always a Summons | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-33",
+      "title": "You Can Put the Stones Down, Too | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-08",
+      "title": "Your Worst Tuesday Is Not a Loophole | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-82",
+      "title": "God Can Sit Beside the Spreadsheet | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-30",
+      "title": "Let the Word Unpack Its Suitcase | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-51",
+      "title": "Your Seat Does Not Require an Apology | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-46",
+      "title": "The Towel Does Not Need a Humblebrag | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-a-hard-day-still-counts",
+      "title": "A hard day still counts: three steps | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "about",
+      "title": "About Amy Grace | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "scripture-index",
+      "title": "Browse Devotions by Bible Passage | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-58",
+      "title": "You Are Allowed Past the Formal Greeting | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-five-tools",
+      "title": "Five tools, 90 days | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "the-father-who-runs",
+      "title": "The Father Who Runs | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-24",
+      "title": "Your Imagination Is Not the Lab Report | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-70",
+      "title": "Your Yes Can Be Very Ordinary | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-31",
+      "title": "Grace Does Not Want a Repayment Plan | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-18",
+      "title": "Healed and Hiding Was Not the Whole Story | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-23",
+      "title": "Your Soul's Podcast Needs a Guest Host | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-69",
+      "title": "The Read Receipt Is Not a Prophet | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-74",
+      "title": "Your Loss Does Not Have to Become Your Name | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-45",
+      "title": "Mary Asked a Question Before Her Yes | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-41",
+      "title": "Your Excuses Have Excellent Attendance | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-15",
+      "title": "Your Purpose Is Not Hiding in a Quiz | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "identity-belonging",
+      "title": "Identity and belonging in Christ | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-40",
+      "title": "She Was a Person Before She Was a Reputation | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "beloved-first",
+      "title": "Beloved First | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-28",
+      "title": "God Can Handle the Junk Drawer | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-07",
+      "title": "God Has a Song, and You Are in It | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-05",
+      "title": "Beloved, Then Busy | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-12",
+      "title": "New Creation, Same Missing Keys | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-something-to-give",
+      "title": "Gifts, purpose and the courage to contribute | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-60",
+      "title": "The Final Feast Has Your Kind of Welcome | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-90",
+      "title": "Beloved, Really. And Still No Audition. | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-check-its-id",
+      "title": "Check its ID | Free Teaching Illustration",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-83",
+      "title": "Refresh Is Not a Foundation | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "heir-not-hired",
+      "title": "Heir, Not Hired | Free Illustrated Bible Guide",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-61",
+      "title": "The Automatic Yes Has Acquired a Grudge | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-20",
+      "title": "The Old Nickname Is Not Prophecy | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "side-quests",
+      "title": "Creative Side Quests & Joy Missions | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-38",
+      "title": "Jesus Made Breakfast After the Failure | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-32",
+      "title": "The Court Is Adjourned, Ma'am | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "welcome",
+      "title": "A little sunshine for you | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-21",
+      "title": "Forty Open Tabs, One Renewing God | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-37",
+      "title": "Stop Visiting the Forgiven Text Message | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "subscribe",
+      "title": "Sunshine Mail | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-35",
+      "title": "Martha, Please Eat While It's Warm | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "when-you-are-exhausted",
+      "title": "What can Elijah teach us when we are exhausted? | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "for-too-many-tabs",
+      "title": "Thought loops, worry and truth | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-66",
+      "title": "Your Friend Means Well. You May Still Decline. | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-53",
+      "title": "You May Ask Without Seventeen Softeners | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "for-the-replay",
+      "title": "Shame, forgiveness and receiving grace | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "freebies",
+      "title": "The Little Free Digital Library | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-49",
+      "title": "Grace Can Handle Your Whole Résumé | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-67",
+      "title": "It's Fine Is Slamming the Cabinets | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "teaching-shelf",
+      "title": "Teaching Shelf | Free Illustrated Bible Teaching Pages",
+      "live": "unverified"
+    },
+    {
+      "id": "prayer-trust",
+      "title": "Prayer and trust on hard days | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "table-talks-guide",
+      "title": "The Table Talks Guide | Questions for Honest Friendship",
+      "live": "unverified"
+    },
+    {
+      "id": "for-cranky-yes",
+      "title": "People pleasing, honest answers and limits | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "soul-snack-87",
+      "title": "You May Enjoy the Good Week | Soul Snacks",
+      "live": "unverified"
+    },
+    {
+      "id": "daily-cabinet",
+      "title": "Daily Bible Verse & Encouragement Cards | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "make",
+      "title": "Bible Journaling & Creative Reflection Studio | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "try",
+      "title": "Creative Faith Practices for Everyday Life | Chaotic Sunshine",
+      "live": "unverified"
+    },
+    {
+      "id": "share",
+      "title": "Keep or Share a Creative Faith Reflection | Chaotic Sunshine",
+      "live": "unverified"
+    }
+  ],
+  "devotions": [
+    {
+      "id": "soul-snack-01",
+      "title": "Your Prayer Does Not Need a Cover Letter",
+      "scripture": "Romans 8:12-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-02",
+      "title": "The Scoreboard Is Closed",
+      "scripture": "Ephesians 1:3-8",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-03",
+      "title": "He Is Already on the Road",
+      "scripture": "Luke 15:11-24",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-04",
+      "title": "Please Stop Invoicing Your Father",
+      "scripture": "Luke 15:25-32",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-05",
+      "title": "Beloved, Then Busy",
+      "scripture": "Matthew 3:13-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-06",
+      "title": "You Can Clock Out of Earning It",
+      "scripture": "Galatians 4:1-7 and 2 Corinthians 6:18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-07",
+      "title": "God Has a Song, and You Are in It",
+      "scripture": "Zephaniah 3:14-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-08",
+      "title": "Your Worst Tuesday Is Not a Loophole",
+      "scripture": "Romans 8:31-39",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-09",
+      "title": "Roots Do Not Post Progress Pictures",
+      "scripture": "Ephesians 3:14-21",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-10",
+      "title": "Look Again, Beloved",
+      "scripture": "1 John 3:1-3 and 1 John 4:16-19",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-11",
+      "title": "The Name Tag Is Not in Charge",
+      "scripture": "Isaiah 43:1-7",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-12",
+      "title": "New Creation, Same Missing Keys",
+      "scripture": "2 Corinthians 5:14-21",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-13",
+      "title": "Royalty at the Snack Table",
+      "scripture": "1 Peter 2:4-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-14",
+      "title": "The Mirror Is a Terrible Theologian",
+      "scripture": "Psalm 139:1-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-15",
+      "title": "Your Purpose Is Not Hiding in a Quiz",
+      "scripture": "Ephesians 2:8-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-16",
+      "title": "Unseen by the Group Chat, Seen by God",
+      "scripture": "Genesis 16:1-13",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-17",
+      "title": "You Do Not Have to Fold Yourself Away",
+      "scripture": "Luke 13:10-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-18",
+      "title": "Healed and Hiding Was Not the Whole Story",
+      "scripture": "Mark 5:25-34",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-19",
+      "title": "Your Personal PR Department Can Take Lunch",
+      "scripture": "Colossians 3:1-4",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-20",
+      "title": "The Old Nickname Is Not Prophecy",
+      "scripture": "Revelation 2:17 and Isaiah 62:1-5",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-21",
+      "title": "Forty Open Tabs, One Renewing God",
+      "scripture": "Romans 12:1-2",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-22",
+      "title": "That Thought Needs to Show ID",
+      "scripture": "2 Corinthians 10:3-5",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-23",
+      "title": "Your Soul's Podcast Needs a Guest Host",
+      "scripture": "Psalm 42",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-24",
+      "title": "Your Imagination Is Not the Lab Report",
+      "scripture": "Philippians 4:4-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-25",
+      "title": "Truth Needs More Than a Decorative Mug",
+      "scripture": "John 8:31-36",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-25",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-26",
+      "title": "The Saved-Posts Folder Cannot Obey for You",
+      "scripture": "James 1:19-25",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-26",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-27",
+      "title": "Mixed-Up Faith May Come In",
+      "scripture": "Mark 9:14-29",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-27",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-28",
+      "title": "God Can Handle the Junk Drawer",
+      "scripture": "Psalm 139:23-24 and Jeremiah 17:9-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-28",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-29",
+      "title": "Please Taste the Peach",
+      "scripture": "Psalm 34:1-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-29",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-30",
+      "title": "Let the Word Unpack Its Suitcase",
+      "scripture": "Colossians 3:12-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-30",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-31",
+      "title": "Grace Does Not Want a Repayment Plan",
+      "scripture": "Ephesians 2:1-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-31",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-32",
+      "title": "The Court Is Adjourned, Ma'am",
+      "scripture": "Romans 8:1-4 and 8:31-34",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-32",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-33",
+      "title": "You Can Put the Stones Down, Too",
+      "scripture": "John 8:1-11",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-33",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-34",
+      "title": "Jesus Has Read the Unedited Version",
+      "scripture": "John 4:4-30 and 4:39-42",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-34",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-35",
+      "title": "Martha, Please Eat While It's Warm",
+      "scripture": "Luke 10:38-42 and John 11:17-27",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-35",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-36",
+      "title": "Every Stick in the Yard Is Not Your Assignment",
+      "scripture": "Matthew 11:25-30",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-36",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-37",
+      "title": "Stop Visiting the Forgiven Text Message",
+      "scripture": "Psalm 103:1-14",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-37",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-38",
+      "title": "Jesus Made Breakfast After the Failure",
+      "scripture": "John 18:15-27 and John 21:1-19",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-38",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-39",
+      "title": "The Thorn Did Not Miss the Prayer List",
+      "scripture": "2 Corinthians 12:7-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-39",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-40",
+      "title": "She Was a Person Before She Was a Reputation",
+      "scripture": "Luke 7:36-50",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-40",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-41",
+      "title": "Your Excuses Have Excellent Attendance",
+      "scripture": "Exodus 3:7-12 and 4:10-13",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-41",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-42",
+      "title": "The Winepress Is Getting a Little Crowded",
+      "scripture": "Judges 6:11-16",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-42",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-43",
+      "title": "Too Quiet, Too Old, Too Something",
+      "scripture": "Jeremiah 1:4-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-43",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-44",
+      "title": "Say the Useful Thing Before Someone Louder Does",
+      "scripture": "Judges 4:1-10 and 5:1-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-44",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-45",
+      "title": "Mary Asked a Question Before Her Yes",
+      "scripture": "Luke 1:26-38 and 1:46-55",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-45",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-46",
+      "title": "The Towel Does Not Need a Humblebrag",
+      "scripture": "Philippians 2:1-11 and John 13:1-5",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-46",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-47",
+      "title": "False Modesty Is Still Bad Math",
+      "scripture": "Romans 12:3-8",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-47",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-48",
+      "title": "The Buried Gift Would Like Some Air",
+      "scripture": "Matthew 25:14-30",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-48",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-49",
+      "title": "Grace Can Handle Your Whole Résumé",
+      "scripture": "1 Corinthians 15:1-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-49",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-50",
+      "title": "The Shower Has Heard Enough Rehearsals",
+      "scripture": "2 Timothy 1:3-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-50",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-51",
+      "title": "Your Seat Does Not Require an Apology",
+      "scripture": "2 Samuel 9:1-13",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-51",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-52",
+      "title": "Set the Table, You Live Here",
+      "scripture": "Psalm 23",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-52",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-53",
+      "title": "You May Ask Without Seventeen Softeners",
+      "scripture": "Hebrews 4:14-16 and 10:19-22",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-53",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-54",
+      "title": "Your Love Does Not Need a Dimmer Switch",
+      "scripture": "John 12:1-8",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-54",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-55",
+      "title": "You Know the Bylaws. Say Something.",
+      "scripture": "Esther 4:1-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-55",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-56",
+      "title": "Lydia Did Not Wait for Matching Chairs",
+      "scripture": "Acts 16:11-15 and 16:40",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-56",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-57",
+      "title": "When the Host Offers a Seat, Take It",
+      "scripture": "Luke 14:7-14",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-57",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-58",
+      "title": "You Are Allowed Past the Formal Greeting",
+      "scripture": "John 15:9-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-58",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-59",
+      "title": "Your Name Is a Full Entry",
+      "scripture": "1 Corinthians 12:12-27",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-59",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-60",
+      "title": "The Final Feast Has Your Kind of Welcome",
+      "scripture": "Revelation 19:6-9 and Isaiah 25:6-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-60",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-61",
+      "title": "The Automatic Yes Has Acquired a Grudge",
+      "scripture": "Proverbs 29:25 and Galatians 1:6-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-61",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-62",
+      "title": "Your No Does Not Need an Appendix",
+      "scripture": "Matthew 5:33-37",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-62",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-63",
+      "title": "Even Jesus Was Not Available for Every Meeting",
+      "scripture": "Mark 1:32-39 and Luke 5:15-16",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-63",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-64",
+      "title": "Endless Cleanup Is Not a Spiritual Gift",
+      "scripture": "1 Samuel 25:14-35 and 25:39-42",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-64",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-65",
+      "title": "The Room's Agreement Does Not Make It Right",
+      "scripture": "Exodus 1:8-21",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-65",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-66",
+      "title": "Your Friend Means Well. You May Still Decline.",
+      "scripture": "Matthew 16:13-23",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-66",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-67",
+      "title": "It's Fine Is Slamming the Cabinets",
+      "scripture": "Ephesians 4:14-16 and 4:25-32",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-67",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-68",
+      "title": "A Ringing Phone Is Not Always a Summons",
+      "scripture": "Nehemiah 6:1-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-68",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-69",
+      "title": "The Read Receipt Is Not a Prophet",
+      "scripture": "Psalm 56",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-69",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-70",
+      "title": "Your Yes Can Be Very Ordinary",
+      "scripture": "John 2:1-11",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-70",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-71",
+      "title": "The Branch Is Not in Charge of Squeezing Out Grapes",
+      "scripture": "John 15:1-8",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-71",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-72",
+      "title": "Faithfulness Rarely Comes With a Plaque",
+      "scripture": "Luke 2:22-38",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-72",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-73",
+      "title": "Loyal Love Did Not Get a Relocation Package",
+      "scripture": "Ruth 1:1-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-73",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-74",
+      "title": "Your Loss Does Not Have to Become Your Name",
+      "scripture": "Ruth 1:19-22 and 4:13-17",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-74",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-75",
+      "title": "Run Your Race, Not Her Highlight Reel",
+      "scripture": "Hebrews 12:1-3",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-75",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-76",
+      "title": "Your Longing Does Not Need Better Manners",
+      "scripture": "1 Samuel 1:1-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-76",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-77",
+      "title": "The Seed Does Not Need a Standing Ovation",
+      "scripture": "Galatians 6:7-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-77",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-78",
+      "title": "Eat Something Before the Spiritual Autopsy",
+      "scripture": "1 Kings 19:1-9",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-78",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-79",
+      "title": "Contentment May Keep Its Hopes",
+      "scripture": "Philippians 4:10-13",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-79",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-80",
+      "title": "The Half-Knitted Scarf Is Not Your Spiritual Biography",
+      "scripture": "2 Timothy 4:6-8 and 4:16-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-80",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-81",
+      "title": "Nobody Applauds the Concrete",
+      "scripture": "Matthew 7:24-27",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-81",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-82",
+      "title": "God Can Sit Beside the Spreadsheet",
+      "scripture": "Psalm 16",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-82",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-83",
+      "title": "Refresh Is Not a Foundation",
+      "scripture": "Psalm 62",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-83",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-84",
+      "title": "Unclench. Yes, Your Jaw Too.",
+      "scripture": "Psalm 46",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-84",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-85",
+      "title": "Mary Was More Than a Woman Crying in a Garden",
+      "scripture": "John 20:1-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-85",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-86",
+      "title": "The Mountains May Move. Love Has Deeper Footing.",
+      "scripture": "Isaiah 54:1-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-86",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-87",
+      "title": "You May Enjoy the Good Week",
+      "scripture": "John 16:25-33",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-87",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-88",
+      "title": "Put on the Armor Before Answering the Cousin",
+      "scripture": "Ephesians 6:10-18",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-88",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-89",
+      "title": "The Tree Is Growing Without a Before-and-After Post",
+      "scripture": "Jeremiah 17:5-10",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-89",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "soul-snack-90",
+      "title": "Beloved, Really. And Still No Audition.",
+      "scripture": "Hebrews 12:25-29",
+      "authorStatus": "draft",
+      "editorialStatus": "Humanizer and content edit completed October 20, 2026; author review pending",
+      "biblicalReview": "pending",
+      "art": {
+        "artId": "lesson-soul-snack-90",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    }
+  ],
+  "cabinet": [
+    {
+      "id": "passage-soul-snack-01",
+      "title": "The Spirit of Adoption",
+      "source": "soul-snack-01",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-01",
+      "title": "Your Prayer Does Not Need a Cover Letter",
+      "source": "soul-snack-01",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-02",
+      "title": "Chosen Before You Could Perform",
+      "source": "soul-snack-02",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-02",
+      "title": "The Scoreboard Is Closed",
+      "source": "soul-snack-02",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-03",
+      "title": "The Father Who Runs",
+      "source": "soul-snack-03",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-03",
+      "title": "He Is Already on the Road",
+      "source": "soul-snack-03",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-04",
+      "title": "The Daughter Who Stayed",
+      "source": "soul-snack-04",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-04",
+      "title": "Please Stop Invoicing Your Father",
+      "source": "soul-snack-04",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-05",
+      "title": "Beloved Before the Ministry",
+      "source": "soul-snack-05",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-05",
+      "title": "Beloved, Then Busy",
+      "source": "soul-snack-05",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-06",
+      "title": "Heir of the Estate",
+      "source": "soul-snack-06",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-06",
+      "title": "You Can Clock Out of Earning It",
+      "source": "soul-snack-06",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-07",
+      "title": "He Sings Over You",
+      "source": "soul-snack-07",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-07",
+      "title": "God Has a Song, and You Are in It",
+      "source": "soul-snack-07",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-08",
+      "title": "Nothing Can Separate",
+      "source": "soul-snack-08",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-08",
+      "title": "Your Worst Tuesday Is Not a Loophole",
+      "source": "soul-snack-08",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-09",
+      "title": "Rooted and Established in Love",
+      "source": "soul-snack-09",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-09",
+      "title": "Roots Do Not Post Progress Pictures",
+      "source": "soul-snack-09",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-10",
+      "title": "See What Great Love",
+      "source": "soul-snack-10",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-10",
+      "title": "Look Again, Beloved",
+      "source": "soul-snack-10",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-11",
+      "title": "You Are Mine",
+      "source": "soul-snack-11",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-11",
+      "title": "The Name Tag Is Not in Charge",
+      "source": "soul-snack-11",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-12",
+      "title": "A New Creation",
+      "source": "soul-snack-12",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-12",
+      "title": "New Creation, Same Missing Keys",
+      "source": "soul-snack-12",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-13",
+      "title": "Royal, Priestly, Purposeful",
+      "source": "soul-snack-13",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-13",
+      "title": "Royalty at the Snack Table",
+      "source": "soul-snack-13",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-14",
+      "title": "Fearfully and Wonderfully Made",
+      "source": "soul-snack-14",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-14",
+      "title": "The Mirror Is a Terrible Theologian",
+      "source": "soul-snack-14",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-15",
+      "title": "His Handiwork",
+      "source": "soul-snack-15",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-15",
+      "title": "Your Purpose Is Not Hiding in a Quiz",
+      "source": "soul-snack-15",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-16",
+      "title": "The God Who Sees",
+      "source": "soul-snack-16",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-16",
+      "title": "Unseen by the Group Chat, Seen by God",
+      "source": "soul-snack-16",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-17",
+      "title": "Straightened",
+      "source": "soul-snack-17",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-17",
+      "title": "You Do Not Have to Fold Yourself Away",
+      "source": "soul-snack-17",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-18",
+      "title": "Daughter, Go in Peace",
+      "source": "soul-snack-18",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-18",
+      "title": "Healed and Hiding Was Not the Whole Story",
+      "source": "soul-snack-18",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-19",
+      "title": "Hidden With Christ",
+      "source": "soul-snack-19",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-19",
+      "title": "Your Personal PR Department Can Take Lunch",
+      "source": "soul-snack-19",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-20",
+      "title": "A New Name",
+      "source": "soul-snack-20",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-20",
+      "title": "The Old Nickname Is Not Prophecy",
+      "source": "soul-snack-20",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-21",
+      "title": "Renewed From the Inside",
+      "source": "soul-snack-21",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-21",
+      "title": "Forty Open Tabs, One Renewing God",
+      "source": "soul-snack-21",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-22",
+      "title": "Taking Thoughts Captive",
+      "source": "soul-snack-22",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-22",
+      "title": "That Thought Needs to Show ID",
+      "source": "soul-snack-22",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-23",
+      "title": "Talking Back to Your Soul",
+      "source": "soul-snack-23",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-23",
+      "title": "Your Soul's Podcast Needs a Guest Host",
+      "source": "soul-snack-23",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-24",
+      "title": "Think on These Things",
+      "source": "soul-snack-24",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-24",
+      "title": "Your Imagination Is Not the Lab Report",
+      "source": "soul-snack-24",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-25",
+      "title": "Truth That Frees",
+      "source": "soul-snack-25",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-25",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-25",
+      "title": "Truth Needs More Than a Decorative Mug",
+      "source": "soul-snack-25",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-25",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-26",
+      "title": "Doing What You Hear",
+      "source": "soul-snack-26",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-26",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-26",
+      "title": "The Saved-Posts Folder Cannot Obey for You",
+      "source": "soul-snack-26",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-26",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-27",
+      "title": "Help My Unbelief",
+      "source": "soul-snack-27",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-27",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-27",
+      "title": "Mixed-Up Faith May Come In",
+      "source": "soul-snack-27",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-27",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-28",
+      "title": "Search Me",
+      "source": "soul-snack-28",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-28",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-28",
+      "title": "God Can Handle the Junk Drawer",
+      "source": "soul-snack-28",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-28",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-29",
+      "title": "Taste and See",
+      "source": "soul-snack-29",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-29",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-29",
+      "title": "Please Taste the Peach",
+      "source": "soul-snack-29",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-29",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-30",
+      "title": "Let the Word Dwell Richly",
+      "source": "soul-snack-30",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-30",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-30",
+      "title": "Let the Word Unpack Its Suitcase",
+      "source": "soul-snack-30",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-30",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-31",
+      "title": "The Gift You Cannot Repay",
+      "source": "soul-snack-31",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-31",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-31",
+      "title": "Grace Does Not Want a Repayment Plan",
+      "source": "soul-snack-31",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-31",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-32",
+      "title": "The Verdict Is In",
+      "source": "soul-snack-32",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-32",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-32",
+      "title": "The Court Is Adjourned, Ma'am",
+      "source": "soul-snack-32",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-32",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-33",
+      "title": "Standing Between You and the Stones",
+      "source": "soul-snack-33",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-33",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-33",
+      "title": "You Can Put the Stones Down, Too",
+      "source": "soul-snack-33",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-33",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-34",
+      "title": "Fully Known at Noon",
+      "source": "soul-snack-34",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-34",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-34",
+      "title": "Jesus Has Read the Unedited Version",
+      "source": "soul-snack-34",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-34",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-35",
+      "title": "The One Thing",
+      "source": "soul-snack-35",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-35",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-35",
+      "title": "Martha, Please Eat While It's Warm",
+      "source": "soul-snack-35",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-35",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-36",
+      "title": "Put That Down",
+      "source": "soul-snack-36",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-36",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-36",
+      "title": "Every Stick in the Yard Is Not Your Assignment",
+      "source": "soul-snack-36",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-36",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-37",
+      "title": "As Far as East From West",
+      "source": "soul-snack-37",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-37",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-37",
+      "title": "Stop Visiting the Forgiven Text Message",
+      "source": "soul-snack-37",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-37",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-38",
+      "title": "Breakfast by the Fire",
+      "source": "soul-snack-38",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-38",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-38",
+      "title": "Jesus Made Breakfast After the Failure",
+      "source": "soul-snack-38",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-38",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-39",
+      "title": "Grace for the Thorn",
+      "source": "soul-snack-39",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-39",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-39",
+      "title": "The Thorn Did Not Miss the Prayer List",
+      "source": "soul-snack-39",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-39",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-40",
+      "title": "Do You See This Woman?",
+      "source": "soul-snack-40",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-40",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-40",
+      "title": "She Was a Person Before She Was a Reputation",
+      "source": "soul-snack-40",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-40",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-41",
+      "title": "Who Am I?",
+      "source": "soul-snack-41",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-41",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-41",
+      "title": "Your Excuses Have Excellent Attendance",
+      "source": "soul-snack-41",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-41",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-42",
+      "title": "Hiding in the Winepress",
+      "source": "soul-snack-42",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-42",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-42",
+      "title": "The Winepress Is Getting a Little Crowded",
+      "source": "soul-snack-42",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-42",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-43",
+      "title": "Before You Were Formed",
+      "source": "soul-snack-43",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-43",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-43",
+      "title": "Too Quiet, Too Old, Too Something",
+      "source": "soul-snack-43",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-43",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-44",
+      "title": "When Deborah Arose",
+      "source": "soul-snack-44",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-44",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-44",
+      "title": "Say the Useful Thing Before Someone Louder Does",
+      "source": "soul-snack-44",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-44",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-45",
+      "title": "Halfway, and Mary's Yes",
+      "source": "soul-snack-45",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-45",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-45",
+      "title": "Mary Asked a Question Before Her Yes",
+      "source": "soul-snack-45",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-45",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-46",
+      "title": "The Towel and the Throne",
+      "source": "soul-snack-46",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-46",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-46",
+      "title": "The Towel Does Not Need a Humblebrag",
+      "source": "soul-snack-46",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-46",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-47",
+      "title": "An Honest Mirror",
+      "source": "soul-snack-47",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-47",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-47",
+      "title": "False Modesty Is Still Bad Math",
+      "source": "soul-snack-47",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-47",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-48",
+      "title": "What Fear Buries",
+      "source": "soul-snack-48",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-48",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-48",
+      "title": "The Buried Gift Would Like Some Air",
+      "source": "soul-snack-48",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-48",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-49",
+      "title": "I Am What I Am",
+      "source": "soul-snack-49",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-49",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-49",
+      "title": "Grace Can Handle Your Whole Résumé",
+      "source": "soul-snack-49",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-49",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-50",
+      "title": "Fan the Flame",
+      "source": "soul-snack-50",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-50",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-50",
+      "title": "The Shower Has Heard Enough Rehearsals",
+      "source": "soul-snack-50",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-50",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-51",
+      "title": "A Place at the King's Table",
+      "source": "soul-snack-51",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-51",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-51",
+      "title": "Your Seat Does Not Require an Apology",
+      "source": "soul-snack-51",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-51",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-52",
+      "title": "A Table for One",
+      "source": "soul-snack-52",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-52",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-52",
+      "title": "Set the Table, You Live Here",
+      "source": "soul-snack-52",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-52",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-53",
+      "title": "Come Boldly",
+      "source": "soul-snack-53",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-53",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-53",
+      "title": "You May Ask Without Seventeen Softeners",
+      "source": "soul-snack-53",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-53",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-54",
+      "title": "Too Much Perfume",
+      "source": "soul-snack-54",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-54",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-54",
+      "title": "Your Love Does Not Need a Dimmer Switch",
+      "source": "soul-snack-54",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-54",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-55",
+      "title": "For Such a Time as This",
+      "source": "soul-snack-55",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-55",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-55",
+      "title": "You Know the Bylaws. Say Something.",
+      "source": "soul-snack-55",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-55",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-56",
+      "title": "Lydia's Open Door",
+      "source": "soul-snack-56",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-56",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-56",
+      "title": "Lydia Did Not Wait for Matching Chairs",
+      "source": "soul-snack-56",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-56",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-57",
+      "title": "Friend, Move Up",
+      "source": "soul-snack-57",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-57",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-57",
+      "title": "When the Host Offers a Seat, Take It",
+      "source": "soul-snack-57",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-57",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-58",
+      "title": "Called Friends",
+      "source": "soul-snack-58",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-58",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-58",
+      "title": "You Are Allowed Past the Formal Greeting",
+      "source": "soul-snack-58",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-58",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-59",
+      "title": "Placed on Purpose",
+      "source": "soul-snack-59",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-59",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-59",
+      "title": "Your Name Is a Full Entry",
+      "source": "soul-snack-59",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-59",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-60",
+      "title": "Invited to the Wedding",
+      "source": "soul-snack-60",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-60",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-60",
+      "title": "The Final Feast Has Your Kind of Welcome",
+      "source": "soul-snack-60",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-60",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-61",
+      "title": "The Snare",
+      "source": "soul-snack-61",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-61",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-61",
+      "title": "The Automatic Yes Has Acquired a Grudge",
+      "source": "soul-snack-61",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-61",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-62",
+      "title": "Yes Means Yes",
+      "source": "soul-snack-62",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-62",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-62",
+      "title": "Your No Does Not Need an Appendix",
+      "source": "soul-snack-62",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-62",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-63",
+      "title": "Jesus Said No",
+      "source": "soul-snack-63",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-63",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-63",
+      "title": "Even Jesus Was Not Available for Every Meeting",
+      "source": "soul-snack-63",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-63",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-64",
+      "title": "Abigail's Good Judgment",
+      "source": "soul-snack-64",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-64",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-64",
+      "title": "Endless Cleanup Is Not a Spiritual Gift",
+      "source": "soul-snack-64",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-64",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-65",
+      "title": "A Costly No",
+      "source": "soul-snack-65",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-65",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-65",
+      "title": "The Room's Agreement Does Not Make It Right",
+      "source": "soul-snack-65",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-65",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-66",
+      "title": "Get Behind Me",
+      "source": "soul-snack-66",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-66",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-66",
+      "title": "Your Friend Means Well. You May Still Decline.",
+      "source": "soul-snack-66",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-66",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-67",
+      "title": "Truth in Love",
+      "source": "soul-snack-67",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-67",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-67",
+      "title": "It's Fine Is Slamming the Cabinets",
+      "source": "soul-snack-67",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-67",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-68",
+      "title": "I Cannot Come Down",
+      "source": "soul-snack-68",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-68",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-68",
+      "title": "A Ringing Phone Is Not Always a Summons",
+      "source": "soul-snack-68",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-68",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-69",
+      "title": "When I Am Afraid",
+      "source": "soul-snack-69",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-69",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-69",
+      "title": "The Read Receipt Is Not a Prophet",
+      "source": "soul-snack-69",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-69",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-70",
+      "title": "Whatever He Tells You",
+      "source": "soul-snack-70",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-70",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-70",
+      "title": "Your Yes Can Be Very Ordinary",
+      "source": "soul-snack-70",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-70",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-71",
+      "title": "Remain in the Vine",
+      "source": "soul-snack-71",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-71",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-71",
+      "title": "The Branch Is Not in Charge of Squeezing Out Grapes",
+      "source": "soul-snack-71",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-71",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-72",
+      "title": "Anna Kept Watch",
+      "source": "soul-snack-72",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-72",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-72",
+      "title": "Faithfulness Rarely Comes With a Plaque",
+      "source": "soul-snack-72",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-72",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-73",
+      "title": "Where You Go",
+      "source": "soul-snack-73",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-73",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-73",
+      "title": "Loyal Love Did Not Get a Relocation Package",
+      "source": "soul-snack-73",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-73",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-74",
+      "title": "Call Me Mara",
+      "source": "soul-snack-74",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-74",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-74",
+      "title": "Your Loss Does Not Have to Become Your Name",
+      "source": "soul-snack-74",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-74",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-75",
+      "title": "Eyes on Jesus",
+      "source": "soul-snack-75",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-75",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-75",
+      "title": "Run Your Race, Not Her Highlight Reel",
+      "source": "soul-snack-75",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-75",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-76",
+      "title": "Hannah Poured Out",
+      "source": "soul-snack-76",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-76",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-76",
+      "title": "Your Longing Does Not Need Better Manners",
+      "source": "soul-snack-76",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-76",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-77",
+      "title": "Do Not Grow Weary",
+      "source": "soul-snack-77",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-77",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-77",
+      "title": "The Seed Does Not Need a Standing Ovation",
+      "source": "soul-snack-77",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-77",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-78",
+      "title": "Under the Broom Tree",
+      "source": "soul-snack-78",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-78",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-78",
+      "title": "Eat Something Before the Spiritual Autopsy",
+      "source": "soul-snack-78",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-78",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-79",
+      "title": "The Secret of Contentment",
+      "source": "soul-snack-79",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-79",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-79",
+      "title": "Contentment May Keep Its Hopes",
+      "source": "soul-snack-79",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-79",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-80",
+      "title": "I Have Finished the Race",
+      "source": "soul-snack-80",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-80",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-80",
+      "title": "The Half-Knitted Scarf Is Not Your Spiritual Biography",
+      "source": "soul-snack-80",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-80",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-81",
+      "title": "The House on the Rock",
+      "source": "soul-snack-81",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-81",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-81",
+      "title": "Nobody Applauds the Concrete",
+      "source": "soul-snack-81",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-81",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-82",
+      "title": "I Will Not Be Shaken",
+      "source": "soul-snack-82",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-82",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-82",
+      "title": "God Can Sit Beside the Spreadsheet",
+      "source": "soul-snack-82",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-82",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-83",
+      "title": "My Soul Finds Rest",
+      "source": "soul-snack-83",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-83",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-83",
+      "title": "Refresh Is Not a Foundation",
+      "source": "soul-snack-83",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-83",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-84",
+      "title": "Be Still",
+      "source": "soul-snack-84",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-84",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-84",
+      "title": "Unclench. Yes, Your Jaw Too.",
+      "source": "soul-snack-84",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-84",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-85",
+      "title": "She Heard Her Name",
+      "source": "soul-snack-85",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-85",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-85",
+      "title": "Mary Was More Than a Woman Crying in a Garden",
+      "source": "soul-snack-85",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-85",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-86",
+      "title": "Love That Will Not Be Shaken",
+      "source": "soul-snack-86",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-86",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-86",
+      "title": "The Mountains May Move. Love Has Deeper Footing.",
+      "source": "soul-snack-86",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-86",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-87",
+      "title": "Take Heart",
+      "source": "soul-snack-87",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-87",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-87",
+      "title": "You May Enjoy the Good Week",
+      "source": "soul-snack-87",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-87",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-88",
+      "title": "Stand",
+      "source": "soul-snack-88",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-88",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-88",
+      "title": "Put on the Armor Before Answering the Cousin",
+      "source": "soul-snack-88",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-88",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-89",
+      "title": "Planted by the Water",
+      "source": "soul-snack-89",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-89",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-89",
+      "title": "The Tree Is Growing Without a Before-and-After Post",
+      "source": "soul-snack-89",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-89",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-soul-snack-90",
+      "title": "A Kingdom That Cannot Be Shaken",
+      "source": "soul-snack-90",
+      "kind": "Scripture observation",
+      "review": "derived draft",
+      "art": {
+        "artId": "passage-soul-snack-90",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-soul-snack-90",
+      "title": "Beloved, Really. And Still No Audition.",
+      "source": "soul-snack-90",
+      "kind": "lived practice",
+      "review": "derived draft",
+      "art": {
+        "artId": "studio-soul-snack-90",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-01",
+      "title": "Fully Seen",
+      "scripture": "Psalm 139:1-18",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-02",
+      "title": "A Numbered Day",
+      "scripture": "Psalm 90:12-17",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-03",
+      "title": "A Time for This",
+      "scripture": "Ecclesiastes 3:1-13",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-04",
+      "title": "Called by Name",
+      "scripture": "Isaiah 43:1-7",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-05",
+      "title": "Strength in Waiting",
+      "scripture": "Isaiah 40:27-31",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-06",
+      "title": "A Morning Sentence",
+      "scripture": "Lamentations 3:19-26",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-07",
+      "title": "Courage in the Middle",
+      "scripture": "Psalm 27:1-14",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-08",
+      "title": "The Longing for Home",
+      "scripture": "Psalm 84:1-12",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-09",
+      "title": "Plans and Paths",
+      "scripture": "Proverbs 16:1-9",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-10",
+      "title": "Today's Portion",
+      "scripture": "Matthew 6:25-34",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-11",
+      "title": "An Unexpected Blessing",
+      "scripture": "Matthew 5:1-12",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-12",
+      "title": "One Thing at a Time",
+      "scripture": "Luke 10:38-42",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-13",
+      "title": "Love on Its Knees",
+      "scripture": "John 13:1-17",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-14",
+      "title": "Begin Again",
+      "scripture": "John 21:15-19",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-15",
+      "title": "Love in Verbs",
+      "scripture": "Romans 12:9-21",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-16",
+      "title": "The Patient Practice",
+      "scripture": "1 Corinthians 13:1-13",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-17",
+      "title": "Treasure and Fragility",
+      "scripture": "2 Corinthians 4:7-18",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-18",
+      "title": "Fruit Takes Time",
+      "scripture": "Galatians 5:22-26",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-19",
+      "title": "What to Put On",
+      "scripture": "Colossians 3:12-17",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "passage-extra-20",
+      "title": "Ask for Wisdom",
+      "scripture": "James 1:2-8",
+      "review": "editorial-review",
+      "art": {
+        "artId": "passage-extra-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-01",
+      "title": "Permission Slip",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-02",
+      "title": "The Unfinished Table",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-03",
+      "title": "The Margin",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-04",
+      "title": "Slightly Crooked",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-05",
+      "title": "Actual Tuesday",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-06",
+      "title": "Quietly Audacious",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-07",
+      "title": "The Good Question",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-08",
+      "title": "Kindling",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-09",
+      "title": "Not a Contest",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-10",
+      "title": "Room to Change",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-11",
+      "title": "The Tea Break",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-12",
+      "title": "A Better Measure",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-13",
+      "title": "The Extra Chair",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-14",
+      "title": "Messy Beautiful",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-15",
+      "title": "A Little Spark",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-16",
+      "title": "The Repeat Practice",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-17",
+      "title": "Gentle Boundaries",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-18",
+      "title": "The Honored Draft",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-19",
+      "title": "The Surprise Shelf",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "studio-spark-20",
+      "title": "Make a Little Noise",
+      "review": "editorial-review",
+      "art": {
+        "artId": "studio-spark-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "discovery-01",
+      "title": "The Blue Door",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-02",
+      "title": "Five-Minute Museum",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-03",
+      "title": "Sound Collector",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-04",
+      "title": "Tiny Cartographer",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-05",
+      "title": "The Color Chase",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-06",
+      "title": "A Better Question",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-07",
+      "title": "Window Seat Research",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-08",
+      "title": "New Shelf, New Story",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-09",
+      "title": "Ordinary Architecture",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-10",
+      "title": "A Found Alphabet",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-11",
+      "title": "Texture Detective",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-12",
+      "title": "Wrong-Route Wonder",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-13",
+      "title": "A Little Weather Report",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-14",
+      "title": "The Object Interview",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-15",
+      "title": "Micro-Gallery",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-16",
+      "title": "The Ten-Minute Tourist",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-17",
+      "title": "Make a Field Guide",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-18",
+      "title": "Pattern Hunter",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-19",
+      "title": "Another Perspective",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-20",
+      "title": "The Word Cabinet",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-21",
+      "title": "Curiosity at the Table",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-22",
+      "title": "An Unfamiliar Flavor",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-23",
+      "title": "Make Your Own Postcard",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "discovery-24",
+      "title": "Smallest Adventure",
+      "category": "discovery",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "discovery-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-01",
+      "title": "Specific, Not Generic",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-02",
+      "title": "A Quiet Thank-You",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-03",
+      "title": "The Welcome Seat",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-04",
+      "title": "Small Cheer Section",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-05",
+      "title": "A Helpful Introduction",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-06",
+      "title": "Leave It Better",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-07",
+      "title": "Remember the Date",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-08",
+      "title": "Good News Delivery",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-09",
+      "title": "Kindness Without Content",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-10",
+      "title": "The Generous Review",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-11",
+      "title": "A Thoughtful Question",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-12",
+      "title": "Kind Words, No Advice",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-13",
+      "title": "Unexpected Mail",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-14",
+      "title": "The Favorite Order",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-15",
+      "title": "Celebrate the Ordinary",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-16",
+      "title": "A Shared Pause",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-17",
+      "title": "Ask, Don’t Assume",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-18",
+      "title": "A Gentle Follow-Up",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-19",
+      "title": "The Public Compliment",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-20",
+      "title": "Give Away the Spotlight",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-21",
+      "title": "An Extra Chair",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-22",
+      "title": "A Little Mercy",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-23",
+      "title": "Borrowed Courage",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "kindness-24",
+      "title": "The Ripple Record",
+      "category": "kindness",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "kindness-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-01",
+      "title": "Take the First Seat",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-01",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-02",
+      "title": "Ask the Real Question",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-02",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-03",
+      "title": "The Beginner Badge",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-03",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-04",
+      "title": "One Polite No",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-04",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-05",
+      "title": "Bring the Draft",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-05",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-06",
+      "title": "Choose a Different Chair",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-06",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-07",
+      "title": "Speak the Appreciation",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-07",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-08",
+      "title": "A Better Beginning",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-08",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-09",
+      "title": "Try the Microphone",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-09",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-10",
+      "title": "Name the Need",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-10",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-11",
+      "title": "Open the Door",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-11",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-12",
+      "title": "Wear the Color",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-12",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-13",
+      "title": "Take the Scenic Risk",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-13",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-14",
+      "title": "Make the Invitation",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-14",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-15",
+      "title": "Say 'I Don’t Know'",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-15",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-16",
+      "title": "The Repair Attempt",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-16",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-17",
+      "title": "A Personal Best",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-17",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-18",
+      "title": "The Art in Public",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-18",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-19",
+      "title": "Try the Solo Treat",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-19",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-20",
+      "title": "Learn the Hard Part",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-20",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-21",
+      "title": "Raise Your Hand",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-21",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-22",
+      "title": "Name the Good Idea",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-22",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-23",
+      "title": "Begin Again Kindly",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-23",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "brave-24",
+      "title": "A Little Audacity",
+      "category": "brave",
+      "review": "author approval unverified",
+      "art": {
+        "artId": "brave-24",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    }
+  ],
+  "guides": [
+    {
+      "id": "seconds-please",
+      "title": "Seconds, Please",
+      "review": "review",
+      "cover": "01-guide-product-cards/seconds-please-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Seconds-Please-v9-monthly-2026-11-13.pdf",
+          "pages": 25,
+          "sha256": "4348ea0ad49bde2fee76767a467599cdec6ca910987e2fe3b036f014b9b0c03c",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/Seconds-Please-INK-LIGHT-v9-monthly-2026-11-13.pdf",
+          "pages": 25,
+          "sha256": "abb294e5b9e482192abf9e604c497352a575c176e23f0945875fd46ad2a12e67",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "advent",
+      "title": "O Come, All Ye Tired",
+      "review": "review",
+      "cover": "01-guide-product-cards/o-come-all-ye-tired-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/O-Come-All-Ye-Tired_Full-Guide-v1-monthly-2026-11-13.pdf",
+          "pages": 44,
+          "sha256": "04b99fc74f26dc22fe665dfd6e72950caac51c9c72e7c88d1d62acfe071ce383",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/O-Come-All-Ye-Tired_Full-Guide-v1_PrintFriendly-monthly-2026-11-13.pdf",
+          "pages": 44,
+          "sha256": "94ac6301055fc7eeb230f289e40cdf3b46ebe6089edc6027aacbc1241e2d73c3",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "table-talks-guide",
+      "title": "The Table Talks Guide",
+      "review": "review",
+      "cover": "01-guide-product-cards/table-talks-guide-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Table-Talks-Guide-monthly-2026-11-13.pdf",
+          "pages": 13,
+          "sha256": "bf87db007a2ef91780be94a4929351fa60b7e10c4bcb3d3b21ba4c9b508eca2c",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "he-sings-over-you",
+      "title": "He Sings Over You",
+      "review": "review",
+      "cover": "01-guide-product-cards/he-sings-over-you-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/He-Sings-Over-You-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "781592fe40d419973b29d3254514e51442fdffd38339ed3ebc6205202457837f",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/He-Sings-Over-You-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "0a604417cce75111c5d5204cceb60ed01f0194af885f021e31046f4231c5a749",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "the-father-who-runs",
+      "title": "The Father Who Runs",
+      "review": "review",
+      "cover": "01-guide-product-cards/the-father-who-runs-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/The-Father-Who-Runs-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "91ddc12e8e21fdb540d5fa19b8ec8caa955a569e6c1a1dee0ad318ceaaf5c938",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/The-Father-Who-Runs-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "d1c55b48a293f87c459216dff59d400a9889cc1d79e08fb5cafd13a84fbc4d7c",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "the-road-out-of-moab",
+      "title": "The Road Out of Moab",
+      "review": "review",
+      "cover": "01-guide-product-cards/the-road-out-of-moab-product-1200.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/The-Road-Out-of-Moab-Table-Talks-Lesson-Pack-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "6bc9ac054bfabc1cad6afb1b7643ce3b0677b4210430cbd045604306c68bdf10",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/The-Road-Out-of-Moab-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-monthly-2026-11-13.pdf",
+          "pages": 7,
+          "sha256": "e20e680e7b8b424e80dd5bed8c7ede86ddd637a2d43e7da0b2be592a0d6216cc",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "fully-family",
+      "title": "Fully Family",
+      "review": "review",
+      "cover": "09-new-covers/fully-family-cover-v4.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Fully-Family-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "003d4ff220abf29ae56cc1dc3bdfc2ecfec9c5185f2c87c060f3faa067cbe1dc",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/Fully-Family-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "4a4f3a9757d6847d9e029f01e5e35d3b7e579929c0b61299c5d967a9ccb812a8",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "before-the-first-mountain",
+      "title": "Before the First Mountain",
+      "review": "review",
+      "cover": "09-new-covers/before-the-first-mountain-cover-v3.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Before-the-First-Mountain-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "45ab6665675c2260d80c426b04dec399d39b2ec51d0746f9e6901844c7caef2f",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/Before-the-First-Mountain-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "e1eed1e8c067792522809661ca19a69bb717928e8b66be9a9b8cebc4f64631b5",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "the-daughter-who-stayed",
+      "title": "The Daughter Who Stayed",
+      "review": "review",
+      "cover": "09-new-covers/the-daughter-who-stayed-cover-v4.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/The-Daughter-Who-Stayed-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "ae8a5737f6adea8f407f7b1a1679fa38942b099e3fcef91e72309c4aee932abf",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/The-Daughter-Who-Stayed-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "7de51287ff91ab1b3d17ae83a7b0a6a354661ec111b7ea658e108b5121643820",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "beloved-first",
+      "title": "Beloved First",
+      "review": "review",
+      "cover": "09-new-covers/beloved-first-cover-v4.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Beloved-First-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "8295c45688c1d8abb872a80736390034d227ac71f313d7f6332a99784541303b",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/Beloved-First-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "ffb0000cd74d51b4105a98e3ccf83ffe363efb14ce1adc4037c023e85b22356e",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "heir-not-hired",
+      "title": "Heir, Not Hired",
+      "review": "review",
+      "cover": "09-new-covers/heir-not-hired-cover-v4.png",
+      "coverProtected": true,
+      "files": [
+        {
+          "edition": "color",
+          "path": "covered-guides/Heir-Not-Hired-Table-Talks-Lesson-Pack-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "1ab758b3948e01723ac0a05c43fae2f41ba16c4765f1d77526564b07b004c32b",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        },
+        {
+          "edition": "print",
+          "path": "covered-guides/Heir-Not-Hired-Table-Talks-Lesson-Pack-PRINT-FRIENDLY-WITH-COVER-v4-monthly-2026-11-13.pdf",
+          "pages": 6,
+          "sha256": "33addd40ea40dcdef12c92cc465aa2c6ae52cdb69f8960ed3acdc30f154bac29",
+          "storage": "not_uploaded",
+          "visualReview": "pending",
+          "biblicalReview": "pending"
+        }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "id": "journey-days-01-50",
+      "title": "Nine movements, one aim: days 1 to 50",
+      "pdf": "22-teaching-illustrations/journey-days-01-50.pdf",
+      "pages": 1,
+      "sha256": "b5995094e0d496ffa87ba0bbbaf461889ef842b4e12d9a9697d17690f873571e",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        6,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-journey-days-01-50",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "journey-days-51-90",
+      "title": "Nine movements, one aim: days 51 to 90",
+      "pdf": "22-teaching-illustrations/journey-days-51-90.pdf",
+      "pages": 1,
+      "sha256": "8837bdc1a3c2e89bcd06a53dfc8410fd083579a36b0d37e516fd9161c34e87ce",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        6,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-journey-days-51-90",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "a-hard-day-still-counts",
+      "title": "A hard day still counts: three steps",
+      "pdf": "22-teaching-illustrations/a-hard-day-still-counts.pdf",
+      "pages": 1,
+      "sha256": "a161488217edbfe50e789cdd4f90046d9fdc056472530039ff556e14a02273ac",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        6,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-a-hard-day-still-counts",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "five-tools",
+      "title": "Five tools, 90 days",
+      "pdf": "22-teaching-illustrations/five-tools.pdf",
+      "pages": 1,
+      "sha256": "4867db9503aef9e4a11a50ea6ab30a0a90eb90ecb6dd22d88b6baccf954c4e81",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        462,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-five-tools",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "when-it-still-hurts",
+      "title": "When it still hurts",
+      "pdf": "22-teaching-illustrations/when-it-still-hurts.pdf",
+      "pages": 1,
+      "sha256": "5a9c62e1cbe3a8cb4eecf72bb897d25712ba69e0d5b47858e50b019bf7407499",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        462,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-when-it-still-hurts",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "check-its-id",
+      "title": "Check its ID",
+      "pdf": "22-teaching-illustrations/check-its-id.pdf",
+      "pages": 1,
+      "sha256": "14c0da6709cf0f1c0d759c60756bafd8857afd10931b9d6a124cfad29e737e40",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        462,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-check-its-id",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "lie-and-truth-ledger",
+      "title": "The Lie and Truth Ledger",
+      "pdf": "22-teaching-illustrations/lie-and-truth-ledger.pdf",
+      "pages": 1,
+      "sha256": "08e87e09ffbe625b8db0e9acb359e967e600dc0ddb6c75c6a09336929ef2a71c",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        6,
+        918,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-lie-and-truth-ledger",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "hired-help-or-heir",
+      "title": "Hired help or heir?",
+      "pdf": "22-teaching-illustrations/hired-help-or-heir.pdf",
+      "pages": 1,
+      "sha256": "bbe1a59a493d7f33ec1ff2ac8944494ed98c034f6de42bc526e1d7e6182e9bca",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        372,
+        918,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-hired-help-or-heir",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    },
+    {
+      "id": "beloved-then-sent",
+      "title": "Beloved, then sent",
+      "pdf": "22-teaching-illustrations/beloved-then-sent.pdf",
+      "pages": 1,
+      "sha256": "d1bd6346c236fe1e819b87eafee91061eab5b5c270c85a18df399cefbfd1672d",
+      "source": "11-devotions/original-teaching-grid.png",
+      "sourceRect": [
+        738,
+        918,
+        360,
+        450
+      ],
+      "visualReview": "pending",
+      "biblicalReview": "pending",
+      "issue": "360×450 source crop; standalone legibility/print resolution at risk",
+      "art": {
+        "artId": "teaching-beloved-then-sent",
+        "asset": null,
+        "alt": null,
+        "approval": "commission-required"
+      }
+    }
+  ],
+  "letters": [
+    {
+      "id": "welcome",
+      "title": "A little sunshine for you",
+      "asset": "assets/welcome-letter-v3.webp",
+      "approval": "preserve approved composition; editorial signoff unverified"
+    }
+  ]
+}
