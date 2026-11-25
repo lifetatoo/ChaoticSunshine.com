@@ -102,10 +102,12 @@ async function main(){
   assert.ok(await page.locator('.cabinet-art-card.is-flipped').count(),'card did not flip');
   await page.locator('[data-drawer="verse"]').click();
   assert.equal(await page.locator('[data-drawer="verse"]').getAttribute('aria-pressed'),'true');
-  assert.ok((await page.locator('.cabinet-card-front .eyebrow').innerText()).includes('Scripture'),'verse drawer wrong collection');
+  const verseType=(await page.locator('.cabinet-card-front .eyebrow').textContent()||'').trim();
+  assert.ok(verseType.includes('Scripture'),'verse drawer wrong collection: '+JSON.stringify(verseType));
   await page.locator('[data-drawer="studio"]').click();
   assert.equal(await page.locator('[data-drawer="studio"]').getAttribute('aria-pressed'),'true');
-  assert.ok((await page.locator('.cabinet-card-front .eyebrow').innerText()).includes('Studio'),'studio drawer wrong collection');
+  const studioType=(await page.locator('.cabinet-card-front .eyebrow').textContent()||'').trim();
+  assert.ok(studioType.includes('Studio'),'studio drawer wrong collection: '+JSON.stringify(studioType));
   await page.locator('[data-drawer="archive"]').click();
   assert.ok(await page.locator('#gratitude-entry').isVisible(),'private jar not opened from its drawer');
  });
