@@ -37,5 +37,15 @@ assert.ok(app.includes('decks[drawer].splice(idx,1)[0]'),'drawer draws must cons
 assert.ok(app.includes('drawer=key;drawCard(false);'),'repeated drawer clicks must draw again');
 assert.ok(app.includes('lastTitle'),'separate collections must avoid immediate matching titles');
 assert.ok(app.includes("const shown=drawn[drawer],total=choices.length"),'display current draw count and full pool size');
+const build=fs.readFileSync(path.join(__dirname,'../salon-release/build.cjs'),'utf8');
+const cssLinks=build.match(/const styles='([^']+)'/)?.[1]||'';
+assert.ok(cssLinks.lastIndexOf('site-visual-fixes.css')>cssLinks.lastIndexOf('v4-mail-polish.css'),'new mixed-media design must load after older Sunshine Mail styles');
+assert.ok(cssLinks.lastIndexOf('site-visual-fixes.css')>cssLinks.lastIndexOf('daily-cabinet-v2.css'),'editorial QA layer must load after card styles');
+const formStyles=fs.readFileSync(path.join(root,'site-visual-fixes.css'),'utf8');
+for(const klass of ['.studio-table .make-paper','.practice-room .share-paper','.share-room .share-paper','.mail-letter-popup'])
+ assert.ok(formStyles.includes(klass),'missing branded working form treatment '+klass);
+const mail=fs.readFileSync(path.join(root,'subscribe.html'),'utf8');
+assert.ok(mail.includes('id="mail-letter-popup"'),'sample letter must be on real subscription page');
+assert.ok(mail.includes('id="sunshine-signup"'),'preserve Kit signup form');
 new Function(app); // syntax check of the ENTIRE generated script without running it.
 console.log('CABINET_QA',JSON.stringify({scriptureCards:scripture,studioCards:cards,dailyMix:scripture+cards,sideQuestPocketCards:quests.length,jarAssets:3,legacyStoragePreserved:true,editorialStatus:'90 manuscript drafts await final approval'}));
