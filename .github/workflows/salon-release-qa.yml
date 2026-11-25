@@ -5,6 +5,7 @@ on:
     branches:
       - salon-release-2026-11-15
       - release/v4-preserve-integrate-review-2026-11-25
+      - staging
   workflow_dispatch:
 permissions:
   contents: read
