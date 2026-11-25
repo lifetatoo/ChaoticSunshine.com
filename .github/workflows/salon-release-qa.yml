@@ -47,6 +47,14 @@ jobs:
       - name: Test real user interactions with mocked Kit, never live signup
         if: matrix.profile == 'staging'
         run: node qa/check-user-journeys.cjs
+      - name: Archive SHA-tied private review build for manual inspection
+        if: always() && matrix.profile == 'staging'
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaotic-sunshine-v4-review-site-${{ github.sha }}
+          path: source/site-kit/
+          if-no-files-found: error
+          retention-days: 14
       - name: Preserve visual screenshots and acceptance evidence
         if: always() && matrix.profile == 'staging'
         uses: actions/upload-artifact@v4
