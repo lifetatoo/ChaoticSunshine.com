@@ -74,7 +74,7 @@ const questCards=require('../source/side-quest-field-cards.json');
 const questCardCode='const CS_QUEST_FIELD_CARDS='+JSON.stringify(questCards)+';\n'+fs.readFileSync(path.join(__dirname,'side-quest-cards.js'),'utf8');
 
 const cabinetDevotions=require('../source/devotions/devotions.json').map(p=>({
- id:p.slug,title:p.title,sourceTitle:p.sourceTitle,reading:p.reading,takeaway:p.takeaway,question:p.question,practice:p.practice,status:p.status
+ id:p.slug,title:p.title,sourceTitle:p.sourceTitle,reading:p.reading,takeaway:p.takeaway,question:p.question,practice:p.practice,status:p.status,passageArtAsset:p.passageArtAsset,passageArtAlt:p.passageArtAlt,studioArtAsset:p.studioArtAsset,studioArtAlt:p.studioArtAlt
 }));
 const cabinetPassages=require('../source/cabinet-extra-passages.json');
 const cabinetSparks=require('../source/cabinet-original-sparks.json');
