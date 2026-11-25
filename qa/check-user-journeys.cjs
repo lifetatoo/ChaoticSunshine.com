@@ -220,6 +220,23 @@ async function main(){
   await page.locator('#letter-return').click();
   assert.equal(await toggle.getAttribute('aria-expanded'),'false');
  });
+
+ add('U14','Full-site verse and pain-point discovery on existing site directory',async(page)=>{
+  await open(page,'site-map.html');
+  const field=page.locator('#cs-unified-search');
+  assert.ok(await field.count(),'unified search missing');
+  await page.waitForFunction(()=>document.querySelector('#cs-search-coverage')?.textContent.includes('90 Soul Snacks'));
+  await field.fill('Romans 8:15');
+  await page.waitForFunction(()=>document.querySelector('#cs-search-status')?.textContent.includes('matching resources'));
+  const verse=page.locator('#cs-search-results a[href$="soul-snack-01"]');
+  assert.ok(await verse.count(),'Romans 8:15 must find Romans 8:12–17 by reference range');
+  await field.fill('perfectionism');
+  await page.waitForFunction(()=>document.querySelector('#cs-search-status')?.textContent.includes('matching resources'));
+  assert.ok(await page.locator('#cs-search-results article').count(),'plain-language pain point did not find any content');
+  await field.fill('zzzzzznoitems99');
+  await page.waitForFunction(()=>document.querySelector('#cs-search-status')?.textContent.includes('No matches'));
+ });
+
  const contexts=[];
  for(const p of profiles){
   const context=await browser.newContext({viewport:{width:p.width,height:p.height},deviceScaleFactor:1,reducedMotion:'reduce',timezoneId:'America/Phoenix',acceptDownloads:true});
