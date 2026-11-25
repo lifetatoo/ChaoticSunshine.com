@@ -142,3 +142,25 @@ html,body{max-width:100%;overflow-x:clip}
 @media(prefers-reduced-motion:reduce){
   .layered-masthead,.permanent-menu{scroll-behavior:auto}
 }
+/* Editorial palette guardrails: no site-wide emerald wash, no generic devotional motifs. */
+body{background:#f5eddf!important;color:#244b49}
+.layered-masthead{flex-direction:column!important;align-items:stretch!important;justify-content:center!important}
+.layered-masthead .brand{align-self:center}
+.layered-masthead .masthead-topline{flex:0 0 auto;box-sizing:border-box}
+/* Each content room owns its color story; the body remains warm neutral paper. */
+.quest-scene{
+ background:
+   radial-gradient(ellipse 80% 80% at 4% 9%,#aa37735e,transparent 73%),
+   radial-gradient(ellipse 70% 72% at 95% 15%,#147e9e50,transparent 77%),
+   radial-gradient(ellipse 100% 90% at 50% 105%,#313e9bb0,transparent 68%),
+   #28294f;
+ border-bottom-color:#e3b65f
+}
+.cabinet-upgrade{
+ background:
+   radial-gradient(ellipse 63% 80% at 0 0,#d3dcea,transparent 73%),
+   radial-gradient(ellipse 70% 80% at 100% 80%,#ddbbd5a8,transparent 74%),
+   #f5eddf;
+}
+/* Restrict color effects to decorative surfaces; maintain warm reading-paper contrast. */
+.cabinet-upgrade .gratitude-paper,.quest-scene .quest-card-deck,.journal-book,.make-paper,.share-paper{color:#284d49}
