@@ -100,3 +100,5 @@ const phoneCode=fs.readFileSync(path.join(__dirname,'mobile-navigation.js'),'utf
 fs.appendFileSync(path.join(out,'app.js'),'\n'+phoneCode);fs.appendFileSync(path.join(out,'site-navigation.js'),'\n'+phoneCode);
 
 require("./release-finish.cjs")(out,review);
+require("./build-unified-search.cjs")(out);
+
