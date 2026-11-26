@@ -780,3 +780,76 @@ body{background:#f5eddf!important;color:#244b49}
 .sunshine-signup-page #sunshine-signup button[type=submit]{
  width:100%;color:#32154f!important;box-shadow:4px 5px 0 #158888!important
 }
+
+/* Creative method rooms: shared paper, distinct illustrations and jewel tones. */
+.journal-scene{--method-ink:#243878;--method-edge:#71c8df;--method-marker:#ffe16f}
+.studio-table{--method-ink:#56216f;--method-edge:#da8aca;--method-marker:#ffe16f}
+.practice-room{--method-ink:#075049;--method-edge:#78d6b2;--method-marker:#ffe38a}
+.share-room{--method-ink:#77224f;--method-edge:#ed94ba;--method-marker:#ffdf6f}
+:is(.journal-scene,.studio-table,.practice-room,.share-room){
+ background:radial-gradient(ellipse at 92% 12%,var(--method-edge),transparent 53%),var(--method-ink)!important;
+}
+:is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail{
+ display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;
+ background:#fff5df;color:#35234e;border:0;border-bottom:4px solid var(--method-edge);
+ box-shadow:5px 6px 0 #20133470;
+}
+.method-trail a[href="#journal"]{--step-ink:#243878}
+.method-trail a[href="#make"]{--step-ink:#56216f}
+.method-trail a[href="#practice"]{--step-ink:#075049}
+.method-trail a[href="#share"]{--step-ink:#77224f}
+:is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail a{
+ display:inline-flex;align-items:center;justify-content:center;min-height:44px;
+ padding:5px clamp(9px,2vw,20px);border:2px solid var(--step-ink,var(--method-ink));
+ color:var(--step-ink,var(--method-ink));background:#fffaf0;font-weight:800;
+}
+:is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail a[aria-current]{
+ color:#fffaf0;background:var(--step-ink,var(--method-ink));box-shadow:3px 3px 0 var(--method-edge);
+}
+:is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail a:focus-visible{
+ outline:3px solid #632e89;outline-offset:3px;
+}
+:is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail>span[aria-hidden=true]{display:none}
+:is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child){
+ background:var(--method-ink)!important;color:#fff9eb;border:0;border-left:6px solid var(--method-edge);
+ box-shadow:8px 8px 0 #21142f6e;padding:clamp(19px,3vw,35px)
+}
+:is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child)::before{content:none}
+:is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child)::after{
+ content:"";display:block;width:min(66%,220px);aspect-ratio:1;margin:25px auto 8px;
+ background-image:url(assets/30-journal-studio/hand-drawn-lessons-v2.webp);
+ background-size:300% 300%;background-position:50% 50%;
+ border:6px solid #fff4dc;box-shadow:7px 7px 0 var(--method-edge);transform:rotate(-3deg);
+}
+.practice-room .split>div:first-child::after{background-position:100% 50%;transform:rotate(3deg)}
+.share-room .split>div:first-child::after{
+ background-image:url(assets/mission-sheet-2.webp);background-size:300% 200%;background-position:0 0
+}
+:is(.studio-table,.practice-room,.share-room) h1{color:#fff8e8}
+:is(.studio-table,.practice-room,.share-room) h1 .marker{
+ color:var(--method-marker);text-decoration-color:var(--method-edge)
+}
+:is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child)>.eyebrow{color:var(--method-marker)}
+:is(.studio-table .make-paper,.practice-room .share-paper,.share-room .share-paper){
+ border-top:8px solid var(--method-ink);box-shadow:7px 9px 0 #23163780
+}
+:is(.studio-table .make-paper,.practice-room .share-paper,.share-room .share-paper)::before{background:var(--method-edge)}
+.journal-scene .journal-book{border-top:6px solid var(--method-edge);box-shadow:8px 10px 0 #20133c70}
+.journal-scene .journal-left img{border:5px solid #fff1d1;box-shadow:5px 6px 0 #8c539666}
+@media print{
+ :is(.journal-scene,.studio-table,.practice-room,.share-room){background:#fff!important}
+ :is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child){
+  background:#fff!important;color:#151515;border-color:#555;box-shadow:none
+ }
+ :is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child)::after{display:none}
+ :is(.studio-table,.practice-room,.share-room) h1,
+ :is(.studio-table,.practice-room,.share-room) h1 .marker,
+ :is(.studio-table .materials,.practice-room .split>div:first-child,.share-room .split>div:first-child)>.eyebrow{color:#151515}
+ :is(.studio-table .make-paper,.practice-room .share-paper,.share-room .share-paper){background:#fff!important;box-shadow:none}
+}
+.journal-scene :is(.journal-top,.journal-bottom) :is(a,.hand){color:#fff6df}
+.journal-scene .journal-top #reading-toggle{background:#fff6df;color:#243878}
+@media print{
+ .journal-scene .journal-book{border:0;box-shadow:none}
+ :is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail{display:none}
+}
