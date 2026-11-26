@@ -887,3 +887,51 @@ body{background:#f5eddf!important;color:#244b49}
 @media print{
  .cs .about-page,.cs .about-scrapbook :is(.about-hi,.about-story,.about-reader,.about-invite){background:#fff!important;--about-ink:#151515;box-shadow:none}
 }
+
+/* The studio’s first two invitations and its four-step creative practice. */
+.salon-copy .home-doorways{display:grid;gap:12px;margin:24px 0}
+.salon-copy .home-doorway{
+ display:grid;grid-template-columns:clamp(60px,7vw,91px) minmax(0,1fr);align-items:center;gap:15px;
+ padding:12px 15px;color:#fff8e8;background:#07595f;border:2px solid #75cebe;
+ text-decoration:none;box-shadow:5px 5px 0 #271443;
+}
+.salon-copy .home-doorway-library{background:#54266b;border-color:#e7b7e8}
+.salon-copy .home-doorway img{
+ display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;
+ background:#fff2d5;border:3px solid #fff2d5;transform:rotate(-3deg)
+}
+.salon-copy .home-doorway-library img{object-fit:contain;transform:rotate(3deg)}
+.salon-copy .home-doorway strong{display:block;font:700 clamp(18px,2vw,27px)/1.13 Fraunces,Georgia,serif;color:#fff8e8}
+.salon-copy .home-doorway small{display:block;color:#fff8e8;font:500 15px/1.4 Jost,sans-serif;margin-top:5px}
+.salon-copy .home-doorway:hover strong{text-decoration:underline}
+.salon-copy .home-doorway:focus-visible,.home-method-steps a:focus-visible{outline:3px solid #ffe174;outline-offset:4px}
+
+.home-method.method-strip{background:#281c50;color:#fff8e8;padding:clamp(29px,5vw,66px) 0}
+.home-method .wrap{display:block;text-align:center}
+.home-method h2{color:#fff3d9;font-size:clamp(31px,4.4vw,54px);margin:0 0 12px}
+.home-method .home-method-intro{font-size:clamp(16px,2vw,21px);color:#fff3d9;margin:0 auto 27px}
+.home-method-steps{
+ display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,2vw,24px);
+ list-style:none;margin:0;padding:0;text-align:left
+}
+.home-method-steps li{min-width:0;display:flex;--method-card:#23519a;--method-washi:#ffd46c}
+.home-method-steps li:nth-child(2){--method-card:#752f81;--method-washi:#ffcbdb}
+.home-method-steps li:nth-child(3){--method-card:#066256;--method-washi:#a5e3c7}
+.home-method-steps li:nth-child(4){--method-card:#812f55;--method-washi:#facd75}
+.home-method-steps a{
+ position:relative;width:100%;display:block;padding:22px 17px 18px;
+ color:#fff8e8;text-decoration:none;background:var(--method-card);
+ border:1px solid var(--method-washi);box-shadow:4px 5px 0 #130d2e
+}
+.home-method-steps a::before{
+ content:"";position:absolute;top:-7px;left:22%;width:52%;height:14px;
+ background:var(--method-washi);transform:rotate(-4deg);pointer-events:none
+}
+.home-method-steps strong{
+ display:block;font:clamp(25px,3.5vw,48px)/1.12 Marker,cursive;
+ margin-bottom:9px;color:var(--method-washi)
+}
+.home-method-steps span{display:block;font:500 16px/1.45 Jost,sans-serif}
+.home-method-steps a:hover strong{text-decoration:underline}
+@media(max-width:780px){.home-method-steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:17px}}
+@media(max-width:350px){.home-method-steps{grid-template-columns:1fr}}
