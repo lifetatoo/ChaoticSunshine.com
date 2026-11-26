@@ -853,3 +853,10 @@ body{background:#f5eddf!important;color:#244b49}
  .journal-scene .journal-book{border:0;box-shadow:none}
  :is(.journal-scene,.studio-table,.practice-room,.share-room) .method-trail{display:none}
 }
+
+/* Keep the mailed object square on the page while retaining the paper texture. */
+.sunshine-signup-page .mail-signup-box,
+.sunshine-signup-page .mail-envelope{transform:none!important}
+.sunshine-signup-page .mail-envelope .mail-pocket>img:first-child{
+ clip-path:polygon(50% 2%,84% 34%,86% 34%,86% 100%,14% 100%,14% 34%,16% 34%);
+}
