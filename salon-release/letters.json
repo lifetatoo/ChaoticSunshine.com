@@ -1,0 +1,23 @@
+{
+  "current": "welcome",
+  "issues": {
+    "welcome": {
+      "title": "A little sunshine for you",
+      "label": "A WATERCOLOR WELCOME FROM AMY",
+      "description": "Your first little surprise. Open it slowly. Stay as long as you like.",
+      "artwork": "assets/welcome-letter-v3.webp",
+      "alt": "A magenta, teal, cobalt and emerald watercolor welcome letter, with Amy, a playful doodle and the shoreline. A complete clear-text version is available below.",
+      "blocks": [
+        {"type":"h2","text":"Welcome to Sunshine Mail!"},
+        {"type":"p","text":"Hey Sunshine Friend!"},
+        {"type":"p","text":"I’m so excited you’re here! There’s room for your real life, your honest questions, and a little creative joy."},
+        {"type":"p","text":"Get ready for a mix of encouraging notes, creative sparks, faith-filled reminders, fun ideas, and a whole lot of real-life, Jesus-loving, messy-beautiful inspiration—all sent with love from Chaotic Sunshine."},
+        {"type":"p","text":"Make something. Try something. Share a little joy with a friend as we discover more about God, life, and love together."},
+        {"type":"p","text":"Our hope? To bring a little more joy, hope, creativity, and sunshine to your mailbox in the days ahead!"},
+        {"type":"p","text":"Till next time, Amy"},
+        {"type":"blockquote","text":"This is the day which the LORD hath made; we will rejoice and be glad in it."},
+        {"type":"p","text":"Psalm 118:24 · KJV"}
+      ]
+    }
+  }
+}

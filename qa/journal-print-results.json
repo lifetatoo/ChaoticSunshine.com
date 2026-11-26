@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-13",
+  "cases": [
+    {
+      "file": "soul-snack-01-A4.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-01-Letter.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-02-A4.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-02-Letter.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-03-A4.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-03-Letter.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-56-A4.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    },
+    {
+      "file": "soul-snack-56-Letter.pdf",
+      "pages": 1,
+      "missingParagraphs": 0,
+      "outsideSafeArea": []
+    }
+  ],
+  "findings": []
+}

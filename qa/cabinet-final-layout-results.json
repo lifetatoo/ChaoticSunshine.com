@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-14T02:32:39.389Z",
+  "pages": 140,
+  "references": 14205,
+  "cases": [
+    {
+      "profile": "desktop",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "side-quests",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "findings": []
+}

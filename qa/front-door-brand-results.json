@@ -1,0 +1,575 @@
+{
+  "date": "2026-11-13T19:06:42.032Z",
+  "pages": 139,
+  "references": 14262,
+  "cases": [
+    {
+      "profile": "desktop",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "freebies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "subscribe",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "welcome",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "teaching-a-hard-day-still-counts",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-39",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "seconds-please",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "table-talks-guide",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "pray-when-you-feel-unworthy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "for-too-many-tabs",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "community-guidelines",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "desktop",
+      "slug": "privacy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "freebies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "subscribe",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "welcome",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "teaching-a-hard-day-still-counts",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-39",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "seconds-please",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "table-talks-guide",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "pray-when-you-feel-unworthy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "for-too-many-tabs",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "community-guidelines",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "android",
+      "slug": "privacy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "index",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "freebies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snacks",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "start",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "subscribe",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "welcome",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "teaching-shelf",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "teaching-a-hard-day-still-counts",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-01",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-03",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-39",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "soul-snack-90",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "advent",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "seconds-please",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "table-talks-guide",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "fully-family",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "pray-when-you-feel-unworthy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "for-too-many-tabs",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "community-guidelines",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    },
+    {
+      "profile": "iphone",
+      "slug": "privacy",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "axe": [],
+      "errors": []
+    }
+  ],
+  "findings": []
+}
