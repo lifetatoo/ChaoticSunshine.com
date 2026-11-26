@@ -25,31 +25,33 @@ const CS_CABINET_STUDIO=CS_CABINET_DEVOTIONS.map(function(d){return {
 };}));
 const CS_CABINET_ALL=CS_CABINET_VERSE.concat(CS_CABINET_STUDIO);
 const CS_CABINET_GROUP_NAMES={today:'Today’s Surprise',verse:'Scripture Sparks',studio:'Studio Encouragement'};
+// Each slip pairs a display line with a smaller prompt and a scene from the studio sketch sheets.
+// Scene numbers correspond to the original Side Quest illustration sheets, in reading order.
 const CS_LITTLE_GOOD_THINGS=[
- 'Step outside for thirty seconds. The sky has been doing something all day without asking you to manage it.',
- 'You can call it a good day because of one good thing. The whole day does not have to agree.',
- 'Put on the song you used to play too loud. Give yourself the whole first verse.',
- 'God’s mercies are new every morning. Take one breath before you decide what kind of day this is. · Lamentations 3:22–23',
- 'Use the good mug. A Tuesday is a perfectly respectable occasion.',
- 'Someone once made a very ordinary day better for you. If their name came to mind, send them a sentence.',
- 'Look for a color you would steal from the sky, a shop window, or somebody’s shoes. Give it a name.',
- 'If the good thing was that you got through it, that counts.',
- 'Eat the first bite sitting down. See if you can actually taste it.',
- 'The psalmist invites us to rejoice in this day. Try naming one part of it you’re glad you got to see. · Psalm 118:24',
- 'Open a window. Give the room a different soundtrack for a minute.',
- 'Think of something your past self would be delighted to learn about your life today.',
- 'A good question can be a better souvenir than a good answer. What made you curious today?',
- 'Leave a kind note where someone will find it later. A mirror or lunch bag will do.',
- 'If the day feels too loud, put both feet on the floor and notice one sound you’d miss if it were gone.',
- 'Look for the smallest thing doing its best. A plant, a dog, a person carrying three bags of groceries. Give it a quiet cheer.',
- 'Where did someone make room for you today? A chair, a pause in conversation, a little extra patience?',
- 'Take a photo of one ordinary thing you’d want to remember a year from now.',
- 'Tell God one good thing and one hard thing in the same breath. There’s room for both.',
- 'Revisit a small pleasure you used to love. A library aisle, a fresh pencil, a drive with the windows down.',
- 'Find a patch of sunlight. Stand in it long enough to feel your shoulders come down.',
- 'Make the next thing a little nicer for your future self. Leave the bookmark in. Set out the mug.',
- 'You are allowed to enjoy something before the entire list is finished.',
- 'If joy feels far away today, start smaller. See if anything in the room makes you feel even a little more at home.'
+ ['Let the sky do its thing.','Step outside for thirty seconds. The sky’s been busy all day without asking you to manage it.',5,15,'brush','wide'],
+ ['One good thing is plenty.','You can call it a good day because of one good thing. The whole day does not have to agree.',4,9,'serif','side'],
+ ['Play it too loud.','Put on the song you used to play too loud. Give yourself the whole first verse.',1,21,'brush','wide'],
+ ['Mercy has a morning shift.','God’s mercies are new every morning. Take one breath before you decide what kind of day this is. · Lamentations 3:22–23',2,15,'hand','top'],
+ ['Use the good mug.','A Tuesday is a perfectly respectable occasion.',0,10,'serif','top'],
+ ['Send them a sentence.','Someone once made a very ordinary day better for you. If their name came to mind, tell them.',3,6,'hand','side'],
+ ['Steal a color.','Find one in the sky, a shop window, or somebody’s shoes. Give it a name.',1,7,'brush','top'],
+ ['That counts.','If the good thing was that you got through it, that counts.',2,3,'serif','wide'],
+ ['Taste the first bite.','Eat it sitting down. See if you can actually taste it.',5,9,'hand','top'],
+ ['This day, too.','The psalmist invites us to rejoice in this day. Name one part of it you’re glad you got to see. · Psalm 118:24',3,17,'serif','wide'],
+ ['Open a window.','Give the room a different soundtrack for a minute.',4,15,'brush','top'],
+ ['Your past self would grin.','Think of something your past self would be delighted to learn about your life today.',1,13,'serif','side'],
+ ['Keep the good question.','A good question can be a better souvenir than a good answer. What made you curious today?',0,22,'hand','side'],
+ ['Leave a little good behind.','Leave a kind note where someone will find it later. A mirror or lunch bag will do.',2,2,'brush','side'],
+ ['Listen for one thing.','If the day feels too loud, put both feet on the floor. Notice one sound you’d miss if it were gone.',3,5,'hand','wide'],
+ ['Give it a quiet cheer.','Look for the smallest thing doing its best. A plant, a dog, a person carrying three bags of groceries.',5,14,'brush','side'],
+ ['Someone made room.','Where did someone make room for you today? A chair, a pause, a little extra patience?',1,19,'hand','top'],
+ ['Catch the ordinary.','Take a photo of one ordinary thing you’d want to remember a year from now.',2,14,'brush','top'],
+ ['There’s room for both.','Tell God one good thing and one hard thing in the same breath.',4,20,'serif','top'],
+ ['Return to a small pleasure.','A library aisle, a fresh pencil, a drive with the windows down. Pick one you used to love.',0,12,'serif','wide'],
+ ['Stand in the sunshine.','Find a patch of sunlight. Stay long enough to feel your shoulders come down.',5,8,'serif','wide'],
+ ['A favor for future you.','Make the next thing a little nicer for your future self. Leave the bookmark in. Set out the mug.',3,16,'brush','top'],
+ ['Joy can cut in line.','You’re allowed to enjoy something before the entire list is finished.',4,4,'brush','side'],
+ ['Joy feels far away? Start smaller.','See if anything in the room makes you feel even a little more at home.',0,8,'serif','side']
 ];
 const csCabinetOriginalPage=pages.catalog;
 pages.catalog=function(){
@@ -63,14 +65,14 @@ pages.catalog=function(){
   +'<button type="button" class="cs-jar-label" id="draw-studio-note" aria-controls="studio-jar-note" aria-label="Little Good Things: draw a surprise note"><span>little good</span><strong>things</strong><i aria-hidden="true">✦</i><small>Draw a note</small></button>'
   +'<img class="cs-jar-lid" src="assets/little-good-things-lid.svg" alt="">'
   +'<img class="cs-jar-ribbon" src="assets/little-good-things-ribbon.svg" alt="">'
-  +'<span class="cs-jar-spark" aria-hidden="true">✧</span></div><div id="studio-jar-note" role="status" aria-atomic="true"></div>';
+  +'<span class="cs-jar-spark" aria-hidden="true">✧</span></div>';
  s=s.replace('<div class="gratitude-jar" aria-hidden="true"><div class="jar-lid"></div><div class="jar-glass"><i></i><i></i><i></i><span>little<br>good<br>things</span></div></div>',jar);
  s=s.replace(/<p class="collection-status">[^<]*<\/p>/,'<p class="collection-status">Three real collections: today draws from '+CS_CABINET_ALL.length+' cards. Scripture Sparks offers '+CS_CABINET_VERSE.length+' Scripture reading invitations and Studio Encouragement offers '+CS_CABINET_STUDIO.length+' original reflections and creative notes. Biblical quotations are never invented; each Scripture invitation identifies its passage.</p>');
  s=s.replace('THE GRATITUDE JAR · OPTIONAL & PRIVATE','THE LITTLE GOOD THINGS JAR')
    .replace('A place for the little good things.','A little good thing for today.')
    .replace('Not every good day announces itself. Keep one small observation, then pull it out when you’d like to remember.','Tap the jar label for a little surprise from Chaotic Sunshine.')
-   .replace('<div class="gratitude-paper"><h3>What would you tuck inside?</h3>','<details class="gratitude-paper"><summary>Keep your own good things</summary>')
-   .replace('</div></div></section></div></section>','</div></details></section></div></section>');
+   .replace('<div class="gratitude-paper"><h3>What would you tuck inside?</h3>','<div class="studio-jar-desk"><div id="studio-jar-note" role="status" aria-atomic="true"><p class="studio-jar-empty hand">Pull a note from the jar.</p></div><details class="gratitude-paper"><summary>Keep your own good things</summary>')
+   .replace('</div></div></section></div></section>','</div></details></div></section></div></section>');
  s=s.replace('Amy’s quote archive','My little good things').replace('Your collection belongs here','Your own private jar').replace('My little good things</span>','My little good things</span>');
  s=s.replace('<div class="card-stage" id="card-stage" aria-live="polite"></div>','<div class="card-stage" id="card-stage" aria-live="polite"></div><p class="cabinet-card-status" role="status" id="card-status"></p>');
  s=s.replace('<blockquote id="jar-note" hidden></blockquote>',
@@ -198,11 +200,26 @@ bind=function(route){
    }
    const first=studioDeck[0]===lastStudioNote?1:0;
    const index=first+Math.floor(Math.random()*(studioDeck.length-first));
-   const [message]=studioDeck.splice(index,1);
-   lastStudioNote=message;
-   const slip=document.createElement('p');
-   slip.className='studio-jar-slip';
-   slip.textContent=message;
+   const [note]=studioDeck.splice(index,1);
+   lastStudioNote=note;
+   const [title,message,color,scene,type,layout]=note;
+   const slip=document.createElement('article');
+   slip.className='studio-jar-slip paper-'+color+' slip-'+type+' slip-'+layout;
+   const copy=document.createElement('div');
+   copy.className='studio-jar-copy';
+   const heading=document.createElement('h3');
+   heading.textContent=title;
+   const prompt=document.createElement('p');
+   prompt.textContent=message;
+   copy.append(heading,prompt);
+
+   const art=document.createElement('span');
+   art.className='studio-jar-art';
+   art.setAttribute('aria-hidden','true');
+   const cell=scene%6;
+   art.style.backgroundImage='url("assets/mission-sheet-'+(Math.floor(scene/6)+1)+'.webp")';
+   art.style.backgroundPosition=(cell%3*50)+'% '+(Math.floor(cell/3)*100)+'%';
+   slip.append(copy,art);
    surprise.replaceChildren(slip);
    jarMotion('is-drawing');
  };

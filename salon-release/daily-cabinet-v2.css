@@ -140,16 +140,16 @@
  display:block;width:40%;height:33%;border-radius:12px;
  border:3px solid #efcf78;box-shadow:3px 6px 5px #16393a51;
  transform:rotate(var(--paper-tilt));
- background:linear-gradient(130deg,#ffffff33,transparent 53%,#00000037),#006e75
+ background:linear-gradient(130deg,#ffffff33,transparent 53%,#00000037),var(--jar-paper,#006e75)
 }
 .cs-jar-paper:nth-child(2n){left:46%;top:19%}
 .cs-jar-paper:nth-child(3n){left:13%;top:43%}
 .cs-jar-paper:nth-child(4n){left:50%;top:53%}
-.cs-jar-paper.paper-1{background-color:#d22b77}
-.cs-jar-paper.paper-2{background-color:#5e3188}
-.cs-jar-paper.paper-3{background-color:#2360b3}
-.cs-jar-paper.paper-4{background-color:#0b7b59}
-.cs-jar-paper.paper-5{background-color:#e7ae32}
+.gratitude-renewed .paper-1{--jar-paper:#d22b77}
+.gratitude-renewed .paper-2{--jar-paper:#5e3188}
+.gratitude-renewed .paper-3{--jar-paper:#2360b3}
+.gratitude-renewed .paper-4{--jar-paper:#0b7b59}
+.gratitude-renewed .paper-5{--jar-paper:#e7ae32}
 .cs-jar-label{
  position:absolute;z-index:6;left:26%;top:54%;width:49%;
  padding:15px 8px 11px;transform:rotate(-4deg);
@@ -289,10 +289,38 @@
 button.cs-jar-label{cursor:pointer}
 .cs-jar-label small{display:block;font:700 .85rem/1.3 Jost,sans-serif}
 .cs-jar-label:focus-visible{outline:3px solid #4d2379;outline-offset:4px}
+.studio-jar-desk{min-width:0;display:grid;gap:24px;align-self:center}
+.studio-jar-empty{
+ display:grid;place-items:center;min-height:clamp(105px,16vw,200px);
+ margin:0;border:2px dashed #c5a56a;color:#60336f;background:#fff8e8;
+ font-size:clamp(25px,4vw,38px);
+}
 .studio-jar-slip{
- max-width:34rem;margin:0 auto 1rem;padding:1.2rem 1.4rem;
- background:#fff4d6;color:#3e2150;border:1px solid #b99354;
- box-shadow:3px 5px 0 #663882;font:700 1.17rem/1.45 Fraunces,Georgia,serif
+ display:grid;align-content:center;gap:18px;min-height:clamp(320px,35vw,465px);
+ padding:clamp(21px,4vw,48px);background:var(--jar-paper,#006e75);
+ color:#fff9ea;border:2px solid #f7d58a;box-shadow:7px 9px 0 #35234a70;
+}
+.studio-jar-slip.paper-1{background:#a62665}
+.studio-jar-slip.paper-4{background:#086749}
+.studio-jar-slip.paper-5{color:#322041}
+.studio-jar-copy{min-width:0}
+.studio-jar-slip h3{
+ font:700 clamp(32px,4vw,63px)/1.02 Fraunces,Georgia,serif;
+ color:inherit;letter-spacing:-.025em;margin:0 0 14px;text-wrap:balance;overflow-wrap:anywhere;
+}
+.studio-jar-slip.slip-brush h3{font:clamp(27px,3.5vw,49px)/1.18 Marker,cursive;letter-spacing:0}
+.studio-jar-slip.slip-hand h3{font:700 clamp(44px,6vw,77px)/.93 Hand,cursive;letter-spacing:0}
+.studio-jar-slip p{font:500 clamp(16px,1.55vw,21px)/1.5 Jost,sans-serif;margin:0;max-width:34ch}
+.studio-jar-art{
+ display:block;width:min(100%,140px);aspect-ratio:1;background-color:#fff4d8;
+ background-size:300% 200%;background-repeat:no-repeat;border:5px solid #fff4d8;
+ box-shadow:4px 5px 0 #21152e5d;transform:rotate(5deg);justify-self:end;
+}
+.slip-top .studio-jar-art{grid-row:1;justify-self:start;transform:rotate(-5deg)}
+.slip-wide .studio-jar-art{justify-self:center;transform:rotate(-3deg)}
+@media(min-width:1000px){
+ .studio-jar-slip.slip-side{grid-template-columns:minmax(0,1fr) minmax(75px,.38fr);align-items:end}
+ .slip-side .studio-jar-art{align-self:end}
 }
 .gratitude-renewed details.gratitude-paper{align-self:start}
 .gratitude-renewed .gratitude-paper summary{cursor:pointer;font-weight:700}
