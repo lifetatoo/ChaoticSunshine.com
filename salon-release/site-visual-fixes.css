@@ -860,3 +860,30 @@ body{background:#f5eddf!important;color:#244b49}
 .sunshine-signup-page .mail-envelope .mail-pocket>img:first-child{
  clip-path:polygon(50% 2%,84% 34%,86% 34%,86% 100%,14% 100%,14% 34%,16% 34%);
 }
+
+/* Amy’s scrapbook uses a different colored paper for each part of the bio. */
+.cs .about-page{
+ background:radial-gradient(ellipse at 95% 7%,#834092,transparent 47%),
+ linear-gradient(145deg,#00636a 5%,#183f7d 58%,#49236d)!important;
+}
+.cs .about-scrapbook{
+ gap:clamp(28px,4vw,52px);padding-inline:clamp(12px,3vw,28px);
+}
+.cs .about-scrapbook :is(.about-hi,.about-story,.about-reader,.about-invite){
+ border:0;border-top:6px solid var(--about-tape);
+ background:var(--about-stock)!important;color:var(--about-ink);
+ box-shadow:7px 8px 0 #1c193e80;padding:clamp(22px,3vw,34px);
+}
+.cs .about-scrapbook .about-hi{--about-stock:#ffd35f;--about-ink:#3f2259;--about-tape:#c55292}
+.cs .about-scrapbook .about-story{--about-stock:#692779;--about-ink:#fff8e8;--about-tape:#f3bf50}
+.cs .about-scrapbook .about-reader{--about-stock:#a9e1cf;--about-ink:#183f3d;--about-tape:#b02c6c}
+.cs .about-scrapbook .about-invite{--about-stock:#253d8a;--about-ink:#fff8e8;--about-tape:#f3bf50}
+.cs .about-scrapbook :is(.about-hi,.about-story,.about-reader,.about-invite) :is(h1,h2,p,.eyebrow,.about-hand){
+ color:var(--about-ink);
+}
+.cs .about-scrapbook .about-hi h1 em{color:#6c2555}
+.cs .about-scrapbook .about-story .about-hand{color:#ffdb75}
+.cs .about-scrapbook .about-invite a:not(.button){color:#ffe481}
+@media print{
+ .cs .about-page,.cs .about-scrapbook :is(.about-hi,.about-story,.about-reader,.about-invite){background:#fff!important;--about-ink:#151515;box-shadow:none}
+}
