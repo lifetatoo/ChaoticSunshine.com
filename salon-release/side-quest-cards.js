@@ -6,6 +6,12 @@ const CS_QUEST_DECKS={
  kindness:{label:"A ripple of joy",hint:"A kind act with room to grow",icon:"♡"},
  brave:{label:"Something a little brave",hint:"An honest, manageable stretch",icon:"✧"}
 };
+// Subjects are matched to the pocket prompts using the studio’s original mission art sheets.
+const CS_QUEST_ART_SCENES=[
+  11,18,21,3,7,22,1,12,15,8,4,3,15,18,11,8,16,7,15,12,19,9,6,17,
+  20,2,19,0,22,4,16,2,20,12,22,6,2,10,9,19,22,20,6,21,19,2,0,16,
+  1,22,4,10,16,19,20,3,21,22,11,23,3,6,12,2,14,18,9,4,22,16,7,0
+];
 const questDeckBefore=pages.quests;
 pages.quests=()=>{
  const source=questDeckBefore();
@@ -29,24 +35,27 @@ bind=function(route){
  const status=document.getElementById('quest-card-status');
  if(!drawButton||!flipButton||!keepButton||!stage)return;
  const seen={all:new Set(),discovery:new Set(),kindness:new Set(),brave:new Set()};
- const palettes=[
- ['#005b5b','#064f55','#f4ce77','✺'],
- ['#513383','#29285b','#f1d38b','✦'],
- ['#a32d68','#681e59','#ffe2aa','✿'],
- ['#2455a3','#172f62','#ffe0a0','✧'],
- ['#913c42','#662038','#ffdda4','♡'],
- ['#006b55','#144d42','#e9d18a','✣']
- ];
+ const palettes={
+  discovery:['#006263','#123e60','#fdcb45'],
+  kindness:['#85305d','#582653','#ffd285'],
+  brave:['#3e267f','#32285e','#ffd761']
+ };
  let current=null,side='front',group='all',lastId='';
  const sourceGroups=()=>group==='all'?CS_QUEST_FIELD_CARDS:CS_QUEST_FIELD_CARDS.filter(x=>x.category===group);
  const plain=()=>current?current.title+'\n\n'+current.action+'\n\nA question to carry: '+current.reflection+'\n\n'+current.credit:'';
  function renderCard(){
-  const color=palettes[(CS_QUEST_FIELD_CARDS.indexOf(current)+CS_QUEST_FIELD_CARDS.filter(x=>x.category===current.category).indexOf(current))%palettes.length];
-  const id='quest-card-'+safe(current.id);
-  const illustration=current.artAsset && /^assets\/[a-zA-Z0-9_./-]+\.(webp|png|jpg|svg)$/.test(current.artAsset) && !current.artAsset.includes('..') ? '<img class="quest-card-art" src="'+safe(current.artAsset)+'" alt="'+safe(current.artAlt||'')+'" style="max-width:100%;max-height:110px;object-fit:contain">' : '<span class="quest-card-sigil" aria-hidden="true">'+color[3]+'</span>';
-  stage.innerHTML='<div class="quest-pocket-card'+(side==='back'?' is-flipped':'')+'" style="--qcard-front:'+color[0]+';--qcard-back:'+color[1]+';--qcard-gilt:'+color[2]+'" id="'+id+'">'
-   +'<div class="quest-card-face quest-card-front" aria-hidden="'+String(side==='back')+'">'+illustration+'<span class="quest-card-label">SIDE QUEST SOCIETY · '+safe(current.category).toUpperCase()+'</span><h3>'+safe(current.title)+'</h3><p>'+safe(current.action)+'</p><span class="quest-card-foot">A SMALL ADVENTURE, MADE REAL · '+safe(current.id.split('-').slice(-1)[0])+'</span></div>'
-   +'<div class="quest-card-face quest-card-back" aria-hidden="'+String(side==='front')+'"><span class="quest-card-sigil" aria-hidden="true">✦</span><span class="quest-card-label">THE QUESTION TO CARRY</span><h3>Notice what happened.</h3><p>'+safe(current.reflection)+'</p><span class="quest-card-foot">'+safe(current.credit)+'</span></div></div>';
+  const color=palettes[current.category];
+  const artIndex=CS_QUEST_FIELD_CARDS.indexOf(current);
+  const scene=CS_QUEST_ART_SCENES[artIndex];
+  const sheet=Math.floor(scene/6)+1;
+  const column=(scene%6)%3;
+  const row=Math.floor((scene%6)/3);
+  const illustration='<span class="quest-card-art" aria-hidden="true" style="background-image:url(assets/mission-sheet-'+sheet+'.webp);background-position:'+column*50+'% '+row*100+'%"></span>';
+  const isBack=side==='back';
+  stage.innerHTML='<article class="quest-pocket-card" style="--qcard-front:'+color[0]+';--qcard-back:'+color[1]+';--qcard-gilt:'+color[2]+'" id="quest-card-'+safe(current.id)+'">'
+   +'<div class="quest-card-face quest-card-'+side+'">'+illustration
+   +'<div class="quest-card-copy"><span class="quest-card-label">'+(isBack?'A question to carry':'Side Quest Society · '+safe(current.category))+'</span>'
+   +'<h3>'+safe(current.title)+'</h3><p>'+safe(isBack?current.reflection:current.action)+'</p></div></div></article>';
   flipButton.disabled=false;keepButton.disabled=false;
   flipButton.textContent=side==='front'?'Turn card over ↻':'Return to the front ↶';
   kicker.textContent=CS_QUEST_DECKS[group].label+' · pocket invitation';

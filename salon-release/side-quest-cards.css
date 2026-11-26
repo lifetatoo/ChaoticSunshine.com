@@ -33,40 +33,41 @@
 .quest-pocket-stack span{position:absolute;top:53%;width:90%;font:700 10px/1.3 Jost,sans-serif;text-align:center;letter-spacing:.08em;color:#fff5d7;text-shadow:0 1px #122645;transform:rotate(17deg)}
 .quest-card-reveal-wrap{min-width:0}
 .quest-card-kicker{font:700 11px/1.45 Jost,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#704475;text-align:center;margin:0 0 9px}
-.quest-card-stage{perspective:950px;max-width:530px;margin:auto}
+.quest-card-stage{max-width:530px;margin:auto}
 .quest-pocket-card{
- position:relative;width:100%;aspect-ratio:1.16;
- transform-style:preserve-3d;
- transition:transform .75s cubic-bezier(.21,.65,.25,1);
- filter:drop-shadow(5px 9px 4px #31545940);
+ width:100%;border-radius:12px;
+ box-shadow:5px 9px 0 #31545940;
 }
-.quest-pocket-card.is-flipped{transform:rotateY(180deg)}
 .quest-card-face{
- position:absolute;inset:0;overflow:hidden;display:flex;flex-direction:column;
- justify-content:center;align-items:center;text-align:center;
- padding:clamp(20px,3vw,40px);border-radius:12px;
- border:6px double var(--qcard-gilt,#f3d185);
- backface-visibility:hidden;
- background:linear-gradient(145deg,#ffffff18,transparent 32%,#00000033),var(--qcard-front,#0e685b);
- box-shadow:inset 0 0 0 9px #f6dfa71c,inset 0 0 0 11px #ffe5a45e;
- color:#fff7df;
+ display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1fr);
+ align-items:center;gap:clamp(16px,2.4vw,26px);
+ min-height:clamp(240px,28vw,325px);padding:clamp(16px,2.5vw,28px);
+ border-radius:12px;border:2px solid var(--qcard-gilt);
+ background:var(--qcard-front);
 }
-.quest-card-face:before{
- content:"";position:absolute;inset:0;opacity:.15;pointer-events:none;
- background-image:url(assets/velvet.webp);background-size:400px;
- mix-blend-mode:soft-light;
+.quest-card-art{
+ display:block;width:100%;aspect-ratio:1;background-size:300% 200%;
+ background-repeat:no-repeat;background-color:#fff6e5;
+ border:5px solid #fff6e5;box-shadow:4px 5px 0 #1c123d66;
+ transform:rotate(-4deg);
 }
-.quest-card-face:after{
- content:"✧  ✦  ✧";position:absolute;bottom:21px;right:22px;
- font:24px/1 Georgia,serif;letter-spacing:.3em;color:var(--qcard-gilt,#f4d589);opacity:.8;
+.quest-card-copy{
+ position:relative;padding:clamp(16px,2vw,23px);
+ background:#fff6e5;color:#32204b;box-shadow:4px 5px 0 #1c123d66;
 }
-.quest-card-face>*{position:relative;z-index:1;max-width:100%}
-.quest-card-back{transform:rotateY(180deg);background:linear-gradient(145deg,#ffffff15,transparent 33%,#0000002f),var(--qcard-back,#132c62)}
-.quest-card-sigil{font:36px/1 Georgia,serif;color:var(--qcard-gilt,#f4d589);margin-bottom:15px}
-.quest-card-label{font:700 10px/1.4 Jost,sans-serif;letter-spacing:.17em;color:#ffe4a9;text-transform:uppercase;margin-bottom:12px}
-.quest-card-face h3{font:700 clamp(20px,2.3vw,33px)/1.12 Fraunces,Georgia,serif;color:#fff9e9;margin:0 0 12px}
-.quest-card-face p{font:500 clamp(13px,1.2vw,17px)/1.43 Jost,sans-serif;margin:0;overflow-wrap:anywhere}
-.quest-card-foot{font:700 9px/1.35 Jost,sans-serif;color:#f9e2ae;letter-spacing:.09em;text-transform:uppercase;margin-top:18px}
+.quest-card-copy:before{
+ content:"";position:absolute;top:-8px;left:25%;width:50%;height:15px;
+ background:var(--qcard-gilt);transform:rotate(-5deg);pointer-events:none;
+}
+.quest-card-back{background:var(--qcard-back)}
+.quest-card-back .quest-card-art{transform:rotate(4deg)}
+.quest-card-back .quest-card-copy{background:#f9e8f4}
+.quest-card-label{
+ display:block;font:700 12px/1.4 Jost,sans-serif;letter-spacing:.08em;
+ color:#683660;text-transform:uppercase;margin-bottom:9px;
+}
+.quest-card-face h3{font:700 clamp(20px,2.2vw,30px)/1.12 Fraunces,Georgia,serif;margin:0 0 9px;overflow-wrap:anywhere}
+.quest-card-face p{font:500 clamp(16px,1.2vw,18px)/1.4 Jost,sans-serif;margin:0;overflow-wrap:anywhere}
 .quest-card-controls{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:18px auto 0}
 .quest-card-controls button{
  font:700 13px/1.3 Jost,sans-serif;min-height:44px;padding:10px 13px;box-shadow:3px 4px 0 #75607d30
@@ -91,24 +92,17 @@
  .quest-pocket-stack i{width:82px;aspect-ratio:3/2}
  .quest-pocket-stack span{font-size:7px}
  .quest-card-reveal-wrap{width:100%}
- .quest-pocket-card{aspect-ratio:1.05}
- .quest-card-face{padding:16px 18px}
- .quest-card-sigil{font-size:24px;margin-bottom:7px}
- .quest-card-face h3{font-size:clamp(20px,5vw,27px);margin-bottom:8px}
- .quest-card-face p{font-size:clamp(12px,3.2vw,15px);line-height:1.38}
- .quest-card-label{font-size:9px;margin-bottom:8px}
- .quest-card-foot{font-size:8px;margin-top:9px}
- .quest-card-face:after{bottom:11px;right:10px;font-size:13px}
+ .quest-card-face{grid-template-columns:1fr;min-height:0}
+ .quest-card-art{width:min(100%,145px);margin:0 auto}
+ .quest-card-copy{padding:16px}
 }
 @media(prefers-reduced-motion:reduce){
- .quest-pocket-card{transition:none}
  .quest-card-stage.is-drawing{animation:none}
 }
 @media print{
  .quest-pocket-stack,.quest-card-controls,.deck-status{display:none}
- .quest-pocket-card{filter:none;transform:none!important;transition:none}
- .quest-card-face{position:relative;min-height:300px}
- .quest-card-back{display:none}
+ .quest-pocket-card{box-shadow:none}
+ .quest-card-face{min-height:0}
 }
 #mission-field-note {
   box-sizing: border-box;
