@@ -110,3 +110,14 @@
  .quest-card-face{position:relative;min-height:300px}
  .quest-card-back{display:none}
 }
+#mission-field-note {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: .5rem 0;
+  padding: .65rem;
+  background: #fff8eb;
+  color: #26173a;
+  font: inherit;
+  resize: vertical;
+}

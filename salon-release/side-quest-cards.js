@@ -10,7 +10,7 @@ const questDeckBefore=pages.quests;
 pages.quests=()=>{
  const source=questDeckBefore();
  const deck='<section class="quest-card-deck" aria-label="Illustrated pocket invitations from Side Quest Society">'
- +'<div class="quest-deck-intro"><span class="eyebrow">THE POCKET INVITATION COLLECTION</span><h2>One small card. <em>One beautifully different day.</em></h2><p>Select a leather book above, then pull a card from that collection. Every category has its own real prompts; nothing is submitted or shared.</p><p class="deck-privacy">72 original pocket invitations across curiosity, kindness and courage. No account needed.</p></div>'
+ +'<div class="quest-deck-intro"><span class="eyebrow">THE POCKET INVITATION COLLECTION</span><h2>One small card. <em>One beautifully different day.</em></h2><p>Choose a book to draw a pocket invitation. Turn the card over for a question to take with you.</p><p class="deck-privacy">72 quick ideas for curiosity, kindness, and courage. The longer illustrated missions are also available on this page.</p></div>'
  +'<div class="quest-pull-station"><div class="quest-pocket-stack" aria-hidden="true"><i></i><i></i><i></i><span>COLLECT A LITTLE WONDER</span></div>'
  +'<div class="quest-card-reveal-wrap"><p class="quest-card-kicker" id="quest-card-kicker">Choose a leather book above</p><div class="quest-card-stage" id="quest-card-stage" aria-live="off"></div>'
  +'<div class="quest-card-controls"><button type="button" id="quest-draw-card">Pull another invitation ✦</button><button type="button" class="secondary" id="quest-flip-card" disabled>Turn card over ↻</button><button type="button" class="small secondary" id="quest-keep-card" disabled>Keep this card ↓</button></div>'
