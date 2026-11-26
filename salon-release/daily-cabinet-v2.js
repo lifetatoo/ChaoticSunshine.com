@@ -25,21 +25,52 @@ const CS_CABINET_STUDIO=CS_CABINET_DEVOTIONS.map(function(d){return {
 };}));
 const CS_CABINET_ALL=CS_CABINET_VERSE.concat(CS_CABINET_STUDIO);
 const CS_CABINET_GROUP_NAMES={today:'Today’s Surprise',verse:'Scripture Sparks',studio:'Studio Encouragement'};
+const CS_LITTLE_GOOD_THINGS=[
+ 'Step outside for thirty seconds. The sky has been doing something all day without asking you to manage it.',
+ 'You can call it a good day because of one good thing. The whole day does not have to agree.',
+ 'Put on the song you used to play too loud. Give yourself the whole first verse.',
+ 'God’s mercies are new every morning. Take one breath before you decide what kind of day this is. · Lamentations 3:22–23',
+ 'Use the good mug. A Tuesday is a perfectly respectable occasion.',
+ 'Someone once made a very ordinary day better for you. If their name came to mind, send them a sentence.',
+ 'Look for a color you would steal from the sky, a shop window, or somebody’s shoes. Give it a name.',
+ 'If the good thing was that you got through it, that counts.',
+ 'Eat the first bite sitting down. See if you can actually taste it.',
+ 'The psalmist invites us to rejoice in this day. Try naming one part of it you’re glad you got to see. · Psalm 118:24',
+ 'Open a window. Give the room a different soundtrack for a minute.',
+ 'Think of something your past self would be delighted to learn about your life today.',
+ 'A good question can be a better souvenir than a good answer. What made you curious today?',
+ 'Leave a kind note where someone will find it later. A mirror or lunch bag will do.',
+ 'If the day feels too loud, put both feet on the floor and notice one sound you’d miss if it were gone.',
+ 'Look for the smallest thing doing its best. A plant, a dog, a person carrying three bags of groceries. Give it a quiet cheer.',
+ 'Where did someone make room for you today? A chair, a pause in conversation, a little extra patience?',
+ 'Take a photo of one ordinary thing you’d want to remember a year from now.',
+ 'Tell God one good thing and one hard thing in the same breath. There’s room for both.',
+ 'Revisit a small pleasure you used to love. A library aisle, a fresh pencil, a drive with the windows down.',
+ 'Find a patch of sunlight. Stand in it long enough to feel your shoulders come down.',
+ 'Make the next thing a little nicer for your future self. Leave the bookmark in. Set out the mug.',
+ 'You are allowed to enjoy something before the entire list is finished.',
+ 'If joy feels far away today, start smaller. See if anything in the room makes you feel even a little more at home.'
+];
 const csCabinetOriginalPage=pages.catalog;
 pages.catalog=function(){
  var s=csCabinetOriginalPage();
  var colorCards=Array.from({length:12},function(_,i){
    return '<i class="cs-jar-paper paper-'+i%6+'" style="--paper-tilt:'+((i-5)*8)+'deg;--paper-rise:'+((i%4)*14)+'px"></i>';
  }).join('');
- var jar='<div class="gratitude-jar cs-jar-assembly" id="cs-jar-assembly" role="img" aria-label="A dimensional glass keepsake jar with brightly colored jewel-tone note cards, satin ribbon and gold sunshine charm">'
+ var jar='<div class="gratitude-jar cs-jar-assembly" id="cs-jar-assembly" >'
   +'<div class="cs-jar-inside" aria-hidden="true">'+colorCards+'</div>'
   +'<img class="cs-jar-glass" src="assets/little-good-things-glass.svg" alt="">'
-  +'<div class="cs-jar-label"><span>little good</span><strong>things</strong><i>✦</i></div>'
+  +'<button type="button" class="cs-jar-label" id="draw-studio-note" aria-controls="studio-jar-note" aria-label="Little Good Things: draw a surprise note"><span>little good</span><strong>things</strong><i aria-hidden="true">✦</i><small>Draw a note</small></button>'
   +'<img class="cs-jar-lid" src="assets/little-good-things-lid.svg" alt="">'
   +'<img class="cs-jar-ribbon" src="assets/little-good-things-ribbon.svg" alt="">'
-  +'<span class="cs-jar-spark" aria-hidden="true">✧</span></div>';
+  +'<span class="cs-jar-spark" aria-hidden="true">✧</span></div><div id="studio-jar-note" role="status" aria-atomic="true"></div>';
  s=s.replace('<div class="gratitude-jar" aria-hidden="true"><div class="jar-lid"></div><div class="jar-glass"><i></i><i></i><i></i><span>little<br>good<br>things</span></div></div>',jar);
  s=s.replace(/<p class="collection-status">[^<]*<\/p>/,'<p class="collection-status">Three real collections: today draws from '+CS_CABINET_ALL.length+' cards. Scripture Sparks offers '+CS_CABINET_VERSE.length+' Scripture reading invitations and Studio Encouragement offers '+CS_CABINET_STUDIO.length+' original reflections and creative notes. Biblical quotations are never invented; each Scripture invitation identifies its passage.</p>');
+ s=s.replace('THE GRATITUDE JAR · OPTIONAL & PRIVATE','THE LITTLE GOOD THINGS JAR')
+   .replace('A place for the little good things.','A little good thing for today.')
+   .replace('Not every good day announces itself. Keep one small observation, then pull it out when you’d like to remember.','Tap the jar label for a little surprise from Chaotic Sunshine.')
+   .replace('<div class="gratitude-paper"><h3>What would you tuck inside?</h3>','<details class="gratitude-paper"><summary>Keep your own good things</summary>')
+   .replace('</div></div></section></div></section>','</div></details></section></div></section>');
  s=s.replace('Amy’s quote archive','My little good things').replace('Your collection belongs here','Your own private jar').replace('My little good things</span>','My little good things</span>');
  s=s.replace('<div class="card-stage" id="card-stage" aria-live="polite"></div>','<div class="card-stage" id="card-stage" aria-live="polite"></div><p class="cabinet-card-status" role="status" id="card-status"></p>');
  s=s.replace('<blockquote id="jar-note" hidden></blockquote>',
@@ -48,7 +79,7 @@ pages.catalog=function(){
   'Your own notes stay only in this browser. Nobody else can draw them. Nothing is sent or shared. Export a copy before clearing browser data or changing devices.');
  s=s.replace('Fold it into the jar ↓','Fold it into my jar ↓').replace('Pull out a note','Pull out my note ✦');
  s=s.replace('A verse to sit with. A sentence to keep. A small invitation to notice the day you’re already in.',
-  'Open a drawer for a real Scripture reading or an original studio spark. Flip a card to see the question on the other side. Your own little good things stay in a separate, private jar.');
+  'Open a drawer for a real Scripture reading or an original studio spark. Flip a card to see the question on the other side. Tap the Little Good Things Jar for a surprise from the studio.');
  return s.replace('class="catalog-room"','class="catalog-room cabinet-upgrade"')
    .replace('class="gratitude-room"','class="gratitude-room gratitude-renewed"')
    .replace('class="catalog-drawers"','class="catalog-drawers cabinet-drawers"');
@@ -157,6 +188,24 @@ bind=function(route){
    if(!jar)return;jar.classList.remove('is-drawing','is-receiving');void jar.offsetWidth;
    if(!matchMedia('(prefers-reduced-motion:reduce)').matches){jar.classList.add(name);setTimeout(function(){jar.classList.remove(name);},1050);}
  }
+ const surprise=document.getElementById('studio-jar-note');
+ let studioDeck=[],lastStudioNote;
+ document.getElementById('draw-studio-note').onclick=function(){
+   if(!studioDeck.length){
+     studioDeck=CS_LITTLE_GOOD_THINGS.slice();
+     const previous=studioDeck.indexOf(lastStudioNote);
+     if(previous>=0)studioDeck.unshift(studioDeck.splice(previous,1)[0]);
+   }
+   const first=studioDeck[0]===lastStudioNote?1:0;
+   const index=first+Math.floor(Math.random()*(studioDeck.length-first));
+   const [message]=studioDeck.splice(index,1);
+   lastStudioNote=message;
+   const slip=document.createElement('p');
+   slip.className='studio-jar-slip';
+   slip.textContent=message;
+   surprise.replaceChildren(slip);
+   jarMotion('is-drawing');
+ };
  document.getElementById('add-gratitude').onclick=function(){
    const value=entry.value.trim();
    if(!value){jarStatus.textContent='Write a little something before folding it in.';entry.focus();return;}

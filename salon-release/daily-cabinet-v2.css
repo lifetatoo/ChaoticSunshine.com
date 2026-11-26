@@ -285,3 +285,17 @@
  .cabinet-card-front,.cabinet-card-back{padding:21px 21px 27px}
  .cabinet-upgrade .cabinet-card-front h2{font-size:clamp(23px,6vw,29px)}
 }
+
+button.cs-jar-label{cursor:pointer}
+.cs-jar-label small{display:block;font:700 .85rem/1.3 Jost,sans-serif}
+.cs-jar-label:focus-visible{outline:3px solid #4d2379;outline-offset:4px}
+.studio-jar-slip{
+ max-width:34rem;margin:0 auto 1rem;padding:1.2rem 1.4rem;
+ background:#fff4d6;color:#3e2150;border:1px solid #b99354;
+ box-shadow:3px 5px 0 #663882;font:700 1.17rem/1.45 Fraunces,Georgia,serif
+}
+.gratitude-renewed details.gratitude-paper{align-self:start}
+.gratitude-renewed .gratitude-paper summary{cursor:pointer;font-weight:700}
+@media(prefers-reduced-motion:no-preference){
+ .studio-jar-slip{animation:cabinet-draw .45s ease both}
+}
