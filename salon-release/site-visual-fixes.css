@@ -964,3 +964,21 @@ body{background:#f5eddf!important;color:#244b49}
 .home-mail-details :is(a,small){color:#fff8e7;font-size:14px}
 .home-mail-column .salon-picture>img{aspect-ratio:1.85;object-position:center 59%}
 @media(max-width:510px){.home-mail-fields{grid-template-columns:1fr}}
+
+.home-library-paths{background:#fff5df;color:#38234e}
+.home-library-paths h2{color:#55276c}
+.home-library-choices{
+ display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px
+}
+.home-library-choices a{
+ display:grid;align-content:start;gap:7px;padding:20px;text-decoration:none;
+ color:#fff9e9;background:#07605e;border-top:5px solid #ffd568;box-shadow:4px 5px 0 #452b65
+}
+.home-library-choices a:nth-child(2){background:#553075}
+.home-library-choices a:nth-child(3){background:#274480}
+.home-library-choices strong{font:700 clamp(20px,2.3vw,29px)/1.15 Fraunces,Georgia,serif}
+.home-library-choices span{font-size:16px}
+.home-library-choices a:hover strong{text-decoration:underline}
+.home-library-choices a:focus-visible{outline:3px solid #54266b;outline-offset:4px}
+.home-mail-return .wrap{max-width:720px}
+@media(max-width:680px){.home-library-choices{grid-template-columns:1fr}}
