@@ -150,7 +150,8 @@ function directDownloads(slug) { // ungated (Advent)
 
   const r = resources[slug];
 
-  return `<div class="actions">${r.downloads.map((d, i) => `<a class="${i === 0 ? 'button' : 'text-link'}" href="${prefix}${guideFile(slug, i === 0 ? 'color' : 'print')}" download>${esc(d.label)} ↓</a>`).join('')}</div><small>Free PDF · ${r.downloads[0].pages} pages</small>`;
+  const editions = r.downloads.map((_, index) => index === 0 ? 'color' : 'print').reverse();
+  return `<div class="actions">${editions.map((kind, i) => `<a class="${i === 0 ? 'button' : 'text-link'}" href="${prefix}${guideFile(slug, kind)}" download>${kind === 'print' ? 'Download the print-friendly PDF' : 'Download the full-color PDF'}</a>`).join('')}</div><small>Free PDF · ${r.downloads[0].pages} pages</small>`;
 
 }
 
