@@ -76,7 +76,7 @@ module.exports=function(out,review){
   // Root-relative URLs and a base make recovery work even at /deeply/missing/page.
   if(utility.includes(f))s=s.replace(/(href|src)="(?![a-z]+:|\/|#)([^"]+)"/g,'$1="/$2"');
   if(f==='soul-snacks.html')s=s.replace('</main>',finder+'</main>');
-  if(f==='index.html')s=s.replace('</main>',discovery+'</main>');
+  if(f==='index.html')s=s.replace('</main>',discovery+'</main>').replace('<a href="teaching-shelf.html">Browse teaching books</a>','<a href="site-map.html">Explore the studio</a>');
   if(!utility.includes(f)){const canonical='https://chaoticsunshine.com/'+(f==='index.html'?'':f.replace(/\.html$/,''));const title=s.match(/<title>([\s\S]*?)<\/title>/)?.[1],description=s.match(/<meta name="description" content="([^"]*)"/)?.[1];let count=0;s=s.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(_,raw)=>{const g=JSON.parse(raw),graph=g['@graph']||[];for(const page of graph){if(['WebPage','CollectionPage','AboutPage'].includes(page['@type'])){page.name=title;page.description=description;page.url=canonical;}}count++;return '<script type="application/ld+json">'+JSON.stringify(g).replaceAll('<','\\u003c')+'</script>';});if(!count)s=s.replace('</head>','<script type="application/ld+json">'+JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage',name:title,description,url:canonical,inLanguage:'en-US'},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://chaoticsunshine.com/'},{'@type':'ListItem',position:2,name:title,item:canonical}]}]})+'</script></head>');}
   // Original per-resource share cards: URLs are absolute and only emitted if the actual file ships.
   const key=f.replace(/\.html$/,'');
