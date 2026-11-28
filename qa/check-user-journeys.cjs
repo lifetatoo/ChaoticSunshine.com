@@ -35,12 +35,8 @@ async function main(){
   assert.equal(await page.locator('main h1').count(),1);
   if(profile.width<=620){
    assert.equal(await page.locator('.phone-tab-bar a').count(),4);
-   await page.locator('#phone-more').click();
-   assert.equal(await page.locator('#phone-pages').evaluate(e=>e.open),true);
-   assert.ok(await page.locator('#phone-pages a').count()>=9);
-   await page.locator('#phone-pages-close').click();
-   assert.equal(await page.locator('#phone-pages').evaluate(e=>e.open),false);
-  } else assert.ok(await page.locator('.permanent-menu a').count()>=8);
+   assert.equal(await page.locator('.phone-tab-bar a[href="site-map.html"]').count(),1);
+  } else assert.equal(await page.locator('.permanent-menu a').count(),4);
   await page.locator(profile.width<=620?'.phone-tab-bar a[href="freebies.html"]':'.permanent-menu a[href="freebies.html"]').click();
   assert.ok(page.url().endsWith('/freebies.html'));
  });

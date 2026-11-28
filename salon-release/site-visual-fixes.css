@@ -980,5 +980,4 @@ body{background:#f5eddf!important;color:#244b49}
 .home-library-choices span{font-size:16px}
 .home-library-choices a:hover strong{text-decoration:underline}
 .home-library-choices a:focus-visible{outline:3px solid #54266b;outline-offset:4px}
-.home-mail-return .wrap{max-width:720px}
 @media(max-width:680px){.home-library-choices{grid-template-columns:1fr}}

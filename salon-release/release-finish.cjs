@@ -30,8 +30,30 @@ module.exports=function(out,review){
  recovery('404.html','Well, this page got lost.','404 · PAGE NOT FOUND','Possibly distracted by a very good book. This address does not lead to a page, but your chair is still waiting.');
  recovery('offline.html','The sunshine is taking a small breather.','CONNECTION HELP','A connection hiccup can interrupt a good moment. Check your internet connection, then try the page again. Your open-tab drafts may still be here; download them when you can.');
  recovery('something-went-wobbly.html','Something went a little wobbly.','A LITTLE HELP','The page could not finish what you asked. Try once more, or head back to a familiar room. If you were joining Sunshine Mail, check your inbox before submitting again.');
- const list=rooms.concat(['creative-faith.html','scripture-index.html','try.html','share.html','welcome.html','privacy.html','resource-permissions.html','community-guidelines.html',...pages.filter(f=>f.startsWith('for-')||['prayer-trust.html','sunshine-mail-sample.html','taking-thoughts-captive.html'].includes(f))]);
- let map=template.replace(/<title>[\s\S]*?<\/title>/,'<title>Find Your Way Around the Studio | Chaotic Sunshine</title>').replace(/<main\b[^>]*>[\s\S]*?<\/main>/,`<main id="main" tabindex="-1"><section class="section"><div class="wrap"><span class="eyebrow">THE STUDIO DIRECTORY</span><h1>Every good door, right here.</h1><p>No secret handshake. Choose a room, find a reading, or return to your creative moment.</p><div class="directory-grid">${list.map(f=>`<a href="/${f}">${esc(meta[f]?.title||f)}</a>`).join('')}</div><h2>All 90 devotions</h2><ol class="directory-readings">${readings.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ol><h2>The free library</h2><ul>${guides.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ul><h2>The teaching shelf</h2><ul>${teachings.map(f=>`<li><a href="/${f}">${esc(meta[f].title)}</a></li>`).join('')}</ul></div></section></main>`);
+ const linkList=items=>items.map(([file,label])=>`<li><a href="/${file}">${esc(label)}</a></li>`).join('');
+ const directoryGroup=(title,description,items,extra='')=>`<section class="studio-directory-group"><h2>${title}</h2><p>${description}</p><ul>${linkList(items)}</ul>${extra}</section>`;
+ const index=(label,files)=>`<details class="studio-directory-index"><summary>${label}</summary><ul>${linkList(files.map(f=>[f,meta[f].title]))}</ul></details>`;
+ const directory=[
+  directoryGroup('Read','Start with one lesson or find a reading for the day you’re having.',[
+   ['soul-snack-01.html','Try the three-minute lesson'],['soul-snacks.html','Browse Soul Snacks'],['start.html','Find a reading for today'],['scripture-index.html','Scripture index']
+  ],index('Browse by what’s on your mind',pages.filter(f=>f.startsWith('for-')||['prayer-trust.html','taking-thoughts-captive.html'].includes(f)))+index('All 90 devotions',readings)),
+  directoryGroup('Free Library','Pick a free guide for the time and subject you have.',[
+   ['freebies.html','Open the Little Free Library']
+  ],index('All free study guides',guides)),
+  directoryGroup('Go deeper or lead a group','Find illustrated teaching pages and something to discuss together.',[
+   ['teaching-shelf.html','Browse the Teaching Shelf'],['table-talks-guide.html','Use the Table Talks group guide']
+  ],index('All illustrated teachings',teachings)),
+  directoryGroup('Try something','Take an idea into your journal or out into the day.',[
+   ['make.html','Make something'],['try.html','Try it in real life'],['share.html','Keep or share what you noticed'],['side-quests.html','Side Quest Society'],['daily-cabinet.html','Draw a Little Good Things card'],['creative-faith.html','Explore creative faith']
+  ]),
+  directoryGroup('Sunshine Mail','An illustrated letter for your inbox.',[
+   ['subscribe.html','Sign up for Sunshine Mail'],['sunshine-mail-sample.html','Read a sample letter']
+  ]),
+  directoryGroup('About and help','Meet Amy and find the studio’s practical details.',[
+   ['about.html','About Amy and the studio'],['resource-permissions.html','Using the printables'],['privacy.html','Privacy'],['community-guidelines.html','Conversation guidelines'],['something-went-wobbly.html','Get help']
+  ])
+ ].join('');
+ let map=template.replace(/<title>[\s\S]*?<\/title>/,'<title>Explore the Studio | Chaotic Sunshine</title>').replace(/<main\b[^>]*>[\s\S]*?<\/main>/,`<main id="main" tabindex="-1"><section class="section"><div class="wrap"><h1>Explore the studio</h1><p>Find a reading, choose a free guide, or try something creative.</p><div class="studio-directory">${directory}</div></div></section></main>`);
 
  // The directory is the existing, stable discovery page; add search without changing navigation routes.
  const searchBlock='<section class="cs-unified-search" id="smart-search" aria-labelledby="cs-search-heading">'
@@ -42,14 +64,14 @@ module.exports=function(out,review){
  +'<input type="search" id="cs-unified-search" placeholder="Try Romans 8:15, grief, hope or beginning again…" autocomplete="off" aria-describedby="cs-search-status cs-search-coverage">'
  +'<p id="cs-search-coverage" class="cs-search-coverage"></p><p id="cs-search-status" role="status"></p>'
  +'<div id="cs-search-results" role="region" aria-label="Matching studio resources"></div></section>';
- map=map.replace('<div class="directory-grid">',searchBlock+'<div class="directory-grid">')
+ map=map.replace('<div class="studio-directory">',searchBlock+'<div class="studio-directory">')
    .replace('</head>','<link rel="stylesheet" href="/unified-search.css"></head>')
    .replace('</body>','<script defer src="/unified-search.js"></script></body>');
 
  map=map.replace(/<meta name="robots"[^>]*>/g,'');fs.writeFileSync(path.join(out,'site-map.html'),map);routes['site-map.html']={parent:'index.html',label:'Studio home',previous:null,next:null};
  const all=Object.keys(routes),utility=['404.html','welcome.html','offline.html','something-went-wobbly.html'];
  const discovery=`<section class="section discovery-note"><div class="wrap"><span class="eyebrow">CHRISTIAN CREATIVITY · SCRIPTURE FOR REAL LIFE</span><h2>Deep roots. Wild curiosity.</h2><p>Explore Christian devotions, Bible journaling, free Bible study guides, and small adventures in faith. Read a passage in context, make an honest response, try it in your day, and share when you want to.</p><a href="/creative-faith.html">A practical introduction to Christian creativity →</a> · <a href="/scripture-index.html">Find a passage in the Scripture index</a></div></section>`;
- for(const f of all){let s=read(f);s=s.replace('<body','<body data-section="'+routes[f].parent+'"');s=s.replace(/<meta name="robots"[^>]*>/g,'');if(review||utility.includes(f))s=s.replace('</head>',`<meta name="robots" content="${review?'noindex,nofollow':'noindex,follow'}"></head>`);
+ for(const f of all){let s=read(f);s=s.replace(/(<nav aria-label="Main navigation">)[\s\S]*?<\/nav>/,(_,open)=>open+'<a href="/soul-snacks.html">Read</a><a href="/freebies.html">Free Library</a><a href="/subscribe.html">Sunshine Mail</a><a href="/site-map.html">Explore</a></nav>');s=s.replace('<body','<body data-section="'+routes[f].parent+'"');s=s.replace(/<meta name="robots"[^>]*>/g,'');if(review||utility.includes(f))s=s.replace('</head>',`<meta name="robots" content="${review?'noindex,nofollow':'noindex,follow'}"></head>`);
   if(f==='site-map.html'){s=s.replace('</head>','<meta name="description" content="Browse all Chaotic Sunshine devotions, free Bible study guides, creative practice rooms, and Sunshine Mail."><link rel="canonical" href="https://chaoticsunshine.com/site-map"></head>');}
   // Root-relative URLs and a base make recovery work even at /deeply/missing/page.
   if(utility.includes(f))s=s.replace(/(href|src)="(?![a-z]+:|\/|#)([^"]+)"/g,'$1="/$2"');
