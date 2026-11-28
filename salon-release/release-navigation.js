@@ -1,6 +1,10 @@
 // Shared recovery works with full-page history; no trapped loops or invented browser history.
 (()=>{
  const key=location.pathname.split('/').pop().replace(/\.html$/,'')||'index';
+ if(key==='index'){
+  const teaching=document.querySelector('footer a[href="teaching-shelf.html"]');
+  if(teaching){teaching.href='site-map.html';teaching.textContent='Explore the studio';}
+ }
  const normalize=s=>(s||'').split('/').pop().replace(/\.html$/,'')||'index';
  const parent=document.body.dataset.section==='freebies.html'?'freebies':/^soul-snack-\d+$/.test(key)||['soul-snacks','scripture-index'].includes(key)?'soul-snacks':key.startsWith('teaching-')?'teaching-shelf':null;
  const links=[...document.querySelectorAll('.permanent-menu a,.phone-tab-bar a,.phone-pages a')];

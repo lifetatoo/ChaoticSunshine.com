@@ -60,9 +60,7 @@ const server=http.createServer((req,res)=>{
    if(slug==='index' && profile.width<=620){
     const dock=await page.locator('.phone-tab-bar').evaluate(el=>({position:getComputedStyle(el).position,bottom:Math.round(innerHeight-el.getBoundingClientRect().bottom)}));
     if(dock.position!=='fixed'||Math.abs(dock.bottom)>3)report.findings.push({slug,profile:profile.key,error:'Bottom navigation not fixed to screen',dock});
-    await page.locator('#phone-more').click();
-    if(!(await page.locator('#phone-pages').evaluate(el=>el.open)))report.findings.push({slug,profile:profile.key,error:'More menu did not open'});
-    await page.locator('#phone-pages-close').click();
+    if(await page.locator('.phone-tab-bar a[href="site-map.html"]').count()!==1)report.findings.push({slug,profile:profile.key,error:'Explore tab missing'});
    }
    if((['desktop','tablet','mobile'].includes(profile.key)&&['index','subscribe','freebies','side-quests','daily-cabinet','make','share','soul-snacks','soul-snack-02'].includes(slug))){
     const file=slug+'-'+profile.key+'.jpg';
